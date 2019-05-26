@@ -91,3 +91,39 @@ Coming from :https://leetcode.com/problems/subsets/#/description
 ### LeetCode 1 two-sum
 
 Coming from :https://leetcode-cn.com/problems/two-sum/
+
+### LeetCode 19 remove-nth-node-from-end-of-list
+
+Coming from :https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/
+
+### LeetCode 211 add-and-search-word-data-structure-design
+
+Coming from :https://leetcode-cn.com/problems/add-and-search-word-data-structure-design/
+
+### LeetCode 824 goat-latin
+
+Coming from:https://leetcode-cn.com/problems/goat-latin/
+
+### LeetCode 190 reverse-bits
+
+Coming from:https://leetcode-cn.com/problems/reverse-bits/
+
+### LeetCode 120 triangle
+
+Coming from:https://leetcode-cn.com/problems/triangle/
+
+### LeetCode 303 range-sum-query-immutable
+
+Coming from:https://leetcode-cn.com/problems/range-sum-query-immutable/
+
+### LeetCode 198 house-robber
+
+Coming from:https://leetcode-cn.com/problems/house-robber/
+
+### LeetCode 791 custom-sort-string
+
+Coming from:https://leetcode-cn.com/problems/custom-sort-string/
+
+### LeetCode 64 minimum-path-sum
+
+Coming from:https://leetcode-cn.com/problems/minimum-path-sum/
