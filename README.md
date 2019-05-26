@@ -59,7 +59,7 @@ Coming from :https://leetcode.com/problems/merge-intervals/
 解释: 区间 [1,3] 和 [2,6] 重叠, 将它们合并为 [1,6].
 ``` 
 
-### LeetCode 78 Subsets.py
+### LeetCode 78 Subsets
 
 Coming from :https://leetcode.com/problems/subsets/#/description
 
@@ -87,3 +87,7 @@ Coming from :https://leetcode.com/problems/subsets/#/description
 ```
 问题：给你n个无序的int整型数组arr，并且这些整数的取值范围都在0-20之间，要你在 O(n) 的时间复杂度中把这 n 个数按照从小到大的顺序打印出来。
 ```
+
+### LeetCode 1 two-sum
+
+Coming from :https://leetcode-cn.com/problems/two-sum/
