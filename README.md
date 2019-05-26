@@ -58,3 +58,26 @@ Coming from :https://leetcode.com/problems/merge-intervals/
 输出: [[1,6],[8,10],[15,18]]
 解释: 区间 [1,3] 和 [2,6] 重叠, 将它们合并为 [1,6].
 ``` 
+
+### LeetCode 78 Subsets.py
+
+Coming from :https://leetcode.com/problems/subsets/#/description
+
+```
+给定一组不含重复元素的整数数组 nums，返回该数组所有可能的子集（幂集）。
+说明：解集不能包含重复的子集。
+示例:
+
+输入: nums = [1,2,3]
+输出:
+[
+  [3],
+  [1],
+  [2],
+  [1,2,3],
+  [1,3],
+  [2,3],
+  [1,2],
+  []
+]
+```
