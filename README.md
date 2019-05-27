@@ -131,3 +131,6 @@ Coming from:https://leetcode-cn.com/problems/minimum-path-sum/
 ### LeetCode 171. Excel Sheet Column Number
 
 Coming from:https://leetcode-cn.com/problems/excel-sheet-column-number/
+
+### LeetCode 560. Subarray Sum Equals K.py
+Coming from:https://leetcode-cn.com/problems/subarray-sum-equals-k/
