@@ -140,3 +140,9 @@ Coming from:https://leetcode-cn.com/problems/chalkboard-xor-game/
 
 ### LeetCode 1024. Video Stitching
 Coming from:https://leetcode-cn.com/problems/video-stitching/
+
+### LeetCode 349. Intersection of Two Arrays
+Coming from:https://leetcode-cn.com/problems/intersection-of-two-arrays/
+
+### LeetCode 1054. Distant Barcodes
+Coming from:https://leetcode-cn.com/problems/distant-barcodes/
