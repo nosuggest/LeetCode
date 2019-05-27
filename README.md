@@ -132,5 +132,8 @@ Coming from:https://leetcode-cn.com/problems/minimum-path-sum/
 
 Coming from:https://leetcode-cn.com/problems/excel-sheet-column-number/
 
-### LeetCode 560. Subarray Sum Equals K.py
+### LeetCode 560. Subarray Sum Equals K
 Coming from:https://leetcode-cn.com/problems/subarray-sum-equals-k/
+
+### LeetCode 810. Chalkboard XOR Game
+Coming from:https://leetcode-cn.com/problems/chalkboard-xor-game/
