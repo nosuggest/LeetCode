@@ -137,3 +137,6 @@ Coming from:https://leetcode-cn.com/problems/subarray-sum-equals-k/
 
 ### LeetCode 810. Chalkboard XOR Game
 Coming from:https://leetcode-cn.com/problems/chalkboard-xor-game/
+
+### LeetCode 1024. Video Stitching
+Coming from:https://leetcode-cn.com/problems/video-stitching/
