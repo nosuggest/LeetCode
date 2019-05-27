@@ -128,6 +128,6 @@ Coming from:https://leetcode-cn.com/problems/custom-sort-string/
 
 Coming from:https://leetcode-cn.com/problems/minimum-path-sum/
 
-### 171. Excel Sheet Column Number
+### LeetCode 171. Excel Sheet Column Number
 
 Coming from:https://leetcode-cn.com/problems/excel-sheet-column-number/
