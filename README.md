@@ -127,3 +127,7 @@ Coming from:https://leetcode-cn.com/problems/custom-sort-string/
 ### LeetCode 64 minimum-path-sum
 
 Coming from:https://leetcode-cn.com/problems/minimum-path-sum/
+
+### 171. Excel Sheet Column Number
+
+Coming from:https://leetcode-cn.com/problems/excel-sheet-column-number/
