@@ -13,7 +13,7 @@ class Solution(object):
                 A.pop(0)
             else:
                 i,j = 0,len(A)-1
-                # j-1的原因是i和j至少要留一个数
+                # j-1的原因是i和j之间至少要留一个数
                 while i<j-1:
                     mid = int((i+j)/2)
                     if A[mid]>b:
