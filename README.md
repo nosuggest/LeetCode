@@ -111,3 +111,32 @@ Coming from:https://leetcode-cn.com/problems/distant-barcodes/
 
 ### LeetCode 1051. Height Checker
 Coming from:https://leetcode-cn.com/problems/height-checker/
+
+### LeetCode 771. Jewels and Stones
+Coming from:https://leetcode-cn.com/problems/jewels-and-stones/
+
+### LeetCode 263. Ugly Number
+Coming from:https://leetcode-cn.com/problems/ugly-number/
+
+### LeetCode 292. Nim Game
+`规律题，数学归纳`
+
+Coming from:https://leetcode-cn.com/problems/nim-game/
+
+### LeetCode 203. Remove Linked List Elements
+`协助理解链表里面的head = head, head.next = head.next.next`
+
+Coming from:https://leetcode-cn.com/problems/remove-linked-list-elements/
+
+### LeetCode 860. Lemonade Change
+Coming from:https://leetcode-cn.com/problems/lemonade-change/
+
+### LeetCode 59. Spiral Matrix II
+`旋转矩阵题型，用了余数判断位置，比较亮点`
+
+Coming from:https://leetcode-cn.com/problems/spiral-matrix-ii/
+
+### LeetCode 386. Lexicographical Numbers
+`字典排序，用了python特性，也同时整理基础概念，值得去看`
+
+Coming from:https://leetcode-cn.com/problems/lexicographical-numbers/
