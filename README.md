@@ -140,3 +140,8 @@ Coming from:https://leetcode-cn.com/problems/spiral-matrix-ii/
 `字典排序，用了python特性，也同时整理基础概念，值得去看`
 
 Coming from:https://leetcode-cn.com/problems/lexicographical-numbers/
+
+### 最大公共字符串长度
+`有两个字符串，你只可以进行删除操作，问你最少进行多少次操作可以使两个字符串相等`
+
+Coming from:`字节跳动面试题`
