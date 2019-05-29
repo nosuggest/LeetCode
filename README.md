@@ -145,3 +145,17 @@ Coming from:https://leetcode-cn.com/problems/lexicographical-numbers/
 `有两个字符串，你只可以进行删除操作，问你最少进行多少次操作可以使两个字符串相等`
 
 Coming from:`字节跳动面试题`
+
+### LeetCode 812. Largest Triangle Area
+`任给三点，三角形面积等于abs(x1*(y2-y3)+x2*(y3-y1)+x3*(y1-y2))/2`
+
+Coming from:https://leetcode-cn.com/problems/largest-triangle-area/
+
+### LeetCode 917. Reverse Only Letters
+
+Coming from:https://leetcode-cn.com/problems/reverse-only-letters/
+
+### LeetCode 334. Increasing Triplet Subsequence
+`such that arr[i] < arr[j] < arr[k] given 0 ≤ i < j < k ≤ n-1 else return false,其中只要保证固定住最小和最大，找到一个比当前最大的还要大的数即可`
+
+Coming from:https://leetcode-cn.com/problems/increasing-triplet-subsequence/
