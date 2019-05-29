@@ -159,3 +159,8 @@ Coming from:https://leetcode-cn.com/problems/reverse-only-letters/
 `such that arr[i] < arr[j] < arr[k] given 0 ≤ i < j < k ≤ n-1 else return false,其中只要保证固定住最小和最大，不断降低最小值的下限，使得比最小值要大的值可以尽可能的接近最小值，从而更容易找到比接近最小值的值`
 
 Coming from:https://leetcode-cn.com/problems/increasing-triplet-subsequence/
+
+### LeetCode 870. Advantage Shuffle
+`这道题的难点在于耗时，贪心算法即可`
+
+Coming from:https://leetcode-cn.com/problems/advantage-shuffle/
