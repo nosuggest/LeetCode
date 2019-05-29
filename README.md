@@ -156,6 +156,6 @@ Coming from:https://leetcode-cn.com/problems/largest-triangle-area/
 Coming from:https://leetcode-cn.com/problems/reverse-only-letters/
 
 ### LeetCode 334. Increasing Triplet Subsequence
-`such that arr[i] < arr[j] < arr[k] given 0 ≤ i < j < k ≤ n-1 else return false,其中只要保证固定住最小和最大，找到一个比当前最大的还要大的数即可`
+`such that arr[i] < arr[j] < arr[k] given 0 ≤ i < j < k ≤ n-1 else return false,其中只要保证固定住最小和最大，不断降低最小值的下限，使得比最小值要大的值可以尽可能的接近最小值，从而更容易找到比接近最小值的值`
 
 Coming from:https://leetcode-cn.com/problems/increasing-triplet-subsequence/
