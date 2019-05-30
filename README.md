@@ -186,3 +186,7 @@ Coming from:https://leetcode-cn.com/problems/add-two-numbers/submissions/
 ### src/Solution7 Reverse Integera
 
 Coming from:https://leetcode-cn.com/problems/reverse-integer/
+
+### src/Solution9 Palindrome Number
+
+Coming from:https://leetcode-cn.com/problems/palindrome-number/
