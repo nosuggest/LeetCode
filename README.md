@@ -1,6 +1,12 @@
 # Purpose
 In order to solving the interesting alogrithm problems which meeting at the interviews frequently by me.
 
+
+**solve with python named as Leetcode 240. + details**
+**solve with java named as src/Solution? + details**
+**others solve by random**
+
+
 ### EggTopFloor
 **Tencent** - Machine learning Engineer
 
@@ -173,3 +179,7 @@ Coming from:https://leetcode-cn.com/problems/longest-substring-without-repeating
 ### LeetCode LeetCode 2. Add Two Numbers
 
 Coming from:https://leetcode-cn.com/problems/add-two-numbers/submissions/
+
+### src/Solution7   7. Reverse Integera
+
+Coming from:https://leetcode-cn.com/problems/reverse-integer/
