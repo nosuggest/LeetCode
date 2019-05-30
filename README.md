@@ -1,11 +1,12 @@
 # Purpose
 In order to solving the interesting alogrithm problems which meeting at the interviews frequently by me.
 
+**1.solve with python named as Leetcode 240. + details**
 
-**solve with python named as Leetcode 240. + details**
-**solve with java named as src/Solution? + details**
-**others solve by random**
+**2.solve with java named as src/Solution? + details**
 
+**3.others solve by random**
+****
 
 ### EggTopFloor
 **Tencent** - Machine learning Engineer
