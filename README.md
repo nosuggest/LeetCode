@@ -180,6 +180,6 @@ Coming from:https://leetcode-cn.com/problems/longest-substring-without-repeating
 
 Coming from:https://leetcode-cn.com/problems/add-two-numbers/submissions/
 
-### src/Solution7   7. Reverse Integera
+### src/Solution7 7. Reverse Integera
 
 Coming from:https://leetcode-cn.com/problems/reverse-integer/
