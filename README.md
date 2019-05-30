@@ -164,3 +164,12 @@ Coming from:https://leetcode-cn.com/problems/increasing-triplet-subsequence/
 `这道题的难点在于耗时，贪心算法即可`
 
 Coming from:https://leetcode-cn.com/problems/advantage-shuffle/
+
+### LeetCode 3. Longest Substring Without Repeating Characters
+`滑动窗口`
+
+Coming from:https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/submissions/
+
+### LeetCode LeetCode 2. Add Two Numbers
+
+Coming from:https://leetcode-cn.com/problems/add-two-numbers/submissions/
