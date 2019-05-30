@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7efc7f33-1d5f-4824-a896-55a6950f500b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/EggTopFloor.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/GapCount.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HuffmanEncoding.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SortMethod.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/goat-latin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/house-robber.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/无序数组排序（时间复杂度为O(n)）.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/最大公共字符串长度.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="javaSolution.iws" />
@@ -46,8 +38,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.813278">
-              <caret line="187" column="61" selection-start-line="187" selection-start-column="61" selection-end-line="187" selection-end-column="61" />
+            <state vertical-scroll-proportion="0.75103736">
+              <caret line="185" column="18" selection-start-line="185" selection-start-column="18" selection-end-line="185" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -629,12 +621,12 @@
       <created>1559202802542</created>
       <option name="number" value="Default" />
       <updated>1559202802542</updated>
-      <workItem from="1559202806706" duration="1065000" />
+      <workItem from="1559202806706" duration="1130000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1065000" />
+    <option name="totallyTimeSpent" value="1130000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="829" extended-state="6" />
@@ -687,8 +679,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.813278">
-          <caret line="187" column="61" selection-start-line="187" selection-start-column="61" selection-end-line="187" selection-end-column="61" />
+        <state vertical-scroll-proportion="0.75103736">
+          <caret line="185" column="18" selection-start-line="185" selection-start-column="18" selection-end-line="185" selection-end-column="18" />
           <folding />
         </state>
       </provider>
