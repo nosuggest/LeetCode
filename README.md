@@ -1,5 +1,5 @@
 # Purpose
-In order to solving the interesting alogrithm problems which meeting at the interviews frequently by me.
+In order to solving the interesting alogrithm problems which meeting at the interviews frequently by me and some interesting LeetCode problems.
 
 ****
 
