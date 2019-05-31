@@ -7,16 +7,11 @@ import java.util.List;
  */
 public class tmp {
     public static void main(String[] args) {
-        ArrayList<String> c = new ArrayList<String>();
-        c.add("TIme");
-        System.out.println(c);
-
-
-        String[] d = {"FLys"};
-
-        System.out.println(Arrays.toString(d));
-
-        List<String > e = Arrays.asList(d);
-        System.out.println(e);
+        Stack s = new Stack();
+        for(int i = 0;i<10;i++){
+            s.push(i);
+        }
+        System.out.println(s);
+        System.out.println(s.search(9));
     }
 }
