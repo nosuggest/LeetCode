@@ -177,11 +177,11 @@ Coming from:https://leetcode-cn.com/problems/advantage-shuffle/
 ### LeetCode 3. Longest Substring Without Repeating Characters
 `滑动窗口`
 
-Coming from:https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/submissions/
+Coming from:https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/
 
 ### LeetCode LeetCode 2. Add Two Numbers
 
-Coming from:https://leetcode-cn.com/problems/add-two-numbers/submissions/
+Coming from:https://leetcode-cn.com/problems/add-two-numbers/
 
 ### src/Solution7 Reverse Integera
 
@@ -193,8 +193,12 @@ Coming from:https://leetcode-cn.com/problems/palindrome-number/
 
 ### src/Solution13 Roman to Integer
 
-Coming from:https://leetcode-cn.com/problems/roman-to-integer/submissions/
+Coming from:https://leetcode-cn.com/problems/roman-to-integer/
 
 ### src/Solution14 Longest Common Prefix
 
-Coming from:https://leetcode-cn.com/problems/longest-common-prefix/submissions/
+Coming from:https://leetcode-cn.com/problems/longest-common-prefix/
+
+### src/Solution20 Valid Parentheses
+
+Coming from:https://leetcode-cn.com/problems/valid-parentheses/
