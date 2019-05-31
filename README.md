@@ -194,3 +194,7 @@ Coming from:https://leetcode-cn.com/problems/palindrome-number/
 ### src/Solution13 Roman to Integer
 
 Coming from:https://leetcode-cn.com/problems/roman-to-integer/submissions/
+
+### src/Solution14 Longest Common Prefix
+
+Coming from:https://leetcode-cn.com/problems/longest-common-prefix/submissions/

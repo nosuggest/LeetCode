@@ -17,13 +17,16 @@ class Solution13 {
         hashMap.put("XC", 90);
         hashMap.put("CD", 400);
         hashMap.put("CM", 900);
+
+
         String[] S = {"IX", "IV", "XL", "XC", "CD", "CM"};
         List<String> first_search = Arrays.asList(S);
 
-        int add=1;
-        for (int i = 0; i < s.length();i = i+add) {
+        int add = 1;
+        for (int i = 0; i < s.length(); i = i + add) {
             String two_letters = "";
             if (i < s.length() - 1) {
+
                 two_letters = s.substring(i, i + 2);
             }
             String one_letter = s.substring(i, i + 1);
@@ -33,7 +36,7 @@ class Solution13 {
                 add = 2;
             } else {
                 int val1 = (int) hashMap.get(one_letter);
-                amount = amount+val1;
+                amount = amount + val1;
                 add = 1;
             }
         }
