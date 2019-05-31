@@ -3,7 +3,7 @@ In order to solving the interesting alogrithm problems which meeting at the inte
 
 ****
 
-1.solved with python named as **Leetcode 240. + details**
+1.solved with python named as **Leetcode? + details**
 
 2.solved with java named as **src/Solution? + details**
 
