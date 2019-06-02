@@ -206,3 +206,7 @@ Coming from:https://leetcode-cn.com/problems/valid-parentheses/
 ### src/Solution26 Remove Duplicates from Sorted Array
 
 Coming from:https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/
+
+### src/Solution264 Ugly Number II
+
+Coming from:https://leetcode-cn.com/problems/ugly-number-ii/
