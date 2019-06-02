@@ -202,3 +202,7 @@ Coming from:https://leetcode-cn.com/problems/longest-common-prefix/
 ### src/Solution20 Valid Parentheses
 
 Coming from:https://leetcode-cn.com/problems/valid-parentheses/
+
+### src/Solution26 Remove Duplicates from Sorted Array
+
+Coming from:https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/
