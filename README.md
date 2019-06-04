@@ -210,3 +210,9 @@ Coming from:https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array
 ### src/Solution264 Ugly Number II
 
 Coming from:https://leetcode-cn.com/problems/ugly-number-ii/
+
+### src/Solution35 Search Insert Position
+Coming from:https://leetcode-cn.com/problems/search-insert-position/
+
+### src/Solution21 Merge Two Sorted Lists
+Coming from:https://leetcode-cn.com/problems/merge-two-sorted-lists/
