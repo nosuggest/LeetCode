@@ -229,3 +229,8 @@ Coming from:https://leetcode-cn.com/problems/3sum/
 `这题和上面一题很类似，只是最好不要在多生产变量了，直接拿num[first]+num[last]+num[i]去和target比，而不要考虑差值是否大于0，很容易绕进去`
 
 Coming from:https://leetcode-cn.com/problems/3sum-closest/
+
+
+### src/Solution18 4Sum
+
+Coming from:https://leetcode-cn.com/problems/4sum/
