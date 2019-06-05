@@ -47,7 +47,7 @@ public class Solution14 {
 
     public static void main(String[] args) {
         Solution14 s = new Solution14();
-        String[] strs = {"fog", "flow", "flight"};
+        String[] strs = {"flight"};
         System.out.println(s.longestCommonPrefix(strs));
     }
 }

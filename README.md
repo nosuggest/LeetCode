@@ -219,3 +219,8 @@ Coming from:https://leetcode-cn.com/problems/merge-two-sorted-lists/
 
 ### src/Solution27 Remove Element
 Coming from:https://leetcode-cn.com/problems/remove-element/
+
+### src/Solution3 3Sum
+`左右双指针,亮点在于定义了很多提前跳出条件，在相同值跳过的条件判断中用nums[i+1]还是nums[i-1]尤为灵活`
+
+Coming from:https://leetcode-cn.com/problems/3sum/comments/
