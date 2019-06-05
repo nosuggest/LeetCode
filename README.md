@@ -223,4 +223,9 @@ Coming from:https://leetcode-cn.com/problems/remove-element/
 ### src/Solution3 3Sum
 `左右双指针,亮点在于定义了很多提前跳出条件，在相同值跳过的条件判断中用nums[i+1]还是nums[i-1]尤为灵活`
 
-Coming from:https://leetcode-cn.com/problems/3sum/comments/
+Coming from:https://leetcode-cn.com/problems/3sum/
+
+### src/Solution16 3Sum Closest
+`这题和上面一题很类似，只是最好不要在多生产变量了，直接拿num[first]+num[last]+num[i]去和target比，而不要考虑差值是否大于0，很容易绕进去`
+
+Coming from:https://leetcode-cn.com/problems/3sum-closest/
