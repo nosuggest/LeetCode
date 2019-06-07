@@ -234,3 +234,8 @@ Coming from:https://leetcode-cn.com/problems/3sum-closest/
 ### src/Solution18 4Sum
 
 Coming from:https://leetcode-cn.com/problems/4sum/
+
+### src/Solution24 Swap Nodes in Pairs
+`递归算法，讲的很详细，递归复习专用`
+
+Coming from:https://leetcode-cn.com/problems/swap-nodes-in-pairs/
