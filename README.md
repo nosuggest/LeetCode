@@ -249,3 +249,8 @@ Coming from:https://leetcode-cn.com/problems/swap-nodes-in-pairs/
 `盖题递归位置在循环中，很有意思`
 
 Coming from:https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/
+
+### src/Solution698 Partition to K Equal Sum Subsets
+`依旧是递归，区别在递归逻辑在for循环中，相当于并发了n条处理逻辑，有点像树展开`
+
+Coming from:https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets/
