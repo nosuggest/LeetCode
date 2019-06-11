@@ -255,6 +255,8 @@ Coming from:https://leetcode-cn.com/problems/letter-combinations-of-a-phone-numb
 
 Coming from:https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets/
 
-### LeetCode 17 K-th Symbol in Grammar
-### src/Solution17 K-th Symbol in Grammar
+### LeetCode 779 K-th Symbol in Grammar
+### src/Solution779 K-th Symbol in Grammar
 `python用了最简单的递归表示，把结果表示出来再做，比较慢,所以加了@functools.lru_cache(maxsize=128, typed=False)对结果进行缓存`
+
+Coming from:https://leetcode-cn.com/problems/k-th-symbol-in-grammar/
