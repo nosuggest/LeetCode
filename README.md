@@ -254,3 +254,7 @@ Coming from:https://leetcode-cn.com/problems/letter-combinations-of-a-phone-numb
 `依旧是递归，区别在递归逻辑在for循环中，相当于并发了n条处理逻辑，有点像树展开`
 
 Coming from:https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets/
+
+### LeetCode 17 K-th Symbol in Grammar
+### src/Solution17 K-th Symbol in Grammar
+`python用了最简单的递归表示，把结果表示出来再做，比较慢,所以加了@functools.lru_cache(maxsize=128, typed=False)对结果进行缓存`
