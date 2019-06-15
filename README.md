@@ -255,9 +255,19 @@ Coming from:https://leetcode-cn.com/problems/letter-combinations-of-a-phone-numb
 
 Coming from:https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets/
 
+### LeetCode 779 K-th Symbol in Grammar
+### src/Solution779 K-th Symbol in Grammar
+`python用了最简单的递归表示，把结果表示出来再做，比较慢,所以加了@functools.lru_cache(maxsize=128, typed=False)对结果进行缓存`
+
+Coming from:https://leetcode-cn.com/problems/k-th-symbol-in-grammar/
+
 ### src/Solution39 combination-sum
 `这题和上面这题很像，递归在for循环里面的回溯算法，把所有情况跑一遍`
 
 `画重点，求解过程中存着result 是List<List<Integer>>的，而tmp_list是list的,需要把tmp_list再裹一层new ArrayList<>(tmp_list)再进行add`
 
 Coming from:https://leetcode-cn.com/problems/combination-sum/
+
+
+
+
