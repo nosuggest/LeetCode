@@ -254,3 +254,10 @@ Coming from:https://leetcode-cn.com/problems/letter-combinations-of-a-phone-numb
 `依旧是递归，区别在递归逻辑在for循环中，相当于并发了n条处理逻辑，有点像树展开`
 
 Coming from:https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets/
+
+### src/Solution39 combination-sum
+`这题和上面这题很像，递归在for循环里面的回溯算法，把所有情况跑一遍`
+
+`画重点，求解过程中存着result 是List<List<Integer>>的，而tmp_list是list的,需要把tmp_list再裹一层new ArrayList<>(tmp_list)再进行add`
+
+Coming from:https://leetcode-cn.com/problems/combination-sum/
