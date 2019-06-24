@@ -26,7 +26,7 @@ Almost everytime such as **Alibaba、JD、Didichuxing**...
 
 `这题有数学解法和位解法两种，都很值得看一下`
 
-Coming from : https://leetcode.com/problems/single-number-ii/description/
+Coming from : https://leetcode.com/problems/single-number/description/
 
 ### Leetcode 240. Search a 2D Matrix II.py
 
