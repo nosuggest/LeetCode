@@ -260,3 +260,9 @@ Coming from:https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets/
 `python用了最简单的递归表示，把结果表示出来再做，比较慢,所以加了@functools.lru_cache(maxsize=128, typed=False)对结果进行缓存`
 
 Coming from:https://leetcode-cn.com/problems/k-th-symbol-in-grammar/
+
+
+### LeetCode 932 beautiful-array
+### src/Solution932 beautiful-array
+
+Coming from:https://leetcode-cn.com/problems/beautiful-array/
