@@ -261,6 +261,22 @@ Coming from:https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets/
 
 Coming from:https://leetcode-cn.com/problems/k-th-symbol-in-grammar/
 
+### src/Solution39 combination-sum
+`这题和上面这题很像，递归在for循环里面的回溯算法，把所有情况跑一遍`
+
+`画重点，求解过程中存着result 是List<List<Integer>>的，而tmp_list是list的,需要把tmp_list再裹一层new ArrayList<>(tmp_list)再进行add`
+
+Coming from:https://leetcode-cn.com/problems/combination-sum/
+
+### src/Solution29 combination-sum
+`位运算`
+
+Coming from:https://leetcode-cn.com/problems/divide-two-integers/
+
+### src/Solution206 reverse-linked-list
+`递归在中间,简单题，对比上面的24题可以对比着看`
+
+Coming from:https://leetcode-cn.com/problems/reverse-linked-list/
 
 ### LeetCode 932 beautiful-array
 ### src/Solution932 beautiful-array
