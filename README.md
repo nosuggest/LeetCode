@@ -282,3 +282,18 @@ Coming from:https://leetcode-cn.com/problems/reverse-linked-list/
 ### src/Solution932 beautiful-array
 
 Coming from:https://leetcode-cn.com/problems/beautiful-array/
+
+### LeetCode 176 single-number-ii
+`知识点1：设计一个逻辑运算，使满足存在两个变量a和b，当遍历nums的时候，对于重复元素x，第一次碰到x的时候，我们会将x赋给a，第二次碰到后再赋给b，第三次则全量抵消`
+`知识点2：x&~x=0`
+
+```
+更多解释在java代码注释块中
+  a b
+0 0 0
+1 x 0
+2 0 x
+3 0 0
+```
+
+Coming from:https://leetcode-cn.com/problems/single-number-ii/
