@@ -299,4 +299,10 @@ Coming from:https://leetcode-cn.com/problems/beautiful-array/
 Coming from:https://leetcode-cn.com/problems/single-number-ii/
 
 ### LeetCode 338 counting-bits
+
 Coming from:https://leetcode-cn.com/problems/counting-bits/
+
+### LeetCode 881 boats-to-save-people
+`双指针`
+
+Coming from:https://leetcode-cn.com/problems/boats-to-save-people/
