@@ -306,3 +306,6 @@ Coming from:https://leetcode-cn.com/problems/counting-bits/
 `双指针`
 
 Coming from:https://leetcode-cn.com/problems/boats-to-save-people/
+
+### LeetCode 643 maximum-average-subarray-i
+Coming from:https://leetcode-cn.com/problems/maximum-average-subarray-i/
