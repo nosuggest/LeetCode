@@ -343,3 +343,7 @@ Coming from:https://leetcode-cn.com/problems/permutations/
 ### LeetCode 495 teemo-attacking
 
 Coming from:https://leetcode-cn.com/problems/teemo-attacking/
+
+### LeetCode 989 add-to-array-form-of-integer
+
+Coming from:https://leetcode-cn.com/problems/add-to-array-form-of-integer/
