@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Solution989.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solution884.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -30,8 +29,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="781">
-                <caret line="346" column="16" selection-start-line="346" selection-start-column="13" selection-end-line="346" selection-end-column="16" />
+              <first_editor relative-caret-position="407">
+                <caret line="350" column="16" selection-start-line="350" selection-start-column="13" selection-end-line="350" selection-end-column="16" />
               </first_editor>
               <second_editor />
             </state>
@@ -39,13 +38,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Solution989.java">
+        <entry file="file://$PROJECT_DIR$/src/Solution884.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+            <state relative-caret-position="494">
+              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#443#452#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,8 +77,9 @@
         <option value="$PROJECT_DIR$/src/Solution131.java" />
         <option value="$PROJECT_DIR$/src/Solution46.java" />
         <option value="$PROJECT_DIR$/src/Solution495.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/Solution989.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/Solution884.java" />
       </list>
     </option>
   </component>
@@ -135,7 +134,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution989">
+  <component name="RunManager" selected="Application.Solution884">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -429,14 +428,6 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution1047" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution1047" />
-      <module name="javaSolution" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Solution131" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Solution131" />
       <module name="javaSolution" />
@@ -455,6 +446,14 @@
     </configuration>
     <configuration name="Solution495" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Solution495" />
+      <module name="javaSolution" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution884" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution884" />
       <module name="javaSolution" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -596,19 +595,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Solution1047" />
       <item itemvalue="Application.Solution131" />
       <item itemvalue="Application.Solution46" />
       <item itemvalue="Application.Solution495" />
       <item itemvalue="Application.Solution989" />
+      <item itemvalue="Application.Solution884" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution884" />
         <item itemvalue="Application.Solution989" />
         <item itemvalue="Application.Solution495" />
         <item itemvalue="Application.Solution46" />
         <item itemvalue="Application.Solution131" />
-        <item itemvalue="Application.Solution1047" />
       </list>
     </recent_temporary>
   </component>
@@ -625,12 +624,12 @@
       <workItem from="1561445565584" duration="4705000" />
       <workItem from="1561471082728" duration="5824000" />
       <workItem from="1561512286551" duration="20849000" />
-      <workItem from="1561559015806" duration="3548000" />
+      <workItem from="1561559015806" duration="5130000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39491000" />
+    <option name="totallyTimeSpent" value="41073000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -836,16 +835,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="781">
-            <caret line="346" column="16" selection-start-line="346" selection-start-column="13" selection-end-line="346" selection-end-column="16" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Solution989.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -853,6 +842,26 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#443#452#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="407">
+            <caret line="350" column="16" selection-start-line="350" selection-start-column="13" selection-end-line="350" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Solution884.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
