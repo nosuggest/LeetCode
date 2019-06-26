@@ -318,3 +318,7 @@ Coming from:https://leetcode-cn.com/problems/binary-prefix-divisible-by-5/
 ### LeetCode 506 relative-ranks
 
 Coming from:https://leetcode-cn.com/problems/relative-ranks/
+
+### LeetCode 605 can-place-flowers
+
+Coming from:https://leetcode-cn.com/problems/can-place-flowers/
