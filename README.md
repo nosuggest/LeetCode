@@ -338,5 +338,8 @@ Coming from:https://leetcode-cn.com/problems/palindrome-partitioning/
 ### LeetCode 46 permutations
 `递归`
 
-
 Coming from:https://leetcode-cn.com/problems/permutations/
+
+### LeetCode 495 teemo-attacking
+
+Coming from:https://leetcode-cn.com/problems/teemo-attacking/
