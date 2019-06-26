@@ -322,3 +322,15 @@ Coming from:https://leetcode-cn.com/problems/relative-ranks/
 ### LeetCode 605 can-place-flowers
 
 Coming from:https://leetcode-cn.com/problems/can-place-flowers/
+
+### LeetCode 1047 remove-all-adjacent-duplicates-in-string
+
+Coming from:https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/
+
+### LeetCode 131 palindrome-partitioning
+```
+- 地址和值；已经用ansValue用的是内存地址，时刻在变，所以要new ArrayList<String>(ansValue)固定值使其不变
+- 回溯的剔除；
+```
+
+Coming from:https://leetcode-cn.com/problems/palindrome-partitioning/
