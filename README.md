@@ -334,3 +334,7 @@ Coming from:https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-s
 ```
 
 Coming from:https://leetcode-cn.com/problems/palindrome-partitioning/
+
+### LeetCode 46 permutations
+
+Coming from:https://leetcode-cn.com/problems/permutations/
