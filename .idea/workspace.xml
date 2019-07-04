@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,7 +31,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
               <first_editor vertical-scroll-proportion="0.875">
-                <caret line="362" column="1" selection-start-line="362" selection-start-column="1" selection-end-line="362" selection-end-column="1" />
+                <caret line="362" column="2" selection-start-line="362" selection-start-column="2" selection-end-line="362" selection-end-column="2" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -853,12 +852,12 @@
       <workItem from="1561559015806" duration="5130000" />
       <workItem from="1561700945301" duration="4693000" />
       <workItem from="1562138211093" duration="93000" />
-      <workItem from="1562139569770" duration="8607000" />
+      <workItem from="1562139569770" duration="8986000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55835000" />
+    <option name="totallyTimeSpent" value="56214000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="827" extended-state="0" />
@@ -1307,7 +1306,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.875">
-            <caret line="362" column="1" selection-start-line="362" selection-start-column="1" selection-end-line="362" selection-end-column="1" />
+            <caret line="362" column="2" selection-start-line="362" selection-start-column="2" selection-end-line="362" selection-end-column="2" />
             <folding />
           </first_editor>
           <second_editor />
