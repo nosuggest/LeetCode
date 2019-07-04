@@ -351,3 +351,11 @@ Coming from:https://leetcode-cn.com/problems/add-to-array-form-of-integer/
 ### LeetCode 884 uncommon-words-from-two-sentences
 
 Coming from:https://leetcode-cn.com/problems/uncommon-words-from-two-sentences/
+
+### LeetCode 371 sum-of-two-integers
+
+Coming from:https://leetcode-cn.com/problems/sum-of-two-integers/
+
+### LeetCode 491 increasing-subsequences
+
+Coming from:https://leetcode-cn.com/problems/increasing-subsequences/
