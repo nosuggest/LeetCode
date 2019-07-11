@@ -283,7 +283,7 @@ Coming from:https://leetcode-cn.com/problems/reverse-linked-list/
 
 Coming from:https://leetcode-cn.com/problems/beautiful-array/
 
-### LeetCode 176 single-number-ii
+### src/LeetCode 176 single-number-ii
 `知识点1：设计一个逻辑运算，使满足存在两个变量a和b，当遍历nums的时候，对于重复元素x，第一次碰到x的时候，我们会将x赋给a，第二次碰到后再赋给b，第三次则全量抵消`
 `知识点2：x&~x=0`
 
@@ -298,36 +298,36 @@ Coming from:https://leetcode-cn.com/problems/beautiful-array/
 
 Coming from:https://leetcode-cn.com/problems/single-number-ii/
 
-### LeetCode 338 counting-bits
+### src/LeetCode 338 counting-bits
 
 Coming from:https://leetcode-cn.com/problems/counting-bits/
 
-### LeetCode 881 boats-to-save-people
+### src/LeetCode 881 boats-to-save-people
 `双指针`
 
 Coming from:https://leetcode-cn.com/problems/boats-to-save-people/
 
-### LeetCode 643 maximum-average-subarray-i
+### src/eetCode 643 maximum-average-subarray-i
 
 Coming from:https://leetcode-cn.com/problems/maximum-average-subarray-i/
 
-### LeetCode 1018 binary-prefix-divisible-by-5
+### src/LeetCode 1018 binary-prefix-divisible-by-5
 
 Coming from:https://leetcode-cn.com/problems/binary-prefix-divisible-by-5/
 
-### LeetCode 506 relative-ranks
+### src/LeetCode 506 relative-ranks
 
 Coming from:https://leetcode-cn.com/problems/relative-ranks/
 
-### LeetCode 605 can-place-flowers
+### src/LeetCode 605 can-place-flowers
 
 Coming from:https://leetcode-cn.com/problems/can-place-flowers/
 
-### LeetCode 1047 remove-all-adjacent-duplicates-in-string
+### src/LeetCode 1047 remove-all-adjacent-duplicates-in-string
 
 Coming from:https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/
 
-### LeetCode 131 palindrome-partitioning
+### src/LeetCode 131 palindrome-partitioning
 ```
 - 地址和值；已经用ansValue用的是内存地址，时刻在变，所以要new ArrayList<String>(ansValue)固定值使其不变
 - 回溯的剔除；
@@ -335,35 +335,35 @@ Coming from:https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-s
 
 Coming from:https://leetcode-cn.com/problems/palindrome-partitioning/
 
-### LeetCode 46 permutations
+### src/LeetCode 46 permutations
 `递归`
 
 Coming from:https://leetcode-cn.com/problems/permutations/
 
-### LeetCode 495 teemo-attacking
+### src/LeetCode 495 teemo-attacking
 
 Coming from:https://leetcode-cn.com/problems/teemo-attacking/
 
-### LeetCode 989 add-to-array-form-of-integer
+### src/LeetCode 989 add-to-array-form-of-integer
 
 Coming from:https://leetcode-cn.com/problems/add-to-array-form-of-integer/
 
-### LeetCode 884 uncommon-words-from-two-sentences
+### src/LeetCode 884 uncommon-words-from-two-sentences
 
 Coming from:https://leetcode-cn.com/problems/uncommon-words-from-two-sentences/
 
-### LeetCode 371 sum-of-two-integers
+### src/LeetCode 371 sum-of-two-integers
 
 Coming from:https://leetcode-cn.com/problems/sum-of-two-integers/
 
-### LeetCode 491 increasing-subsequences
+### src/LeetCode 491 increasing-subsequences
 
 Coming from:https://leetcode-cn.com/problems/increasing-subsequences/
  
-### LeetCode 84 largest-rectangle-in-histogram
+### src/LeetCode 84 largest-rectangle-in-histogram
 
 Coming from:https://leetcode-cn.com/problems/largest-rectangle-in-histogram/
 
-### LeetCode 85 maximal-rectangle
+### src/LeetCode 85 maximal-rectangle
 
 Coming from:https://leetcode-cn.com/problems/maximal-rectangle/ 
