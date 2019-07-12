@@ -367,3 +367,7 @@ Coming from:https://leetcode-cn.com/problems/largest-rectangle-in-histogram/
 ### src/Solution85 maximal-rectangle
 
 Coming from:https://leetcode-cn.com/problems/maximal-rectangle/ 
+
+### src/Solution747 largest-number-at-least-twice-of-others
+
+Coming from:https://leetcode-cn.com/problems/largest-number-at-least-twice-of-others/ 
