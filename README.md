@@ -371,3 +371,6 @@ Coming from:https://leetcode-cn.com/problems/maximal-rectangle/
 ### src/Solution747 largest-number-at-least-twice-of-others
 
 Coming from:https://leetcode-cn.com/problems/largest-number-at-least-twice-of-others/ 
+
+### src/Solution1029 two-city-scheduling
+Coming from:https://leetcode-cn.com/problems/two-city-scheduling/
