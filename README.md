@@ -379,3 +379,7 @@ Coming from:https://leetcode-cn.com/problems/reach-a-number/
 ### src/Solution1029 two-city-scheduling
 
 Coming from:https://leetcode-cn.com/problems/two-city-scheduling/
+
+### src/Solution977 squares-of-a-sorted-array
+
+Coming from:https://leetcode-cn.com/problems/squares-of-a-sorted-array/
