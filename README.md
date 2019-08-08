@@ -391,3 +391,6 @@ Coming from:https://leetcode-cn.com/problems/sort-array-by-parity-ii/
 ### LeetCode 79 word-search
 
 Coming from:https://leetcode-cn.com/problems/word-search/
+
+### LeetCode 75 sort-colors
+ Coming from:https://leetcode-cn.com/problems/sort-colors/
