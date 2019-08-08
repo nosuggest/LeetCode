@@ -393,4 +393,8 @@ Coming from:https://leetcode-cn.com/problems/sort-array-by-parity-ii/
 Coming from:https://leetcode-cn.com/problems/word-search/
 
 ### LeetCode 75 sort-colors
- Coming from:https://leetcode-cn.com/problems/sort-colors/
+Coming from:https://leetcode-cn.com/problems/sort-colors/
+ 
+### LeetCode 50 powx-n
+`最简单的递归，和快排，斐波纳切数列一致的写法`
+Coming from:https://leetcode-cn.com/problems/powx-n/
