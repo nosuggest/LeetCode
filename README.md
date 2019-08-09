@@ -404,3 +404,8 @@ Coming from:https://leetcode-cn.com/problems/powx-n/
 `核心在于bitmap+dp，与198题类似`
 
 Coming from:https://leetcode-cn.com/problems/delete-and-earn/
+
+### LeetCode 150 evaluate-reverse-polish-notation
+`栈，亮点在python 中对负数取整数部分如何操作`
+
+Coming from:https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/
