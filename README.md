@@ -399,3 +399,8 @@ Coming from:https://leetcode-cn.com/problems/sort-colors/
 `最简单的递归，和快排，斐波纳切数列一致的写法`
 
 Coming from:https://leetcode-cn.com/problems/powx-n/
+
+### LeetCode 740 delete-and-earn
+`核心在于bitmap+dp，与198题类似`
+
+Coming from:https://leetcode-cn.com/problems/delete-and-earn/
