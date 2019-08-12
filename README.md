@@ -414,3 +414,8 @@ Coming from:https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/
 ### src/Solution611 valid-triangle-number
 
 Coming from:https://leetcode-cn.com/problems/valid-triangle-number/
+
+### LeetCode 575 distribute-candies
+### src/Solution575 distribute-candies
+
+Coming from:https://leetcode-cn.com/problems/distribute-candies/
