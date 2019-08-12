@@ -409,3 +409,8 @@ Coming from:https://leetcode-cn.com/problems/delete-and-earn/
 `栈，亮点在python 中对负数取整数部分如何操作`
 
 Coming from:https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/
+
+### LeetCode 611 valid-triangle-number
+### src/Solution611 valid-triangle-number
+
+Coming from:https://leetcode-cn.com/problems/valid-triangle-number/
