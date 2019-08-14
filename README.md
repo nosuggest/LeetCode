@@ -452,3 +452,8 @@ Coming from:https://leetcode-cn.com/problems/n-th-tribonacci-number/
 dp和递归理解的好题目，值得看
 ```
 Coming from:https://leetcode-cn.com/problems/longest-increasing-subsequence/
+
+### LeetCode 47 permutations-ii
+```简单的回溯算法```
+
+Coming from:https://leetcode-cn.com/problems/permutations-ii/
