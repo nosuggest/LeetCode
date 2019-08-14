@@ -18,7 +18,6 @@ public class Solution300 {
                 if (nums[i] > nums[j]) {
                     dp[i] = Math.max(dp[i], dp[j] + 1);
                 }
-
             }
             maxValue = Math.max(maxValue, dp[i]);
         }
@@ -29,7 +28,7 @@ public class Solution300 {
 
     public static void main(String[] args) {
         Solution300 s = new Solution300();
-        int[] arr = {2,2};
+        int[] arr = {2, 2};
         System.out.println(s.lengthOfLIS(arr));
     }
 
