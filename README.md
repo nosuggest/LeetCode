@@ -422,6 +422,7 @@ Coming from:https://leetcode-cn.com/problems/distribute-candies/
 
 ### LeetCode 63 unique-paths-ii
 ### src/Solution63 unique-paths-ii
+```最优路径下的dp```
 
 Coming from:https://leetcode-cn.com/problems/unique-paths-ii/
 
@@ -441,9 +442,13 @@ Coming from:https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/
 Coming from:https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/
 
 ### src/Solution1137 n-th-tribonacci-number
+```最简单的dp```
 
 Coming from:https://leetcode-cn.com/problems/n-th-tribonacci-number/
 
+### LeetCode 300 longest-increasing-subsequence
 ### src/Solution300 longest-increasing-subsequence
-
+```
+dp和递归理解的好题目，值得看
+```
 Coming from:https://leetcode-cn.com/problems/longest-increasing-subsequence/
