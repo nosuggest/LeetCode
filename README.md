@@ -443,3 +443,7 @@ Coming from:https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/
 ### src/Solution1137 n-th-tribonacci-number
 
 Coming from:https://leetcode-cn.com/problems/n-th-tribonacci-number/
+
+### src/Solution300 longest-increasing-subsequence
+
+Coming from:https://leetcode-cn.com/problems/longest-increasing-subsequence/
