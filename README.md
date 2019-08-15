@@ -457,3 +457,8 @@ Coming from:https://leetcode-cn.com/problems/longest-increasing-subsequence/
 ```简单的回溯算法```
 
 Coming from:https://leetcode-cn.com/problems/permutations-ii/
+
+### LeetCode 164 maximum-gap
+```分通，亮点在于分N+1个桶，保证一定有一个空桶，空桶的存在保证最大间隔在桶之间，不需要再去比桶内值```
+
+Coming from:https://leetcode-cn.com/problems/maximum-gap/
