@@ -462,3 +462,8 @@ Coming from:https://leetcode-cn.com/problems/permutations-ii/
 ```分通，亮点在于分N+1个桶，保证一定有一个空桶，空桶的存在保证最大间隔在桶之间，不需要再去比桶内值```
 
 Coming from:https://leetcode-cn.com/problems/maximum-gap/
+
+### LeetCode 892 surface-area-of-3d-shapes
+```透视图角度```
+
+Coming from:https://leetcode-cn.com/problems/surface-area-of-3d-shapes/
