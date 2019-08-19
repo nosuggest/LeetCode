@@ -477,3 +477,7 @@ Coming from:https://leetcode-cn.com/problems/fruit-into-baskets/
 ```(n-m)(n+m+1)=2N,a=n-m,b=n+m+1,a+b=2n+1,b-a=2m+1,所以a*b=2N,a,b一奇一偶```
 
 Coming from:https://leetcode-cn.com/problems/consecutive-numbers-sum/
+
+### LeetCode 704 binary-search
+
+Coming from:https://leetcode-cn.com/problems/binary-search/

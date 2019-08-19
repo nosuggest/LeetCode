@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="add new java">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode 829 consecutive-numbers-sum.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaSolution/Solution13.class" afterPath="$PROJECT_DIR$/out/production/javaSolution/Solution13.class" />
+    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="add new python">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode 704 binary-search.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -33,7 +32,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -46,8 +45,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="282">
-                <caret line="476" column="67" selection-start-line="476" selection-start-column="67" selection-end-line="476" selection-end-column="67" />
+              <first_editor relative-caret-position="342">
+                <caret line="482" column="59" selection-start-line="482" selection-start-column="59" selection-end-line="482" selection-end-column="59" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -57,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LeetCode 829 consecutive-numbers-sum.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode 829 consecutive-numbers-sum.py">
+      <file leaf-file-name="LeetCode 704 binary-search.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode 704 binary-search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="21" selection-end-column="18" />
+            <state relative-caret-position="330">
+              <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -88,7 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LeetCode/LeetCode 176 single-number-ii.py" />
         <option value="$PROJECT_DIR$/src/Solution176.java" />
         <option value="$PROJECT_DIR$/src/Solution338.java" />
         <option value="$PROJECT_DIR$/src/Solution881.java" />
@@ -139,6 +137,7 @@
         <option value="$PROJECT_DIR$/src/Solution13.java" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode 829 consecutive-numbers-sum.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/LeetCode/LeetCode 704 binary-search.py" />
       </list>
     </option>
   </component>
@@ -694,7 +693,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566183205669</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add new python">
+      <created>1566216136157</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1566216136157</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -750,9 +756,9 @@
     <MESSAGE value="new  java one" />
     <MESSAGE value="new  python one" />
     <MESSAGE value="fix 164 bug change max_value to min_value" />
-    <MESSAGE value="add new python" />
     <MESSAGE value="add new java" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new java" />
+    <MESSAGE value="add new python" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new python" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -765,13 +771,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Solution881.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Solution779.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -988,6 +987,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode 829 consecutive-numbers-sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode 704 binary-search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1000,21 +1015,13 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="282">
-            <caret line="476" column="67" selection-start-line="476" selection-start-column="67" selection-end-line="476" selection-end-column="67" />
+          <first_editor relative-caret-position="342">
+            <caret line="482" column="59" selection-start-line="482" selection-start-column="59" selection-end-line="482" selection-end-column="59" />
             <folding />
           </first_editor>
           <second_editor>
             <js_state />
           </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode 829 consecutive-numbers-sum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="21" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
