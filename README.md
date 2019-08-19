@@ -189,62 +189,65 @@ Coming from:https://leetcode-cn.com/problems/add-two-numbers/
 
 Coming from:https://leetcode-cn.com/problems/reverse-integer/
 
-### src/Solution9 Palindrome Number
+### [Palindrome Number](src/Solution9.java)
 
 Coming from:https://leetcode-cn.com/problems/palindrome-number/
 
-### src/Solution13 Roman to Integer
+### [Roman to Integer](src/Solution13.java)
 
 Coming from:https://leetcode-cn.com/problems/roman-to-integer/
 
-### src/Solution14 Longest Common Prefix
+### [Longest Common Prefix](src/Solution14.java)
 
 Coming from:https://leetcode-cn.com/problems/longest-common-prefix/
 
-### src/Solution20 Valid Parentheses
+### [Valid Parentheses](src/Solution20.java)
 
 Coming from:https://leetcode-cn.com/problems/valid-parentheses/
 
-### src/Solution26 Remove Duplicates from Sorted Array
+### [Remove Duplicates from Sorted Array](src/Solution26.java)
 
 Coming from:https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/
 
-### src/Solution264 Ugly Number II
+### [Ugly Number II](src/Solution264.java)
 
 Coming from:https://leetcode-cn.com/problems/ugly-number-ii/
 
-### src/Solution35 Search Insert Position
+### [Search Insert Position](src/Solution35.java)
+
 Coming from:https://leetcode-cn.com/problems/search-insert-position/
 
-### src/Solution21 Merge Two Sorted Lists
+### [Merge Two Sorted Lists](src/Solution21.java)
+
 Coming from:https://leetcode-cn.com/problems/merge-two-sorted-lists/
 
-### src/Solution27 Remove Element
+### [Remove Element](src/Solution27.java)
+
 Coming from:https://leetcode-cn.com/problems/remove-element/
 
-### src/Solution3 3Sum
+### [3Sum](src/Solution3.java)
 `左右双指针,亮点在于定义了很多提前跳出条件，在相同值跳过的条件判断中用nums[i+1]还是nums[i-1]尤为灵活`
 
 Coming from:https://leetcode-cn.com/problems/3sum/
 
-### src/Solution16 3Sum Closest
+### [3Sum Closest](src/Solution16.java)
 `这题和上面一题很类似，只是最好不要在多生产变量了，直接拿num[first]+num[last]+num[i]去和target比，而不要考虑差值是否大于0，很容易绕进去`
 
 Coming from:https://leetcode-cn.com/problems/3sum-closest/
 
 
-### src/Solution18 4Sum
+### [4Sum](src/Solution18.java)
 
 Coming from:https://leetcode-cn.com/problems/4sum/
 
-### src/Solution24 Swap Nodes in Pairs
+### [Swap Nodes in Pairs](src/Solution24.java)
 `递归算法，讲的很详细，递归复习专用`
 
 `该题递归在函数中间位置，很有意思`
 
 Coming from:https://leetcode-cn.com/problems/swap-nodes-in-pairs/
 
-### src/Solution17 Letter Combinations of a Phone Number
+### [Letter Combinations of a Phone Number](src/Solution17.java)
 ### [LetterCombinationsofaPhoneNumber](LeetCode/LeetCode17LetterCombinationsofaPhone.py)
 `这题用了dp和递归两种方法，dp更好理解也很Pythonic，递归则更加通用`
 
@@ -252,40 +255,40 @@ Coming from:https://leetcode-cn.com/problems/swap-nodes-in-pairs/
 
 Coming from:https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/
 
-### src/Solution698 Partition to K Equal Sum Subsets
+### [Partition to K Equal Sum Subsets](src/Solution698.java)
 `依旧是递归，区别在递归逻辑在for循环中，相当于并发了n条处理逻辑，有点像树展开`
 
 Coming from:https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets/
 
 ### [K-thSymbolinGrammar](LeetCode/LeetCode779K-thSymbolinGrammar.py)
-### src/Solution779 K-th Symbol in Grammar
+### [K-th Symbol in Grammar](src/Solution779.java)
 `python用了最简单的递归表示，把结果表示出来再做，比较慢,所以加了@functools.lru_cache(maxsize=128, typed=False)对结果进行缓存`
 
 Coming from:https://leetcode-cn.com/problems/k-th-symbol-in-grammar/
 
-### src/Solution39 combination-sum
+### [combination-sum](src/Solution39.java)
 `这题和上面这题很像，递归在for循环里面的回溯算法，把所有情况跑一遍`
 
 `画重点，求解过程中存着result 是List<List<Integer>>的，而tmp_list是list的,需要把tmp_list再裹一层new ArrayList<>(tmp_list)再进行add`
 
 Coming from:https://leetcode-cn.com/problems/combination-sum/
 
-### src/Solution29 combination-sum
+### [combination-sum](src/Solution29.java)
 `位运算`
 
 Coming from:https://leetcode-cn.com/problems/divide-two-integers/
 
-### src/Solution206 reverse-linked-list
+### [reverse-linked-list](src/Solution206.java)
 `递归在中间,简单题，对比上面的24题可以对比着看`
 
 Coming from:https://leetcode-cn.com/problems/reverse-linked-list/
 
 ### [beautiful-array](LeetCode/LeetCode932beautiful-array.py)
-### src/Solution932 beautiful-array
+### [beautiful-array](src/Solution932.java)
 
 Coming from:https://leetcode-cn.com/problems/beautiful-array/
 
-### src/Solution176 single-number-ii
+### [single-number-ii](src/Solution176.java)
 ### [single-number-ii](LeetCode/LeetCode176single-number-ii.py)
 `知识点1：设计一个逻辑运算，使满足存在两个变量a和b，当遍历nums的时候，对于重复元素x，第一次碰到x的时候，我们会将x赋给a，第二次碰到后再赋给b，第三次则全量抵消`
 `知识点2：x&~x=0`
@@ -301,36 +304,36 @@ Coming from:https://leetcode-cn.com/problems/beautiful-array/
 
 Coming from:https://leetcode-cn.com/problems/single-number-ii/
 
-### src/Solution338 counting-bits
+### [counting-bits](src/Solution338.java)
 
 Coming from:https://leetcode-cn.com/problems/counting-bits/
 
-### src/Solution881 boats-to-save-people
+### [boats-to-save-people](src/Solution881.java)
 `双指针`
 
 Coming from:https://leetcode-cn.com/problems/boats-to-save-people/
 
-### src/Solution643 maximum-average-subarray-i
+### [maximum-average-subarray-i](src/Solution643.java)
 
 Coming from:https://leetcode-cn.com/problems/maximum-average-subarray-i/
 
-### src/Solution1018 binary-prefix-divisible-by-5
+### [binary-prefix-divisible-by-5](src/Solution1018.java)
 
 Coming from:https://leetcode-cn.com/problems/binary-prefix-divisible-by-5/
 
-### src/Solution506 relative-ranks
+### [relative-ranks](src/Solution506.java)
 
 Coming from:https://leetcode-cn.com/problems/relative-ranks/
 
-### src/Solution605 can-place-flowers
+### [can-place-flowers](src/Solution605.java)
 
 Coming from:https://leetcode-cn.com/problems/can-place-flowers/
 
-### src/Solution1047 remove-all-adjacent-duplicates-in-string
+### [remove-all-adjacent-duplicates-in-string](src/Solution1047.java)
 
 Coming from:https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/
 
-### src/Solution131 palindrome-partitioning
+### [palindrome-partitioning](src/Solution131.java)
 ```
 - 地址和值；已经用ansValue用的是内存地址，时刻在变，所以要new ArrayList<String>(ansValue)固定值使其不变
 - 回溯的剔除；
@@ -338,56 +341,56 @@ Coming from:https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-s
 
 Coming from:https://leetcode-cn.com/problems/palindrome-partitioning/
 
-### src/Solution46 permutations
+### [permutations](src/Solution46.java)
 `递归`
 
 Coming from:https://leetcode-cn.com/problems/permutations/
 
-### src/Solution495 teemo-attacking
+### [teemo-attacking](src/Solution495.java)
 
 Coming from:https://leetcode-cn.com/problems/teemo-attacking/
 
-### src/Solution989 add-to-array-form-of-integer
+### [add-to-array-form-of-integer](src/Solution989.java)
 
 Coming from:https://leetcode-cn.com/problems/add-to-array-form-of-integer/
 
-### src/Solution884 uncommon-words-from-two-sentences
+### [uncommon-words-from-two-sentences](src/Solution884.java)
 
 Coming from:https://leetcode-cn.com/problems/uncommon-words-from-two-sentences/
 
-### src/Solution371 sum-of-two-integers
+### [sum-of-two-integers](src/Solution371.java)
 
 Coming from:https://leetcode-cn.com/problems/sum-of-two-integers/
 
-### src/Solution491 increasing-subsequences
+### [increasing-subsequences](src/Solution491.java)
 ### [increasing-subsequences](LeetCode/LeetCode491increasing-subsequences.py)
 Coming from:https://leetcode-cn.com/problems/increasing-subsequences/
  
-### src/Solution84 largest-rectangle-in-histogram
+### [largest-rectangle-in-histogram](src/Solution84.java)
 
 Coming from:https://leetcode-cn.com/problems/largest-rectangle-in-histogram/
 
-### src/Solution85 maximal-rectangle
+### [maximal-rectangle](src/Solution85.java)
 
 Coming from:https://leetcode-cn.com/problems/maximal-rectangle/ 
 
-### src/Solution747 largest-number-at-least-twice-of-others
+### [largest-number-at-least-twice-of-others](src/Solution747.java)
 
 Coming from:https://leetcode-cn.com/problems/largest-number-at-least-twice-of-others/ 
 
-### src/Solution754 reach-a-number
+### [reach-a-number](src/Solution754.java)
 
 Coming from:https://leetcode-cn.com/problems/reach-a-number/
 
-### src/Solution1029 two-city-scheduling
+### [two-city-scheduling](src/Solution1029.java)
 
 Coming from:https://leetcode-cn.com/problems/two-city-scheduling/
 
-### src/Solution977 squares-of-a-sorted-array
+### [squares-of-a-sorted-array](src/Solution977.java)
 
 Coming from:https://leetcode-cn.com/problems/squares-of-a-sorted-array/
 
-### src/Solution922 sort-array-by-parity-ii
+### [sort-array-by-parity-ii](src/Solution922.java)
 
 Coming from:https://leetcode-cn.com/problems/sort-array-by-parity-ii/
 
@@ -414,43 +417,43 @@ Coming from:https://leetcode-cn.com/problems/delete-and-earn/
 Coming from:https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/
 
 ### [valid-triangle-number](LeetCode/LeetCode611valid-triangle-number.py)
-### src/Solution611 valid-triangle-number
+### [valid-triangle-number](src/Solution611.java)
 
 Coming from:https://leetcode-cn.com/problems/valid-triangle-number/
 
 ### [distribute-candies](LeetCode/LeetCode575distribute-candies.py)
-### src/Solution575 distribute-candies
+### [distribute-candies](src/Solution575.java)
 
 Coming from:https://leetcode-cn.com/problems/distribute-candies/
 
 ### [unique-paths-ii](LeetCode/LeetCode63unique-paths-ii.py)
-### src/Solution63 unique-paths-ii
+### [unique-paths-ii](src/Solution63.java)
 ```最优路径下的dp```
 
 Coming from:https://leetcode-cn.com/problems/unique-paths-ii/
 
 ### [merge-sorted-array](LeetCode/LeetCode88merge-sorted-array.py)
-### src/Solution88 merge-sorted-array
+### [merge-sorted-array](src/Solution88.java)
 
 Coming from:https://leetcode-cn.com/problems/merge-sorted-array/
 
 ### [best-time-to-buy-and-sell-stock](LeetCode/LeetCode121best-time-to-buy-and-sell-stock.py)
-### src/Solution121 best-time-to-buy-and-sell-stock
+### [best-time-to-buy-and-sell-stock](src/Solution121.java)
 
 Coming from:https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/
 
 ### [best-time-to-buy-and-sell-stock-ii](LeetCode/LeetCode122best-time-to-buy-and-sell-stock-ii.py)
-### src/Solution122 best-time-to-buy-and-sell-stock-ii
+### [best-time-to-buy-and-sell-stock-ii](src/Solution122.java)
 
 Coming from:https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/
 
-### src/Solution1137 n-th-tribonacci-number
+### [n-th-tribonacci-number](src/Solution1137.java)
 ```最简单的dp```
 
 Coming from:https://leetcode-cn.com/problems/n-th-tribonacci-number/
 
 ### [longest-increasing-subsequence](LeetCode/LeetCode300longest-increasing-subsequence.py)
-### src/Solution300 longest-increasing-subsequence
+### [longest-increasing-subsequence](src/Solution300.java)
 ```
 dp和递归理解的好题目，值得看
 ```
@@ -471,7 +474,7 @@ Coming from:https://leetcode-cn.com/problems/maximum-gap/
 
 Coming from:https://leetcode-cn.com/problems/surface-area-of-3d-shapes/
 
-### src/Solution904 fruit-into-baskets
+### [fruit-into-baskets](src/Solution904.java)
 ```双指针```
 
 Coming from:https://leetcode-cn.com/problems/fruit-into-baskets/
