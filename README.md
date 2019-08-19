@@ -147,7 +147,7 @@ Coming from:https://leetcode-cn.com/problems/lemonade-change/
 
 Coming from:https://leetcode-cn.com/problems/spiral-matrix-ii/
 
-### [LexicographicalNumbers](LeetCode386LexicographicalNumbers.py)
+### [LexicographicalNumbers](LeetCode/LeetCode386LexicographicalNumbers.py)
 `字典排序，用了python特性，也同时整理基础概念，值得去看`
 
 Coming from:https://leetcode-cn.com/problems/lexicographical-numbers/
@@ -225,7 +225,7 @@ Coming from:https://leetcode-cn.com/problems/merge-two-sorted-lists/
 
 Coming from:https://leetcode-cn.com/problems/remove-element/
 
-### [3Sum](src/Solution3.java)
+### [3Sum](src/Solution15.java)
 `左右双指针,亮点在于定义了很多提前跳出条件，在相同值跳过的条件判断中用nums[i+1]还是nums[i-1]尤为灵活`
 
 Coming from:https://leetcode-cn.com/problems/3sum/
