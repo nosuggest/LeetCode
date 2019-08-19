@@ -10,7 +10,7 @@ In order to solving the interesting alogrithm problems which meeting at the inte
 3.others solved named as **random**
 ****
 
-### EggTopFloor
+### [EggTopFloor](random/EggTopFloor.py)
 **Tencent** - Machine learning Engineer
 
 ### HuffmanEncoding
