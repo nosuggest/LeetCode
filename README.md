@@ -1,13 +1,14 @@
 # Purpose
 In order to solving the interesting alogrithm problems which meeting at the interviews frequently by me and some interesting LeetCode problems.
+You can click the title with blue url linking to the code, the original problems may be archived by the Coming from URL.
 
 ****
 
-1.solved with python named as **Leetcode? + details**
+1.solved with python,folder named as **Leetcode? + details**
 
-2.solved with java named as **src/Solution? + details**
+2.solved with java,folder named as **src/Solution? + details**
 
-3.others solved named as **random**
+3.others solved,folder named as **random**
 ****
 
 ### [EggTopFloor](random/EggTopFloor.py)
