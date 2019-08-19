@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2019/8/14 5:28 PM
 # @Author  : Slade
-# @File    : LeetCode 300 longest-increasing-subsequence.py
+# @File    : LeetCode300longest-increasing-subsequence.py
 
 class Solution(object):
     def lengthOfLIS(self, nums):

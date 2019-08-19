@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2019/8/9 9:43 PM
 # @Author  : Slade
-# @File    : LeetCode 150. evaluate-reverse-polish-notation.py
+# @File    : LeetCode150evaluate-reverse-polish-notation.py
 
 class Solution(object):
     def evalRPN(self, tokens):

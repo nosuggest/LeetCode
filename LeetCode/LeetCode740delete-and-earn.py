@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2019/8/9 9:06 PM
 # @Author  : Slade
-# @File    : LeetCode 740. delete-and-earn.py
+# @File    : LeetCode740delete-and-earn.py
 
 class Solution(object):
     def deleteAndEarn(self, nums):

@@ -181,7 +181,7 @@ Coming from:https://leetcode-cn.com/problems/advantage-shuffle/
 
 Coming from:https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/
 
-### [AddTwoNumbers](LeetCode/LeetCodeLeetCode2AddTwoNumbers.py)
+### [AddTwoNumbers](LeetCode/LeetCode2AddTwoNumbers.py)
 
 Coming from:https://leetcode-cn.com/problems/add-two-numbers/
 
@@ -245,7 +245,7 @@ Coming from:https://leetcode-cn.com/problems/4sum/
 Coming from:https://leetcode-cn.com/problems/swap-nodes-in-pairs/
 
 ### src/Solution17 Letter Combinations of a Phone Number
-### LeetCode 17 Letter Combinations of a Phone Number
+### [LetterCombinationsofaPhoneNumber](LeetCode/LeetCode17LetterCombinationsofaPhone.py)
 `这题用了dp和递归两种方法，dp更好理解也很Pythonic，递归则更加通用`
 
 `盖题递归位置在循环中，很有意思`
@@ -257,7 +257,7 @@ Coming from:https://leetcode-cn.com/problems/letter-combinations-of-a-phone-numb
 
 Coming from:https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets/
 
-### LeetCode 779 K-th Symbol in Grammar
+### [K-thSymbolinGrammar](LeetCode/LeetCode779K-thSymbolinGrammar.py)
 ### src/Solution779 K-th Symbol in Grammar
 `python用了最简单的递归表示，把结果表示出来再做，比较慢,所以加了@functools.lru_cache(maxsize=128, typed=False)对结果进行缓存`
 
@@ -280,7 +280,7 @@ Coming from:https://leetcode-cn.com/problems/divide-two-integers/
 
 Coming from:https://leetcode-cn.com/problems/reverse-linked-list/
 
-### LeetCode 932 beautiful-array
+### [beautiful-array](LeetCode/LeetCode932beautiful-array.py)
 ### src/Solution932 beautiful-array
 
 Coming from:https://leetcode-cn.com/problems/beautiful-array/
@@ -359,7 +359,7 @@ Coming from:https://leetcode-cn.com/problems/uncommon-words-from-two-sentences/
 Coming from:https://leetcode-cn.com/problems/sum-of-two-integers/
 
 ### src/Solution491 increasing-subsequences
-
+### [increasing-subsequences](LeetCode/LeetCode491increasing-subsequences.py)
 Coming from:https://leetcode-cn.com/problems/increasing-subsequences/
  
 ### src/Solution84 largest-rectangle-in-histogram
@@ -390,55 +390,55 @@ Coming from:https://leetcode-cn.com/problems/squares-of-a-sorted-array/
 
 Coming from:https://leetcode-cn.com/problems/sort-array-by-parity-ii/
 
-### LeetCode 79 word-search
+### [word-search](LeetCode/LeetCode79word-search.py)
 
 Coming from:https://leetcode-cn.com/problems/word-search/
 
-### LeetCode 75 sort-colors
+### [sort-colors](LeetCode/LeetCode75sort-colors.py)
 Coming from:https://leetcode-cn.com/problems/sort-colors/
  
-### LeetCode 50 powx-n
+### [powx-n](LeetCode/LeetCode50powx-n.py)
 `最简单的递归，和快排，斐波纳切数列一致的写法`
 
 Coming from:https://leetcode-cn.com/problems/powx-n/
 
-### LeetCode 740 delete-and-earn
+### [delete-and-earn](LeetCode/LeetCode740delete-and-earn.py)
 `核心在于bitmap+dp，与198题类似`
 
 Coming from:https://leetcode-cn.com/problems/delete-and-earn/
 
-### LeetCode 150 evaluate-reverse-polish-notation
+### [evaluate-reverse-polish-notation](LeetCode/LeetCode150evaluate-reverse-polish-notation.py)
 `栈，亮点在python 中对负数取整数部分如何操作`
 
 Coming from:https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/
 
-### LeetCode 611 valid-triangle-number
+### [valid-triangle-number](LeetCode/LeetCode611valid-triangle-number.py)
 ### src/Solution611 valid-triangle-number
 
 Coming from:https://leetcode-cn.com/problems/valid-triangle-number/
 
-### LeetCode 575 distribute-candies
+### [distribute-candies](LeetCode/LeetCode575distribute-candies.py)
 ### src/Solution575 distribute-candies
 
 Coming from:https://leetcode-cn.com/problems/distribute-candies/
 
-### LeetCode 63 unique-paths-ii
+### [unique-paths-ii](LeetCode/LeetCode63unique-paths-ii.py)
 ### src/Solution63 unique-paths-ii
 ```最优路径下的dp```
 
 Coming from:https://leetcode-cn.com/problems/unique-paths-ii/
 
-### LeetCode 88 merge-sorted-array
+### [merge-sorted-array](LeetCode/LeetCode88merge-sorted-array.py)
 ### src/Solution88 merge-sorted-array
 
 Coming from:https://leetcode-cn.com/problems/merge-sorted-array/
 
-### LeetCode 121 best-time-to-buy-and-sell-stock
+### [best-time-to-buy-and-sell-stock](LeetCode/LeetCode121best-time-to-buy-and-sell-stock.py)
 ### src/Solution121 best-time-to-buy-and-sell-stock
 
 Coming from:https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/
 
-### LeetCode 122 best-time-to-buy-and-sell-stock-ii
+### [best-time-to-buy-and-sell-stock-ii](LeetCode/LeetCode122best-time-to-buy-and-sell-stock-ii.py)
 ### src/Solution122 best-time-to-buy-and-sell-stock-ii
 
 Coming from:https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/
@@ -448,24 +448,24 @@ Coming from:https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/
 
 Coming from:https://leetcode-cn.com/problems/n-th-tribonacci-number/
 
-### LeetCode 300 longest-increasing-subsequence
+### [longest-increasing-subsequence](LeetCode/LeetCode300longest-increasing-subsequence.py)
 ### src/Solution300 longest-increasing-subsequence
 ```
 dp和递归理解的好题目，值得看
 ```
 Coming from:https://leetcode-cn.com/problems/longest-increasing-subsequence/
 
-### LeetCode 47 permutations-ii
+### [permutations-ii](LeetCode/LeetCode47permutations-ii.py)
 ```简单的回溯算法```
 
 Coming from:https://leetcode-cn.com/problems/permutations-ii/
 
-### LeetCode 164 maximum-gap
+### [maximum-gap](LeetCode/LeetCode164maximum-gap.py)
 ```分通，亮点在于分N+1个桶，保证一定有一个空桶，空桶的存在保证最大间隔在桶之间，不需要再去比桶内值```
 
 Coming from:https://leetcode-cn.com/problems/maximum-gap/
 
-### LeetCode 892 surface-area-of-3d-shapes
+### [surface-area-of-3d-shapes](LeetCode/LeetCode892surface-area-of-3d-shapes.py)
 ```透视图角度```
 
 Coming from:https://leetcode-cn.com/problems/surface-area-of-3d-shapes/
@@ -475,16 +475,16 @@ Coming from:https://leetcode-cn.com/problems/surface-area-of-3d-shapes/
 
 Coming from:https://leetcode-cn.com/problems/fruit-into-baskets/
 
-### LeetCode 829 consecutive-numbers-sum
+### [consecutive-numbers-sum](LeetCode829consecutive-numbers-sum.py)
 ```(n-m)(n+m+1)=2N,a=n-m,b=n+m+1,a+b=2n+1,b-a=2m+1,所以a*b=2N,a,b一奇一偶```
 
 Coming from:https://leetcode-cn.com/problems/consecutive-numbers-sum/
 
-### LeetCode 704 binary-search
+### [binary-search](LeetCode/LeetCode704binary-search.py)
 
 Coming from:https://leetcode-cn.com/problems/binary-search/
 
-### LeetCode 200 number-of-islands
+### [number-of-islands](LeetCode/LeetCode200number-of-islands.py)
 ```回溯/DFS```
 
 Coming from:https://leetcode-cn.com/problems/number-of-islands/

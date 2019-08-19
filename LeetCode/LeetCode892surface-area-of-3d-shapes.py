@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2019/8/19 10:06 AM
 # @Author  : Slade
-# @File    : LeetCode 892 surface-area-of-3d-shapes.py
+# @File    : LeetCode892surface-area-of-3d-shapes.py
 class Solution(object):
     def surfaceArea(self, grid):
         """

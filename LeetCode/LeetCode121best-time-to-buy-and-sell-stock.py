@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 '''
-@File  : LeetCode 121 best-time-to-buy-and-sell-stock.py
+@File  : LeetCode121best-time-to-buy-and-sell-stock.py
 @Author: sladesha
 @Date  : 2019/8/13 21:47
 @Desc  : 

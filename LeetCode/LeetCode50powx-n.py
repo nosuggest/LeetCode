@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2019/8/8 3:31 PM
 # @Author  : Slade
-# @File    : LeetCode 50. powx-n.py
+# @File    : LeetCode50powx-n.py
 
 class Solution(object):
     def myPow(self, x, n):

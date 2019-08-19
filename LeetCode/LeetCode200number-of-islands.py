@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 '''
-@File  : LeetCode 200 number-of-islands.py
+@File  : LeetCode200number-of-islands.py
 @Author: sladesha
 @Date  : 2019/8/19 22:40
 @Desc  : 

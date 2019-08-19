@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2019/8/19 8:14 PM
 # @Author  : Slade
-# @File    : LeetCode 704 binary-search.py
+# @File    : LeetCode704binary-search.py
 class Solution(object):
     def search(self, nums, target):
         """

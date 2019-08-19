@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2019/6/11 11:26 AM
 # @Author  : Slade
-# @File    : LeetCode 779 K-th Symbol in Grammar.py
+# @File    : LeetCode779K-thSymbolinGrammar.py
 
 import functools
 class Solution(object):

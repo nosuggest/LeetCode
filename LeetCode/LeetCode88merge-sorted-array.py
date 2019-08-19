@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 '''
-@File  : LeetCode 88 merge-sorted-array.py
+@File  : LeetCode88merge-sorted-array.py
 @Author: sladesha
 @Date  : 2019/8/13 21:45
 @Desc  : 

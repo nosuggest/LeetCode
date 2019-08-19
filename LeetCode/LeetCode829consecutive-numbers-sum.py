@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2019/8/19 7:48 PM
 # @Author  : Slade
-# @File    : LeetCode 829 consecutive-numbers-sum.py
+# @File    : LeetCode829consecutive-numbers-sum.py
 import math
 
 

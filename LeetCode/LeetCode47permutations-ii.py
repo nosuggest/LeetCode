@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2019/8/14 8:31 PM
 # @Author  : Slade
-# @File    : LeetCode 47 permutations-ii.py
+# @File    : LeetCode47permutations-ii.py
 class Solution(object):
     def permuteUnique(self, nums):
         """

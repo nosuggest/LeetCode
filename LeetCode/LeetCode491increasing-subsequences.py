@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2019/7/4 8:47 AM
 # @Author  : Slade
-# @File    : LeetCode 491 increasing-subsequences.py
+# @File    : LeetCode491increasing-subsequences.py
 class Solution(object):
     def findSubsequences(self, nums):
         """

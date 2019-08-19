@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2019/8/15 9:03 AM
 # @Author  : Slade
-# @File    : LeetCode 164 maximum-gap.py
+# @File    : LeetCode164maximum-gap.py
 class Bucket():
     def __init__(self, idx, min_value=float("inf"), max_value=-float("inf")):
         self.idx = idx
