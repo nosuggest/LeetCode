@@ -481,3 +481,8 @@ Coming from:https://leetcode-cn.com/problems/consecutive-numbers-sum/
 ### LeetCode 704 binary-search
 
 Coming from:https://leetcode-cn.com/problems/binary-search/
+
+### LeetCode 200 number-of-islands
+```回溯/DFS```
+
+Coming from:https://leetcode-cn.com/problems/number-of-islands/
