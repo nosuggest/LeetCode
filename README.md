@@ -472,3 +472,8 @@ Coming from:https://leetcode-cn.com/problems/surface-area-of-3d-shapes/
 ```双指针```
 
 Coming from:https://leetcode-cn.com/problems/fruit-into-baskets/
+
+### LeetCode 829 consecutive-numbers-sum
+```(n-m)(n+m+1)=2N,a=n-m,b=n+m+1,a+b=2n+1,b-a=2m+1,所以a*b=2N,a,b一奇一偶```
+
+Coming from:https://leetcode-cn.com/problems/consecutive-numbers-sum/
