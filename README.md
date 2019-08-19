@@ -467,3 +467,8 @@ Coming from:https://leetcode-cn.com/problems/maximum-gap/
 ```透视图角度```
 
 Coming from:https://leetcode-cn.com/problems/surface-area-of-3d-shapes/
+
+### src/Solution904 fruit-into-baskets
+```双指针```
+
+Coming from:https://leetcode-cn.com/problems/fruit-into-baskets/
