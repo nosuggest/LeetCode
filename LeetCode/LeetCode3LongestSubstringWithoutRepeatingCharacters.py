@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2019/5/30 10:20 AM
 # @Author  : Slade
-# @File    : LeetCode 3. Longest Substring Without Repeating Characters.py
+# @File    : LeetCode3LongestSubstringWithoutRepeatingCharacters.py
 
 class Solution(object):
     def lengthOfLongestSubstring(self, s):
