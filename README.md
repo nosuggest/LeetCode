@@ -28,22 +28,22 @@ Almost everytime such as **Alibaba、JD、Didichuxing**...
 
 Coming from : https://leetcode.com/problems/single-number/description/
 
-### Leetcode 240. Search a 2D Matrix II.py
+### [Searcha2DMatrixII](LeetCode/Leetcode240Searcha2DMatrixII.py)
 
 `这题其实可以从右上角开始查找，会更快`
 
 Coming from :https://leetcode.com/problems/search-a-2d-matrix-ii/
 
-### LeetCode 56. Merge Intervals.py
+### [MergeIntervals](LeetCode/LeetCode56MergeIntervals.py)
 Coming from :https://leetcode.com/problems/merge-intervals/
 
-### LeetCode 78 Subsets
+### [Subsets](LeetCode/LeetCode78Subsets.py)
 
 `这题利用了python的语言机制，很有意思`
 
 Coming from :https://leetcode.com/problems/subsets/#/description
 
-### 无序数组排序（时间复杂度为O(n)）
+### [无序数组排序（时间复杂度为O(n)）](random/无序数组排序（时间复杂度为O(n)）.py)
 
 ```
 问题：给你n个无序的int整型数组arr，并且这些整数的取值范围都在0-20之间，要你在 O(n) 的时间复杂度中把这 n 个数按照从小到大的顺序打印出来。
