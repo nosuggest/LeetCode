@@ -273,7 +273,7 @@ Coming from:https://leetcode-cn.com/problems/k-th-symbol-in-grammar/
 
 Coming from:https://leetcode-cn.com/problems/combination-sum/
 
-### [combination-sum](src/Solution29.java)
+### [divide-two-integers](src/Solution29.java)
 `位运算`
 
 Coming from:https://leetcode-cn.com/problems/divide-two-integers/
