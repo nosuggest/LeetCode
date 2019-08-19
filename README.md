@@ -22,7 +22,7 @@ Almost everytime such as **Alibaba、JD、Didichuxing**...
 ### [GapCount](random/GapCount.py)
 **Hp(Hewlett-Packard)** - Model Engineer
 
-### [SingleNumber](LeetCode/Leetcode 136 Single Number.py)
+### [SingleNumber](LeetCode/LeetCode136SingleNumber.py)
 
 `这题有数学解法和位解法两种，都很值得看一下`
 
