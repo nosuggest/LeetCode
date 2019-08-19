@@ -13,13 +13,13 @@ In order to solving the interesting alogrithm problems which meeting at the inte
 ### [EggTopFloor](random/EggTopFloor.py)
 **Tencent** - Machine learning Engineer
 
-### HuffmanEncoding
+### [HuffmanEncoding](random/HuffmanEncoding.py)
 **Didichuxing** -  Statistical Analyst
 
-### SortAlgorithm
+### [SortAlgorithm](random/SortAlgorithm.py)
 Almost everytime such as **Alibaba、JD、Didichuxing**...
 
-### GapCount
+### [GapCount](random/GapCount.py)
 **Hp(Hewlett-Packard)** - Model Engineer
 
 ### Leetcode 136 Single Number.py
