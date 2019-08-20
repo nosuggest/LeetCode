@@ -493,3 +493,8 @@ Coming from:https://leetcode-cn.com/problems/binary-search/
 ```回溯/DFS```
 
 Coming from:https://leetcode-cn.com/problems/number-of-islands/
+
+### [decode-ways](LeetCode/LeetCode91decode-ways.py)
+```状态转移方程式dp[i] = dp[i-1]+dp[i-2],复杂在什么时候加前项什么时候加后项，什么时候加两项，0的位置的考虑```
+
+Coming from:https://leetcode-cn.com/problems/decode-ways/
