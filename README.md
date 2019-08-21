@@ -507,3 +507,7 @@ Coming from:https://leetcode-cn.com/problems/random-pick-index/
 ### [container-with-most-water](LeetCode/LeetCode11container-with-most-water.py)
 
 Coming from:https://leetcode-cn.com/problems/container-with-most-water/
+
+### [majority-element](LeetCode/LeetCode169majority-element.py)
+
+Coming from:https://leetcode-cn.com/problems/majority-element/
