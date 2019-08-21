@@ -498,3 +498,8 @@ Coming from:https://leetcode-cn.com/problems/number-of-islands/
 ```状态转移方程式dp[i] = dp[i-1]+dp[i-2],复杂在什么时候加前项什么时候加后项，什么时候加两项，0的位置的考虑```
 
 Coming from:https://leetcode-cn.com/problems/decode-ways/
+
+### [random-pick-index](LeetCode/LeetCode398random-pick-index.py)
+```蓄水池抽烟，randint(0,cnt)控制了每次被抛弃的概率为1/(1+cnt）```
+
+Coming from:https://leetcode-cn.com/problems/random-pick-index/

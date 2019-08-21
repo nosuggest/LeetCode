@@ -1,8 +1,8 @@
 /**
  * Created by slade on 2019/5/30.
  */
-public class solution9 {
-    public boolean isPalindrome(int x) {
+public class Solution9 {
+    boolean isPalindrome(int x) {
         boolean tag;
         String s = String.valueOf(x);
         int length = s.length();
@@ -21,7 +21,7 @@ public class solution9 {
     }
 
     public static void main(String[] args) {
-        solution9 s = new solution9();
-        System.out.println(s.isPalindrome(92318));
+//        solution9 s = new solution9();
+//        System.out.println(s.isPalindrome(92318));
     }
 }

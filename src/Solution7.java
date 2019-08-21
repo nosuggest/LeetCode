@@ -21,7 +21,12 @@ public class Solution7 {
     public static void main(String[] args) {
         Solution7 s = new Solution7();
         int i = s.reverse(1219);
-        System.out.println(i);
+//        System.out.println(i);
+
+        int a = 5;
+        a += a *= a %= 3;
+        System.out.println(a);
+
     }
 
 }
