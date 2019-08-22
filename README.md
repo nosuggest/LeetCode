@@ -511,3 +511,11 @@ Coming from:https://leetcode-cn.com/problems/container-with-most-water/
 ### [majority-element](LeetCode/LeetCode169majority-element.py)
 
 Coming from:https://leetcode-cn.com/problems/majority-element/
+
+### [move-zeroes](LeetCode/LeetCode283move-zeroes.py)
+
+Coming from:https://leetcode-cn.com/problems/move-zeroes/
+
+### [hamming-distance](LeetCode/LeetCode461hamming-distance.py)
+
+Coming from:https://leetcode-cn.com/problems/hamming-distance/
