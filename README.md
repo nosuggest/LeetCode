@@ -519,3 +519,7 @@ Coming from:https://leetcode-cn.com/problems/move-zeroes/
 ### [hamming-distance](LeetCode/LeetCode461hamming-distance.py)
 
 Coming from:https://leetcode-cn.com/problems/hamming-distance/
+
+### [shortest-unsorted-continuous-subarray](LeetCode/LeetCode581shortest-unsorted-continuous-subarray.py)
+
+Coming from:https://leetcode-cn.com/problems/shortest-unsorted-continuous-subarray/
