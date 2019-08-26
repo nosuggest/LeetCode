@@ -523,3 +523,8 @@ Coming from:https://leetcode-cn.com/problems/hamming-distance/
 ### [shortest-unsorted-continuous-subarray](LeetCode/LeetCode581shortest-unsorted-continuous-subarray.py)
 
 Coming from:https://leetcode-cn.com/problems/shortest-unsorted-continuous-subarray/
+
+### [valid-tic-tac-toe-state](LeetCode/LeetCode794valid-tic-tac-toe-state.py)
+```直接罗列全情况，排除一下就行```
+
+Coming from:https://leetcode-cn.com/problems/valid-tic-tac-toe-state/
