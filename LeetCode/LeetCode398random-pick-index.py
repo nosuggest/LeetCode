@@ -22,7 +22,7 @@ class Solution(object):
         res = None
         for i, v in enumerate(self.nums):
             if v == target:
-                # k/(k+1)被保留
+                # 1/(k+1)被保留；剩余的是(k/(k+1))*(1/k)=1/(k+1)
                 if not randint(0, cnt):
                     res = i
                 cnt += 1
