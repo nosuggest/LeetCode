@@ -533,3 +533,8 @@ Coming from:https://leetcode-cn.com/problems/valid-tic-tac-toe-state/
 ```nums[abs(nums[idx]) - 1] = -abs(nums[abs(nums[idx]) - 1]),两个abs保证了所有存在的idx都被置负了```
 
 Coming from:https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/
+
+### [find-all-duplicates-in-an-array](LeetCode/LeetCode442find-all-duplicates-in-an-array.py)
+```和上面一样，核心是每次对abs(nums[idx])-1的处理获得nums的index很有意思```
+
+Coming from:https://leetcode-cn.com/problems/find-all-duplicates-in-an-array/
