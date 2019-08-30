@@ -538,3 +538,7 @@ Coming from:https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-
 ```和上面一样，核心是每次对abs(nums[idx])-1的处理获得nums的index很有意思```
 
 Coming from:https://leetcode-cn.com/problems/find-all-duplicates-in-an-array/
+
+### [detect-capital](LeetCode/LeetCode520detect-capital.py)
+
+Coming from:https://leetcode-cn.com/problems/detect-capital/
