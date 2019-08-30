@@ -528,3 +528,8 @@ Coming from:https://leetcode-cn.com/problems/shortest-unsorted-continuous-subarr
 ```直接罗列全情况，排除一下就行```
 
 Coming from:https://leetcode-cn.com/problems/valid-tic-tac-toe-state/
+
+### [find-all-numbers-disappeared-in-an-array](LeetCode/LeetCode448find-all-numbers-disappeared-in-an-array.py)
+```nums[abs(nums[idx]) - 1] = -abs(nums[abs(nums[idx]) - 1]),两个abs保证了所有存在的idx都被置负了```
+
+Coming from:https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/
