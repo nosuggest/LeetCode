@@ -9,12 +9,22 @@
 
 from collections import defaultdict
 
+
+class mydict(defaultdict):
+    def max_value(self):
+        maxValue = None
+        for key in self:
+            if not maxValue or self[key] > maxValue:
+                maxValue = self[key]
+        return maxValue
+
+
 def get_result(data):
-    d = defaultdict(int)
+    d = mydict(int)
     for i in data:
         d[i] += 1
     # 最多元素的出现的次数小于数组长度的一半即可
-    if max(d.values()) > len(data) / 2:
+    if d.max_value() > len(data) / 2:
         return False
     else:
         return True
