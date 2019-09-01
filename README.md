@@ -556,3 +556,8 @@ Coming from:https://leetcode-cn.com/problems/detect-capital/
 >第一轮用的traceback，时间复杂度是n的n次方，扑gai；然后我想了下，既然可以考虑回溯，为什么不能递归，其实只要把方程：flag[j] = flag[i]+s[i:j] in wordDict 这个想到就行，这个算是是像加限制性条件的dp，比如20届拼多多校招，多多鸡砍树问题
 
 Coming from:https://leetcode-cn.com/problems/word-break/
+
+### [Lru_Cache](random/Lru_Cache.py)
+**360** - Deep learning Engineer
+
+```Lru_Cache实现```
