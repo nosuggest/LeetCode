@@ -561,3 +561,14 @@ Coming from:https://leetcode-cn.com/problems/word-break/
 **360** - Deep learning Engineer
 
 ```Lru_Cache实现```
+
+### [消消乐](random/消消乐.py)
+**Tencent** - Deep learning Engineer
+
+>有n个数字，每次可以选择任意两个不同的数字，并同时删除它们，请问最后是否可以删完
+
+```
+两个坑：
+1.汇总每个数字出现的次数的时候，不要用.count()，会超时；遍历hashmap
+2.汇总后的数组中的每个数字是可拆的，并不是把一个数组切分成n个和相等的子数组，只需要max_value<=sum/2即可
+```
