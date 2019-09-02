@@ -572,3 +572,16 @@ Coming from:https://leetcode-cn.com/problems/word-break/
 1.汇总每个数字出现的次数的时候，不要用.count()，会超时；遍历hashmap
 2.汇总后的数组中的每个数字是可拆的，并不是把一个数组切分成n个和相等的子数组，只需要max_value<=sum/2即可
 ```
+
+### [花匠摆花](random/花匠摆花.py)
+**Tencent** - Deep learning Engineer
+
+```
+原题参考代码注释
+```
+
+```
+两个坑：
+1.用traceback的就直接gg，比如我
+2.dp[i]为当前的长度为i的可摆放个数，dp[i] = dp[i-1]+dp[i-k]为状态转移矩阵，更多解释看代码注释
+```
