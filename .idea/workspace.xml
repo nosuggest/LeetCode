@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="add new python">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode53maximum-subarray.py" />
+    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="简单递归">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode152maximum-product-subarray.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -36,7 +36,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -49,23 +49,13 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="520">
-                <caret line="596" column="61" selection-start-line="596" selection-start-column="32" selection-end-line="596" selection-end-column="61" />
+              <first_editor relative-caret-position="490">
+                <caret line="604" column="22" selection-start-line="604" selection-start-column="22" selection-end-line="604" selection-end-column="22" />
                 <folding />
               </first_editor>
               <second_editor>
                 <js_state />
               </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LeetCode53maximum-subarray.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode53maximum-subarray.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -91,7 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Solution85.java" />
         <option value="$PROJECT_DIR$/src/Solution747.java" />
         <option value="$PROJECT_DIR$/src/Solution1029.java" />
         <option value="$PROJECT_DIR$/src/Solution754.java" />
@@ -140,8 +129,9 @@
         <option value="$PROJECT_DIR$/random/花匠摆花.py" />
         <option value="$PROJECT_DIR$/random/素数伴侣.py" />
         <option value="$PROJECT_DIR$/LeetCode/.idea/LeetCode174dungeon-game.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode53maximum-subarray.py" />
+        <option value="$PROJECT_DIR$/LeetCode/LeetCode152maximum-product-subarray.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -850,7 +840,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567412510210</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="简单递归">
+      <created>1567413675632</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1567413675632</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -908,7 +905,8 @@
     <MESSAGE value="fix 164 bug change max_value to min_value" />
     <MESSAGE value="add new java" />
     <MESSAGE value="add new python" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new python" />
+    <MESSAGE value="简单递归" />
+    <option name="LAST_COMMIT_MESSAGE" value="简单递归" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -933,7 +931,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Solution85.java" />
     <entry file="file://$PROJECT_DIR$/src/tmp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1201,6 +1198,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode53maximum-subarray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode152maximum-product-subarray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1213,21 +1226,13 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="520">
-            <caret line="596" column="61" selection-start-line="596" selection-start-column="32" selection-end-line="596" selection-end-column="61" />
+          <first_editor relative-caret-position="490">
+            <caret line="604" column="22" selection-start-line="604" selection-start-column="22" selection-end-line="604" selection-end-column="22" />
             <folding />
           </first_editor>
           <second_editor>
             <js_state />
           </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode53maximum-subarray.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>

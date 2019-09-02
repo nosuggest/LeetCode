@@ -599,3 +599,9 @@ Coming from:https://leetcode-cn.com/problems/dungeon-game/
 ```反向递归```
 
 Coming from:https://leetcode-cn.com/problems/maximum-subarray/
+
+### [maximum-product-subarray](LeetCode/LeetCode152maximum-product-subarray.py)
+
+```需要存一个max和min，来做条件判断```
+
+Coming from:https://leetcode-cn.com/problems/maximum-product-subarray/
