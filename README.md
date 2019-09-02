@@ -605,3 +605,9 @@ Coming from:https://leetcode-cn.com/problems/maximum-subarray/
 ```需要存一个max和min，来做条件判断```
 
 Coming from:https://leetcode-cn.com/problems/maximum-product-subarray/
+
+### [冒泡排序](random/BubbleSort.py)
+
+### [选择排序](random/SelectSort.py)
+
+### [二分查找](random/二分查找.py)
