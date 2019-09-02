@@ -585,3 +585,5 @@ Coming from:https://leetcode-cn.com/problems/word-break/
 1.用traceback的就直接gg，比如我
 2.dp[i]为当前的长度为i的可摆放个数，dp[i] = dp[i-1]+dp[i-k]为状态转移矩阵，更多解释看代码注释
 ```
+
+Coming from:http://codeforces.com/contest/474/problem/D

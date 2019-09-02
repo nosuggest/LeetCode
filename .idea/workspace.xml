@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="add new python">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random/花匠摆花.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -37,12 +35,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SECOND">
-              <first_editor relative-caret-position="490">
-                <caret line="579" column="8" selection-start-line="579" selection-start-column="8" selection-end-line="579" selection-end-column="8" />
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="329">
+                <caret line="588" column="55" selection-start-line="588" selection-start-column="55" selection-end-line="588" selection-end-column="55" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -61,7 +59,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="花匠摆花.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="花匠摆花.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/random/花匠摆花.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="232">
@@ -141,8 +139,8 @@
         <option value="$PROJECT_DIR$/random/素数伴侣.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode139word-break.py" />
         <option value="$PROJECT_DIR$/random/Lru_Cache.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/random/花匠摆花.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -934,7 +932,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567299321353</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="add new python">
+      <created>1567389452209</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1567389452209</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1277,11 +1282,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/random/花匠摆花.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="81" column="52" selection-start-line="81" selection-start-column="52" selection-end-line="81" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="490">
-            <caret line="579" column="8" selection-start-line="579" selection-start-column="8" selection-end-line="579" selection-end-column="8" />
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="329">
+            <caret line="588" column="55" selection-start-line="588" selection-start-column="55" selection-end-line="588" selection-end-column="55" />
             <folding />
           </first_editor>
           <second_editor>
@@ -1296,14 +1309,6 @@
             <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/random/花匠摆花.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="81" column="52" selection-start-line="81" selection-start-column="52" selection-end-line="81" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
