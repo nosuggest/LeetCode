@@ -605,3 +605,11 @@ Coming from:https://leetcode-cn.com/problems/maximum-subarray/
 ```需要存一个max和min，来做条件判断```
 
 Coming from:https://leetcode-cn.com/problems/maximum-product-subarray/
+
+### [perfect-squares](src/Solution279.java)
+### [perfect-squares](LeetCode/LeetCode279perfect-squares.py)
+
+
+```双循环的dp，同样的思路python会超时，Java不会```
+
+Coming from:https://leetcode-cn.com/problems/perfect-squares/
