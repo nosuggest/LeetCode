@@ -1,58 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="条件递归">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode279perfect-squares.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Solution279.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaSolution/ListNode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaSolution/Solution1018.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaSolution/Solution1029.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaSolution/Solution1047.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaSolution/Solution13.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaSolution/Solution131.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaSolution/Solution14.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaSolution/Solution15.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaSolution/Solution16.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaSolution/Solution17.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaSolution/Solution176.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaSolution/Solution18.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaSolution/Solution20.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaSolution/Solution206.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaSolution/Solution21.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaSolution/Solution24.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaSolution/Solution26.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaSolution/Solution264.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaSolution/Solution27.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaSolution/Solution29.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaSolution/Solution338.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaSolution/Solution35.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaSolution/Solution371.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaSolution/Solution39.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaSolution/Solution46.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaSolution/Solution491.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaSolution/Solution495.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaSolution/Solution506.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaSolution/Solution605.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaSolution/Solution643.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaSolution/Solution698.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaSolution/Solution7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaSolution/Solution747.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaSolution/Solution754.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaSolution/Solution779.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaSolution/Solution84.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaSolution/Solution85.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaSolution/Solution881.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaSolution/Solution884.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaSolution/Solution922.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaSolution/Solution932.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaSolution/Solution977.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaSolution/Solution989.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaSolution/solution9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaSolution/tmp.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="n方递归">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaSolution.iml" afterPath="$PROJECT_DIR$/javaSolution.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -88,8 +39,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="414">
-                <caret line="604" column="25" selection-start-line="604" selection-start-column="25" selection-end-line="604" selection-end-column="25" />
+              <first_editor relative-caret-position="384">
+                <caret line="604" column="11" selection-start-line="604" selection-start-column="11" selection-end-line="604" selection-end-column="11" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -915,7 +866,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567417365047</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="n方递归">
+      <created>1567475886872</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1567475886872</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -975,7 +933,8 @@
     <MESSAGE value="add new python" />
     <MESSAGE value="简单递归" />
     <MESSAGE value="条件递归" />
-    <option name="LAST_COMMIT_MESSAGE" value="条件递归" />
+    <MESSAGE value="n方递归" />
+    <option name="LAST_COMMIT_MESSAGE" value="n方递归" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1284,8 +1243,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="414">
-            <caret line="604" column="25" selection-start-line="604" selection-start-column="25" selection-end-line="604" selection-end-column="25" />
+          <first_editor relative-caret-position="384">
+            <caret line="604" column="11" selection-start-line="604" selection-start-column="11" selection-end-line="604" selection-end-column="11" />
             <folding />
           </first_editor>
           <second_editor>

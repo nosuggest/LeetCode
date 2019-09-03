@@ -596,7 +596,7 @@ Coming from:https://leetcode-cn.com/problems/dungeon-game/
 
 ### [maximum-subarray](LeetCode/LeetCode53maximum-subarray.py)
 
-```反向递归```
+```简单递归```
 
 Coming from:https://leetcode-cn.com/problems/maximum-subarray/
 
