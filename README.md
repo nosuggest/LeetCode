@@ -630,3 +630,9 @@ Coming from:https://leetcode-cn.com/problems/maximal-square/
 >二分搜索，亮点在分组最大和变成了原数组的`[max(原数组),sum(原数组))`
 
 Coming from:https://leetcode-cn.com/problems/split-array-largest-sum/
+
+### [longest-palindromic-substring](LeetCode/LeetCode5longest-palindromic-substring.py)
+
+>中心展开，从中间值往两边展开，判断展开终止点的长度
+
+Coming from:https://leetcode-cn.com/problems/longest-palindromic-substring/
