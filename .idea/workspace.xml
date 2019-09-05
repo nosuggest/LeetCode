@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="n方递归">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random/数组分组问题.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode410split-array-largest-sum.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -36,13 +36,13 @@
     <favorites_list name="LeetCode" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="535">
-                <caret line="625" column="19" selection-start-line="625" selection-start-column="19" selection-end-line="625" selection-end-column="19" />
+              <first_editor relative-caret-position="520">
+                <caret line="629" column="42" selection-start-line="629" selection-start-column="42" selection-end-line="629" selection-end-column="42" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -57,16 +57,6 @@
                 <folding />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="数组分组问题.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/random/数组分组问题.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -92,7 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Solution922.java" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode 79. word-search.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode 75. sort-colors.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode 50. powx-n.py" />
@@ -142,6 +131,7 @@
         <option value="$PROJECT_DIR$/LeetCode/LeetCode279perfect-squares.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode221maximal-square.py" />
         <option value="$PROJECT_DIR$/random/数组分组问题.py" />
+        <option value="$PROJECT_DIR$/LeetCode/LeetCode410split-array-largest-sum.py" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -182,7 +172,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -211,13 +201,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="random" />
+              <option name="myItemId" value="LeetCode" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -892,9 +882,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="823" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38984263" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3955651" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -970,7 +960,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Solution754.java" />
     <entry file="file://$PROJECT_DIR$/src/Solution922.java" />
     <entry file="file://$PROJECT_DIR$/src/Solution977.java" />
     <entry file="file://$PROJECT_DIR$/src/Solution611.java" />
@@ -1262,11 +1251,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode410split-array-largest-sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="535">
-            <caret line="625" column="19" selection-start-line="625" selection-start-column="19" selection-end-line="625" selection-end-column="19" />
+          <first_editor relative-caret-position="520">
+            <caret line="629" column="42" selection-start-line="629" selection-start-column="42" selection-end-line="629" selection-end-column="42" />
             <folding />
           </first_editor>
           <second_editor>

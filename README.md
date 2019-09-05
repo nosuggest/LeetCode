@@ -624,3 +624,9 @@ Coming from:https://leetcode-cn.com/problems/maximal-square/
 >给定一个时刻表，根据目的地进行分组，同一个目的地必须尽可能的多分，不能打乱顺序，比如aabbcddc，需要分成aa|bb|cddc,而不能分成aabb|cddc，因为这种情况下不是最多，也不能分成aa|bb|c|dd|c,因为相同的c没有被分在一起；求分组个数；
 
 用了两种方法解，数组区间合并和动态规划
+
+### [split-array-largest-sum](LeetCode/LeetCode410split-array-largest-sum.py)
+
+>二分搜索，亮点在分组最大和变成了原数组的`[max(原数组),sum(原数组))`
+
+Coming from:https://leetcode-cn.com/problems/split-array-largest-sum/
