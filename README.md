@@ -636,3 +636,19 @@ Coming from:https://leetcode-cn.com/problems/split-array-largest-sum/
 >中心展开，从中间值往两边展开，判断展开终止点的长度
 
 Coming from:https://leetcode-cn.com/problems/longest-palindromic-substring/
+
+### [意图相似度](random/意图相似度.py)
+**阿里** - Algorithm Engineer
+
+>找出相似意图（编辑距离<阈值）的pair，且每一个意图要满足一定长要求条件`[minSeqLen,maxSeqLen]`，一个子序列可能存在多个重复的，比如如下就是满足长度`[5,8]`(编辑距离为1，小于阈值等于2)子意图序列pair：
+```
+>A:weather,joker,music,stock,joker,joker,news
+>B:weather,joker,music,stock,joker,joker,texi
+输入：
+第一行：阈值
+第二行：最小序列长度
+第三行：最多序列长度
+第四行：A用户的意图序列
+第五行：B用户的意图序列
+```
+

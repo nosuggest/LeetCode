@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="n方递归">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode5longest-palindromic-substring.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random/意图相似度.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -36,7 +36,32 @@
     <favorites_list name="LeetCode" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="340">
+                <caret line="640" column="27" selection-start-line="640" selection-start-column="27" selection-end-line="640" selection-end-column="27" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
+            </state>
+          </provider>
+          <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -57,7 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LeetCode/LeetCode 75. sort-colors.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode 50. powx-n.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode 740. delete-and-earn.py" />
         <option value="$PROJECT_DIR$/LeetCode 150. evaluate-reverse-polish-notation.py" />
@@ -107,6 +131,7 @@
         <option value="$PROJECT_DIR$/random/数组分组问题.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode410split-array-largest-sum.py" />
         <option value="$PROJECT_DIR$/LeetCode5longest-palindromic-substring.py" />
+        <option value="$PROJECT_DIR$/random/意图相似度.py" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -175,7 +200,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="LeetCode" />
+              <option name="myItemId" value="random" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -856,7 +881,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567650295516</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="n方递归">
+      <created>1567654010829</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1567654010829</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -866,7 +898,7 @@
     <frame x="0" y="23" width="1440" height="823" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40128756" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12875536" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -942,7 +974,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Solution977.java" />
     <entry file="file://$PROJECT_DIR$/src/Solution611.java" />
     <entry file="file://$PROJECT_DIR$/src/Solution575.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1242,6 +1273,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
           <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random/意图相似度.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -1249,8 +1287,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="490">
-            <caret line="635" column="26" selection-start-line="635" selection-start-column="26" selection-end-line="635" selection-end-column="26" />
+          <first_editor relative-caret-position="340">
+            <caret line="640" column="27" selection-start-line="640" selection-start-column="27" selection-end-line="640" selection-end-column="27" />
             <folding />
           </first_editor>
           <second_editor>
