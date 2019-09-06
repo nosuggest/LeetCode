@@ -652,3 +652,8 @@ Coming from:https://leetcode-cn.com/problems/longest-palindromic-substring/
 第五行：B用户的意图序列
 ```
 
+### [largest-number](LeetCode/LeetCode179largest-number.py)
+
+`这题技巧题，理解sorted中的cmp和key的作用，key是sorted元素判断依据的接受入口，而接收值需要调用functools中的cmp_to_key进行包装，python2不用这么复杂`
+
+Coming from:https://leetcode-cn.com/problems/largest-number/
