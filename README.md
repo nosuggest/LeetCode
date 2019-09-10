@@ -657,3 +657,18 @@ Coming from:https://leetcode-cn.com/problems/longest-palindromic-substring/
 `这题技巧题，理解sorted中的cmp和key的作用，key是sorted元素判断依据的接受入口，而接收值需要调用functools中的cmp_to_key进行包装，python2不用这么复杂`
 
 Coming from:https://leetcode-cn.com/problems/largest-number/
+
+### [valid-permutations-for-di-sequence](LeetCode/LeetCode903valid-permutations-for-di-sequence.py)
+
+`爱奇艺2020届校招`
+
+'''
+这边需要明白一个规则，举个例子：S:[0,1,2,3],P:[DID];dp[i,j]中i指S中的最大范围，此处i最大=3，j为以什么为结尾
+dp[2.1]则为S:[0,1,2],且以1为结尾，因为p为DID，所以当i=2的时候，应该满足DI，1为结尾，又因为I为此时P的结尾，所以
+[0,1]的前两位组合的末尾应该是比二小就行，所以d[1,1]和dp[1,0]都行，dp[2,2] = dp[1,0]+dp[1,1]=1+0；如果是ID的情况
+同上，所以状态转移方程应该是：
+if S[i-1] == "D":dp[i,j] += dp[i-1,k] j<=k<=i-1
+if S[i-1] == "I":dp[i,j] += dp[i-1,k] k<j
+'''
+
+Coming from:https://leetcode-cn.com/problems/valid-permutations-for-di-sequence/
