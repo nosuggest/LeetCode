@@ -671,3 +671,12 @@ if S[i-1] == "D":dp[i,j] += dp[i-1,k] j<=k<=i-1
 if S[i-1] == "I":dp[i,j] += dp[i-1,k] k<j
 
 Coming from:https://leetcode-cn.com/problems/valid-permutations-for-di-sequence/
+
+### [candy](LeetCode/LeetCode135candy.py)
+
+`转转2020届校招`
+
+
+>135. 分发糖果，左右各扫一遍取max
+
+Coming from:https://leetcode-cn.com/problems/candy/
