@@ -686,3 +686,9 @@ Coming from:https://leetcode-cn.com/problems/candy/
 `01背包问题，这题主要考虑提前跳出条件`
 
 Coming from:https://leetcode-cn.com/problems/partition-equal-subset-sum/
+
+### [orderly-queue](LeetCode/LeetCode899orderly-queue.py)
+
+`有点冒泡排序的意思`
+
+Coming from:https://leetcode-cn.com/problems/orderly-queue/
