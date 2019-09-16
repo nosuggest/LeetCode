@@ -692,3 +692,12 @@ Coming from:https://leetcode-cn.com/problems/partition-equal-subset-sum/
 `有点冒泡排序的意思`
 
 Coming from:https://leetcode-cn.com/problems/orderly-queue/
+
+### [连乘质数和](random/连乘质数和.py)
+
+**快手2020校招**
+
+>给定一个(1,N]之间的正整数，需要统计质数分解之后的质数的个数；
+>举例:N=6,(1,6]之间包括2,3,4,5,6,2=2,3=3,4=2*2,5=5,6=2*3,所以对应质数和位1+1+2+1+2=7
+
+```我做的是最简单的实现，回溯求解```
