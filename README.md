@@ -680,3 +680,10 @@ Coming from:https://leetcode-cn.com/problems/valid-permutations-for-di-sequence/
 >135. 分发糖果，左右各扫一遍取max
 
 Coming from:https://leetcode-cn.com/problems/candy/
+
+
+### [partition-equal-subset-sum](LeetCode/LeetCode416partition-equal-subset-sum.py)
+
+`01背包问题，这题主要考虑提前跳出条件`
+
+Coming from:https://leetcode-cn.com/problems/partition-equal-subset-sum/
