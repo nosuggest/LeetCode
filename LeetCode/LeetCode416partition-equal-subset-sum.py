@@ -3,11 +3,6 @@
 # @Time    : 2019/9/16 2:22 PM
 # @Author  : Slade
 # @File    : LeetCode416partition-equal-subset-sum.py
-# !/usr/bin/env python
-# -*- coding: utf-8 -*-
-# @Time    : 2019/9/16 8:39 AM
-# @Author  : Slade
-# @File    : LeetCode416partition-equal-subset-sum.py
 '''
 给定一个只包含正整数的非空数组。是否可以将这个数组分割成两个子集，使得两个子集的元素和相等。
 注意:
@@ -21,6 +16,7 @@
 示例 2:
 输入: [1, 2, 3, 5]
 输出: false
+
 解释: 数组不能分割成两个元素和相等的子集.
 '''
 
