@@ -657,3 +657,9 @@ Coming from:https://leetcode-cn.com/problems/longest-palindromic-substring/
 `这题技巧题，理解sorted中的cmp和key的作用，key是sorted元素判断依据的接受入口，而接收值需要调用functools中的cmp_to_key进行包装，python2不用这么复杂`
 
 Coming from:https://leetcode-cn.com/problems/largest-number/
+
+### [partition-equal-subset-sum](LeetCode/LeetCode416partition-equal-subset-sum.py)
+
+`01背包问题，这题主要考虑提前跳出条件`
+
+Coming from:https://leetcode-cn.com/problems/partition-equal-subset-sum/
