@@ -701,3 +701,9 @@ Coming from:https://leetcode-cn.com/problems/orderly-queue/
 >举例:N=6,(1,6]之间包括2,3,4,5,6,2=2,3=3,4=2*2,5=5,6=2*3,所以对应质数和位1+1+2+1+2=7
 
 ```我做的是最简单的实现，回溯求解```
+
+### [target-sum](LeetCode/LeetCode494target-sum.py)
+
+```这题有点难，01背包+递归逻辑，值得面试前看一波```
+
+Coming from:https://leetcode-cn.com/problems/target-sum/
