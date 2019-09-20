@@ -706,4 +706,9 @@ Coming from:https://leetcode-cn.com/problems/orderly-queue/
 
 ```这题有点难，01背包+递归逻辑，值得面试前看一波```
 
+```
+难点1：把原问题转换为算背包容积的问题，因为p-n=t,p-n+p+n=sum+t,p=(sum+t)/2
+难点2：dp[i]=dp[i]+dp[i-num]
+```
+
 Coming from:https://leetcode-cn.com/problems/target-sum/
