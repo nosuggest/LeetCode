@@ -712,3 +712,14 @@ Coming from:https://leetcode-cn.com/problems/orderly-queue/
 ```
 
 Coming from:https://leetcode-cn.com/problems/target-sum/
+
+### [palindromic-substrings](LeetCode/LeetCode647palindromic-substrings.py)
+
+```回文子串问题```
+
+```
+方法1：dp
+方法2：中间搜索
+```
+
+Coming from:https://leetcode-cn.com/problems/palindromic-substrings/
