@@ -723,3 +723,7 @@ Coming from:https://leetcode-cn.com/problems/target-sum/
 ```
 
 Coming from:https://leetcode-cn.com/problems/palindromic-substrings/
+
+### [daily-temperatures](LeetCode/LeetCode739daily-temperatures.py)
+
+Coming from:https://leetcode-cn.com/problems/daily-temperatures/
