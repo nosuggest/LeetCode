@@ -736,3 +736,12 @@ Coming from:https://leetcode-cn.com/problems/linked-list-random-node/
 ### [binarySearchTree](random/binarySearchTree.py)
 
 `搜索二叉树`
+
+### [binary-tree-inorder-traversal](LeetCode/LeetCode94binary-tree-inorder-traversal.py)
+
+三种写法：
+1、好理解的递归
+2、qsort递归写法
+3、利用栈性质的迭代写法
+
+Coming from:https://leetcode-cn.com/problems/binary-tree-inorder-traversal/
