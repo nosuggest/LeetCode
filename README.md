@@ -727,3 +727,12 @@ Coming from:https://leetcode-cn.com/problems/palindromic-substrings/
 ### [daily-temperatures](LeetCode/LeetCode739daily-temperatures.py)
 
 Coming from:https://leetcode-cn.com/problems/daily-temperatures/
+
+
+### [linked-list-random-node](LeetCode/LeetCode382linked-list-random-node.py)
+
+Coming from:https://leetcode-cn.com/problems/linked-list-random-node/
+
+### [binarySearchTree](random/binarySearchTree.py)
+
+`搜索二叉树`
