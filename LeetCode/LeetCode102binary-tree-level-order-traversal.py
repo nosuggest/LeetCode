@@ -33,3 +33,24 @@ class Solution(object):
                     queue.append(node.right)
             ans.append(tmp)
         return ans
+
+
+class Solution1(object):
+    def levelOrder(self, root):
+        """
+        :type root: TreeNode
+        :rtype: List[List[int]]
+        """
+        ans = []
+
+        def helper(root, depth):
+            if not root:
+                return
+            # 第一次便利到depth
+            if len(ans) == depth:
+                ans.append([])
+            ans[depth].append(root.val)
+            helper(root.left, depth + 1)
+            helper(root.right, depth + 1)
+        helper(root,0)
+        return ans
