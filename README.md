@@ -759,3 +759,9 @@ Coming from:https://leetcode-cn.com/problems/binary-tree-level-order-traversal/
 `二叉树深度计算，利用了递归性质`
 
 Coming from:https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/
+
+### [merge-two-binary-trees](LeetCode/LeetCode617merge-two-binary-trees.py)
+
+`二叉树合并，利用了递归性质`
+
+Coming from:https://leetcode-cn.com/problems/merge-two-binary-trees/
