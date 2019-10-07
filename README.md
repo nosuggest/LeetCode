@@ -753,3 +753,9 @@ Coming from:https://leetcode-cn.com/problems/binary-tree-inorder-traversal/
 `二叉树层序遍历，利用了队列先进先出的性质`
 
 Coming from:https://leetcode-cn.com/problems/binary-tree-level-order-traversal/
+
+### [maximum-depth-of-binary-tree](LeetCode/LeetCode104maximum-depth-of-binary-tree.py)
+
+`二叉树深度计算，利用了递归性质`
+
+Coming from:https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/
