@@ -765,3 +765,7 @@ Coming from:https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/
 `二叉树合并，利用了递归性质`
 
 Coming from:https://leetcode-cn.com/problems/merge-two-binary-trees/
+
+### [文本编辑距离](random/文本编辑距离.py)
+
+### [01背包](random/01背包.py)
