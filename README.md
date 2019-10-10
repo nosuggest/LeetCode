@@ -769,3 +769,12 @@ Coming from:https://leetcode-cn.com/problems/merge-two-binary-trees/
 ### [文本编辑距离](random/文本编辑距离.py)
 
 ### [01背包](random/01背包.py)
+
+### [diameter-of-binary-tree](LeetCode/LeetCode543diameter-of-binary-tree.py)
+
+`结点之间的最大距离，和104题的深度一样`
+
+比较坑的点：只有一个结点的时候，该题认为点重合，距离为0
+做题思路就是：遍历所有结点，保存所有结点作为根结点的情况下，左右子树的最大深度和即可
+
+Coming from:https://leetcode-cn.com/problems/diameter-of-binary-tree/
