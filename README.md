@@ -782,10 +782,12 @@ Coming from:https://leetcode-cn.com/problems/diameter-of-binary-tree/
 ### [convert-bst-to-greater-tree](LeetCode/LeetCode538convert-bst-to-greater-tree.py)
 
 `先遍历右子树的中序遍历，面试之前一定要看，易于理解递归在二叉树中的应用`
+
+```
 1、先遍历到右树的根树，然后把根树的value赋值给add
 2、更新此树对应的父结点，并更新父结点对应的value = value+add
 3、同时再更新add，把父结点的值也更新到add上
 4、再更新父结点的左子树的value结点
 5、这样一次更新便完成了
-
+```
 Coming from:https://leetcode-cn.com/problems/convert-bst-to-greater-tree/
