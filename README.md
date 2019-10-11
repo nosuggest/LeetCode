@@ -791,3 +791,9 @@ Coming from:https://leetcode-cn.com/problems/diameter-of-binary-tree/
 5、这样一次更新便完成了
 ```
 Coming from:https://leetcode-cn.com/problems/convert-bst-to-greater-tree/
+
+### [invert-binary-tree](LeetCode/LeetCode226invert-binary-tree.py)
+
+`反转树，相互对称`
+
+Coming from:https://leetcode-cn.com/problems/invert-binary-tree/
