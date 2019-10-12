@@ -815,3 +815,28 @@ Coming from:https://leetcode-cn.com/problems/implement-trie-prefix-tree/
 4. **preOrderTraver是先遍历左子树再遍历右子树的，所以preOrderTraver[1:3中的长度+1]即为左子树下次递归中的preOrderTraver**
 
 Coming from:https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+
+### [serialize-and-deserialize-binary-tree](LeetCode/LeetCode297serialize-and-deserialize-binary-tree.py)
+
+`二叉树-->list//list-->二叉树`
+
+```
+        tmp = data.pop(0)
+        if tmp == "null":
+            return None
+        root = TreeNode(int(tmp))
+```
+这三行很重要，`data.pop`不断的拿结点去赋值，`if`判断条件用来当数据到最底层时候，跳出此次递归分支，切换到另一个子树上（此处为右子树）
+
+Coming from:https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/
+
+### [lowest-common-ancestor-of-a-binary-tree](LeetCode/LeetCode236lowest-common-ancestor-of-a-binary-tree.py)
+
+`left if right is None else right if left is None else root`
+这行代码的背后：
+1、left 来自于左子树查找p,q的结果，如果查到了返回对应，没有的话返回None
+2、right 来自于右子树查找p,q的结果，如果查到了返回对应，没有的话返回None
+3、如果分别来自左右子树，意味着left和right都不为None，则返回改root，即为最近的父结点
+4、一旦查到，剩下的搜索结果都会为None，又回到了1，2两种情况
+
+Coming from:https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/
