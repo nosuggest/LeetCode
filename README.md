@@ -803,3 +803,15 @@ Coming from:https://leetcode-cn.com/problems/invert-binary-tree/
 `tire 字典实现`
 
 Coming from:https://leetcode-cn.com/problems/implement-trie-prefix-tree/
+
+### [construct-binary-tree-from-preorder-and-inorder-traversal](LeetCode/LeetCode105construct-binary-tree-from-preorder-and-inorder-traversal.py)
+
+`360面试题，真有意思`
+
+需要注意的点：
+1. preOrderTraver中的第一个元素必然是根结点，第二个元素开始为左右子树结点
+2. inOrderTraver中的找到preOrderTraver中的第一个元素的位置中左侧必然是左子树，右侧必然是右子树
+3. **2中找到的左子树长度其实就是list中切点index，且左子树不论在preOrderTraver还是在inOrderTraver中长度必然一致**
+4. **preOrderTraver是先遍历左子树再遍历右子树的，所以preOrderTraver[1:3中的长度+1]即为左子树下次递归中的preOrderTraver**
+
+Coming from:https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
