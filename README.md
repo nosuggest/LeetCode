@@ -841,8 +841,32 @@ Coming from:https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tr
 
 Coming from:https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/
 
+### [lowest-common-ancestor-of-a-binary-search-tree](LeetCode/LeetCode235lowest-common-ancestor-of-a-binary-search-tree.py)
+
+`和上面一题一摸一样`
+
+Coming from:https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
+
 ### [unique-binary-search-trees](LeetCode/LeetCode96unique-binary-search-trees.py)
 
 `动态规划`
 
 Coming from:https://leetcode-cn.com/problems/unique-binary-search-trees/
+
+### [symmetric-tree](LeetCode/LeetCode101symmetric-tree.py)
+
+`层次遍历`
+
+Coming from:https://leetcode-cn.com/problems/symmetric-tree/
+
+### [validate-binary-search-tree](LeetCode/LeetCode98validate-binary-search-tree.py)
+
+`搜索二叉树的左支<结点<右支，正好可以用中序遍历比较`
+
+```
+BST两个特点
+1、左支<结点<右支
+2、无重复
+```
+
+Coming from:https://leetcode-cn.com/problems/validate-binary-search-tree/
