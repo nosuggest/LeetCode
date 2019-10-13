@@ -870,3 +870,9 @@ BST两个特点
 ```
 
 Coming from:https://leetcode-cn.com/problems/validate-binary-search-tree/
+
+### [binary-tree-maximum-path-sum](LeetCode/LeetCode124binary-tree-maximum-path-sum.py)
+
+`类似104题、543题这种递归的方式`
+
+Coming from:https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/
