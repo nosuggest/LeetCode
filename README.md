@@ -840,3 +840,9 @@ Coming from:https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tr
 4、一旦查到，剩下的搜索结果都会为None，又回到了1，2两种情况
 
 Coming from:https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/
+
+### [unique-binary-search-trees](LeetCode/LeetCode96unique-binary-search-trees.py)
+
+`动态规划`
+
+Coming from:https://leetcode-cn.com/problems/unique-binary-search-trees/
