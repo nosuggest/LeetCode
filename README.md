@@ -876,3 +876,18 @@ Coming from:https://leetcode-cn.com/problems/validate-binary-search-tree/
 `类似104题、543题这种递归的方式`
 
 Coming from:https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/
+
+### [path-sum-iii](LeetCode/LeetCode437path-sum-iii.py)
+
+`dfs+两数之和`
+
+
+>这题leetcode认为是简单，但是我觉得贼难：
+1、python闭包的理解，count虽然是局部遍历，但是在递归的时候，每个count都是独立的
+2、dfs(root.？？？？？, sum - root.val)用的是两数之和的逻辑进行递归
+3、dfs(root,sum) + self.pathSum(root.left, sum) + self.pathSum(root.right, sum)
+这个用的是遍历所有结点的方法
+
+换句话说，这题解法是函数用递归实现，函数体是另外一个递归真的有点恶心
+
+Coming from:https://leetcode-cn.com/problems/path-sum-iii/
