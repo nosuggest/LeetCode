@@ -945,3 +945,9 @@ Coming from:https://leetcode-cn.com/problems/construct-binary-tree-from-preorder
 层次遍历翻版
 
 Coming from:https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/
+
+### [convert-sorted-array-to-binary-search-tree](LeetCode/LeetCode108convert-sorted-array-to-binary-search-tree.py)
+
+平衡二叉树：二分查找+递归
+
+Coming from:https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/
