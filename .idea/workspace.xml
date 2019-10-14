@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="二叉树+两数之和+dfs">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode95unique-binary-search-trees-ii.py" />
+    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="不同的二叉搜索树  递归全罗列">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode100same-tree.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -49,8 +49,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="271">
-                <caret line="897" column="83" selection-start-line="897" selection-start-column="83" selection-end-line="897" selection-end-column="83" />
+              <first_editor relative-caret-position="256">
+                <caret line="903" column="7" selection-start-line="903" selection-start-column="7" selection-end-line="903" selection-end-column="7" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -69,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LeetCode95unique-binary-search-trees-ii.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode95unique-binary-search-trees-ii.py">
+      <file leaf-file-name="LeetCode100same-tree.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode100same-tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+            <state relative-caret-position="705">
+              <caret line="47" column="38" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -100,7 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LeetCode/LeetCode169majority-element.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode283move-zeroes.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode461hamming-distance.py" />
         <option value="$PROJECT_DIR$/src/Solution9.java" />
@@ -150,6 +149,7 @@
         <option value="$PROJECT_DIR$/LeetCode/LeetCode124binary-tree-maximum-path-sum.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode437path-sum-iii.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode95unique-binary-search-trees-ii.py" />
+        <option value="$PROJECT_DIR$/LeetCode/LeetCode100same-tree.py" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -936,7 +936,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570974909265</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="不同的二叉搜索树  递归全罗列">
+      <created>1571022112698</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1571022112698</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1006,7 +1013,8 @@
     <MESSAGE value="二叉树各种遍历方法实际的应用" />
     <MESSAGE value="二叉树最大深度的翻版" />
     <MESSAGE value="二叉树+两数之和+dfs" />
-    <option name="LAST_COMMIT_MESSAGE" value="二叉树+两数之和+dfs" />
+    <MESSAGE value="不同的二叉搜索树  递归全罗列" />
+    <option name="LAST_COMMIT_MESSAGE" value="不同的二叉搜索树  递归全罗列" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1041,13 +1049,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode1054DistantBarcodes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode794valid-tic-tac-toe-state.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1314,6 +1315,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1390,11 +1392,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode100same-tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="38" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="271">
-            <caret line="897" column="83" selection-start-line="897" selection-start-column="83" selection-end-line="897" selection-end-column="83" />
+          <first_editor relative-caret-position="256">
+            <caret line="903" column="7" selection-start-line="903" selection-start-column="7" selection-end-line="903" selection-end-column="7" />
             <folding />
           </first_editor>
           <second_editor>
