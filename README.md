@@ -916,3 +916,15 @@ Coming from:https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-trav
 **BST+中序遍历的结果是有序的**,`self.ans.append(root)`直接加结点，而非加值了
 
 Coming from:https://leetcode-cn.com/problems/recover-binary-search-tree/
+
+### [house-robber-iii](LeetCode/LeetCode337house-robber-iii.py)
+
+**基于树结构+动态规划**，可谓是花哨到极点了，最厉害的在于:
+```
+1、在每个结点上构造了一个[a,b]，其中[a,b],a为不考虑root.val下的max值，b为考虑当前root.val下的最大值
+2、max(left)+max(right)涵盖了不考虑当前结点下的left+right最优解，其很好的控制了跳层相加的逻辑
+```
+
+
+Coming from:https://leetcode-cn.com/problems/house-robber-iii/
+
