@@ -891,3 +891,10 @@ Coming from:https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/
 换句话说，这题解法是函数用递归实现，函数体是另外一个递归真的有点恶心
 
 Coming from:https://leetcode-cn.com/problems/path-sum-iii/
+
+### [unique-binary-search-trees-ii](LeetCode/LeetCode95unique-binary-search-trees-ii.py)
+
+和[unique-binary-search-trees](LeetCode/LeetCode96unique-binary-search-trees.py)这题思路一样
+不同的是，unique-binary-search-trees用的是dp，本题用的是递归，核心和之前一样，\[start,i]作为左树去递归，node(i)作为根，\[i+1,end]作为右树去递归
+
+Coming from:https://leetcode-cn.com/problems/unique-binary-search-trees-ii/
