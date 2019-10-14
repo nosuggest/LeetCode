@@ -928,3 +928,8 @@ Coming from:https://leetcode-cn.com/problems/recover-binary-search-tree/
 
 Coming from:https://leetcode-cn.com/problems/house-robber-iii/
 
+### [construct-binary-tree-from-inorder-and-postorder-traversal](LeetCode/LeetCode106construct-binary-tree-from-inorder-and-postorder-traversal.py)
+
+和[construct-binary-tree-from-preorder-and-inorder-traversal](LeetCode/LeetCode105construct-binary-tree-from-preorder-and-inorder-traversal.py)类似
+
+Coming from:https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
