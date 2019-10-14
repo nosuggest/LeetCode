@@ -962,7 +962,7 @@ Coming from:https://leetcode-cn.com/problems/balanced-binary-tree/
 
 Coming from:https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/
 
-### [minimum-depth-of-binary-tree](LeetCode/LeetCode112path-sum.py)
+### [path-sum](LeetCode/LeetCode112path-sum.py)
 
 Coming from:https://leetcode-cn.com/problems/path-sum/
 
