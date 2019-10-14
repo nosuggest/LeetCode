@@ -933,3 +933,9 @@ Coming from:https://leetcode-cn.com/problems/house-robber-iii/
 和[construct-binary-tree-from-preorder-and-inorder-traversal](LeetCode/LeetCode105construct-binary-tree-from-preorder-and-inorder-traversal.py)类似
 
 Coming from:https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
+
+### [construct-binary-tree-from-preorder-and-postorder-traversal](LeetCode/LeetCode889construct-binary-tree-from-preorder-and-postorder-traversal.py)
+
+和[construct-binary-tree-from-preorder-and-inorder-traversal](LeetCode/LeetCode105construct-binary-tree-from-preorder-and-inorder-traversal.py)类似
+
+Coming from:https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/
