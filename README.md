@@ -968,3 +968,10 @@ Coming from:https://leetcode-cn.com/problems/path-sum/
 
 上面这两题在return的时候都做了是否是根结点的判断:`left if root.right is None else right if root.left is None else left or right`
 
+### [path-sum-ii](LeetCode/LeetCode113path-sum-ii.py)
+
+dfs
+
+Coming from:https://leetcode-cn.com/problems/path-sum-ii/
+
+

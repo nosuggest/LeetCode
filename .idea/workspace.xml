@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="二叉树路径总和">
+    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="fix name">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode113path-sum-ii.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -58,8 +59,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="504">
-                <caret line="964" column="13" selection-start-line="964" selection-start-column="13" selection-end-line="964" selection-end-column="13" />
+              <first_editor relative-caret-position="534">
+                <caret line="972" column="3" selection-start-line="972" selection-start-column="3" selection-end-line="972" selection-end-column="3" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -69,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LeetCode112path-sum.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode112path-sum.py">
+      <file leaf-file-name="LeetCode113path-sum-ii.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode113path-sum-ii.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+            <state relative-caret-position="345">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -100,7 +101,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/random/花匠摆花.py" />
         <option value="$PROJECT_DIR$/random/素数伴侣.py" />
         <option value="$PROJECT_DIR$/LeetCode/.idea/LeetCode174dungeon-game.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode53maximum-subarray.py" />
@@ -150,6 +150,7 @@
         <option value="$PROJECT_DIR$/LeetCode/LeetCode110balanced-binary-tree.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode111minimum-depth-of-binary-tree.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode112path-sum.py" />
+        <option value="$PROJECT_DIR$/LeetCode/LeetCode113path-sum-ii.py" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -649,13 +650,6 @@
       <workItem from="1566474466127" duration="154000" />
       <workItem from="1569810765255" duration="3178000" />
     </task>
-    <task id="LOCAL-00005" summary="new  java one">
-      <created>1565751220032</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1565751220032</updated>
-    </task>
     <task id="LOCAL-00006" summary="new  java one">
       <created>1565762510325</created>
       <option name="number" value="00006" />
@@ -992,7 +986,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571062536557</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="fix name">
+      <created>1571062568450</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1571062568450</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1103,7 +1104,8 @@
     <MESSAGE value="平衡二叉树" />
     <MESSAGE value="二叉树的最小深度" />
     <MESSAGE value="二叉树路径总和" />
-    <option name="LAST_COMMIT_MESSAGE" value="二叉树路径总和" />
+    <MESSAGE value="fix name" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix name" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1145,13 +1147,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/random/连乘质数和.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="53" column="29" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode135candy.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1499,6 +1494,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode113path-sum-ii.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1511,8 +1514,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="504">
-            <caret line="964" column="13" selection-start-line="964" selection-start-column="13" selection-end-line="964" selection-end-column="13" />
+          <first_editor relative-caret-position="534">
+            <caret line="972" column="3" selection-start-line="972" selection-start-column="3" selection-end-line="972" selection-end-column="3" />
             <folding />
           </first_editor>
           <second_editor>
