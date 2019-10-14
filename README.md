@@ -948,6 +948,12 @@ Coming from:https://leetcode-cn.com/problems/binary-tree-level-order-traversal-i
 
 ### [convert-sorted-array-to-binary-search-tree](LeetCode/LeetCode108convert-sorted-array-to-binary-search-tree.py)
 
-平衡二叉树：二分查找+递归
+有序数组-->平衡二叉树：二分查找+递归
 
 Coming from:https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/
+
+### [balanced-binary-tree](LeetCode/LeetCode110balanced-binary-tree.py)
+
+判断是否为平衡二叉树，利用的是dfs+[maximum-depth-of-binary-tree](LeetCode/LeetCode104maximum-depth-of-binary-tree.py)二叉树深度计算的方法
+
+Coming from:https://leetcode-cn.com/problems/balanced-binary-tree/
