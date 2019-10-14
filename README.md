@@ -910,3 +910,9 @@ Coming from:https://leetcode-cn.com/problems/same-tree/
 `层序遍历改写`
 
 Coming from:https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/
+
+### [recover-binary-search-tree](LeetCode/LeetCode99recover-binary-search-tree.py)
+
+**BST+中序遍历的结果是有序的**,`self.ans.append(root)`直接加结点，而非加值了
+
+Coming from:https://leetcode-cn.com/problems/recover-binary-search-tree/
