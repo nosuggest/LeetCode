@@ -957,3 +957,7 @@ Coming from:https://leetcode-cn.com/problems/convert-sorted-array-to-binary-sear
 判断是否为平衡二叉树，利用的是dfs+[maximum-depth-of-binary-tree](LeetCode/LeetCode104maximum-depth-of-binary-tree.py)二叉树深度计算的方法
 
 Coming from:https://leetcode-cn.com/problems/balanced-binary-tree/
+
+### [minimum-depth-of-binary-tree](LeetCode/LeetCode111minimum-depth-of-binary-tree.py)
+
+Coming from:https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/

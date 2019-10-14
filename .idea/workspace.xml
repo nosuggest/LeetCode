@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="平衡二叉树">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode110balanced-binary-tree.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode111minimum-depth-of-binary-tree.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -59,8 +59,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="445">
-                <caret line="954" column="67" selection-start-line="954" selection-start-column="36" selection-end-line="954" selection-end-column="67" />
+              <first_editor relative-caret-position="519">
+                <caret line="960" column="83" selection-start-line="960" selection-start-column="44" selection-end-line="960" selection-end-column="83" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -70,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LeetCode110balanced-binary-tree.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode110balanced-binary-tree.py">
+      <file leaf-file-name="LeetCode111minimum-depth-of-binary-tree.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode111minimum-depth-of-binary-tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+            <state relative-caret-position="165">
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -101,7 +101,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LeetCode/LeetCode139word-break.py" />
         <option value="$PROJECT_DIR$/random/Lru_Cache.py" />
         <option value="$PROJECT_DIR$/random/花匠摆花.py" />
         <option value="$PROJECT_DIR$/random/素数伴侣.py" />
@@ -150,8 +149,9 @@
         <option value="$PROJECT_DIR$/LeetCode/LeetCode889construct-binary-tree-from-preorder-and-postorder-traversal.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode107binary-tree-level-order-traversal-ii.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode108convert-sorted-array-to-binary-search-tree.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode110balanced-binary-tree.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/LeetCode/LeetCode111minimum-depth-of-binary-tree.py" />
       </list>
     </option>
   </component>
@@ -650,13 +650,6 @@
       <workItem from="1566474466127" duration="154000" />
       <workItem from="1569810765255" duration="3178000" />
     </task>
-    <task id="LOCAL-00002" summary="Default Changelist">
-      <created>1565249664877</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1565249664877</updated>
-    </task>
     <task id="LOCAL-00003" summary="new  python one">
       <created>1565356122003</created>
       <option name="number" value="00003" />
@@ -993,7 +986,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571055890814</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="平衡二叉树">
+      <created>1571056854791</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1571056854791</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1144,13 +1144,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode152maximum-product-subarray.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/random/BubbleSort.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1326,6 +1319,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1382,6 +1376,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1396,6 +1391,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
           <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1484,6 +1480,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode110balanced-binary-tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1496,8 +1500,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="445">
-            <caret line="954" column="67" selection-start-line="954" selection-start-column="36" selection-end-line="954" selection-end-column="67" />
+          <first_editor relative-caret-position="519">
+            <caret line="960" column="83" selection-start-line="960" selection-start-column="44" selection-end-line="960" selection-end-column="83" />
             <folding />
           </first_editor>
           <second_editor>
@@ -1506,10 +1510,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode110balanced-binary-tree.py">
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode111minimum-depth-of-binary-tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+        <state relative-caret-position="165">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
           <folding />
         </state>
       </provider>
