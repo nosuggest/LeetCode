@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="填充每个节点的下一个右侧节点指针">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode117populating-next-right-pointers-in-each-node-ii.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="记录下一层的结点，层次遍历填充树之间的关系">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -46,12 +44,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="505">
-                <caret line="988" column="119" selection-start-line="988" selection-start-column="62" selection-end-line="988" selection-end-column="119" />
+              <first_editor relative-caret-position="535">
+                <caret line="990" column="45" selection-start-line="990" selection-start-column="45" selection-end-line="990" selection-end-column="45" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -70,7 +68,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LeetCode117populating-next-right-pointers-in-each-node-ii.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LeetCode117populating-next-right-pointers-in-each-node-ii.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode117populating-next-right-pointers-in-each-node-ii.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="465">
@@ -150,8 +148,8 @@
         <option value="$PROJECT_DIR$/LeetCode/LeetCode113path-sum-ii.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode114flatten-binary-tree-to-linked-list.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode116populating-next-right-pointers-in-each-node.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode117populating-next-right-pointers-in-each-node-ii.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -650,13 +648,6 @@
       <workItem from="1566474466127" duration="154000" />
       <workItem from="1569810765255" duration="3178000" />
     </task>
-    <task id="LOCAL-00009" summary="new  java one">
-      <created>1565775424253</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1565775424253</updated>
-    </task>
     <task id="LOCAL-00010" summary="new  java one">
       <created>1565785902745</created>
       <option name="number" value="00010" />
@@ -993,7 +984,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571142682091</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="记录下一层的结点，层次遍历填充树之间的关系">
+      <created>1571144093008</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1571144093008</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1080,7 +1078,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="new  python one" />
     <MESSAGE value="fix 164 bug change max_value to min_value" />
     <MESSAGE value="add new java" />
     <MESSAGE value="add new python" />
@@ -1105,7 +1102,8 @@
     <MESSAGE value="dfs" />
     <MESSAGE value="二叉树展开为链表" />
     <MESSAGE value="填充每个节点的下一个右侧节点指针" />
-    <option name="LAST_COMMIT_MESSAGE" value="填充每个节点的下一个右侧节点指针" />
+    <MESSAGE value="记录下一层的结点，层次遍历填充树之间的关系" />
+    <option name="LAST_COMMIT_MESSAGE" value="记录下一层的结点，层次遍历填充树之间的关系" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1487,11 +1485,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode117populating-next-right-pointers-in-each-node-ii.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="505">
-            <caret line="988" column="119" selection-start-line="988" selection-start-column="62" selection-end-line="988" selection-end-column="119" />
+          <first_editor relative-caret-position="535">
+            <caret line="990" column="45" selection-start-line="990" selection-start-column="45" selection-end-line="990" selection-end-column="45" />
             <folding />
           </first_editor>
           <second_editor>
@@ -1506,14 +1512,6 @@
             <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode117populating-next-right-pointers-in-each-node-ii.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
