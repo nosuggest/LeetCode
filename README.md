@@ -974,4 +974,6 @@ dfs
 
 Coming from:https://leetcode-cn.com/problems/path-sum-ii/
 
+### [flatten-binary-tree-to-linked-list](LeetCode/LeetCode114flatten-binary-tree-to-linked-list.py)
 
+Coming from:https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/
