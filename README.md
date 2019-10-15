@@ -976,4 +976,12 @@ Coming from:https://leetcode-cn.com/problems/path-sum-ii/
 
 ### [flatten-binary-tree-to-linked-list](LeetCode/LeetCode114flatten-binary-tree-to-linked-list.py)
 
+`有点技巧性`
+
 Coming from:https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/
+
+### [populating-next-right-pointers-in-each-node](LeetCode/LeetCode116populating-next-right-pointers-in-each-node.py)
+
+`跨结点直接的指向关系由root.next is not None产生`
+
+Coming from:https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/
