@@ -985,3 +985,9 @@ Coming from:https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/
 `跨结点直接的指向关系由root.next is not None产生`
 
 Coming from:https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/
+
+### [populating-next-right-pointers-in-each-node-ii](LeetCode/LeetCode117populating-next-right-pointers-in-each-node-ii.py)
+
+`与上一次递归不同，这一次因为不知道root对应的下一层是否有空结点，所以针对上一层的结果进行迭代`
+
+Coming from:https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii/
