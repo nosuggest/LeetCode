@@ -1068,3 +1068,9 @@ Coming from:https://leetcode-cn.com/problems/serialize-and-deserialize-bst/
 `看子节点的是否为None，分情况讨论`
 
 Coming from:https://leetcode-cn.com/problems/delete-node-in-a-bst/    
+
+### [find-mode-in-binary-search-tree](LeetCode/LeetCode501find-mode-in-binary-search-tree.py)
+
+`直接遍历统计`
+
+Coming from:https://leetcode-cn.com/problems/find-mode-in-binary-search-tree/    
