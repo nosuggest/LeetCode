@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="迭代版的二叉树遍历">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode199binary-tree-right-side-view.py" />
+    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="层序遍历，保存最后一个结点">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode222count-complete-tree-nodes.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -50,8 +50,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="447">
-                <caret line="1014" column="43" selection-start-line="1014" selection-start-column="43" selection-end-line="1014" selection-end-column="81" />
+              <first_editor relative-caret-position="492">
+                <caret line="1020" column="41" selection-start-line="1020" selection-start-column="41" selection-end-line="1020" selection-end-column="77" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -70,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LeetCode199binary-tree-right-side-view.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode199binary-tree-right-side-view.py">
+      <file leaf-file-name="LeetCode222count-complete-tree-nodes.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode222count-complete-tree-nodes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="35" selection-end-column="21" />
+            <state relative-caret-position="345">
+              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -101,7 +101,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/random/二分查找.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode135candy.py" />
         <option value="$PROJECT_DIR$/random/连乘质数和.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode647palindromic-substrings.py" />
@@ -150,8 +149,9 @@
         <option value="$PROJECT_DIR$/LeetCode/LeetCode129sum-root-to-leaf-numbers.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode144binary-tree-preorder-traversal.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode145binary-tree-postorder-traversal.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode199binary-tree-right-side-view.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/LeetCode/LeetCode222count-complete-tree-nodes.py" />
       </list>
     </option>
   </component>
@@ -650,13 +650,6 @@
       <workItem from="1566474466127" duration="154000" />
       <workItem from="1569810765255" duration="3178000" />
     </task>
-    <task id="LOCAL-00014" summary="add new java">
-      <created>1566183205669</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1566183205669</updated>
-    </task>
     <task id="LOCAL-00015" summary="add new python">
       <created>1566216136157</created>
       <option name="number" value="00015" />
@@ -993,7 +986,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571197026136</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="层序遍历，保存最后一个结点">
+      <created>1571198187694</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1571198187694</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1080,7 +1080,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add new python" />
     <MESSAGE value="简单递归" />
     <MESSAGE value="转转校招" />
     <MESSAGE value="回文子串" />
@@ -1105,7 +1104,8 @@
     <MESSAGE value="记录下一层的结点，层次遍历填充树之间的关系" />
     <MESSAGE value="dfs深度遍历，注意跳出条件" />
     <MESSAGE value="迭代版的二叉树遍历" />
-    <option name="LAST_COMMIT_MESSAGE" value="迭代版的二叉树遍历" />
+    <MESSAGE value="层序遍历，保存最后一个结点" />
+    <option name="LAST_COMMIT_MESSAGE" value="层序遍历，保存最后一个结点" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1147,13 +1147,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode739daily-temperatures.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode398random-pick-index.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1493,11 +1486,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode199binary-tree-right-side-view.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="447">
-            <caret line="1014" column="43" selection-start-line="1014" selection-start-column="43" selection-end-line="1014" selection-end-column="81" />
+          <first_editor relative-caret-position="492">
+            <caret line="1020" column="41" selection-start-line="1020" selection-start-column="41" selection-end-line="1020" selection-end-column="77" />
             <folding />
           </first_editor>
           <second_editor>
@@ -1515,10 +1516,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode199binary-tree-right-side-view.py">
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode222count-complete-tree-nodes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="35" selection-end-column="21" />
+        <state relative-caret-position="345">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
           <folding />
         </state>
       </provider>
