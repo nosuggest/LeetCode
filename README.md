@@ -1025,3 +1025,22 @@ Coming from:https://leetcode-cn.com/problems/count-complete-tree-nodes/
 ### [kth-smallest-element-in-a-bst](LeetCode/LeetCode230kth-smallest-element-in-a-bst.py)
 
 Coming from:https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/
+
+### [binary-search-tree-iterator](LeetCode/LeetCode173binary-search-tree-iterator.py)
+
+`借鉴了上一题中的generation的写法，我觉得非常适合业务中真实使用`
+
+```python
+def search(root):
+    if not root:
+        return
+    for i in search(root.left):
+        yield i
+
+    yield root.val
+
+    for i in search(root.right):
+        yield i
+```
+
+Coming from:https://leetcode-cn.com/problems/binary-search-tree-iterator/

@@ -32,3 +32,18 @@ class Solution(object):
         return self.ans[k - 1]
 
 
+class Solution1:
+    def mid_order(self, root):
+        if not root:
+            return
+        for i in self.mid_order(root.left):
+            yield i
+        yield root.val
+        for i in self.mid_order(root.right):
+            yield i
+
+    def kthSmallest(self, root, K):
+        gen = self.mid_order(root)
+        for _ in range(k - 1):
+            next(gen)
+        return next(gen)
