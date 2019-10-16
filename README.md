@@ -1021,3 +1021,7 @@ Coming from:https://leetcode-cn.com/problems/binary-tree-right-side-view/
 ### [count-complete-tree-nodes](LeetCode/LeetCode222count-complete-tree-nodes.py)
 
 Coming from:https://leetcode-cn.com/problems/count-complete-tree-nodes/
+
+### [kth-smallest-element-in-a-bst](LeetCode/LeetCode230kth-smallest-element-in-a-bst.py)
+
+Coming from:https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/
