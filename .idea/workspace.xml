@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="dfs深度遍历，注意跳出条件">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode144binary-tree-preorder-traversal.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode145binary-tree-postorder-traversal.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-    </list>
+    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="迭代版的二叉树遍历" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -641,13 +636,6 @@
       <workItem from="1566474466127" duration="154000" />
       <workItem from="1569810765255" duration="3178000" />
     </task>
-    <task id="LOCAL-00012" summary="fix 164 bug change max_value to min_value">
-      <created>1565836262231</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1565836262231</updated>
-    </task>
     <task id="LOCAL-00013" summary="add new python">
       <created>1566181121591</created>
       <option name="number" value="00013" />
@@ -984,7 +972,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571189921769</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="迭代版的二叉树遍历">
+      <created>1571197018962</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1571197018962</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1071,7 +1066,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add new java" />
     <MESSAGE value="add new python" />
     <MESSAGE value="简单递归" />
     <MESSAGE value="转转校招" />
@@ -1096,7 +1090,8 @@
     <MESSAGE value="填充每个节点的下一个右侧节点指针" />
     <MESSAGE value="记录下一层的结点，层次遍历填充树之间的关系" />
     <MESSAGE value="dfs深度遍历，注意跳出条件" />
-    <option name="LAST_COMMIT_MESSAGE" value="dfs深度遍历，注意跳出条件" />
+    <MESSAGE value="迭代版的二叉树遍历" />
+    <option name="LAST_COMMIT_MESSAGE" value="迭代版的二叉树遍历" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
