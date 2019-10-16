@@ -1065,6 +1065,6 @@ Coming from:https://leetcode-cn.com/problems/serialize-and-deserialize-bst/
 
 ### [delete-node-in-a-bst](LeetCode/LeetCode450delete-node-in-a-bst.py)
 
-`前序遍历保存，二叉搜索树的中序遍历为升序列，两则可以恢复原树`
+`看子节点的是否为None，分情况讨论`
 
 Coming from:https://leetcode-cn.com/problems/delete-node-in-a-bst/    
