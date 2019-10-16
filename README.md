@@ -1062,3 +1062,9 @@ Coming from:https://leetcode-cn.com/problems/sum-of-left-leaves/
 `前序遍历保存，二叉搜索树的中序遍历为升序列，两则可以恢复原树`
 
 Coming from:https://leetcode-cn.com/problems/serialize-and-deserialize-bst/    
+
+### [delete-node-in-a-bst](LeetCode/LeetCode450delete-node-in-a-bst.py)
+
+`前序遍历保存，二叉搜索树的中序遍历为升序列，两则可以恢复原树`
+
+Coming from:https://leetcode-cn.com/problems/delete-node-in-a-bst/    

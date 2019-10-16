@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode449serialize-and-deserialize-bst.py" />
+    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="前序遍历保存，二叉搜索树的中序遍历为升序列，两则可以恢复原树">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode450delete-node-in-a-bst.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/random/binarySearchTree.py" afterPath="$PROJECT_DIR$/random/binarySearchTree.py" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -51,10 +50,10 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="199">
-                <caret line="1061" column="1" selection-start-line="1061" selection-start-column="1" selection-end-line="1061" selection-end-column="31" />
+              <first_editor relative-caret-position="270">
+                <caret line="1065" column="67" selection-start-line="1065" selection-start-column="36" selection-end-line="1065" selection-end-column="67" />
                 <folding>
-                  <marker date="1571226354969" expanded="true" signature="32494:32644" ph="..." />
+                  <marker date="1571237334140" expanded="true" signature="32494:32644" ph="..." />
                 </folding>
               </first_editor>
               <second_editor>
@@ -67,7 +66,7 @@
               <first_editor relative-caret-position="10815">
                 <caret line="721" column="8" selection-start-line="721" selection-start-column="8" selection-end-line="721" selection-end-column="8" />
                 <folding>
-                  <marker date="1571226354969" expanded="true" signature="32494:32644" ph="..." />
+                  <marker date="1571237334140" expanded="true" signature="32494:32644" ph="..." />
                 </folding>
               </first_editor>
               <second_editor />
@@ -75,21 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LeetCode297serialize-and-deserialize-binary-tree.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode297serialize-and-deserialize-binary-tree.py">
+      <file leaf-file-name="LeetCode450delete-node-in-a-bst.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode450delete-node-in-a-bst.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="45" column="36" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LeetCode449serialize-and-deserialize-bst.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode449serialize-and-deserialize-bst.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+            <state relative-caret-position="324">
+              <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -116,7 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LeetCode/LeetCode382linked-list-random-node.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode94binary-tree-inorder-traversal.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode104maximum-depth-of-binary-tree.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode617merge-two-binary-trees.py" />
@@ -165,8 +153,9 @@
         <option value="$PROJECT_DIR$/LeetCode/LeetCode257binary-tree-paths.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode404sum-of-left-leaves.py" />
         <option value="$PROJECT_DIR$/random/binarySearchTree.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode449serialize-and-deserialize-bst.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/LeetCode/LeetCode450delete-node-in-a-bst.py" />
       </list>
     </option>
   </component>
@@ -665,13 +654,6 @@
       <workItem from="1566474466127" duration="154000" />
       <workItem from="1569810765255" duration="3178000" />
     </task>
-    <task id="LOCAL-00020" summary="add new python">
-      <created>1566529270389</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1566529270389</updated>
-    </task>
     <task id="LOCAL-00021" summary="add new python">
       <created>1566790192835</created>
       <option name="number" value="00021" />
@@ -1008,7 +990,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571209673762</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="前序遍历保存，二叉搜索树的中序遍历为升序列，两则可以恢复原树">
+      <created>1571227800677</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1571227800677</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1095,7 +1084,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="二叉树各种遍历方法实际的应用" />
     <MESSAGE value="二叉树最大深度的翻版" />
     <MESSAGE value="二叉树+两数之和+dfs" />
     <MESSAGE value="不同的二叉搜索树  递归全罗列" />
@@ -1120,7 +1108,8 @@
     <MESSAGE value="generation写二叉树的搜索" />
     <MESSAGE value="dfs" />
     <MESSAGE value="层序遍历，迭代版" />
-    <option name="LAST_COMMIT_MESSAGE" value="层序遍历，迭代版" />
+    <MESSAGE value="前序遍历保存，二叉搜索树的中序遍历为升序列，两则可以恢复原树" />
+    <option name="LAST_COMMIT_MESSAGE" value="前序遍历保存，二叉搜索树的中序遍历为升序列，两则可以恢复原树" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1162,13 +1151,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode494target-sum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="19" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode104maximum-depth-of-binary-tree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1281,6 +1263,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
           <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1303,6 +1286,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1401,6 +1385,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1506,13 +1491,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode450delete-node-in-a-bst.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="199">
-            <caret line="1061" column="1" selection-start-line="1061" selection-start-column="1" selection-end-line="1061" selection-end-column="31" />
+          <first_editor relative-caret-position="270">
+            <caret line="1065" column="67" selection-start-line="1065" selection-start-column="36" selection-end-line="1065" selection-end-column="67" />
             <folding>
-              <marker date="1571226354969" expanded="true" signature="32494:32644" ph="..." />
+              <marker date="1571237334140" expanded="true" signature="32494:32644" ph="..." />
             </folding>
           </first_editor>
           <second_editor>
@@ -1525,7 +1518,7 @@
           <first_editor relative-caret-position="10815">
             <caret line="721" column="8" selection-start-line="721" selection-start-column="8" selection-end-line="721" selection-end-column="8" />
             <folding>
-              <marker date="1571226354969" expanded="true" signature="32494:32644" ph="..." />
+              <marker date="1571237334140" expanded="true" signature="32494:32644" ph="..." />
             </folding>
           </first_editor>
           <second_editor />
