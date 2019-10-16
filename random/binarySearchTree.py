@@ -105,10 +105,13 @@ class binaryTree:
         2、先序遍历左子树
         3、先序遍历右子树
         '''
+        ans = []
         if node is not None:
             print(node.element, end="\t")
-            self.preOrderTraverse(node.lchild)
-            self.preOrderTraverse(node.rchild)
+            ans += [node.element]
+            ans += self.preOrderTraverse(node.lchild)
+            ans += self.preOrderTraverse(node.rchild)
+        return ans
 
     def inOrderTraverse(self, node):
         '''
@@ -132,34 +135,34 @@ class binaryTree:
             self.postOrderTraverse(node.rchild)
             print(node.element, end="\t")
 
-    def levelOrderTraverse(self, node):
-        if node is not None:
-            queue = []
-            queue.append(node)
-            while queue:
-                # 利用队列，先进先出
-                cur = queue.pop(0)
-                print(cur.element, end="\t")
-                if cur.lchild:
-                    queue.append(cur.lchild)
-                if cur.rchild:
-                    queue.append(cur.rchild)
+            def levelOrderTraverse(self, node):
+                if node is not None:
+                    queue = []
+                    queue.append(node)
+                    while queue:
+                        # 利用队列，先进先出
+                        cur = queue.pop(0)
+                        print(cur.element, end="\t")
+                        if cur.lchild:
+                            queue.append(cur.lchild)
+                        if cur.rchild:
+                            queue.append(cur.rchild)
 
 
 if __name__ == '__main__':
     t = binaryTree([17, 5, 35, 2, 11, 29, 38, 9, 16, 7, 8])
-    print(t.getMin(t.root))
-    print(t.getMax(t.root))
+    # print(t.getMin(t.root))
+    # print(t.getMax(t.root))
     # t.insert(18)
     # print(t.root.rchild.lchild.lchild.element)
 
     # t.delete(t.root, 5)
     # print(t.root.lchild.rchild.lchild.lchild.element)
 
-    t.preOrderTraverse(t.root)
+    print (t.preOrderTraverse(t.root))
     print("")
-    t.inOrderTraverse(t.root)
-    print("")
-    t.postOrderTraverse(t.root)
-    print("")
-    t.levelOrderTraverse(t.root)
+    # t.inOrderTraverse(t.root)
+    # print("")
+    # t.postOrderTraverse(t.root)
+    # print("")
+    # t.levelOrderTraverse(t.root)

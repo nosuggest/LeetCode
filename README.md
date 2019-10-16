@@ -1056,3 +1056,9 @@ Coming from:https://leetcode-cn.com/problems/binary-tree-paths/
 `限制性条件下的二叉树遍历计算查找，迭代要比计算更加高效`
 
 Coming from:https://leetcode-cn.com/problems/sum-of-left-leaves/    
+
+### [serialize-and-deserialize-bst](LeetCode/LeetCode449serialize-and-deserialize-bst.py)
+
+`前序遍历保存，二叉搜索树的中序遍历为升序列，两则可以恢复原树`
+
+Coming from:https://leetcode-cn.com/problems/serialize-and-deserialize-bst/    
