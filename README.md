@@ -1050,3 +1050,9 @@ Coming from:https://leetcode-cn.com/problems/binary-search-tree-iterator/
 `dfs`
 
 Coming from:https://leetcode-cn.com/problems/binary-tree-paths/
+
+### [sum-of-left-leaves](LeetCode/LeetCode404sum-of-left-leaves.py)
+
+`限制性条件下的二叉树遍历计算查找，迭代要比计算更加高效`
+
+Coming from:https://leetcode-cn.com/problems/sum-of-left-leaves/    
