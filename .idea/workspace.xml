@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="前序遍历保存，二叉搜索树的中序遍历为升序列，两则可以恢复原树">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode450delete-node-in-a-bst.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-    </list>
+    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="二叉树删除结点" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -654,13 +650,6 @@
       <workItem from="1566474466127" duration="154000" />
       <workItem from="1569810765255" duration="3178000" />
     </task>
-    <task id="LOCAL-00021" summary="add new python">
-      <created>1566790192835</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1566790192835</updated>
-    </task>
     <task id="LOCAL-00022" summary="add new python">
       <created>1567126430589</created>
       <option name="number" value="00022" />
@@ -997,7 +986,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571227800677</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="二叉树删除结点">
+      <created>1571238480402</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1571238480402</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1084,7 +1080,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="二叉树最大深度的翻版" />
     <MESSAGE value="二叉树+两数之和+dfs" />
     <MESSAGE value="不同的二叉搜索树  递归全罗列" />
     <MESSAGE value="层序遍历改写" />
@@ -1109,7 +1104,8 @@
     <MESSAGE value="dfs" />
     <MESSAGE value="层序遍历，迭代版" />
     <MESSAGE value="前序遍历保存，二叉搜索树的中序遍历为升序列，两则可以恢复原树" />
-    <option name="LAST_COMMIT_MESSAGE" value="前序遍历保存，二叉搜索树的中序遍历为升序列，两则可以恢复原树" />
+    <MESSAGE value="二叉树删除结点" />
+    <option name="LAST_COMMIT_MESSAGE" value="二叉树删除结点" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
