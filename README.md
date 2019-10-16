@@ -1044,3 +1044,9 @@ def search(root):
 ```
 
 Coming from:https://leetcode-cn.com/problems/binary-search-tree-iterator/
+
+### [binary-tree-paths](LeetCode/LeetCode257binary-tree-paths.py)
+
+`dfs`
+
+Coming from:https://leetcode-cn.com/problems/binary-tree-paths/
