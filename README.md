@@ -997,3 +997,18 @@ Coming from:https://leetcode-cn.com/problems/populating-next-right-pointers-in-e
 `dfs`
 
 Coming from:https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/
+
+### [binary-tree-preorder-traversal](LeetCode/LeetCode144binary-tree-preorder-traversal.py)
+
+`前序遍历迭代版，技巧就是queue进栈的策略是先右后左，因为前序遍历是中左右，进栈越早出栈越晚`
+
+Coming from:https://leetcode-cn.com/problems/binary-tree-preorder-traversal/
+
+### [binary-tree-postorder-traversal](LeetCode/LeetCode145binary-tree-postorder-traversal.py)
+
+`巧妙的解法：宽度搜索+逆序出栈==后序输出`。另外，这份代码在`node = queue.pop()`-->`node = queue.pop(0)`,加个0就是层序遍历
+
+Coming from:https://leetcode-cn.com/problems/binary-tree-postorder-traversal/
+
+>以上两题加[binary-tree-inorder-traversal](LeetCode/LeetCode94binary-tree-inorder-traversal.py)都是迭代的解法，前序中序写的比较中规中矩，后序写的真的是惊艳
+
