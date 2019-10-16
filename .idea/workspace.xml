@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="搜索二叉树BST删除结点">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode501find-mode-in-binary-search-tree.py" />
+    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="简单遍历">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode513find-bottom-left-tree-value.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -50,10 +50,10 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="300">
-                <caret line="1073" column="7" selection-start-line="1073" selection-start-column="7" selection-end-line="1073" selection-end-column="7" />
+              <first_editor relative-caret-position="270">
+                <caret line="1077" column="85" selection-start-line="1077" selection-start-column="85" selection-end-line="1077" selection-end-column="85" />
                 <folding>
-                  <marker date="1571240029332" expanded="true" signature="32494:32644" ph="..." />
+                  <marker date="1571241498981" expanded="true" signature="32494:32644" ph="..." />
                 </folding>
               </first_editor>
               <second_editor>
@@ -66,7 +66,7 @@
               <first_editor relative-caret-position="10815">
                 <caret line="721" column="8" selection-start-line="721" selection-start-column="8" selection-end-line="721" selection-end-column="8" />
                 <folding>
-                  <marker date="1571240029332" expanded="true" signature="32494:32644" ph="..." />
+                  <marker date="1571241498981" expanded="true" signature="32494:32644" ph="..." />
                 </folding>
               </first_editor>
               <second_editor />
@@ -74,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LeetCode501find-mode-in-binary-search-tree.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode501find-mode-in-binary-search-tree.py">
+      <file leaf-file-name="LeetCode513find-bottom-left-tree-value.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode513find-bottom-left-tree-value.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
-              <caret line="30" column="78" selection-start-line="30" selection-start-column="78" selection-end-line="30" selection-end-column="78" />
+              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -105,7 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LeetCode/LeetCode104maximum-depth-of-binary-tree.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode617merge-two-binary-trees.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode102binary-tree-level-order-traversal.py" />
         <option value="$PROJECT_DIR$/random/文本编辑距离.py" />
@@ -154,8 +153,9 @@
         <option value="$PROJECT_DIR$/random/binarySearchTree.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode449serialize-and-deserialize-bst.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode450delete-node-in-a-bst.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode501find-mode-in-binary-search-tree.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/LeetCode/LeetCode513find-bottom-left-tree-value.py" />
       </list>
     </option>
   </component>
@@ -654,13 +654,6 @@
       <workItem from="1566474466127" duration="154000" />
       <workItem from="1569810765255" duration="3178000" />
     </task>
-    <task id="LOCAL-00024" summary="add new python">
-      <created>1567133764530</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1567133764530</updated>
-    </task>
     <task id="LOCAL-00025" summary="add new python">
       <created>1567137622687</created>
       <option name="number" value="00025" />
@@ -997,7 +990,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571238586232</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="简单遍历">
+      <created>1571240041597</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1571240041597</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1053,7 +1053,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="不同的二叉搜索树  递归全罗列" />
     <MESSAGE value="层序遍历改写" />
     <MESSAGE value="中序遍历恢复二叉搜索树" />
     <MESSAGE value="二叉树+树形动态规划" />
@@ -1078,7 +1077,8 @@
     <MESSAGE value="前序遍历保存，二叉搜索树的中序遍历为升序列，两则可以恢复原树" />
     <MESSAGE value="二叉树删除结点" />
     <MESSAGE value="搜索二叉树BST删除结点" />
-    <option name="LAST_COMMIT_MESSAGE" value="搜索二叉树BST删除结点" />
+    <MESSAGE value="简单遍历" />
+    <option name="LAST_COMMIT_MESSAGE" value="简单遍历" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1120,13 +1120,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode538convert-bst-to-greater-tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode226invert-binary-tree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1465,13 +1458,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode501find-mode-in-binary-search-tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="30" column="78" selection-start-line="30" selection-start-column="78" selection-end-line="30" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="300">
-            <caret line="1073" column="7" selection-start-line="1073" selection-start-column="7" selection-end-line="1073" selection-end-column="7" />
+          <first_editor relative-caret-position="270">
+            <caret line="1077" column="85" selection-start-line="1077" selection-start-column="85" selection-end-line="1077" selection-end-column="85" />
             <folding>
-              <marker date="1571240029332" expanded="true" signature="32494:32644" ph="..." />
+              <marker date="1571241498981" expanded="true" signature="32494:32644" ph="..." />
             </folding>
           </first_editor>
           <second_editor>
@@ -1484,17 +1485,17 @@
           <first_editor relative-caret-position="10815">
             <caret line="721" column="8" selection-start-line="721" selection-start-column="8" selection-end-line="721" selection-end-column="8" />
             <folding>
-              <marker date="1571240029332" expanded="true" signature="32494:32644" ph="..." />
+              <marker date="1571241498981" expanded="true" signature="32494:32644" ph="..." />
             </folding>
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode501find-mode-in-binary-search-tree.py">
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode513find-bottom-left-tree-value.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
-          <caret line="30" column="78" selection-start-line="30" selection-start-column="78" selection-end-line="30" selection-end-column="78" />
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>
