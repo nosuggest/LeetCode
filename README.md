@@ -1112,3 +1112,21 @@ Coming from:https://leetcode-cn.com/problems/add-one-row-to-tree/
 ### [average-of-levels-in-binary-tree](LeetCode/LeetCode637average-of-levels-in-binary-tree.py)
 
 Coming from:https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/    
+
+### [find-duplicate-subtrees](LeetCode/LeetCode652find-duplicate-subtrees.py)
+
+```python
+out+=[root.val] +self.findDuplicateSubtrees(root.left)+self.findDuplicateSubtrees(root.right)
+'''等价于'''
+out+=[root.val]
+out+=self.findDuplicateSubtrees(root.left)
+out+=self.findDuplicateSubtrees(root.right)
+````
+
+```python
+'''尾结点的填充'''
+if not root:
+    return "null"
+```
+
+Coming from:https://leetcode-cn.com/problems/find-duplicate-subtrees/    

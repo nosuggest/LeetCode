@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="递归直接修改树的实现，爬楼梯的翻版">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode637average-of-levels-in-binary-tree.py" />
+    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="层次遍历">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode652find-duplicate-subtrees.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -53,7 +53,7 @@
               <first_editor relative-caret-position="10815">
                 <caret line="721" column="8" selection-start-line="721" selection-start-column="8" selection-end-line="721" selection-end-column="8" />
                 <folding>
-                  <marker date="1571301382912" expanded="true" signature="32494:32644" ph="..." />
+                  <marker date="1571304366566" expanded="true" signature="32494:32644" ph="..." />
                 </folding>
               </first_editor>
               <second_editor />
@@ -61,10 +61,10 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="505">
-                <caret line="1111" column="91" selection-start-line="1111" selection-start-column="48" selection-end-line="1111" selection-end-column="91" />
+              <first_editor relative-caret-position="355">
+                <caret line="1115" column="12" selection-start-line="1115" selection-start-column="12" selection-end-line="1115" selection-end-column="12" />
                 <folding>
-                  <marker date="1571301382912" expanded="true" signature="32494:32644" ph="..." />
+                  <marker date="1571304366566" expanded="true" signature="32494:32644" ph="..." />
                 </folding>
               </first_editor>
               <second_editor>
@@ -74,21 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LeetCode637average-of-levels-in-binary-tree.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode637average-of-levels-in-binary-tree.py">
+      <file leaf-file-name="LeetCode652find-duplicate-subtrees.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode652find-duplicate-subtrees.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LeetCode623add-one-row-to-tree.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode623add-one-row-to-tree.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="89" selection-start-line="33" selection-start-column="89" selection-end-line="33" selection-end-column="89" />
+            <state relative-caret-position="525">
+              <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -115,7 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LeetCode/implement-trie-prefix-tree.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode208implement-trie-prefix-tree.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode211add-and-search-word-data-structure-design.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode105construct-binary-tree-from-preorder-and-inorder-traversal.py" />
@@ -164,8 +153,9 @@
         <option value="$PROJECT_DIR$/LeetCode/LeetCode572subtree-of-another-tree.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode508most-frequent-subtree-sum.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode623add-one-row-to-tree.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode637average-of-levels-in-binary-tree.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/LeetCode/LeetCode652find-duplicate-subtrees.py" />
       </list>
     </option>
   </component>
@@ -650,13 +640,6 @@
       <workItem from="1566474466127" duration="154000" />
       <workItem from="1569810765255" duration="3178000" />
     </task>
-    <task id="LOCAL-00031" summary="add new python">
-      <created>1567389513975</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1567389513975</updated>
-    </task>
     <task id="LOCAL-00032" summary="add new python">
       <created>1567412429803</created>
       <option name="number" value="00032" />
@@ -993,7 +976,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571297515900</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="层次遍历">
+      <created>1571301738541</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1571301738541</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1070,11 +1060,11 @@
     <MESSAGE value="二叉树删除结点" />
     <MESSAGE value="搜索二叉树BST删除结点" />
     <MESSAGE value="简单遍历" />
-    <MESSAGE value="层次遍历" />
     <MESSAGE value="递归求解好题目" />
     <MESSAGE value="子树之和" />
     <MESSAGE value="递归直接修改树的实现，爬楼梯的翻版" />
-    <option name="LAST_COMMIT_MESSAGE" value="递归直接修改树的实现，爬楼梯的翻版" />
+    <MESSAGE value="层次遍历" />
+    <option name="LAST_COMMIT_MESSAGE" value="层次遍历" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1116,13 +1106,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode101symmetric-tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode235lowest-common-ancestor-of-a-binary-search-tree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -1194,13 +1177,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode337house-robber-iii.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="29" selection-end-column="70" />
         </state>
       </provider>
     </entry>
@@ -1464,13 +1440,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode637average-of-levels-in-binary-tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode337house-robber-iii.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="10815">
             <caret line="721" column="8" selection-start-line="721" selection-start-column="8" selection-end-line="721" selection-end-column="8" />
             <folding>
-              <marker date="1571301382912" expanded="true" signature="32494:32644" ph="..." />
+              <marker date="1571304366566" expanded="true" signature="32494:32644" ph="..." />
             </folding>
           </first_editor>
           <second_editor />
@@ -1478,10 +1470,10 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="505">
-            <caret line="1111" column="91" selection-start-line="1111" selection-start-column="48" selection-end-line="1111" selection-end-column="91" />
+          <first_editor relative-caret-position="355">
+            <caret line="1115" column="12" selection-start-line="1115" selection-start-column="12" selection-end-line="1115" selection-end-column="12" />
             <folding>
-              <marker date="1571301382912" expanded="true" signature="32494:32644" ph="..." />
+              <marker date="1571304366566" expanded="true" signature="32494:32644" ph="..." />
             </folding>
           </first_editor>
           <second_editor>
@@ -1490,10 +1482,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode637average-of-levels-in-binary-tree.py">
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode652find-duplicate-subtrees.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="18" />
+        <state relative-caret-position="525">
+          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
           <folding />
         </state>
       </provider>
