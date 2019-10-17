@@ -1150,3 +1150,7 @@ Coming from:https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/
 ### [maximum-depth-of-n-ary-tree](LeetCode/LeetCode559maximum-depth-of-n-ary-tree.py)
 
 Coming from:https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/
+
+### [maximum-width-of-binary-tree](LeetCode/LeetCode662maximum-width-of-binary-tree.py)
+
+Coming from:https://leetcode-cn.com/problems/maximum-width-of-binary-tree/
