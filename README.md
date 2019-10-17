@@ -1108,3 +1108,7 @@ Coming from:https://leetcode-cn.com/problems/most-frequent-subtree-sum/
 `递归直接修改树的实现，爬楼梯的翻版`
 
 Coming from:https://leetcode-cn.com/problems/add-one-row-to-tree/    
+
+### [average-of-levels-in-binary-tree](LeetCode/LeetCode637average-of-levels-in-binary-tree.py)
+
+Coming from:https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/    
