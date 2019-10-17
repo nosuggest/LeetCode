@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="层次遍历">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode652find-duplicate-subtrees.py" />
+    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="别出心裁的递归写法">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode653two-sum-iv-input-is-a-bst.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -53,7 +53,7 @@
               <first_editor relative-caret-position="10815">
                 <caret line="721" column="8" selection-start-line="721" selection-start-column="8" selection-end-line="721" selection-end-column="8" />
                 <folding>
-                  <marker date="1571304366566" expanded="true" signature="32494:32644" ph="..." />
+                  <marker date="1571313141396" expanded="true" signature="32494:32644" ph="..." />
                 </folding>
               </first_editor>
               <second_editor />
@@ -61,10 +61,10 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="355">
-                <caret line="1115" column="12" selection-start-line="1115" selection-start-column="12" selection-end-line="1115" selection-end-column="12" />
+              <first_editor relative-caret-position="5260">
+                <caret line="1108" column="0" selection-start-line="1108" selection-start-column="0" selection-end-line="1108" selection-end-column="0" />
                 <folding>
-                  <marker date="1571304366566" expanded="true" signature="32494:32644" ph="..." />
+                  <marker date="1571313141396" expanded="true" signature="32494:32644" ph="..." />
                 </folding>
               </first_editor>
               <second_editor>
@@ -74,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LeetCode652find-duplicate-subtrees.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode652find-duplicate-subtrees.py">
+      <file leaf-file-name="LeetCode653two-sum-iv-input-is-a-bst.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode653two-sum-iv-input-is-a-bst.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+            <state relative-caret-position="483">
+              <caret line="46" column="45" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -105,7 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LeetCode/LeetCode208implement-trie-prefix-tree.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode211add-and-search-word-data-structure-design.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode105construct-binary-tree-from-preorder-and-inorder-traversal.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode297serialize-and-deserialize-binary-tree.py" />
@@ -154,8 +153,9 @@
         <option value="$PROJECT_DIR$/LeetCode/LeetCode508most-frequent-subtree-sum.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode623add-one-row-to-tree.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode637average-of-levels-in-binary-tree.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode652find-duplicate-subtrees.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/LeetCode/LeetCode653two-sum-iv-input-is-a-bst.py" />
       </list>
     </option>
   </component>
@@ -228,6 +228,20 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="LeetCode" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="LeetCode" />
@@ -640,13 +654,6 @@
       <workItem from="1566474466127" duration="154000" />
       <workItem from="1569810765255" duration="3178000" />
     </task>
-    <task id="LOCAL-00032" summary="add new python">
-      <created>1567412429803</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1567412429803</updated>
-    </task>
     <task id="LOCAL-00033" summary="add new python">
       <created>1567412510210</created>
       <option name="number" value="00033" />
@@ -983,7 +990,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571301738541</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="别出心裁的递归写法">
+      <created>1571304637233</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1571304637233</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -993,7 +1007,7 @@
     <frame x="0" y="23" width="1440" height="823" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23319027" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11230329" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="15" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1039,7 +1053,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="根据前序和后序遍历构造二叉树" />
     <MESSAGE value="二叉树的层次遍历" />
     <MESSAGE value="平衡二叉树" />
     <MESSAGE value="二叉树的最小深度" />
@@ -1064,7 +1077,8 @@
     <MESSAGE value="子树之和" />
     <MESSAGE value="递归直接修改树的实现，爬楼梯的翻版" />
     <MESSAGE value="层次遍历" />
-    <option name="LAST_COMMIT_MESSAGE" value="层次遍历" />
+    <MESSAGE value="别出心裁的递归写法" />
+    <option name="LAST_COMMIT_MESSAGE" value="别出心裁的递归写法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1106,13 +1120,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode235lowest-common-ancestor-of-a-binary-search-tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="73" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode124binary-tree-maximum-path-sum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -1456,13 +1463,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode652find-duplicate-subtrees.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="10815">
             <caret line="721" column="8" selection-start-line="721" selection-start-column="8" selection-end-line="721" selection-end-column="8" />
             <folding>
-              <marker date="1571304366566" expanded="true" signature="32494:32644" ph="..." />
+              <marker date="1571313141396" expanded="true" signature="32494:32644" ph="..." />
             </folding>
           </first_editor>
           <second_editor />
@@ -1470,10 +1485,10 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="355">
-            <caret line="1115" column="12" selection-start-line="1115" selection-start-column="12" selection-end-line="1115" selection-end-column="12" />
+          <first_editor relative-caret-position="5260">
+            <caret line="1108" column="0" selection-start-line="1108" selection-start-column="0" selection-end-line="1108" selection-end-column="0" />
             <folding>
-              <marker date="1571304366566" expanded="true" signature="32494:32644" ph="..." />
+              <marker date="1571313141396" expanded="true" signature="32494:32644" ph="..." />
             </folding>
           </first_editor>
           <second_editor>
@@ -1482,10 +1497,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode652find-duplicate-subtrees.py">
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode653two-sum-iv-input-is-a-bst.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+        <state relative-caret-position="483">
+          <caret line="46" column="45" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
           <folding />
         </state>
       </provider>

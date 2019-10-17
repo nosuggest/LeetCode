@@ -1130,3 +1130,7 @@ if not root:
 ```
 
 Coming from:https://leetcode-cn.com/problems/find-duplicate-subtrees/    
+
+### [two-sum-iv-input-is-a-bst](LeetCode/LeetCode653two-sum-iv-input-is-a-bst.py)
+
+Coming from:https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/    
