@@ -1139,10 +1139,6 @@ Coming from:https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/
 
 Coming from:https://leetcode-cn.com/problems/maximum-binary-tree/
 
-### [maximum-binary-tree](LeetCode/LeetCode654maximum-binary-tree.py)
-
-Coming from:https://leetcode-cn.com/problems/maximum-binary-tree/
-
 ### [n-ary-tree-level-order-traversal](LeetCode/LeetCode429n-ary-tree-level-order-traversal.py)
 
 Coming from:https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/
@@ -1151,7 +1147,7 @@ Coming from:https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/
 
 Coming from:https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/
 
-### [maximum-width-of-binary-tree](LeetCode/LeetCode662maximum-width-of-binary-tree.py)
+    ### [maximum-width-of-binary-tree](LeetCode/LeetCode662maximum-width-of-binary-tree.py)
 
 Coming from:https://leetcode-cn.com/problems/maximum-width-of-binary-tree/
 

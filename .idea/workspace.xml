@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="log(h)递归">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode687longest-univalue-path.py" />
+    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="递归详解">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -53,10 +52,10 @@
               <first_editor relative-caret-position="580">
                 <caret line="721" column="8" selection-start-line="721" selection-start-column="8" selection-end-line="721" selection-end-column="8" />
                 <folding>
-                  <marker date="1571369127083" expanded="true" signature="32494:32644" ph="..." />
-                  <marker date="1571369127083" expanded="true" signature="36510:36749" ph="..." />
-                  <marker date="1571369127083" expanded="true" signature="36545:36749" ph="..." />
-                  <marker date="1571369127083" expanded="true" signature="36554:36665" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                  <marker date="1571378457377" expanded="true" signature="32494:32644" ph="..." />
+                  <marker date="1571378457377" expanded="true" signature="36376:36615" ph="..." />
+                  <marker date="1571378457377" expanded="true" signature="36411:36615" ph="..." />
+                  <marker date="1571378457377" expanded="true" signature="36420:36531" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -64,13 +63,13 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="340">
-                <caret line="1197" column="8" selection-start-line="1197" selection-start-column="3" selection-end-line="1197" selection-end-column="8" />
+              <first_editor relative-caret-position="190">
+                <caret line="1139" column="65" selection-start-line="1139" selection-start-column="65" selection-end-line="1139" selection-end-column="65" />
                 <folding>
-                  <marker date="1571369127083" expanded="true" signature="32494:32644" ph="..." />
-                  <marker date="1571369127083" expanded="true" signature="36510:36749" ph="..." />
-                  <marker date="1571369127083" expanded="true" signature="36545:36749" ph="..." />
-                  <marker date="1571369127083" expanded="true" signature="36554:36665" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                  <marker date="1571378457377" expanded="true" signature="32494:32644" ph="..." />
+                  <marker date="1571378457377" expanded="true" signature="36376:36615" ph="..." />
+                  <marker date="1571378457377" expanded="true" signature="36411:36615" ph="..." />
+                  <marker date="1571378457377" expanded="true" signature="36420:36531" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
                 </folding>
               </first_editor>
               <second_editor>
@@ -660,13 +659,6 @@
       <workItem from="1566474466127" duration="154000" />
       <workItem from="1569810765255" duration="3178000" />
     </task>
-    <task id="LOCAL-00039" summary="二叉树各种遍历方法实际的应用">
-      <created>1570957064709</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1570957064709</updated>
-    </task>
     <task id="LOCAL-00040" summary="二叉树最大深度的翻版">
       <created>1570973005384</created>
       <option name="number" value="00040" />
@@ -1003,7 +995,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571366289324</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="递归详解">
+      <created>1571369174948</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1571369174948</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1059,7 +1058,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix name" />
     <MESSAGE value="二叉树展开为链表" />
     <MESSAGE value="填充每个节点的下一个右侧节点指针" />
     <MESSAGE value="记录下一层的结点，层次遍历填充树之间的关系" />
@@ -1084,7 +1082,8 @@
     <MESSAGE value="N叉树" />
     <MESSAGE value="二叉树的结点变化" />
     <MESSAGE value="log(h)递归" />
-    <option name="LAST_COMMIT_MESSAGE" value="log(h)递归" />
+    <MESSAGE value="递归详解" />
+    <option name="LAST_COMMIT_MESSAGE" value="递归详解" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1489,7 +1488,7 @@
           <first_editor relative-caret-position="580">
             <caret line="721" column="8" selection-start-line="721" selection-start-column="8" selection-end-line="721" selection-end-column="8" />
             <folding>
-              <marker date="1571369127083" expanded="true" signature="32494:32644" ph="..." />
+              <marker date="1571378457377" expanded="true" signature="32494:32644" ph="..." />
             </folding>
           </first_editor>
           <second_editor />
@@ -1497,10 +1496,10 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="340">
-            <caret line="1197" column="8" selection-start-line="1197" selection-start-column="3" selection-end-line="1197" selection-end-column="8" />
+          <first_editor relative-caret-position="190">
+            <caret line="1139" column="65" selection-start-line="1139" selection-start-column="65" selection-end-line="1139" selection-end-column="65" />
             <folding>
-              <marker date="1571369127083" expanded="true" signature="32494:32644" ph="..." />
+              <marker date="1571378457377" expanded="true" signature="32494:32644" ph="..." />
             </folding>
           </first_editor>
           <second_editor>
