@@ -1154,3 +1154,30 @@ Coming from:https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/
 ### [maximum-width-of-binary-tree](LeetCode/LeetCode662maximum-width-of-binary-tree.py)
 
 Coming from:https://leetcode-cn.com/problems/maximum-width-of-binary-tree/
+
+### [trim-a-binary-search-tree](LeetCode/LeetCode669trim-a-binary-search-tree.py)
+
+```python
+class Solution(object):
+    def trimBST(self, root, L, R):
+        """
+        :type root: TreeNode
+        :type L: int
+        :type R: int
+        :rtype: TreeNode
+        """
+        if not root:
+            return None
+        '''计算逻辑'''
+        return root
+```
+
+以上是结点变更的写法，如果接一个`root = self.trimBST`相当于对结点做一个覆盖，也就是直接修改树
+
+Coming from:https://leetcode-cn.com/problems/trim-a-binary-search-tree/
+
+### [second-minimum-node-in-a-binary-tree](LeetCode/LeetCode671second-minimum-node-in-a-binary-tree.py)
+
+log(h)的跳出条件的递归写法
+
+Coming from:https://leetcode-cn.com/problems/second-minimum-node-in-a-binary-tree/
