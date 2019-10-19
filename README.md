@@ -1264,3 +1264,6 @@ Coming from:https://leetcode-cn.com/problems/increasing-order-search-tree/
 
 Coming from:https://leetcode-cn.com/problems/range-sum-of-bst/
 
+### [flip-equivalent-binary-trees](LeetCode/LeetCode951flip-equivalent-binary-trees.py)
+
+Coming from:https://leetcode-cn.com/problems/flip-equivalent-binary-trees/
