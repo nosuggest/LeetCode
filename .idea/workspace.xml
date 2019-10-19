@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="去重">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode589n-ary-tree-preorder-traversal.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="N叉树前序遍历">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -53,10 +51,10 @@
               <first_editor relative-caret-position="580">
                 <caret line="721" column="8" selection-start-line="721" selection-start-column="8" selection-end-line="721" selection-end-column="8" />
                 <folding>
-                  <marker date="1571457738718" expanded="true" signature="32494:32644" ph="..." />
-                  <marker date="1571457738718" expanded="true" signature="36376:36615" ph="..." />
-                  <marker date="1571457738718" expanded="true" signature="36411:36615" ph="..." />
-                  <marker date="1571457738718" expanded="true" signature="36420:36531" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                  <marker date="1571458949462" expanded="true" signature="32494:32644" ph="..." />
+                  <marker date="1571458949462" expanded="true" signature="36376:36615" ph="..." />
+                  <marker date="1571458949462" expanded="true" signature="36411:36615" ph="..." />
+                  <marker date="1571458949462" expanded="true" signature="36420:36531" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -64,13 +62,13 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="549">
-                <caret line="1209" column="89" selection-start-line="1209" selection-start-column="49" selection-end-line="1209" selection-end-column="89" />
+              <first_editor relative-caret-position="534">
+                <caret line="1211" column="34" selection-start-line="1211" selection-start-column="34" selection-end-line="1211" selection-end-column="34" />
                 <folding>
-                  <marker date="1571457738718" expanded="true" signature="32494:32644" ph="..." />
-                  <marker date="1571457738718" expanded="true" signature="36376:36615" ph="..." />
-                  <marker date="1571457738718" expanded="true" signature="36411:36615" ph="..." />
-                  <marker date="1571457738718" expanded="true" signature="36420:36531" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                  <marker date="1571458949462" expanded="true" signature="32494:32644" ph="..." />
+                  <marker date="1571458949462" expanded="true" signature="36376:36615" ph="..." />
+                  <marker date="1571458949462" expanded="true" signature="36411:36615" ph="..." />
+                  <marker date="1571458949462" expanded="true" signature="36420:36531" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
                 </folding>
               </first_editor>
               <second_editor>
@@ -150,8 +148,8 @@
         <option value="$PROJECT_DIR$/LeetCode/LeetCode669trim-a-binary-search-tree.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode671second-minimum-node-in-a-binary-tree.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode687longest-univalue-path.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode589n-ary-tree-preorder-traversal.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -650,13 +648,6 @@
       <workItem from="1566474466127" duration="154000" />
       <workItem from="1569810765255" duration="3178000" />
     </task>
-    <task id="LOCAL-00041" summary="二叉树+两数之和+dfs">
-      <created>1570974909265</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1570974909265</updated>
-    </task>
     <task id="LOCAL-00042" summary="不同的二叉搜索树  递归全罗列">
       <created>1571022112698</created>
       <option name="number" value="00042" />
@@ -993,7 +984,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571378472383</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="N叉树前序遍历">
+      <created>1571458936922</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1571458936922</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1049,7 +1047,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="填充每个节点的下一个右侧节点指针" />
     <MESSAGE value="记录下一层的结点，层次遍历填充树之间的关系" />
     <MESSAGE value="dfs深度遍历，注意跳出条件" />
     <MESSAGE value="迭代版的二叉树遍历" />
@@ -1074,7 +1071,8 @@
     <MESSAGE value="log(h)递归" />
     <MESSAGE value="递归详解" />
     <MESSAGE value="去重" />
-    <option name="LAST_COMMIT_MESSAGE" value="去重" />
+    <MESSAGE value="N叉树前序遍历" />
+    <option name="LAST_COMMIT_MESSAGE" value="N叉树前序遍历" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1481,7 +1479,7 @@
           <first_editor relative-caret-position="580">
             <caret line="721" column="8" selection-start-line="721" selection-start-column="8" selection-end-line="721" selection-end-column="8" />
             <folding>
-              <marker date="1571457738718" expanded="true" signature="32494:32644" ph="..." />
+              <marker date="1571458949462" expanded="true" signature="32494:32644" ph="..." />
             </folding>
           </first_editor>
           <second_editor />
@@ -1489,10 +1487,10 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="549">
-            <caret line="1209" column="89" selection-start-line="1209" selection-start-column="49" selection-end-line="1209" selection-end-column="89" />
+          <first_editor relative-caret-position="534">
+            <caret line="1211" column="34" selection-start-line="1211" selection-start-column="34" selection-end-line="1211" selection-end-column="34" />
             <folding>
-              <marker date="1571457738718" expanded="true" signature="32494:32644" ph="..." />
+              <marker date="1571458949462" expanded="true" signature="32494:32644" ph="..." />
             </folding>
           </first_editor>
           <second_editor>
