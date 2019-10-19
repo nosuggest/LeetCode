@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="N叉树前序遍历">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode590n-ary-tree-postorder-traversal.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode700search-in-a-binary-search-tree.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode701insert-into-a-binary-search-tree.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode783minimum-distance-between-bst-nodes.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode814binary-tree-pruning.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -51,10 +57,10 @@
               <first_editor relative-caret-position="580">
                 <caret line="721" column="8" selection-start-line="721" selection-start-column="8" selection-end-line="721" selection-end-column="8" />
                 <folding>
-                  <marker date="1571458949462" expanded="true" signature="32494:32644" ph="..." />
-                  <marker date="1571458949462" expanded="true" signature="36376:36615" ph="..." />
-                  <marker date="1571458949462" expanded="true" signature="36411:36615" ph="..." />
-                  <marker date="1571458949462" expanded="true" signature="36420:36531" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                  <marker date="1571462869755" expanded="true" signature="32494:32644" ph="..." />
+                  <marker date="1571462869755" expanded="true" signature="36376:36615" ph="..." />
+                  <marker date="1571462869755" expanded="true" signature="36411:36615" ph="..." />
+                  <marker date="1571462869755" expanded="true" signature="36420:36531" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -62,18 +68,28 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="534">
-                <caret line="1211" column="34" selection-start-line="1211" selection-start-column="34" selection-end-line="1211" selection-end-column="34" />
+              <first_editor relative-caret-position="519">
+                <caret line="1239" column="0" selection-start-line="1239" selection-start-column="0" selection-end-line="1239" selection-end-column="0" />
                 <folding>
-                  <marker date="1571458949462" expanded="true" signature="32494:32644" ph="..." />
-                  <marker date="1571458949462" expanded="true" signature="36376:36615" ph="..." />
-                  <marker date="1571458949462" expanded="true" signature="36411:36615" ph="..." />
-                  <marker date="1571458949462" expanded="true" signature="36420:36531" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                  <marker date="1571462869755" expanded="true" signature="32494:32644" ph="..." />
+                  <marker date="1571462869755" expanded="true" signature="36376:36615" ph="..." />
+                  <marker date="1571462869755" expanded="true" signature="36411:36615" ph="..." />
+                  <marker date="1571462869755" expanded="true" signature="36420:36531" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
                 </folding>
               </first_editor>
               <second_editor>
                 <js_state />
               </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LeetCode814binary-tree-pruning.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode814binary-tree-pruning.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="19" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -99,12 +115,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LeetCode/LeetCode124binary-tree-maximum-path-sum.py" />
-        <option value="$PROJECT_DIR$/LeetCode/LeetCode437path-sum-iii.py" />
-        <option value="$PROJECT_DIR$/LeetCode/LeetCode95unique-binary-search-trees-ii.py" />
-        <option value="$PROJECT_DIR$/LeetCode/LeetCode100same-tree.py" />
-        <option value="$PROJECT_DIR$/binary-tree-zigzag-level-order-traversal.py" />
-        <option value="$PROJECT_DIR$/LeetCode/LeetCode103binary-tree-zigzag-level-order-traversal.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode99recover-binary-search-tree.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode337house-robber-iii.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode106construct-binary-tree-from-inorder-and-postorder-traversal.py" />
@@ -149,6 +159,12 @@
         <option value="$PROJECT_DIR$/LeetCode/LeetCode671second-minimum-node-in-a-binary-tree.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode687longest-univalue-path.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode589n-ary-tree-preorder-traversal.py" />
+        <option value="$PROJECT_DIR$/LeetCode/LeetCode590n-ary-tree-postorder-traversal.py" />
+        <option value="$PROJECT_DIR$/LeetCode/LeetCode700search-in-a-binary-search-tree.py" />
+        <option value="$PROJECT_DIR$/LeetCode/LeetCode701insert-into-a-binary-search-tree.py" />
+        <option value="$PROJECT_DIR$/LeetCode/LeetCode94binary-tree-inorder-traversal.py" />
+        <option value="$PROJECT_DIR$/LeetCode/LeetCode783minimum-distance-between-bst-nodes.py" />
+        <option value="$PROJECT_DIR$/LeetCode/LeetCode814binary-tree-pruning.py" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -222,20 +238,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="LeetCode" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LeetCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LeetCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LeetCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="LeetCode" />
@@ -648,13 +650,6 @@
       <workItem from="1566474466127" duration="154000" />
       <workItem from="1569810765255" duration="3178000" />
     </task>
-    <task id="LOCAL-00042" summary="不同的二叉搜索树  递归全罗列">
-      <created>1571022112698</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1571022112698</updated>
-    </task>
     <task id="LOCAL-00043" summary="层序遍历改写">
       <created>1571023162944</created>
       <option name="number" value="00043" />
@@ -991,7 +986,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571458936922</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="N叉树前序遍历">
+      <created>1571458952815</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1571458952815</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1114,42 +1116,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode19remove-nth-node-from-end-of-list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode17LetterCombinationsofaPhone.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode99recover-binary-search-tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode106construct-binary-tree-from-inorder-and-postorder-traversal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="323" column="21" selection-start-line="323" selection-start-column="21" selection-end-line="323" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode107binary-tree-level-order-traversal-ii.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
@@ -1299,13 +1265,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode98validate-binary-search-tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode501find-mode-in-binary-search-tree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -1331,13 +1290,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="954">
           <caret line="168" column="0" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode94binary-tree-inorder-traversal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1473,13 +1425,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode590n-ary-tree-postorder-traversal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode700search-in-a-binary-search-tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode701insert-into-a-binary-search-tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode98validate-binary-search-tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode94binary-tree-inorder-traversal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="42" column="22" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode783minimum-distance-between-bst-nodes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="75" selection-start-line="31" selection-start-column="75" selection-end-line="31" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode814binary-tree-pruning.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="580">
             <caret line="721" column="8" selection-start-line="721" selection-start-column="8" selection-end-line="721" selection-end-column="8" />
             <folding>
-              <marker date="1571458949462" expanded="true" signature="32494:32644" ph="..." />
+              <marker date="1571462869755" expanded="true" signature="32494:32644" ph="..." />
             </folding>
           </first_editor>
           <second_editor />
@@ -1487,10 +1495,10 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="534">
-            <caret line="1211" column="34" selection-start-line="1211" selection-start-column="34" selection-end-line="1211" selection-end-column="34" />
+          <first_editor relative-caret-position="519">
+            <caret line="1239" column="0" selection-start-line="1239" selection-start-column="0" selection-end-line="1239" selection-end-column="0" />
             <folding>
-              <marker date="1571458949462" expanded="true" signature="32494:32644" ph="..." />
+              <marker date="1571462869755" expanded="true" signature="32494:32644" ph="..." />
             </folding>
           </first_editor>
           <second_editor>

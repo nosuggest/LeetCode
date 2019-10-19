@@ -1210,3 +1210,32 @@ Coming from:https://leetcode-cn.com/problems/longest-univalue-path/
 ### [n-ary-tree-preorder-traversal](LeetCode/LeetCode589n-ary-tree-preorder-traversal.py)
 
 Coming from:https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/
+
+### [n-ary-tree-postorder-traversal](LeetCode/LeetCode590n-ary-tree-postorder-traversal.py)
+
+Coming from:https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/
+
+### [search-in-a-binary-search-tree](LeetCode/LeetCode700search-in-a-binary-search-tree.py)
+
+Coming from:https://leetcode-cn.com/problems/search-in-a-binary-search-tree/
+
+### [insert-into-a-binary-search-tree](LeetCode/LeetCode701insert-into-a-binary-search-tree.py)
+
+Coming from:https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/
+
+### [minimum-distance-between-bst-nodes](LeetCode/LeetCode783minimum-distance-between-bst-nodes.py)
+
+Coming from:https://leetcode-cn.com/problems/minimum-distance-between-bst-nodes/
+
+### [binary-tree-pruning](LeetCode/LeetCode814binary-tree-pruning.py)
+
+```python
+# 修剪值
+if root.val == 0 and not root.left and not root.right:
+    return None
+else:
+    return root
+```
+先递归到底层，然后在判断是否可以被修剪，修剪条件就是`root.val == 0 and not root.left and not root.right:`
+
+Coming from:https://leetcode-cn.com/problems/binary-tree-pruning/
