@@ -1259,3 +1259,8 @@ Coming from:https://leetcode-cn.com/problems/all-possible-full-binary-trees/
 ### [increasing-order-search-tree](LeetCode/LeetCode897increasing-order-search-tree.py)
 
 Coming from:https://leetcode-cn.com/problems/increasing-order-search-tree/
+
+### [range-sum-of-bst](LeetCode/LeetCode938range-sum-of-bst.py)
+
+Coming from:https://leetcode-cn.com/problems/range-sum-of-bst/
+
