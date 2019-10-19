@@ -1239,3 +1239,9 @@ else:
 先递归到底层，然后在判断是否可以被修剪，修剪条件就是`root.val == 0 and not root.left and not root.right:`
 
 Coming from:https://leetcode-cn.com/problems/binary-tree-pruning/
+
+### [smallest-subtree-with-all-the-deepest-nodes](LeetCode/LeetCode865smallest-subtree-with-all-the-deepest-nodes.py)
+
+构造了数据对\[root,depth]，用depth判断深度，用root返回depth对应的root
+
+Coming from:https://leetcode-cn.com/problems/smallest-subtree-with-all-the-deepest-nodes/
