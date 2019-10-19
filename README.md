@@ -1206,3 +1206,7 @@ self.ans = max(self.ans,lefts+rights)
 `return max(lefts,rights)`
 
 Coming from:https://leetcode-cn.com/problems/longest-univalue-path/  
+
+    ### [n-ary-tree-preorder-traversal](LeetCode/LeetCode589n-ary-tree-preorder-traversal.py)
+
+Coming from:https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/
