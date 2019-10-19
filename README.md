@@ -1245,3 +1245,7 @@ Coming from:https://leetcode-cn.com/problems/binary-tree-pruning/
 构造了数据对\[root,depth]，用depth判断深度，用root返回depth对应的root
 
 Coming from:https://leetcode-cn.com/problems/smallest-subtree-with-all-the-deepest-nodes/
+
+### [leaf-similar-trees](LeetCode/LeetCode872leaf-similar-trees.py)
+
+Coming from:https://leetcode-cn.com/problems/leaf-similar-trees/
