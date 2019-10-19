@@ -1255,3 +1255,7 @@ Coming from:https://leetcode-cn.com/problems/leaf-similar-trees/
 `基于树的动态规划，考前必看`
 
 Coming from:https://leetcode-cn.com/problems/all-possible-full-binary-trees/
+
+### [increasing-order-search-tree](LeetCode/LeetCode897increasing-order-search-tree.py)
+
+Coming from:https://leetcode-cn.com/problems/increasing-order-search-tree/
