@@ -1267,3 +1267,9 @@ Coming from:https://leetcode-cn.com/problems/range-sum-of-bst/
 ### [flip-equivalent-binary-trees](LeetCode/LeetCode951flip-equivalent-binary-trees.py)
 
 Coming from:https://leetcode-cn.com/problems/flip-equivalent-binary-trees/
+
+### [check-completeness-of-a-binary-tree](LeetCode/LeetCode958check-completeness-of-a-binary-tree.py)
+
+层次遍历，出现空之后不能再出现结点
+
+Coming from:https://leetcode-cn.com/problems/check-completeness-of-a-binary-tree/
