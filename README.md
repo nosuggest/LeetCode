@@ -1273,3 +1273,7 @@ Coming from:https://leetcode-cn.com/problems/flip-equivalent-binary-trees/
 层次遍历，出现空之后不能再出现结点
 
 Coming from:https://leetcode-cn.com/problems/check-completeness-of-a-binary-tree/
+
+### [univalued-binary-tree](LeetCode/LeetCode965univalued-binary-tree.py)
+
+Coming from:https://leetcode-cn.com/problems/univalued-binary-tree/
