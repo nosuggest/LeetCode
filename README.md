@@ -1277,3 +1277,9 @@ Coming from:https://leetcode-cn.com/problems/check-completeness-of-a-binary-tree
 ### [univalued-binary-tree](LeetCode/LeetCode965univalued-binary-tree.py)
 
 Coming from:https://leetcode-cn.com/problems/univalued-binary-tree/
+
+### [distribute-coins-in-binary-tree](LeetCode/LeetCode979distribute-coins-in-binary-tree.py)
+
+金币题，题目有点难理解，算得是每个结点的多余量
+
+Coming from:https://leetcode-cn.com/problems/distribute-coins-in-binary-tree/
