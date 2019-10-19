@@ -1249,3 +1249,9 @@ Coming from:https://leetcode-cn.com/problems/smallest-subtree-with-all-the-deepe
 ### [leaf-similar-trees](LeetCode/LeetCode872leaf-similar-trees.py)
 
 Coming from:https://leetcode-cn.com/problems/leaf-similar-trees/
+
+### [all-possible-full-binary-trees](LeetCode/LeetCode894all-possible-full-binary-trees.py)
+
+`基于树的动态规划，考前必看`
+
+Coming from:https://leetcode-cn.com/problems/all-possible-full-binary-trees/
