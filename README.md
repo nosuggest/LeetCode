@@ -1309,3 +1309,7 @@ Coming from:https://leetcode-cn.com/problems/sum-of-root-to-leaf-binary-numbers/
 ### [maximum-difference-between-node-and-ancestor](LeetCode/LeetCode1026maximum-difference-between-node-and-ancestor.py)
 
 Coming from:https://leetcode-cn.com/problems/maximum-difference-between-node-and-ancestor/
+
+### [delete-nodes-and-return-forest](LeetCode/LeetCode1110delete-nodes-and-return-forest.py)
+
+Coming from:https://leetcode-cn.com/problems/delete-nodes-and-return-forest/
