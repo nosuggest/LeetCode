@@ -1299,3 +1299,9 @@ Coming from:https://leetcode-cn.com/problems/cousins-in-binary-tree/
 ### [construct-binary-search-tree-from-preorder-traversal](LeetCode/LeetCode1008construct-binary-search-tree-from-preorder-traversal.py)
 
 Coming from:https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal/
+
+### [sum-of-root-to-leaf-binary-numbers](LeetCode/LeetCode1022sum-of-root-to-leaf-binary-numbers.py)
+
+`^`在python里面是抑或，不是次方
+
+Coming from:https://leetcode-cn.com/problems/sum-of-root-to-leaf-binary-numbers/
