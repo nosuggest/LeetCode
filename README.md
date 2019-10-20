@@ -1295,3 +1295,7 @@ parent[root.val] = par
 对于根层，depth\[root.val]=0，parent\[root.val]=None
 
 Coming from:https://leetcode-cn.com/problems/cousins-in-binary-tree/
+
+### [construct-binary-search-tree-from-preorder-traversal](LeetCode/LeetCode1008construct-binary-search-tree-from-preorder-traversal.py)
+
+Coming from:https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal/

@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="二叉树金币题，题目有点难理解，算得是每个结点的多余量">
+    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="二叉树父结点+子节点递归">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode1008construct-binary-search-tree-from-preorder-traversal.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -52,45 +54,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="429">
-                <caret line="1288" column="6" selection-start-line="1288" selection-start-column="6" selection-end-line="1288" selection-end-column="15" />
-                <folding>
-                  <marker date="1571553683124" expanded="true" signature="32494:32644" ph="..." />
-                  <marker date="1571553683124" expanded="true" signature="36372:36611" ph="..." />
-                  <marker date="1571553683124" expanded="true" signature="36407:36611" ph="..." />
-                  <marker date="1571553683124" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-          <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="18585">
-                <caret line="1239" column="0" selection-start-line="1239" selection-start-column="0" selection-end-line="1239" selection-end-column="0" />
-                <folding>
-                  <marker date="1571553683124" expanded="true" signature="32494:32644" ph="..." />
-                  <marker date="1571553683124" expanded="true" signature="36372:36611" ph="..." />
-                  <marker date="1571553683124" expanded="true" signature="36407:36611" ph="..." />
-                  <marker date="1571553683124" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-                </folding>
-              </first_editor>
-              <second_editor>
-                <js_state />
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LeetCode993cousins-in-binary-tree.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode993cousins-in-binary-tree.py">
+      <file leaf-file-name="LeetCode1008construct-binary-search-tree-from-preorder-traversal.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode1008construct-binary-search-tree-from-preorder-traversal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="47" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="47" />
+            <state relative-caret-position="405">
+              <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -122,7 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LeetCode/LeetCode114flatten-binary-tree-to-linked-list.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode116populating-next-right-pointers-in-each-node.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode117populating-next-right-pointers-in-each-node-ii.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode129sum-root-to-leaf-numbers.py" />
@@ -173,6 +140,7 @@
         <option value="$PROJECT_DIR$/LeetCode/LeetCode979distribute-coins-in-binary-tree.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode993cousins-in-binary-tree.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/LeetCode/LeetCode1008construct-binary-search-tree-from-preorder-traversal.py" />
       </list>
     </option>
   </component>
@@ -244,6 +212,20 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="LeetCode" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="LeetCode" />
@@ -657,13 +639,6 @@
       <workItem from="1566474466127" duration="154000" />
       <workItem from="1569810765255" duration="3178000" />
     </task>
-    <task id="LOCAL-00055" summary="dfs">
-      <created>1571068384803</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1571068384803</updated>
-    </task>
     <task id="LOCAL-00056" summary="二叉树展开为链表">
       <created>1571141186373</created>
       <option name="number" value="00056" />
@@ -1000,7 +975,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571553706710</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="二叉树父结点+子节点递归">
+      <created>1571553725339</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1571553725339</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1056,7 +1038,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="二叉树删除结点" />
     <MESSAGE value="搜索二叉树BST删除结点" />
     <MESSAGE value="简单遍历" />
     <MESSAGE value="递归求解好题目" />
@@ -1081,7 +1062,8 @@
     <MESSAGE value="二叉树" />
     <MESSAGE value="完全二叉树用层次遍历来解决" />
     <MESSAGE value="二叉树金币题，题目有点难理解，算得是每个结点的多余量" />
-    <option name="LAST_COMMIT_MESSAGE" value="二叉树金币题，题目有点难理解，算得是每个结点的多余量" />
+    <MESSAGE value="二叉树父结点+子节点递归" />
+    <option name="LAST_COMMIT_MESSAGE" value="二叉树父结点+子节点递归" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1123,13 +1105,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode129sum-root-to-leaf-numbers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode199binary-tree-right-side-view.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -1479,13 +1454,13 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="429">
-            <caret line="1288" column="6" selection-start-line="1288" selection-start-column="6" selection-end-line="1288" selection-end-column="15" />
+          <first_editor relative-caret-position="579">
+            <caret line="1298" column="68" selection-start-line="1298" selection-start-column="68" selection-end-line="1298" selection-end-column="132" />
             <folding>
-              <marker date="1571553683124" expanded="true" signature="32494:32644" ph="..." />
-              <marker date="1571553683124" expanded="true" signature="36372:36611" ph="..." />
-              <marker date="1571553683124" expanded="true" signature="36407:36611" ph="..." />
-              <marker date="1571553683124" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+              <marker date="1571554304096" expanded="true" signature="32494:32644" ph="..." />
+              <marker date="1571554304096" expanded="true" signature="36372:36611" ph="..." />
+              <marker date="1571554304096" expanded="true" signature="36407:36611" ph="..." />
+              <marker date="1571554304096" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
             </folding>
           </first_editor>
           <second_editor />
@@ -1496,15 +1471,23 @@
           <first_editor relative-caret-position="18585">
             <caret line="1239" column="0" selection-start-line="1239" selection-start-column="0" selection-end-line="1239" selection-end-column="0" />
             <folding>
-              <marker date="1571553683124" expanded="true" signature="32494:32644" ph="..." />
-              <marker date="1571553683124" expanded="true" signature="36372:36611" ph="..." />
-              <marker date="1571553683124" expanded="true" signature="36407:36611" ph="..." />
-              <marker date="1571553683124" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+              <marker date="1571554304096" expanded="true" signature="32494:32644" ph="..." />
+              <marker date="1571554304096" expanded="true" signature="36372:36611" ph="..." />
+              <marker date="1571554304096" expanded="true" signature="36407:36611" ph="..." />
+              <marker date="1571554304096" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
             </folding>
           </first_editor>
           <second_editor>
             <js_state />
           </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode1008construct-binary-search-tree-from-preorder-traversal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
