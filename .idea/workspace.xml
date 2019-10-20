@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="复杂的dfs">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random/约瑟夫环问题.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -53,17 +54,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="534">
-                <caret line="1314" column="28" selection-start-line="1314" selection-start-column="28" selection-end-line="1314" selection-end-column="28" />
+              <first_editor relative-caret-position="594">
+                <caret line="1322" column="0" selection-start-line="1322" selection-start-column="0" selection-end-line="1322" selection-end-column="0" />
                 <folding>
-                  <marker date="1571568085475" expanded="true" signature="32494:32644" ph="..." />
-                  <marker date="1571568085475" expanded="true" signature="36372:36611" ph="..." />
-                  <marker date="1571568085475" expanded="true" signature="36407:36611" ph="..." />
-                  <marker date="1571568085475" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                  <marker date="1571569062767" expanded="true" signature="32494:32644" ph="..." />
+                  <marker date="1571569062767" expanded="true" signature="36372:36611" ph="..." />
+                  <marker date="1571569062767" expanded="true" signature="36407:36611" ph="..." />
+                  <marker date="1571569062767" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -74,10 +75,10 @@
               <first_editor relative-caret-position="18585">
                 <caret line="1239" column="0" selection-start-line="1239" selection-start-column="0" selection-end-line="1239" selection-end-column="0" />
                 <folding>
-                  <marker date="1571568085475" expanded="true" signature="32494:32644" ph="..." />
-                  <marker date="1571568085475" expanded="true" signature="36372:36611" ph="..." />
-                  <marker date="1571568085475" expanded="true" signature="36407:36611" ph="..." />
-                  <marker date="1571568085475" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                  <marker date="1571569062767" expanded="true" signature="32494:32644" ph="..." />
+                  <marker date="1571569062767" expanded="true" signature="36372:36611" ph="..." />
+                  <marker date="1571569062767" expanded="true" signature="36407:36611" ph="..." />
+                  <marker date="1571569062767" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
                 </folding>
               </first_editor>
               <second_editor>
@@ -87,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LeetCode1110delete-nodes-and-return-forest.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode1110delete-nodes-and-return-forest.py">
+      <file leaf-file-name="约瑟夫环问题.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/random/约瑟夫环问题.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+            <state relative-caret-position="630">
+              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -123,7 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LeetCode/LeetCode144binary-tree-preorder-traversal.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode145binary-tree-postorder-traversal.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode199binary-tree-right-side-view.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode222count-complete-tree-nodes.py" />
@@ -174,6 +174,7 @@
         <option value="$PROJECT_DIR$/LeetCode/LeetCode1026maximum-difference-between-node-and-ancestor.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode1110delete-nodes-and-return-forest.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/random/约瑟夫环问题.py" />
       </list>
     </option>
   </component>
@@ -248,6 +249,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="random" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -658,13 +673,6 @@
       <workItem from="1566474466127" duration="154000" />
       <workItem from="1569810765255" duration="3178000" />
     </task>
-    <task id="LOCAL-00061" summary="迭代版的二叉树遍历">
-      <created>1571197018962</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1571197018962</updated>
-    </task>
     <task id="LOCAL-00062" summary="迭代版的二叉树遍历">
       <created>1571197026136</created>
       <option name="number" value="00062" />
@@ -1001,7 +1009,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571566719972</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary="复杂的dfs">
+      <created>1571568088704</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1571568088705</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1124,13 +1139,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode173binary-search-tree-iterator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode257binary-tree-paths.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -1473,24 +1481,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode1110delete-nodes-and-return-forest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="534">
-            <caret line="1314" column="28" selection-start-line="1314" selection-start-column="28" selection-end-line="1314" selection-end-column="28" />
+          <first_editor relative-caret-position="594">
+            <caret line="1322" column="0" selection-start-line="1322" selection-start-column="0" selection-end-line="1322" selection-end-column="0" />
             <folding>
-              <marker date="1571568085475" expanded="true" signature="32494:32644" ph="..." />
-              <marker date="1571568085475" expanded="true" signature="36372:36611" ph="..." />
-              <marker date="1571568085475" expanded="true" signature="36407:36611" ph="..." />
-              <marker date="1571568085475" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+              <marker date="1571569062767" expanded="true" signature="32494:32644" ph="..." />
+              <marker date="1571569062767" expanded="true" signature="36372:36611" ph="..." />
+              <marker date="1571569062767" expanded="true" signature="36407:36611" ph="..." />
+              <marker date="1571569062767" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
             </folding>
           </first_editor>
           <second_editor />
@@ -1501,15 +1501,31 @@
           <first_editor relative-caret-position="18585">
             <caret line="1239" column="0" selection-start-line="1239" selection-start-column="0" selection-end-line="1239" selection-end-column="0" />
             <folding>
-              <marker date="1571568085475" expanded="true" signature="32494:32644" ph="..." />
-              <marker date="1571568085475" expanded="true" signature="36372:36611" ph="..." />
-              <marker date="1571568085475" expanded="true" signature="36407:36611" ph="..." />
-              <marker date="1571568085475" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+              <marker date="1571569062767" expanded="true" signature="32494:32644" ph="..." />
+              <marker date="1571569062767" expanded="true" signature="36372:36611" ph="..." />
+              <marker date="1571569062767" expanded="true" signature="36407:36611" ph="..." />
+              <marker date="1571569062767" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
             </folding>
           </first_editor>
           <second_editor>
             <js_state />
           </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode1110delete-nodes-and-return-forest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random/约瑟夫环问题.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

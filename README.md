@@ -1315,3 +1315,8 @@ Coming from:https://leetcode-cn.com/problems/maximum-difference-between-node-and
 复杂的dfs，在dfs的过程中对树进行修正和保存，有点难
 
 Coming from:https://leetcode-cn.com/problems/delete-nodes-and-return-forest/
+
+### [约瑟夫环问题](random/约瑟夫环问题)
+
+约瑟夫环问题：一圈共有N个人，开始报数，报到M的人自杀，然后重新开始报数，问最后自杀的人是谁？
+问题重述：N个人（编号0~(N-1))，从0开始报数，报到(M-1)的自杀，剩下的人继续从0开始报数。求最后自杀者的编号。
