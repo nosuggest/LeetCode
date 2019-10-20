@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="dfs">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode1110delete-nodes-and-return-forest.py" />
+    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="复杂的dfs">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -54,17 +53,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="564">
-                <caret line="1312" column="46" selection-start-line="1312" selection-start-column="46" selection-end-line="1312" selection-end-column="88" />
+              <first_editor relative-caret-position="534">
+                <caret line="1314" column="26" selection-start-line="1314" selection-start-column="26" selection-end-line="1314" selection-end-column="26" />
                 <folding>
-                  <marker date="1571564245957" expanded="true" signature="32494:32644" ph="..." />
-                  <marker date="1571564245957" expanded="true" signature="36372:36611" ph="..." />
-                  <marker date="1571564245957" expanded="true" signature="36407:36611" ph="..." />
-                  <marker date="1571564245957" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                  <marker date="1571566714794" expanded="true" signature="32494:32644" ph="..." />
+                  <marker date="1571566714794" expanded="true" signature="36372:36611" ph="..." />
+                  <marker date="1571566714794" expanded="true" signature="36407:36611" ph="..." />
+                  <marker date="1571566714794" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -75,10 +74,10 @@
               <first_editor relative-caret-position="18585">
                 <caret line="1239" column="0" selection-start-line="1239" selection-start-column="0" selection-end-line="1239" selection-end-column="0" />
                 <folding>
-                  <marker date="1571564245957" expanded="true" signature="32494:32644" ph="..." />
-                  <marker date="1571564245957" expanded="true" signature="36372:36611" ph="..." />
-                  <marker date="1571564245957" expanded="true" signature="36407:36611" ph="..." />
-                  <marker date="1571564245957" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                  <marker date="1571566714794" expanded="true" signature="32494:32644" ph="..." />
+                  <marker date="1571566714794" expanded="true" signature="36372:36611" ph="..." />
+                  <marker date="1571566714794" expanded="true" signature="36407:36611" ph="..." />
+                  <marker date="1571566714794" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
                 </folding>
               </first_editor>
               <second_editor>
@@ -88,7 +87,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LeetCode1110delete-nodes-and-return-forest.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LeetCode1110delete-nodes-and-return-forest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode1110delete-nodes-and-return-forest.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
@@ -173,8 +172,8 @@
         <option value="$PROJECT_DIR$/LeetCode/LeetCode1008construct-binary-search-tree-from-preorder-traversal.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode1022sum-of-root-to-leaf-binary-numbers.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode1026maximum-difference-between-node-and-ancestor.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode1110delete-nodes-and-return-forest.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -659,13 +658,6 @@
       <workItem from="1566474466127" duration="154000" />
       <workItem from="1569810765255" duration="3178000" />
     </task>
-    <task id="LOCAL-00059" summary="记录下一层的结点，层次遍历填充树之间的关系">
-      <created>1571144109623</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1571144109623</updated>
-    </task>
     <task id="LOCAL-00060" summary="dfs深度遍历，注意跳出条件">
       <created>1571189921769</created>
       <option name="number" value="00060" />
@@ -1002,7 +994,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571559055725</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="复杂的dfs">
+      <created>1571566686518</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1571566686518</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1058,7 +1057,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="递归求解好题目" />
     <MESSAGE value="子树之和" />
     <MESSAGE value="递归直接修改树的实现，爬楼梯的翻版" />
     <MESSAGE value="层次遍历" />
@@ -1083,7 +1081,8 @@
     <MESSAGE value="二叉树父结点+子节点递归" />
     <MESSAGE value="前序中序构造搜索树" />
     <MESSAGE value="dfs" />
-    <option name="LAST_COMMIT_MESSAGE" value="dfs" />
+    <MESSAGE value="复杂的dfs" />
+    <option name="LAST_COMMIT_MESSAGE" value="复杂的dfs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1474,16 +1473,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode1110delete-nodes-and-return-forest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="564">
-            <caret line="1312" column="46" selection-start-line="1312" selection-start-column="46" selection-end-line="1312" selection-end-column="88" />
+          <first_editor relative-caret-position="534">
+            <caret line="1314" column="26" selection-start-line="1314" selection-start-column="26" selection-end-line="1314" selection-end-column="26" />
             <folding>
-              <marker date="1571564245957" expanded="true" signature="32494:32644" ph="..." />
-              <marker date="1571564245957" expanded="true" signature="36372:36611" ph="..." />
-              <marker date="1571564245957" expanded="true" signature="36407:36611" ph="..." />
-              <marker date="1571564245957" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+              <marker date="1571566714794" expanded="true" signature="32494:32644" ph="..." />
+              <marker date="1571566714794" expanded="true" signature="36372:36611" ph="..." />
+              <marker date="1571566714794" expanded="true" signature="36407:36611" ph="..." />
+              <marker date="1571566714794" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
             </folding>
           </first_editor>
           <second_editor />
@@ -1494,23 +1501,15 @@
           <first_editor relative-caret-position="18585">
             <caret line="1239" column="0" selection-start-line="1239" selection-start-column="0" selection-end-line="1239" selection-end-column="0" />
             <folding>
-              <marker date="1571564245957" expanded="true" signature="32494:32644" ph="..." />
-              <marker date="1571564245957" expanded="true" signature="36372:36611" ph="..." />
-              <marker date="1571564245957" expanded="true" signature="36407:36611" ph="..." />
-              <marker date="1571564245957" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+              <marker date="1571566714794" expanded="true" signature="32494:32644" ph="..." />
+              <marker date="1571566714794" expanded="true" signature="36372:36611" ph="..." />
+              <marker date="1571566714794" expanded="true" signature="36407:36611" ph="..." />
+              <marker date="1571566714794" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
             </folding>
           </first_editor>
           <second_editor>
             <js_state />
           </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode1110delete-nodes-and-return-forest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
