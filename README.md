@@ -1305,3 +1305,7 @@ Coming from:https://leetcode-cn.com/problems/construct-binary-search-tree-from-p
 `^`在python里面是抑或，不是次方
 
 Coming from:https://leetcode-cn.com/problems/sum-of-root-to-leaf-binary-numbers/
+
+### [maximum-difference-between-node-and-ancestor](LeetCode/LeetCode1026maximum-difference-between-node-and-ancestor.py)
+
+Coming from:https://leetcode-cn.com/problems/maximum-difference-between-node-and-ancestor/
