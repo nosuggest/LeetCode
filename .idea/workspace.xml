@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="约瑟夫环问题">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random/递增间隔删数.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -58,13 +57,13 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="564">
-                <caret line="1327" column="28" selection-start-line="1327" selection-start-column="28" selection-end-line="1327" selection-end-column="28" />
+              <first_editor relative-caret-position="429">
+                <caret line="1318" column="29" selection-start-line="1318" selection-start-column="29" selection-end-line="1318" selection-end-column="29" />
                 <folding>
-                  <marker date="1571579420153" expanded="true" signature="32494:32644" ph="..." />
-                  <marker date="1571579420153" expanded="true" signature="36372:36611" ph="..." />
-                  <marker date="1571579420153" expanded="true" signature="36407:36611" ph="..." />
-                  <marker date="1571579420153" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                  <marker date="1571579512607" expanded="true" signature="32494:32644" ph="..." />
+                  <marker date="1571579512607" expanded="true" signature="36372:36611" ph="..." />
+                  <marker date="1571579512607" expanded="true" signature="36407:36611" ph="..." />
+                  <marker date="1571579512607" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -75,10 +74,10 @@
               <first_editor relative-caret-position="18585">
                 <caret line="1239" column="0" selection-start-line="1239" selection-start-column="0" selection-end-line="1239" selection-end-column="0" />
                 <folding>
-                  <marker date="1571579420153" expanded="true" signature="32494:32644" ph="..." />
-                  <marker date="1571579420153" expanded="true" signature="36372:36611" ph="..." />
-                  <marker date="1571579420153" expanded="true" signature="36407:36611" ph="..." />
-                  <marker date="1571579420153" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                  <marker date="1571579512607" expanded="true" signature="32494:32644" ph="..." />
+                  <marker date="1571579512607" expanded="true" signature="36372:36611" ph="..." />
+                  <marker date="1571579512607" expanded="true" signature="36407:36611" ph="..." />
+                  <marker date="1571579512607" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
                 </folding>
               </first_editor>
               <second_editor>
@@ -673,13 +672,6 @@
       <workItem from="1566474466127" duration="154000" />
       <workItem from="1569810765255" duration="3178000" />
     </task>
-    <task id="LOCAL-00063" summary="层序遍历，保存最后一个结点">
-      <created>1571198187694</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1571198187694</updated>
-    </task>
     <task id="LOCAL-00064" summary="递归">
       <created>1571198501498</created>
       <option name="number" value="00064" />
@@ -1016,7 +1008,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571572656833</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="约瑟夫环问题">
+      <created>1571579425613</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1571579425614</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1501,13 +1500,13 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="564">
-            <caret line="1327" column="28" selection-start-line="1327" selection-start-column="28" selection-end-line="1327" selection-end-column="28" />
+          <first_editor relative-caret-position="429">
+            <caret line="1318" column="29" selection-start-line="1318" selection-start-column="29" selection-end-line="1318" selection-end-column="29" />
             <folding>
-              <marker date="1571579420153" expanded="true" signature="32494:32644" ph="..." />
-              <marker date="1571579420153" expanded="true" signature="36372:36611" ph="..." />
-              <marker date="1571579420153" expanded="true" signature="36407:36611" ph="..." />
-              <marker date="1571579420153" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+              <marker date="1571579512607" expanded="true" signature="32494:32644" ph="..." />
+              <marker date="1571579512607" expanded="true" signature="36372:36611" ph="..." />
+              <marker date="1571579512607" expanded="true" signature="36407:36611" ph="..." />
+              <marker date="1571579512607" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
             </folding>
           </first_editor>
           <second_editor />
@@ -1518,10 +1517,10 @@
           <first_editor relative-caret-position="18585">
             <caret line="1239" column="0" selection-start-line="1239" selection-start-column="0" selection-end-line="1239" selection-end-column="0" />
             <folding>
-              <marker date="1571579420153" expanded="true" signature="32494:32644" ph="..." />
-              <marker date="1571579420153" expanded="true" signature="36372:36611" ph="..." />
-              <marker date="1571579420153" expanded="true" signature="36407:36611" ph="..." />
-              <marker date="1571579420153" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+              <marker date="1571579512607" expanded="true" signature="32494:32644" ph="..." />
+              <marker date="1571579512607" expanded="true" signature="36372:36611" ph="..." />
+              <marker date="1571579512607" expanded="true" signature="36407:36611" ph="..." />
+              <marker date="1571579512607" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
             </folding>
           </first_editor>
           <second_editor>
