@@ -1312,6 +1312,6 @@ Coming from:https://leetcode-cn.com/problems/maximum-difference-between-node-and
 
 ### [delete-nodes-and-return-forest](LeetCode/LeetCode1110delete-nodes-and-return-forest.py)
 
-复杂的dfs，在dfs的过程中对树进行修正和保存，难
+复杂的dfs，在dfs的过程中对树进行修正和保存，有点难
 
 Coming from:https://leetcode-cn.com/problems/delete-nodes-and-return-forest/

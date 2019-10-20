@@ -58,12 +58,12 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="534">
-                <caret line="1314" column="26" selection-start-line="1314" selection-start-column="26" selection-end-line="1314" selection-end-column="26" />
+                <caret line="1314" column="28" selection-start-line="1314" selection-start-column="28" selection-end-line="1314" selection-end-column="28" />
                 <folding>
-                  <marker date="1571566714794" expanded="true" signature="32494:32644" ph="..." />
-                  <marker date="1571566714794" expanded="true" signature="36372:36611" ph="..." />
-                  <marker date="1571566714794" expanded="true" signature="36407:36611" ph="..." />
-                  <marker date="1571566714794" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                  <marker date="1571568085475" expanded="true" signature="32494:32644" ph="..." />
+                  <marker date="1571568085475" expanded="true" signature="36372:36611" ph="..." />
+                  <marker date="1571568085475" expanded="true" signature="36407:36611" ph="..." />
+                  <marker date="1571568085475" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -74,10 +74,10 @@
               <first_editor relative-caret-position="18585">
                 <caret line="1239" column="0" selection-start-line="1239" selection-start-column="0" selection-end-line="1239" selection-end-column="0" />
                 <folding>
-                  <marker date="1571566714794" expanded="true" signature="32494:32644" ph="..." />
-                  <marker date="1571566714794" expanded="true" signature="36372:36611" ph="..." />
-                  <marker date="1571566714794" expanded="true" signature="36407:36611" ph="..." />
-                  <marker date="1571566714794" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                  <marker date="1571568085475" expanded="true" signature="32494:32644" ph="..." />
+                  <marker date="1571568085475" expanded="true" signature="36372:36611" ph="..." />
+                  <marker date="1571568085475" expanded="true" signature="36407:36611" ph="..." />
+                  <marker date="1571568085475" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
                 </folding>
               </first_editor>
               <second_editor>
@@ -658,13 +658,6 @@
       <workItem from="1566474466127" duration="154000" />
       <workItem from="1569810765255" duration="3178000" />
     </task>
-    <task id="LOCAL-00060" summary="dfs深度遍历，注意跳出条件">
-      <created>1571189921769</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1571189921769</updated>
-    </task>
     <task id="LOCAL-00061" summary="迭代版的二叉树遍历">
       <created>1571197018962</created>
       <option name="number" value="00061" />
@@ -1001,7 +994,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571566686518</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="复杂的dfs">
+      <created>1571566719972</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1571566719972</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1485,12 +1485,12 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="534">
-            <caret line="1314" column="26" selection-start-line="1314" selection-start-column="26" selection-end-line="1314" selection-end-column="26" />
+            <caret line="1314" column="28" selection-start-line="1314" selection-start-column="28" selection-end-line="1314" selection-end-column="28" />
             <folding>
-              <marker date="1571566714794" expanded="true" signature="32494:32644" ph="..." />
-              <marker date="1571566714794" expanded="true" signature="36372:36611" ph="..." />
-              <marker date="1571566714794" expanded="true" signature="36407:36611" ph="..." />
-              <marker date="1571566714794" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+              <marker date="1571568085475" expanded="true" signature="32494:32644" ph="..." />
+              <marker date="1571568085475" expanded="true" signature="36372:36611" ph="..." />
+              <marker date="1571568085475" expanded="true" signature="36407:36611" ph="..." />
+              <marker date="1571568085475" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
             </folding>
           </first_editor>
           <second_editor />
@@ -1501,10 +1501,10 @@
           <first_editor relative-caret-position="18585">
             <caret line="1239" column="0" selection-start-line="1239" selection-start-column="0" selection-end-line="1239" selection-end-column="0" />
             <folding>
-              <marker date="1571566714794" expanded="true" signature="32494:32644" ph="..." />
-              <marker date="1571566714794" expanded="true" signature="36372:36611" ph="..." />
-              <marker date="1571566714794" expanded="true" signature="36407:36611" ph="..." />
-              <marker date="1571566714794" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+              <marker date="1571568085475" expanded="true" signature="32494:32644" ph="..." />
+              <marker date="1571568085475" expanded="true" signature="36372:36611" ph="..." />
+              <marker date="1571568085475" expanded="true" signature="36407:36611" ph="..." />
+              <marker date="1571568085475" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
             </folding>
           </first_editor>
           <second_editor>
