@@ -1283,3 +1283,15 @@ Coming from:https://leetcode-cn.com/problems/univalued-binary-tree/
 金币题，题目有点难理解，算得是每个结点的多余量
 
 Coming from:https://leetcode-cn.com/problems/distribute-coins-in-binary-tree/
+
+### [cousins-in-binary-tree](LeetCode/LeetCode993cousins-in-binary-tree.py)
+
+这题是结合了父结点+子节点递归，利用depth保存层数，parent保存子结点对应的父结点：
+
+```python
+depth[root.val] = depth[par.val]+1 if par else 0
+parent[root.val] = par
+```
+对于根层，depth\[root.val]=0，parent\[root.val]=None
+
+Coming from:https://leetcode-cn.com/problems/cousins-in-binary-tree/

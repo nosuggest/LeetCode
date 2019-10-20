@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="完全二叉树用层次遍历来解决">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode979distribute-coins-in-binary-tree.py" />
+    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="二叉树金币题，题目有点难理解，算得是每个结点的多余量">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode993cousins-in-binary-tree.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -58,13 +58,13 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="534">
-                <caret line="1282" column="0" selection-start-line="1282" selection-start-column="0" selection-end-line="1282" selection-end-column="23" />
+              <first_editor relative-caret-position="519">
+                <caret line="1294" column="46" selection-start-line="1294" selection-start-column="46" selection-end-line="1294" selection-end-column="46" />
                 <folding>
-                  <marker date="1571500831023" expanded="true" signature="32494:32644" ph="..." />
-                  <marker date="1571500831023" expanded="true" signature="36372:36611" ph="..." />
-                  <marker date="1571500831023" expanded="true" signature="36407:36611" ph="..." />
-                  <marker date="1571500831023" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                  <marker date="1571553683124" expanded="true" signature="32494:32644" ph="..." />
+                  <marker date="1571553683124" expanded="true" signature="36372:36611" ph="..." />
+                  <marker date="1571553683124" expanded="true" signature="36407:36611" ph="..." />
+                  <marker date="1571553683124" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -75,10 +75,10 @@
               <first_editor relative-caret-position="18585">
                 <caret line="1239" column="0" selection-start-line="1239" selection-start-column="0" selection-end-line="1239" selection-end-column="0" />
                 <folding>
-                  <marker date="1571500831023" expanded="true" signature="32494:32644" ph="..." />
-                  <marker date="1571500831023" expanded="true" signature="36372:36611" ph="..." />
-                  <marker date="1571500831023" expanded="true" signature="36407:36611" ph="..." />
-                  <marker date="1571500831023" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                  <marker date="1571553683124" expanded="true" signature="32494:32644" ph="..." />
+                  <marker date="1571553683124" expanded="true" signature="36372:36611" ph="..." />
+                  <marker date="1571553683124" expanded="true" signature="36407:36611" ph="..." />
+                  <marker date="1571553683124" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
                 </folding>
               </first_editor>
               <second_editor>
@@ -88,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LeetCode979distribute-coins-in-binary-tree.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode979distribute-coins-in-binary-tree.py">
+      <file leaf-file-name="LeetCode993cousins-in-binary-tree.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode993cousins-in-binary-tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="72" selection-start-line="35" selection-start-column="72" selection-end-line="35" selection-end-column="72" />
+            <state relative-caret-position="420">
+              <caret line="28" column="47" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -124,7 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LeetCode/LeetCode113path-sum-ii.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode114flatten-binary-tree-to-linked-list.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode116populating-next-right-pointers-in-each-node.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode117populating-next-right-pointers-in-each-node-ii.py" />
@@ -174,6 +173,7 @@
         <option value="$PROJECT_DIR$/LeetCode/LeetCode958check-completeness-of-a-binary-tree.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode965univalued-binary-tree.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode979distribute-coins-in-binary-tree.py" />
+        <option value="$PROJECT_DIR$/LeetCode/LeetCode993cousins-in-binary-tree.py" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -246,20 +246,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="LeetCode" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LeetCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LeetCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LeetCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="LeetCode" />
@@ -673,13 +659,6 @@
       <workItem from="1566474466127" duration="154000" />
       <workItem from="1569810765255" duration="3178000" />
     </task>
-    <task id="LOCAL-00053" summary="二叉树路径总和">
-      <created>1571062536557</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1571062536557</updated>
-    </task>
     <task id="LOCAL-00054" summary="fix name">
       <created>1571062568450</created>
       <option name="number" value="00054" />
@@ -1016,7 +995,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571497077837</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="二叉树金币题，题目有点难理解，算得是每个结点的多余量">
+      <created>1571500846436</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1571500846436</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1072,7 +1058,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="前序遍历保存，二叉搜索树的中序遍历为升序列，两则可以恢复原树" />
     <MESSAGE value="二叉树删除结点" />
     <MESSAGE value="搜索二叉树BST删除结点" />
     <MESSAGE value="简单遍历" />
@@ -1097,7 +1082,8 @@
     <MESSAGE value="BST 左侧&lt;root.val&lt;右侧" />
     <MESSAGE value="二叉树" />
     <MESSAGE value="完全二叉树用层次遍历来解决" />
-    <option name="LAST_COMMIT_MESSAGE" value="完全二叉树用层次遍历来解决" />
+    <MESSAGE value="二叉树金币题，题目有点难理解，算得是每个结点的多余量" />
+    <option name="LAST_COMMIT_MESSAGE" value="二叉树金币题，题目有点难理解，算得是每个结点的多余量" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1139,13 +1125,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode117populating-next-right-pointers-in-each-node-ii.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode129sum-root-to-leaf-numbers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -1491,16 +1470,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode993cousins-in-binary-tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="47" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="534">
-            <caret line="1282" column="0" selection-start-line="1282" selection-start-column="0" selection-end-line="1282" selection-end-column="23" />
+          <first_editor relative-caret-position="519">
+            <caret line="1294" column="46" selection-start-line="1294" selection-start-column="46" selection-end-line="1294" selection-end-column="46" />
             <folding>
-              <marker date="1571500831023" expanded="true" signature="32494:32644" ph="..." />
-              <marker date="1571500831023" expanded="true" signature="36372:36611" ph="..." />
-              <marker date="1571500831023" expanded="true" signature="36407:36611" ph="..." />
-              <marker date="1571500831023" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+              <marker date="1571553683124" expanded="true" signature="32494:32644" ph="..." />
+              <marker date="1571553683124" expanded="true" signature="36372:36611" ph="..." />
+              <marker date="1571553683124" expanded="true" signature="36407:36611" ph="..." />
+              <marker date="1571553683124" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
             </folding>
           </first_editor>
           <second_editor />
@@ -1511,10 +1498,10 @@
           <first_editor relative-caret-position="18585">
             <caret line="1239" column="0" selection-start-line="1239" selection-start-column="0" selection-end-line="1239" selection-end-column="0" />
             <folding>
-              <marker date="1571500831023" expanded="true" signature="32494:32644" ph="..." />
-              <marker date="1571500831023" expanded="true" signature="36372:36611" ph="..." />
-              <marker date="1571500831023" expanded="true" signature="36407:36611" ph="..." />
-              <marker date="1571500831023" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+              <marker date="1571553683124" expanded="true" signature="32494:32644" ph="..." />
+              <marker date="1571553683124" expanded="true" signature="36372:36611" ph="..." />
+              <marker date="1571553683124" expanded="true" signature="36407:36611" ph="..." />
+              <marker date="1571553683124" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
             </folding>
           </first_editor>
           <second_editor>
