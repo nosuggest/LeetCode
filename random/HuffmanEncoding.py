@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 #Huffman Encoding，using at the algorithm 'word2vec'
 #not all by myself , somewhere copying from my colleague
 class Node:

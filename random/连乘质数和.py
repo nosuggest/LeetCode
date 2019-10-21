@@ -17,10 +17,8 @@ def getAns(value):
             tmp = 0
 
             def getPrime(num):
-                nonlocal
-                tmp
-                nonlocal
-                dp
+                nonlocal tmp
+                nonlocal dp
                 if num == 1:
                     return
                 for i in range(2, num + 1):
