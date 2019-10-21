@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="插入排序">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/random/SortMethod.py" afterPath="$PROJECT_DIR$/random/SortMethod.py" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -53,7 +53,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -87,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="插入排序.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/random/插入排序.py">
+      <file leaf-file-name="SortMethod.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/random/SortMethod.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="17" />
+            <state relative-caret-position="480">
+              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -166,7 +166,6 @@
         <option value="$PROJECT_DIR$/random/递增间隔删数.py" />
         <option value="$PROJECT_DIR$/random/计数排序.py" />
         <option value="$PROJECT_DIR$/random/GapCount.py" />
-        <option value="$PROJECT_DIR$/random/SortMethod.py" />
         <option value="$PROJECT_DIR$/random/HuffmanEncoding.py" />
         <option value="$PROJECT_DIR$/random/EggTopFloor.py" />
         <option value="$PROJECT_DIR$/random/无序数组排序（时间复杂度为O(n)）.py" />
@@ -174,6 +173,7 @@
         <option value="$PROJECT_DIR$/src/Solution39.java" />
         <option value="$PROJECT_DIR$/random/插入排序.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/random/SortMethod.py" />
       </list>
     </option>
   </component>
@@ -673,13 +673,6 @@
       <workItem from="1569810765255" duration="3178000" />
       <workItem from="1571630020745" duration="254000" />
     </task>
-    <task id="LOCAL-00069" summary="前序遍历保存，二叉搜索树的中序遍历为升序列，两则可以恢复原树">
-      <created>1571227800677</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1571227800677</updated>
-    </task>
     <task id="LOCAL-00070" summary="二叉树删除结点">
       <created>1571238480402</created>
       <option name="number" value="00070" />
@@ -1016,7 +1009,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571638154664</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="插入排序">
+      <created>1571638182762</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1571638182762</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1377,13 +1377,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/random/GapCount.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/random/EggTopFloor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1409,13 +1402,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/random/SortMethod.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1491,6 +1477,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/random/GapCount.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1520,6 +1514,14 @@
           <second_editor>
             <js_state />
           </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random/SortMethod.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
