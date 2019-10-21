@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="桶排序">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random/希尔排序.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="基于插入排序的希尔排序">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random/归并排序.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaSolution.iml" afterPath="$PROJECT_DIR$/javaSolution.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -21,7 +18,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/LeetCode$LeetCode_892_surface_area_of_3d_shapes.coverage" NAME="LeetCode 892 surface-area-of-3d-shapes Coverage Results" MODIFIED="1566181965110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCode$LeetCode_164_pmaximum_gap.coverage" NAME="LeetCode 164 pmaximum-gap Coverage Results" MODIFIED="1566180758681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
-    <SUITE FILE_PATH="coverage/LeetCode$.coverage" NAME="希尔排序 Coverage Results" MODIFIED="1571642074555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random" />
+    <SUITE FILE_PATH="coverage/LeetCode$.coverage" NAME="归并排序 Coverage Results" MODIFIED="1571643795301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random" />
     <SUITE FILE_PATH="coverage/LeetCode$binarySearchTree.coverage" NAME="binarySearchTree Coverage Results" MODIFIED="1571226216972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random" />
     <SUITE FILE_PATH="coverage/LeetCode$LeetCode139word_break.coverage" NAME="LeetCode139word-break Coverage Results" MODIFIED="1567238939404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCode$LeetCode442find_all_duplicates_in_an_array.coverage" NAME="LeetCode442find-all-duplicates-in-an-array Coverage Results" MODIFIED="1567157838307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
@@ -64,10 +61,10 @@
               <first_editor relative-caret-position="0">
                 <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                 <folding>
-                  <marker date="1571640101345" expanded="true" signature="32494:32644" ph="..." />
-                  <marker date="1571640101345" expanded="true" signature="36372:36611" ph="..." />
-                  <marker date="1571640101345" expanded="true" signature="36407:36611" ph="..." />
-                  <marker date="1571640101345" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                  <marker date="1571642653608" expanded="true" signature="32494:32644" ph="..." />
+                  <marker date="1571642653608" expanded="true" signature="36372:36611" ph="..." />
+                  <marker date="1571642653608" expanded="true" signature="36407:36611" ph="..." />
+                  <marker date="1571642653608" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -75,13 +72,13 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="465">
-                <caret line="1335" column="18" selection-start-line="1335" selection-start-column="18" selection-end-line="1335" selection-end-column="22" />
+              <first_editor relative-caret-position="435">
+                <caret line="1337" column="22" selection-start-line="1337" selection-start-column="22" selection-end-line="1337" selection-end-column="22" />
                 <folding>
-                  <marker date="1571640101345" expanded="true" signature="32494:32644" ph="..." />
-                  <marker date="1571640101345" expanded="true" signature="36372:36611" ph="..." />
-                  <marker date="1571640101345" expanded="true" signature="36407:36611" ph="..." />
-                  <marker date="1571640101345" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                  <marker date="1571642653608" expanded="true" signature="32494:32644" ph="..." />
+                  <marker date="1571642653608" expanded="true" signature="36372:36611" ph="..." />
+                  <marker date="1571642653608" expanded="true" signature="36407:36611" ph="..." />
+                  <marker date="1571642653608" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
                 </folding>
               </first_editor>
               <second_editor>
@@ -91,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="希尔排序.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/random/希尔排序.py">
+      <file leaf-file-name="归并排序.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/random/归并排序.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+            <state relative-caret-position="285">
+              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -127,7 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LeetCode/LeetCode515find-largest-value-in-each-tree-row.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode530minimum-absolute-difference-in-bst.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode563binary-tree-tilt.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode572subtree-of-another-tree.py" />
@@ -175,9 +171,10 @@
         <option value="$PROJECT_DIR$/src/Solution39.java" />
         <option value="$PROJECT_DIR$/random/插入排序.py" />
         <option value="$PROJECT_DIR$/random/SortMethod.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/LeetCode/希尔排序.py" />
         <option value="$PROJECT_DIR$/random/希尔排序.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/random/归并排序.py" />
       </list>
     </option>
   </component>
@@ -255,6 +252,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="random" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -289,25 +314,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.希尔排序">
-    <configuration default="false" name="LeetCode889construct-binary-tree-from-preorder-and-postorder-traversal" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.6/bin/python3.6" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="javaSolution" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/LeetCode889construct-binary-tree-from-preorder-and-postorder-traversal.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.归并排序">
     <configuration default="false" name="binarySearchTree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -376,6 +383,24 @@
       <module name="javaSolution" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/random/希尔排序.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="归并排序" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/random" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="javaSolution" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/random/归并排序.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -600,19 +625,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.LeetCode889construct-binary-tree-from-preorder-and-postorder-traversal" />
-      <item index="1" class="java.lang.String" itemvalue="Python.binarySearchTree" />
-      <item index="2" class="java.lang.String" itemvalue="Python.连乘质数和" />
-      <item index="3" class="java.lang.String" itemvalue="Python.插入排序" />
-      <item index="4" class="java.lang.String" itemvalue="Python.希尔排序" />
+      <item index="0" class="java.lang.String" itemvalue="Python.binarySearchTree" />
+      <item index="1" class="java.lang.String" itemvalue="Python.连乘质数和" />
+      <item index="2" class="java.lang.String" itemvalue="Python.插入排序" />
+      <item index="3" class="java.lang.String" itemvalue="Python.希尔排序" />
+      <item index="4" class="java.lang.String" itemvalue="Python.归并排序" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.希尔排序" />
-        <item index="1" class="java.lang.String" itemvalue="Python.插入排序" />
-        <item index="2" class="java.lang.String" itemvalue="Python.连乘质数和" />
-        <item index="3" class="java.lang.String" itemvalue="Python.binarySearchTree" />
-        <item index="4" class="java.lang.String" itemvalue="Python.LeetCode889construct-binary-tree-from-preorder-and-postorder-traversal" />
+        <item index="0" class="java.lang.String" itemvalue="Python.归并排序" />
+        <item index="1" class="java.lang.String" itemvalue="Python.希尔排序" />
+        <item index="2" class="java.lang.String" itemvalue="Python.插入排序" />
+        <item index="3" class="java.lang.String" itemvalue="Python.连乘质数和" />
+        <item index="4" class="java.lang.String" itemvalue="Python.binarySearchTree" />
       </list>
     </recent_temporary>
   </component>
@@ -663,13 +688,6 @@
       <workItem from="1566474466127" duration="154000" />
       <workItem from="1569810765255" duration="3178000" />
       <workItem from="1571630020745" duration="254000" />
-    </task>
-    <task id="LOCAL-00071" summary="搜索二叉树BST删除结点">
-      <created>1571238494442</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1571238494442</updated>
     </task>
     <task id="LOCAL-00072" summary="搜索二叉树BST删除结点">
       <created>1571238586232</created>
@@ -1007,7 +1025,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571638839946</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="基于插入排序的希尔排序">
+      <created>1571642255557</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1571642255557</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1063,7 +1088,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="二叉树的结点变化" />
     <MESSAGE value="log(h)递归" />
     <MESSAGE value="递归详解" />
     <MESSAGE value="去重" />
@@ -1088,7 +1112,8 @@
     <MESSAGE value="fix format" />
     <MESSAGE value="插入排序" />
     <MESSAGE value="桶排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="桶排序" />
+    <MESSAGE value="基于插入排序的希尔排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="基于插入排序的希尔排序" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1130,13 +1155,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode671second-minimum-node-in-a-binary-tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode687longest-univalue-path.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1478,16 +1496,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/random/希尔排序.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding>
-              <marker date="1571640101345" expanded="true" signature="32494:32644" ph="..." />
-              <marker date="1571640101345" expanded="true" signature="36372:36611" ph="..." />
-              <marker date="1571640101345" expanded="true" signature="36407:36611" ph="..." />
-              <marker date="1571640101345" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+              <marker date="1571642653608" expanded="true" signature="32494:32644" ph="..." />
+              <marker date="1571642653608" expanded="true" signature="36372:36611" ph="..." />
+              <marker date="1571642653608" expanded="true" signature="36407:36611" ph="..." />
+              <marker date="1571642653608" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
             </folding>
           </first_editor>
           <second_editor />
@@ -1495,13 +1521,13 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="465">
-            <caret line="1335" column="18" selection-start-line="1335" selection-start-column="18" selection-end-line="1335" selection-end-column="22" />
+          <first_editor relative-caret-position="435">
+            <caret line="1337" column="22" selection-start-line="1337" selection-start-column="22" selection-end-line="1337" selection-end-column="22" />
             <folding>
-              <marker date="1571640101345" expanded="true" signature="32494:32644" ph="..." />
-              <marker date="1571640101345" expanded="true" signature="36372:36611" ph="..." />
-              <marker date="1571640101345" expanded="true" signature="36407:36611" ph="..." />
-              <marker date="1571640101345" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+              <marker date="1571642653608" expanded="true" signature="32494:32644" ph="..." />
+              <marker date="1571642653608" expanded="true" signature="36372:36611" ph="..." />
+              <marker date="1571642653608" expanded="true" signature="36407:36611" ph="..." />
+              <marker date="1571642653608" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
             </folding>
           </first_editor>
           <second_editor>
@@ -1510,10 +1536,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/random/希尔排序.py">
+    <entry file="file://$PROJECT_DIR$/random/归并排序.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        <state relative-caret-position="285">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
           <folding />
         </state>
       </provider>
