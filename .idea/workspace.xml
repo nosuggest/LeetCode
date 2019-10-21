@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="约瑟夫环问题">
+    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="fix path">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random/计数排序.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -53,17 +54,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="429">
-                <caret line="1318" column="29" selection-start-line="1318" selection-start-column="29" selection-end-line="1318" selection-end-column="29" />
+              <first_editor relative-caret-position="564">
+                <caret line="1329" column="22" selection-start-line="1329" selection-start-column="18" selection-end-line="1329" selection-end-column="22" />
                 <folding>
-                  <marker date="1571579512607" expanded="true" signature="32494:32644" ph="..." />
-                  <marker date="1571579512607" expanded="true" signature="36372:36611" ph="..." />
-                  <marker date="1571579512607" expanded="true" signature="36407:36611" ph="..." />
-                  <marker date="1571579512607" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                  <marker date="1571624773935" expanded="true" signature="32494:32644" ph="..." />
+                  <marker date="1571624773935" expanded="true" signature="36372:36611" ph="..." />
+                  <marker date="1571624773935" expanded="true" signature="36407:36611" ph="..." />
+                  <marker date="1571624773935" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -74,10 +75,10 @@
               <first_editor relative-caret-position="18585">
                 <caret line="1239" column="0" selection-start-line="1239" selection-start-column="0" selection-end-line="1239" selection-end-column="0" />
                 <folding>
-                  <marker date="1571579512607" expanded="true" signature="32494:32644" ph="..." />
-                  <marker date="1571579512607" expanded="true" signature="36372:36611" ph="..." />
-                  <marker date="1571579512607" expanded="true" signature="36407:36611" ph="..." />
-                  <marker date="1571579512607" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                  <marker date="1571624773935" expanded="true" signature="32494:32644" ph="..." />
+                  <marker date="1571624773935" expanded="true" signature="36372:36611" ph="..." />
+                  <marker date="1571624773935" expanded="true" signature="36407:36611" ph="..." />
+                  <marker date="1571624773935" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
                 </folding>
               </first_editor>
               <second_editor>
@@ -87,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="递增间隔删数.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/random/递增间隔删数.py">
+      <file leaf-file-name="计数排序.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/random/计数排序.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="31" />
+            <state relative-caret-position="285">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -123,7 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LeetCode/LeetCode199binary-tree-right-side-view.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode222count-complete-tree-nodes.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode230kth-smallest-element-in-a-bst.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode173binary-search-tree-iterator.py" />
@@ -174,6 +174,7 @@
         <option value="$PROJECT_DIR$/random/约瑟夫环问题.py" />
         <option value="$PROJECT_DIR$/random/递增间隔删数.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/random/计数排序.py" />
       </list>
     </option>
   </component>
@@ -276,7 +277,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/.nvm/versions/node/v9.2.0/bin/node" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Code/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../YMM/git/cangjie-gateway" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
@@ -672,13 +673,6 @@
       <workItem from="1566474466127" duration="154000" />
       <workItem from="1569810765255" duration="3178000" />
     </task>
-    <task id="LOCAL-00064" summary="递归">
-      <created>1571198501498</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1571198501498</updated>
-    </task>
     <task id="LOCAL-00065" summary="bst搜索最小k值">
       <created>1571202162599</created>
       <option name="number" value="00065" />
@@ -1015,7 +1009,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571579425614</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="fix path">
+      <created>1571579523339</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1571579523339</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1025,7 +1026,7 @@
     <frame x="0" y="23" width="1440" height="823" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25035766" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25751072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="15" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1071,7 +1072,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="递归直接修改树的实现，爬楼梯的翻版" />
     <MESSAGE value="层次遍历" />
     <MESSAGE value="别出心裁的递归写法" />
     <MESSAGE value="o(h)的二叉树查找" />
@@ -1096,7 +1096,8 @@
     <MESSAGE value="dfs" />
     <MESSAGE value="复杂的dfs" />
     <MESSAGE value="约瑟夫环问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="约瑟夫环问题" />
+    <MESSAGE value="fix path" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix path" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1138,18 +1139,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode404sum-of-left-leaves.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode297serialize-and-deserialize-binary-tree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="45" column="36" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1437,7 +1430,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="35" column="72" selection-start-line="35" selection-start-column="72" selection-end-line="35" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1445,7 +1437,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="47" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1453,7 +1444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1461,7 +1451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="36" column="66" selection-start-line="36" selection-start-column="66" selection-end-line="36" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1469,7 +1458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="37" column="64" selection-start-line="37" selection-start-column="64" selection-end-line="37" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1477,7 +1465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1485,14 +1472,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random/递增间隔删数.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="31" />
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1500,13 +1486,13 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="429">
-            <caret line="1318" column="29" selection-start-line="1318" selection-start-column="29" selection-end-line="1318" selection-end-column="29" />
+          <first_editor relative-caret-position="564">
+            <caret line="1329" column="22" selection-start-line="1329" selection-start-column="18" selection-end-line="1329" selection-end-column="22" />
             <folding>
-              <marker date="1571579512607" expanded="true" signature="32494:32644" ph="..." />
-              <marker date="1571579512607" expanded="true" signature="36372:36611" ph="..." />
-              <marker date="1571579512607" expanded="true" signature="36407:36611" ph="..." />
-              <marker date="1571579512607" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+              <marker date="1571624773935" expanded="true" signature="32494:32644" ph="..." />
+              <marker date="1571624773935" expanded="true" signature="36372:36611" ph="..." />
+              <marker date="1571624773935" expanded="true" signature="36407:36611" ph="..." />
+              <marker date="1571624773935" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
             </folding>
           </first_editor>
           <second_editor />
@@ -1517,15 +1503,23 @@
           <first_editor relative-caret-position="18585">
             <caret line="1239" column="0" selection-start-line="1239" selection-start-column="0" selection-end-line="1239" selection-end-column="0" />
             <folding>
-              <marker date="1571579512607" expanded="true" signature="32494:32644" ph="..." />
-              <marker date="1571579512607" expanded="true" signature="36372:36611" ph="..." />
-              <marker date="1571579512607" expanded="true" signature="36407:36611" ph="..." />
-              <marker date="1571579512607" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+              <marker date="1571624773935" expanded="true" signature="32494:32644" ph="..." />
+              <marker date="1571624773935" expanded="true" signature="36372:36611" ph="..." />
+              <marker date="1571624773935" expanded="true" signature="36407:36611" ph="..." />
+              <marker date="1571624773935" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
             </folding>
           </first_editor>
           <second_editor>
             <js_state />
           </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random/计数排序.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
