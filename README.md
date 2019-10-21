@@ -1338,3 +1338,7 @@ Coming from:https://leetcode-cn.com/problems/delete-nodes-and-return-forest/
 ### [归并排序](random/归并排序.py)
 
 ### [堆排序](random/堆排序.py)
+
+### [lowest-common-ancestor-of-deepest-leaves](LeetCode/LeetCode1123lowest-common-ancestor-of-deepest-leaves.py)
+
+Coming from:https://leetcode-cn.com/problems/lowest-common-ancestor-of-deepest-leaves/
