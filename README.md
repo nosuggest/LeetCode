@@ -1330,3 +1330,5 @@ Coming from:https://leetcode-cn.com/problems/delete-nodes-and-return-forest/
 ### [计数排序](random/计数排序.py)
 
 阿里-推荐算法工程师
+
+### [插入排序](random/插入排序.py)

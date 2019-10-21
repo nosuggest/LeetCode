@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="fix format">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random/插入排序.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution39.class" afterPath="$PROJECT_DIR$/out/Solution39.class" />
+    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="插入排序">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -54,11 +53,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="插入排序.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding>
+                  <marker date="1571638178452" expanded="true" signature="32494:32644" ph="..." />
+                  <marker date="1571638178452" expanded="true" signature="36372:36611" ph="..." />
+                  <marker date="1571638178452" expanded="true" signature="36407:36611" ph="..." />
+                  <marker date="1571638178452" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="435">
+                <caret line="1333" column="26" selection-start-line="1333" selection-start-column="26" selection-end-line="1333" selection-end-column="26" />
+                <folding>
+                  <marker date="1571638178452" expanded="true" signature="32494:32644" ph="..." />
+                  <marker date="1571638178452" expanded="true" signature="36372:36611" ph="..." />
+                  <marker date="1571638178452" expanded="true" signature="36407:36611" ph="..." />
+                  <marker date="1571638178452" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                </folding>
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="插入排序.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/random/插入排序.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="60">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -138,9 +171,9 @@
         <option value="$PROJECT_DIR$/random/EggTopFloor.py" />
         <option value="$PROJECT_DIR$/random/无序数组排序（时间复杂度为O(n)）.py" />
         <option value="$PROJECT_DIR$/random/连乘质数和.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/Solution39.java" />
         <option value="$PROJECT_DIR$/random/插入排序.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -640,13 +673,6 @@
       <workItem from="1569810765255" duration="3178000" />
       <workItem from="1571630020745" duration="254000" />
     </task>
-    <task id="LOCAL-00068" summary="层序遍历，迭代版">
-      <created>1571209673762</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1571209673762</updated>
-    </task>
     <task id="LOCAL-00069" summary="前序遍历保存，二叉搜索树的中序遍历为升序列，两则可以恢复原树">
       <created>1571227800677</created>
       <option name="number" value="00069" />
@@ -983,7 +1009,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571625911688</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="插入排序">
+      <created>1571638154664</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1571638154664</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1039,7 +1072,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="递归" />
     <MESSAGE value="N叉树" />
     <MESSAGE value="二叉树的结点变化" />
     <MESSAGE value="log(h)递归" />
@@ -1064,7 +1096,8 @@
     <MESSAGE value="计算每个值比自己小的值的个数，和自己一样大的个数，然后进行范围插值" />
     <MESSAGE value="fix tab to space" />
     <MESSAGE value="fix format" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix format" />
+    <MESSAGE value="插入排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="插入排序" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1442,38 +1475,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding>
-              <marker date="1571624773935" expanded="true" signature="32494:32644" ph="..." />
-              <marker date="1571624773935" expanded="true" signature="36372:36611" ph="..." />
-              <marker date="1571624773935" expanded="true" signature="36407:36611" ph="..." />
-              <marker date="1571624773935" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="281">
-            <caret line="1314" column="24" selection-start-line="1314" selection-start-column="7" selection-end-line="1314" selection-end-column="24" />
-            <folding>
-              <marker date="1571624773935" expanded="true" signature="32494:32644" ph="..." />
-              <marker date="1571624773935" expanded="true" signature="36372:36611" ph="..." />
-              <marker date="1571624773935" expanded="true" signature="36407:36611" ph="..." />
-              <marker date="1571624773935" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            </folding>
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/random/BubbleSort.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1484,9 +1485,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/random/插入排序.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding>
+              <marker date="1571638178452" expanded="true" signature="32494:32644" ph="..." />
+              <marker date="1571638178452" expanded="true" signature="36372:36611" ph="..." />
+              <marker date="1571638178452" expanded="true" signature="36407:36611" ph="..." />
+              <marker date="1571638178452" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="435">
+            <caret line="1333" column="26" selection-start-line="1333" selection-start-column="26" selection-end-line="1333" selection-end-column="26" />
+            <folding>
+              <marker date="1571638178452" expanded="true" signature="32494:32644" ph="..." />
+              <marker date="1571638178452" expanded="true" signature="36372:36611" ph="..." />
+              <marker date="1571638178452" expanded="true" signature="36407:36611" ph="..." />
+              <marker date="1571638178452" expanded="true" signature="36416:36527" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            </folding>
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
         </state>
       </provider>
     </entry>
