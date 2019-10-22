@@ -1359,3 +1359,9 @@ Coming from:https://leetcode-cn.com/problems/recover-a-tree-from-preorder-traver
 滑动窗口去解决字符串匹配问题
 
 Coming from:https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/
+
+### [generate-parentheses](LeetCode/LeetCode22generate-parentheses.py)
+
+dfs
+
+Coming from:https://leetcode-cn.com/problems/generate-parentheses/
