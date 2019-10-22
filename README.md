@@ -1342,3 +1342,9 @@ Coming from:https://leetcode-cn.com/problems/delete-nodes-and-return-forest/
 ### [lowest-common-ancestor-of-deepest-leaves](LeetCode/LeetCode1123lowest-common-ancestor-of-deepest-leaves.py)
 
 Coming from:https://leetcode-cn.com/problems/lowest-common-ancestor-of-deepest-leaves/
+
+### [recover-a-tree-from-preorder-traversal](LeetCode/LeetCode1028recover-a-tree-from-preorder-traversal.py)
+
+hashmap存结点，每次更新
+
+Coming from:https://leetcode-cn.com/problems/recover-a-tree-from-preorder-traversal/
