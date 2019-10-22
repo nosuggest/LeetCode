@@ -733,6 +733,8 @@ Coming from:https://leetcode-cn.com/problems/daily-temperatures/
 
 Coming from:https://leetcode-cn.com/problems/linked-list-random-node/
 
+---
+
 ### [binarySearchTree](random/binarySearchTree.py)
 
 `搜索二叉树`
@@ -1345,4 +1347,15 @@ Coming from:https://leetcode-cn.com/problems/lowest-common-ancestor-of-deepest-l
 
 ### [recover-a-tree-from-preorder-traversal](LeetCode/LeetCode1028recover-a-tree-from-preorder-traversal.py)
 
+hashmap存结点，每次更新
+
 Coming from:https://leetcode-cn.com/problems/recover-a-tree-from-preorder-traversal/
+
+以上大部分为二叉树系列，leetcode中免费的二叉树题目绝大多数都在这边了，完结。
+---
+
+### [find-all-anagrams-in-a-string](LeetCode/LeetCode438find-all-anagrams-in-a-string.py)
+
+滑动窗口去解决字符串匹配问题
+
+Coming from:https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/

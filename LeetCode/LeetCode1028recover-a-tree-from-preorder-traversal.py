@@ -1,19 +1,16 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-'''
-@File  : LeetCode1028recover-a-tree-from-preorder-traversal.py
-@Author: sladesha
-@Date  : 2019/10/21 22:52
-@Desc  : 
-'''
-
+# @Time    : 2019/10/22 9:18 AM
+# @Author  : Slade
+# @File    : LeetCode1028recover-a-tree-from-preorder-traversal.py
 
 # Definition for a binary tree node.
-# class TreeNode(object):
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
+class TreeNode(object):
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+
 
 class Solution(object):
     def recoverFromPreorder(self, S):
@@ -23,22 +20,26 @@ class Solution(object):
         """
         depth = {-1: TreeNode(0)}
 
-        def addTree(v, p):
-            depth[p] = TreeNode(int(v))
+        def buildTree(val, high):
+            depth[high] = TreeNode(int(val))
 
-            if not depth[p - 1].left:
-                depth[p - 1].left = depth[p]
+            if not depth[high - 1].left:
+                depth[high - 1].left = depth[high]
             else:
-                depth[p - 1].right = depth[p]
+                depth[high - 1].right = depth[high]
 
-        val, p = "", 0
-        for  c in S:
-            if  c !="-":
-                val+=c
-            elif val:
-                addTree(val,p)
-                val,p="",1
+        value, par = "", 0
+        for s in S:
+            if s != "-":
+                value += s
+            elif value:
+                buildTree(value, par)
+                value, par = "", 1
             else:
-                p+=1
-        addTree(val,p)
+                par += 1
+        buildTree(value, par)
         return depth[0]
+
+if __name__ == '__main__':
+    s = Solution()
+    s.recoverFromPreorder("1-2--3--4-5--6--7")
