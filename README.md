@@ -1406,3 +1406,9 @@ Coming from:https://leetcode-cn.com/problems/find-the-duplicate-number/
 加速的地方在于，维护好容量为k的小根堆之后，只需要保证根堆的根结点最小即可。`min_heap(k_min, k, 0)`
 
 Coming from:https://leetcode-cn.com/problems/kth-largest-element-in-an-array/
+
+### [unique-paths](LeetCode/LeetCode62unique-paths.py)
+
+简单的动态规划
+
+Coming from:https://leetcode-cn.com/problems/unique-paths/
