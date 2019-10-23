@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="根堆解">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode322coin-change.py" />
+    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="斐波纳切dp">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode287find-the-duplicate-number.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -65,10 +65,10 @@
               <first_editor relative-caret-position="15">
                 <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
                 <folding>
-                  <marker date="1571813370568" expanded="true" signature="32499:32649" ph="..." />
-                  <marker date="1571813370568" expanded="true" signature="36377:36616" ph="..." />
-                  <marker date="1571813370568" expanded="true" signature="36412:36616" ph="..." />
-                  <marker date="1571813370568" expanded="true" signature="36421:36532" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                  <marker date="1571821009812" expanded="true" signature="32499:32649" ph="..." />
+                  <marker date="1571821009812" expanded="true" signature="36377:36616" ph="..." />
+                  <marker date="1571821009812" expanded="true" signature="36412:36616" ph="..." />
+                  <marker date="1571821009812" expanded="true" signature="36421:36532" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -76,13 +76,13 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="302">
-                <caret line="1385" column="8" selection-start-line="1385" selection-start-column="8" selection-end-line="1385" selection-end-column="8" />
+              <first_editor relative-caret-position="272">
+                <caret line="1399" column="12" selection-start-line="1399" selection-start-column="12" selection-end-line="1399" selection-end-column="12" />
                 <folding>
-                  <marker date="1571813370568" expanded="true" signature="32499:32649" ph="..." />
-                  <marker date="1571813370568" expanded="true" signature="36377:36616" ph="..." />
-                  <marker date="1571813370568" expanded="true" signature="36412:36616" ph="..." />
-                  <marker date="1571813370568" expanded="true" signature="36421:36532" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                  <marker date="1571821009812" expanded="true" signature="32499:32649" ph="..." />
+                  <marker date="1571821009812" expanded="true" signature="36377:36616" ph="..." />
+                  <marker date="1571821009812" expanded="true" signature="36412:36616" ph="..." />
+                  <marker date="1571821009812" expanded="true" signature="36421:36532" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
                 </folding>
               </first_editor>
               <second_editor>
@@ -92,11 +92,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LeetCode322coin-change.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode322coin-change.py">
+      <file leaf-file-name="LeetCode287find-the-duplicate-number.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode287find-the-duplicate-number.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+            <state relative-caret-position="240">
+              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -128,7 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LeetCode/LeetCode653two-sum-iv-input-is-a-bst.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode654maximum-binary-tree.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode429n-ary-tree-level-order-traversal.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode559maximum-depth-of-n-ary-tree.py" />
@@ -178,6 +177,7 @@
         <option value="$PROJECT_DIR$/LeetCode/LeetCode146lru-cache.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode347top-k-frequent-elements.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode322coin-change.py" />
+        <option value="$PROJECT_DIR$/LeetCode/LeetCode287find-the-duplicate-number.py" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -251,20 +251,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="LeetCode" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LeetCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LeetCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LeetCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="LeetCode" />
@@ -791,13 +777,6 @@
       <workItem from="1569810765255" duration="3178000" />
       <workItem from="1571630020745" duration="254000" />
     </task>
-    <task id="LOCAL-00079" summary="递归直接修改树的实现，爬楼梯的翻版">
-      <created>1571297515900</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1571297515900</updated>
-    </task>
     <task id="LOCAL-00080" summary="层次遍历">
       <created>1571301738541</created>
       <option name="number" value="00080" />
@@ -1134,7 +1113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571803642989</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <task id="LOCAL-00128" summary="斐波纳切dp">
+      <created>1571813378910</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1571813378910</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1190,7 +1176,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="二叉树dp" />
     <MESSAGE value="二叉树层次遍历" />
     <MESSAGE value="BST 左侧&lt;root.val&lt;右侧" />
     <MESSAGE value="二叉树" />
@@ -1215,7 +1200,8 @@
     <MESSAGE value="滑动窗口" />
     <MESSAGE value="是否达到最大容量决定是否需要剔除" />
     <MESSAGE value="根堆解" />
-    <option name="LAST_COMMIT_MESSAGE" value="根堆解" />
+    <MESSAGE value="斐波纳切dp" />
+    <option name="LAST_COMMIT_MESSAGE" value="斐波纳切dp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1257,13 +1243,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode94binary-tree-inorder-traversal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="42" column="22" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode783minimum-distance-between-bst-nodes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1612,16 +1591,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode287find-the-duplicate-number.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="15">
             <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
             <folding>
-              <marker date="1571813370568" expanded="true" signature="32499:32649" ph="..." />
-              <marker date="1571813370568" expanded="true" signature="36377:36616" ph="..." />
-              <marker date="1571813370568" expanded="true" signature="36412:36616" ph="..." />
-              <marker date="1571813370568" expanded="true" signature="36421:36532" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+              <marker date="1571821009812" expanded="true" signature="32499:32649" ph="..." />
+              <marker date="1571821009812" expanded="true" signature="36377:36616" ph="..." />
+              <marker date="1571821009812" expanded="true" signature="36412:36616" ph="..." />
+              <marker date="1571821009812" expanded="true" signature="36421:36532" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
             </folding>
           </first_editor>
           <second_editor />
@@ -1629,13 +1616,13 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="302">
-            <caret line="1385" column="8" selection-start-line="1385" selection-start-column="8" selection-end-line="1385" selection-end-column="8" />
+          <first_editor relative-caret-position="272">
+            <caret line="1399" column="12" selection-start-line="1399" selection-start-column="12" selection-end-line="1399" selection-end-column="12" />
             <folding>
-              <marker date="1571813370568" expanded="true" signature="32499:32649" ph="..." />
-              <marker date="1571813370568" expanded="true" signature="36377:36616" ph="..." />
-              <marker date="1571813370568" expanded="true" signature="36412:36616" ph="..." />
-              <marker date="1571813370568" expanded="true" signature="36421:36532" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+              <marker date="1571821009812" expanded="true" signature="32499:32649" ph="..." />
+              <marker date="1571821009812" expanded="true" signature="36377:36616" ph="..." />
+              <marker date="1571821009812" expanded="true" signature="36412:36616" ph="..." />
+              <marker date="1571821009812" expanded="true" signature="36421:36532" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
             </folding>
           </first_editor>
           <second_editor>

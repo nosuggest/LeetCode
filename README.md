@@ -1386,3 +1386,17 @@ Coming from:https://leetcode-cn.com/problems/lru-cache/
 斐波纳切动态规划
 
 Coming from:https://leetcode-cn.com/problems/coin-change/
+
+### [find-the-duplicate-number](LeetCode/LeetCode287find-the-duplicate-number.py)
+
+```
+（1）使用哈希表判重
+（2）排序以后，重复的数相邻
+（3）使用“抽屉原理”，当两个数发现要放在同一个地方的时候，就发现了这个重复的元素
+（4）既然要定位数，可以对“数”做二分
+（5）还可以使用“快慢指针”来完成
+```
+
+环概念：代码内部，好好看
+
+Coming from:https://leetcode-cn.com/problems/find-the-duplicate-number/
