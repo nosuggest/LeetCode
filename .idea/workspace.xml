@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="是否达到最大容量决定是否需要剔除">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode347top-k-frequent-elements.py" />
+    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="根堆解">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode322coin-change.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -29,9 +29,10 @@
     <SUITE FILE_PATH="coverage/LeetCode$LeetCode96unique_binary_search_trees.coverage" NAME="LeetCode96unique-binary-search-trees Coverage Results" MODIFIED="1570953011157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCode$LeetCode95unique_binary_search_trees_ii.coverage" NAME="LeetCode95unique-binary-search-trees-ii Coverage Results" MODIFIED="1571021960602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCode$SelectSort.coverage" NAME="SelectSort Coverage Results" MODIFIED="1567434849705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random" />
+    <SUITE FILE_PATH="coverage/LeetCode$LeetCode322coin_change.coverage" NAME="LeetCode322coin-change Coverage Results" MODIFIED="1571813249948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCode$LeetCode105construct_binary_tree_from_preorder_and_inorder_traversal.coverage" NAME="LeetCode105construct-binary-tree-from-preorder-and-inorder-traversal Coverage Results" MODIFIED="1570861030866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCode$LeetCode91decode_ways.coverage" NAME="LeetCode91decode-ways Coverage Results" MODIFIED="1567133258708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
-    <SUITE FILE_PATH="coverage/LeetCode$LeetCode347top_k_frequent_elements.coverage" NAME="LeetCode347top-k-frequent-elements Coverage Results" MODIFIED="1571803486983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
+    <SUITE FILE_PATH="coverage/LeetCode$LeetCode347top_k_frequent_elements.coverage" NAME="LeetCode347top-k-frequent-elements Coverage Results" MODIFIED="1571813042483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCode$LeetCode543diameter_of_binary_tree.coverage" NAME="LeetCode543diameter-of-binary-tree Coverage Results" MODIFIED="1570803663913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCode$LeetCode208implement_trie_prefix_tree.coverage" NAME="LeetCode208implement-trie-prefix-tree Coverage Results" MODIFIED="1570803696329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCode$LeetCode1028recover_a_tree_from_preorder_traversal.coverage" NAME="LeetCode1028recover-a-tree-from-preorder-traversal Coverage Results" MODIFIED="1571707997006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
@@ -64,10 +65,10 @@
               <first_editor relative-caret-position="15">
                 <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
                 <folding>
-                  <marker date="1571803625090" expanded="true" signature="32499:32649" ph="..." />
-                  <marker date="1571803625090" expanded="true" signature="36377:36616" ph="..." />
-                  <marker date="1571803625090" expanded="true" signature="36412:36616" ph="..." />
-                  <marker date="1571803625090" expanded="true" signature="36421:36532" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                  <marker date="1571813370568" expanded="true" signature="32499:32649" ph="..." />
+                  <marker date="1571813370568" expanded="true" signature="36377:36616" ph="..." />
+                  <marker date="1571813370568" expanded="true" signature="36412:36616" ph="..." />
+                  <marker date="1571813370568" expanded="true" signature="36421:36532" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -75,13 +76,13 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="316">
-                <caret line="1376" column="0" selection-start-line="1376" selection-start-column="0" selection-end-line="1376" selection-end-column="0" />
+              <first_editor relative-caret-position="302">
+                <caret line="1385" column="8" selection-start-line="1385" selection-start-column="8" selection-end-line="1385" selection-end-column="8" />
                 <folding>
-                  <marker date="1571803625090" expanded="true" signature="32499:32649" ph="..." />
-                  <marker date="1571803625090" expanded="true" signature="36377:36616" ph="..." />
-                  <marker date="1571803625090" expanded="true" signature="36412:36616" ph="..." />
-                  <marker date="1571803625090" expanded="true" signature="36421:36532" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                  <marker date="1571813370568" expanded="true" signature="32499:32649" ph="..." />
+                  <marker date="1571813370568" expanded="true" signature="36377:36616" ph="..." />
+                  <marker date="1571813370568" expanded="true" signature="36412:36616" ph="..." />
+                  <marker date="1571813370568" expanded="true" signature="36421:36532" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
                 </folding>
               </first_editor>
               <second_editor>
@@ -91,11 +92,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LeetCode347top-k-frequent-elements.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode347top-k-frequent-elements.py">
+      <file leaf-file-name="LeetCode322coin-change.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode322coin-change.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="70" selection-end-column="46" />
+            <state relative-caret-position="330">
+              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -127,7 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LeetCode/LeetCode652find-duplicate-subtrees.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode653two-sum-iv-input-is-a-bst.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode654maximum-binary-tree.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode429n-ary-tree-level-order-traversal.py" />
@@ -177,6 +177,7 @@
         <option value="$PROJECT_DIR$/LeetCode/LeetCode438find-all-anagrams-in-a-string.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode146lru-cache.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode347top-k-frequent-elements.py" />
+        <option value="$PROJECT_DIR$/LeetCode/LeetCode322coin-change.py" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -266,7 +267,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="random" />
+              <option name="myItemId" value="LeetCode" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -415,25 +416,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.LeetCode347top-k-frequent-elements">
-    <configuration default="false" name="归并排序" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/random" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="javaSolution" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/random/归并排序.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.LeetCode322coin-change">
     <configuration default="false" name="堆排序" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -502,6 +485,24 @@
       <module name="javaSolution" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/LeetCode347top-k-frequent-elements.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="LeetCode322coin-change" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="javaSolution" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/LeetCode322coin-change.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -726,19 +727,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.归并排序" />
-      <item index="1" class="java.lang.String" itemvalue="Python.堆排序" />
-      <item index="2" class="java.lang.String" itemvalue="Python.LeetCode1028recover-a-tree-from-preorder-traversal" />
-      <item index="3" class="java.lang.String" itemvalue="Python.LeetCode146lru-cache" />
-      <item index="4" class="java.lang.String" itemvalue="Python.LeetCode347top-k-frequent-elements" />
+      <item index="0" class="java.lang.String" itemvalue="Python.堆排序" />
+      <item index="1" class="java.lang.String" itemvalue="Python.LeetCode1028recover-a-tree-from-preorder-traversal" />
+      <item index="2" class="java.lang.String" itemvalue="Python.LeetCode146lru-cache" />
+      <item index="3" class="java.lang.String" itemvalue="Python.LeetCode347top-k-frequent-elements" />
+      <item index="4" class="java.lang.String" itemvalue="Python.LeetCode322coin-change" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.LeetCode347top-k-frequent-elements" />
-        <item index="1" class="java.lang.String" itemvalue="Python.堆排序" />
-        <item index="2" class="java.lang.String" itemvalue="Python.LeetCode146lru-cache" />
-        <item index="3" class="java.lang.String" itemvalue="Python.LeetCode1028recover-a-tree-from-preorder-traversal" />
-        <item index="4" class="java.lang.String" itemvalue="Python.归并排序" />
+        <item index="0" class="java.lang.String" itemvalue="Python.LeetCode322coin-change" />
+        <item index="1" class="java.lang.String" itemvalue="Python.LeetCode347top-k-frequent-elements" />
+        <item index="2" class="java.lang.String" itemvalue="Python.堆排序" />
+        <item index="3" class="java.lang.String" itemvalue="Python.LeetCode146lru-cache" />
+        <item index="4" class="java.lang.String" itemvalue="Python.LeetCode1028recover-a-tree-from-preorder-traversal" />
       </list>
     </recent_temporary>
   </component>
@@ -789,13 +790,6 @@
       <workItem from="1566474466127" duration="154000" />
       <workItem from="1569810765255" duration="3178000" />
       <workItem from="1571630020745" duration="254000" />
-    </task>
-    <task id="LOCAL-00078" summary="子树之和">
-      <created>1571291286882</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1571291286882</updated>
     </task>
     <task id="LOCAL-00079" summary="递归直接修改树的实现，爬楼梯的翻版">
       <created>1571297515900</created>
@@ -1133,7 +1127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571795737168</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <task id="LOCAL-00127" summary="根堆解">
+      <created>1571803642989</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1571803642989</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1189,7 +1190,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="二叉树中利用[root,depth]进行数值传递" />
     <MESSAGE value="二叉树dp" />
     <MESSAGE value="二叉树层次遍历" />
     <MESSAGE value="BST 左侧&lt;root.val&lt;右侧" />
@@ -1214,7 +1214,8 @@
     <MESSAGE value="hashmap存结点，每次更新" />
     <MESSAGE value="滑动窗口" />
     <MESSAGE value="是否达到最大容量决定是否需要剔除" />
-    <option name="LAST_COMMIT_MESSAGE" value="是否达到最大容量决定是否需要剔除" />
+    <MESSAGE value="根堆解" />
+    <option name="LAST_COMMIT_MESSAGE" value="根堆解" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1256,13 +1257,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode98validate-binary-search-tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode94binary-tree-inorder-traversal.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1604,8 +1598,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode347top-k-frequent-elements.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="70" selection-end-column="46" />
+        <state relative-caret-position="160">
+          <caret line="62" column="45" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode322coin-change.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1616,10 +1618,10 @@
           <first_editor relative-caret-position="15">
             <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
             <folding>
-              <marker date="1571803625090" expanded="true" signature="32499:32649" ph="..." />
-              <marker date="1571803625090" expanded="true" signature="36377:36616" ph="..." />
-              <marker date="1571803625090" expanded="true" signature="36412:36616" ph="..." />
-              <marker date="1571803625090" expanded="true" signature="36421:36532" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+              <marker date="1571813370568" expanded="true" signature="32499:32649" ph="..." />
+              <marker date="1571813370568" expanded="true" signature="36377:36616" ph="..." />
+              <marker date="1571813370568" expanded="true" signature="36412:36616" ph="..." />
+              <marker date="1571813370568" expanded="true" signature="36421:36532" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
             </folding>
           </first_editor>
           <second_editor />
@@ -1627,13 +1629,13 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="316">
-            <caret line="1376" column="0" selection-start-line="1376" selection-start-column="0" selection-end-line="1376" selection-end-column="0" />
+          <first_editor relative-caret-position="302">
+            <caret line="1385" column="8" selection-start-line="1385" selection-start-column="8" selection-end-line="1385" selection-end-column="8" />
             <folding>
-              <marker date="1571803625090" expanded="true" signature="32499:32649" ph="..." />
-              <marker date="1571803625090" expanded="true" signature="36377:36616" ph="..." />
-              <marker date="1571803625090" expanded="true" signature="36412:36616" ph="..." />
-              <marker date="1571803625090" expanded="true" signature="36421:36532" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+              <marker date="1571813370568" expanded="true" signature="32499:32649" ph="..." />
+              <marker date="1571813370568" expanded="true" signature="36377:36616" ph="..." />
+              <marker date="1571813370568" expanded="true" signature="36412:36616" ph="..." />
+              <marker date="1571813370568" expanded="true" signature="36421:36532" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
             </folding>
           </first_editor>
           <second_editor>

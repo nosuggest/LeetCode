@@ -1376,3 +1376,13 @@ Coming from:https://leetcode-cn.com/problems/lru-cache/
 根堆输出的时候，每次交换根堆根结点到最后，小根堆的化，数组越靠后越小，相当于降序排列；大根堆的话，数组越往后越大，相当于升序排列。
 
 Coming from:https://leetcode-cn.com/problems/top-k-frequent-elements/
+
+### [lru-cache](LeetCode/LeetCode146lru-cache.py)
+
+Coming from:https://leetcode-cn.com/problems/lru-cache/
+
+### [coin-change](LeetCode/LeetCode322coin-change.py)
+
+斐波纳切动态规划
+
+Coming from:https://leetcode-cn.com/problems/coin-change/
