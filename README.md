@@ -1400,3 +1400,9 @@ Coming from:https://leetcode-cn.com/problems/coin-change/
 环概念：代码内部，好好看
 
 Coming from:https://leetcode-cn.com/problems/find-the-duplicate-number/
+
+### [kth-largest-element-in-an-array](LeetCode/LeetCode215kth-largest-element-in-an-array.py)
+
+加速的地方在于，维护好容量为k的小根堆之后，只需要保证根堆的根结点最小即可。`min_heap(k_min, k, 0)`
+
+Coming from:https://leetcode-cn.com/problems/kth-largest-element-in-an-array/
