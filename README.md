@@ -1365,3 +1365,7 @@ Coming from:https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/
 dfs
 
 Coming from:https://leetcode-cn.com/problems/generate-parentheses/
+
+### [lru-cache](LeetCode/LeetCode146lru-cache.py)
+
+Coming from:https://leetcode-cn.com/problems/lru-cache/
