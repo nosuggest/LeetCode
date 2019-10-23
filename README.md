@@ -1369,3 +1369,10 @@ Coming from:https://leetcode-cn.com/problems/generate-parentheses/
 ### [lru-cache](LeetCode/LeetCode146lru-cache.py)
 
 Coming from:https://leetcode-cn.com/problems/lru-cache/
+
+### [top-k-frequent-elements](LeetCode/LeetCode347top-k-frequent-elements.py)
+
+求最大：小根堆；求最小：大根堆。因为只需要保证最大最小的k个值在堆内即可，无需遍历堆。
+根堆输出的时候，每次交换根堆根结点到最后，小根堆的化，数组越靠后越小，相当于降序排列；大根堆的话，数组越往后越大，相当于升序排列。
+
+Coming from:https://leetcode-cn.com/problems/top-k-frequent-elements/
