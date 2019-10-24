@@ -1422,3 +1422,9 @@ nums[idx]：是本次新可跳的距离
 这题和[distribute-coins-in-binary-tree](LeetCode/LeetCode979distribute-coins-in-binary-tree.py)神似。
 
 Coming from:https://leetcode-cn.com/problems/jump-game/
+
+### [decode-string](LeetCode/LeetCode394decode-string.py)
+
+`出入栈题，有点难想到`
+
+Coming from:https://leetcode-cn.com/problems/decode-string/
