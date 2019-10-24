@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="小根堆">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode55jump-game.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-    </list>
+    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="dp" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,13 +60,13 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="534">
+              <first_editor relative-caret-position="2709">
                 <caret line="1423" column="55" selection-start-line="1423" selection-start-column="55" selection-end-line="1423" selection-end-column="55" />
                 <folding>
-                  <marker date="1571900362716" expanded="true" signature="32499:32649" ph="..." />
-                  <marker date="1571900362716" expanded="true" signature="36377:36616" ph="..." />
-                  <marker date="1571900362716" expanded="true" signature="36412:36616" ph="..." />
-                  <marker date="1571900362716" expanded="true" signature="36421:36532" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                  <marker date="1571905926272" expanded="true" signature="32499:32649" ph="..." />
+                  <marker date="1571905926272" expanded="true" signature="36377:36616" ph="..." />
+                  <marker date="1571905926272" expanded="true" signature="36412:36616" ph="..." />
+                  <marker date="1571905926272" expanded="true" signature="36421:36532" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -78,13 +74,13 @@
           </provider>
           <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="11490">
+              <first_editor relative-caret-position="11250">
                 <caret line="766" column="14" selection-start-line="766" selection-start-column="14" selection-end-line="766" selection-end-column="14" />
                 <folding>
-                  <marker date="1571900362716" expanded="true" signature="32499:32649" ph="..." />
-                  <marker date="1571900362716" expanded="true" signature="36377:36616" ph="..." />
-                  <marker date="1571900362716" expanded="true" signature="36412:36616" ph="..." />
-                  <marker date="1571900362716" expanded="true" signature="36421:36532" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                  <marker date="1571905926272" expanded="true" signature="32499:32649" ph="..." />
+                  <marker date="1571905926272" expanded="true" signature="36377:36616" ph="..." />
+                  <marker date="1571905926272" expanded="true" signature="36412:36616" ph="..." />
+                  <marker date="1571905926272" expanded="true" signature="36421:36532" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
                 </folding>
               </first_editor>
               <second_editor>
@@ -671,13 +667,6 @@
       <workItem from="1569810765255" duration="3178000" />
       <workItem from="1571630020745" duration="254000" />
     </task>
-    <task id="LOCAL-00082" summary="o(h)的二叉树查找">
-      <created>1571313764693</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1571313764693</updated>
-    </task>
     <task id="LOCAL-00083" summary="递归">
       <created>1571321666535</created>
       <option name="number" value="00083" />
@@ -1014,7 +1003,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571823029345</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="dp">
+      <created>1571905882956</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1571905882957</updated>
+    </task>
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1070,7 +1066,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="二叉树" />
     <MESSAGE value="完全二叉树用层次遍历来解决" />
     <MESSAGE value="二叉树金币题，题目有点难理解，算得是每个结点的多余量" />
     <MESSAGE value="二叉树父结点+子节点递归" />
@@ -1095,7 +1090,8 @@
     <MESSAGE value="斐波纳切dp" />
     <MESSAGE value="环" />
     <MESSAGE value="小根堆" />
-    <option name="LAST_COMMIT_MESSAGE" value="小根堆" />
+    <MESSAGE value="dp" />
+    <option name="LAST_COMMIT_MESSAGE" value="dp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1470,6 +1466,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="47" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1490,13 +1487,13 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="534">
+          <first_editor relative-caret-position="2709">
             <caret line="1423" column="55" selection-start-line="1423" selection-start-column="55" selection-end-line="1423" selection-end-column="55" />
             <folding>
-              <marker date="1571900362716" expanded="true" signature="32499:32649" ph="..." />
-              <marker date="1571900362716" expanded="true" signature="36377:36616" ph="..." />
-              <marker date="1571900362716" expanded="true" signature="36412:36616" ph="..." />
-              <marker date="1571900362716" expanded="true" signature="36421:36532" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+              <marker date="1571905926272" expanded="true" signature="32499:32649" ph="..." />
+              <marker date="1571905926272" expanded="true" signature="36377:36616" ph="..." />
+              <marker date="1571905926272" expanded="true" signature="36412:36616" ph="..." />
+              <marker date="1571905926272" expanded="true" signature="36421:36532" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
             </folding>
           </first_editor>
           <second_editor />
@@ -1504,13 +1501,13 @@
       </provider>
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="11490">
+          <first_editor relative-caret-position="11250">
             <caret line="766" column="14" selection-start-line="766" selection-start-column="14" selection-end-line="766" selection-end-column="14" />
             <folding>
-              <marker date="1571900362716" expanded="true" signature="32499:32649" ph="..." />
-              <marker date="1571900362716" expanded="true" signature="36377:36616" ph="..." />
-              <marker date="1571900362716" expanded="true" signature="36412:36616" ph="..." />
-              <marker date="1571900362716" expanded="true" signature="36421:36532" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+              <marker date="1571905926272" expanded="true" signature="32499:32649" ph="..." />
+              <marker date="1571905926272" expanded="true" signature="36377:36616" ph="..." />
+              <marker date="1571905926272" expanded="true" signature="36412:36616" ph="..." />
+              <marker date="1571905926272" expanded="true" signature="36421:36532" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
             </folding>
           </first_editor>
           <second_editor>
