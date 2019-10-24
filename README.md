@@ -1282,7 +1282,7 @@ Coming from:https://leetcode-cn.com/problems/univalued-binary-tree/
 
 ### [distribute-coins-in-binary-tree](LeetCode/LeetCode979distribute-coins-in-binary-tree.py)
 
-金币题，题目有点难理解，算得是每个结点的多余量
+金币题，题目有点难理解，算得是每个结点的多余量，这题和[jump-game](LeetCode/LeetCode55jump-game.py)神似
 
 Coming from:https://leetcode-cn.com/problems/distribute-coins-in-binary-tree/
 
@@ -1406,3 +1406,19 @@ Coming from:https://leetcode-cn.com/problems/find-the-duplicate-number/
 加速的地方在于，维护好容量为k的小根堆之后，只需要保证根堆的根结点最小即可。`min_heap(k_min, k, 0)`
 
 Coming from:https://leetcode-cn.com/problems/kth-largest-element-in-an-array/
+
+### [jump-game](LeetCode/LeetCode55jump-game.py)
+
+```python
+max_dis：上次每次可跳的最远距离
+本次是在range中产生的，所以需要减去1，剩下的才是还可供跳跃的长度
+
+nums[idx]：是本次新可跳的距离
+
+比较max_ids-1和nums[idx]得出当前可跳的新最远距离
+如果max_ids==0代表可跳的距离额度没有了，return False
+```
+
+这题和[distribute-coins-in-binary-tree](LeetCode/LeetCode979distribute-coins-in-binary-tree.py)神似。
+
+Coming from:https://leetcode-cn.com/problems/jump-game/
