@@ -1428,3 +1428,21 @@ Coming from:https://leetcode-cn.com/problems/jump-game/
 `出入栈题，有点难想到`
 
 Coming from:https://leetcode-cn.com/problems/decode-string/
+
+### [queue-reconstruction-by-height](LeetCode/LeetCode406queue-reconstruction-by-height.py)
+
+`原题说的是前面大于等于当前身高的，所以插矮个子不会影响排序`
+
+Coming from:https://leetcode-cn.com/problems/queue-reconstruction-by-height/
+
+### [best-time-to-buy-and-sell-stock-with-cooldown](LeetCode/LeetCode309best-time-to-buy-and-sell-stock-with-cooldown.py)
+
+`dp的高难题，代码中带完整带解题方法`
+
+Coming from:https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
+
+### [burst-balloons](LeetCode/LeetCode312burst-balloons.py)
+
+`dp的超高难题，代码中带完整带解题方法`
+
+Coming from:https://leetcode-cn.com/problems/burst-balloons/
