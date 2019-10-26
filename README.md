@@ -1453,4 +1453,6 @@ Coming from:https://leetcode-cn.com/problems/rotate-image/
 
 ### [product-of-array-except-self](LeetCode/LeetCode238product-of-array-except-self.py)
 
+`两侧分别扫描一遍`
+
 Coming from:https://leetcode-cn.com/problems/product-of-array-except-self/
