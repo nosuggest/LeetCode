@@ -1460,3 +1460,21 @@ Coming from:https://leetcode-cn.com/problems/product-of-array-except-self/
 ### [transpose-matrix](LeetCode/LeetCode867transpose-matrix.py)
 
 Coming from:https://leetcode-cn.com/problems/transpose-matrix/
+
+### [task-scheduler](LeetCode/LeetCode621task-scheduler.py)
+
+理解一下，出现次数最多的那个字母（出现次数-1）x时间窗口及为最小次数，剩余要考虑的是都为最多次数的字母数
+
+Coming from:https://leetcode-cn.com/problems/task-scheduler/
+
+### [search-in-rotated-sorted-array](LeetCode/LeetCode33search-in-rotated-sorted-array.py)
+
+```
+因为是螺旋数组，所以理解2点：
+1、对于mid = （left+right）>>1来说，要么左侧要么右侧，必然会有一边是有序的
+2、判断target在有序侧还是非有序侧，从而决定是修正有序侧还是简单位移
+```
+
+ps:二分用的是index:`while end<=right`
+
+Coming from:https://leetcode-cn.com/problems/search-in-rotated-sorted-array/
