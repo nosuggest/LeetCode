@@ -1,11 +1,403 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="矩阵转置">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode33search-in-rotated-sorted-array.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode621task-scheduler.py" />
+    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="dp极度困难的题目">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/ListNode.class" afterPath="$PROJECT_DIR$/out/ListNode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution1018.class" afterPath="$PROJECT_DIR$/out/Solution1018.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution1029.class" afterPath="$PROJECT_DIR$/out/Solution1029.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution1047.class" afterPath="$PROJECT_DIR$/out/Solution1047.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution1137.class" afterPath="$PROJECT_DIR$/out/Solution1137.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution121.class" afterPath="$PROJECT_DIR$/out/Solution121.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution122.class" afterPath="$PROJECT_DIR$/out/Solution122.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution13.class" afterPath="$PROJECT_DIR$/out/Solution13.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution131.class" afterPath="$PROJECT_DIR$/out/Solution131.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution14.class" afterPath="$PROJECT_DIR$/out/Solution14.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution15.class" afterPath="$PROJECT_DIR$/out/Solution15.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution16.class" afterPath="$PROJECT_DIR$/out/Solution16.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution17.class" afterPath="$PROJECT_DIR$/out/Solution17.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution176.class" afterPath="$PROJECT_DIR$/out/Solution176.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution18.class" afterPath="$PROJECT_DIR$/out/Solution18.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution20.class" afterPath="$PROJECT_DIR$/out/Solution20.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution206.class" afterPath="$PROJECT_DIR$/out/Solution206.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution21.class" afterPath="$PROJECT_DIR$/out/Solution21.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution24.class" afterPath="$PROJECT_DIR$/out/Solution24.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution26.class" afterPath="$PROJECT_DIR$/out/Solution26.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution264.class" afterPath="$PROJECT_DIR$/out/Solution264.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution27.class" afterPath="$PROJECT_DIR$/out/Solution27.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution279.class" afterPath="$PROJECT_DIR$/out/Solution279.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution29.class" afterPath="$PROJECT_DIR$/out/Solution29.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution300.class" afterPath="$PROJECT_DIR$/out/Solution300.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution338.class" afterPath="$PROJECT_DIR$/out/Solution338.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution35.class" afterPath="$PROJECT_DIR$/out/Solution35.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution371.class" afterPath="$PROJECT_DIR$/out/Solution371.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution39.class" afterPath="$PROJECT_DIR$/out/Solution39.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution46.class" afterPath="$PROJECT_DIR$/out/Solution46.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution491.class" afterPath="$PROJECT_DIR$/out/Solution491.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution495.class" afterPath="$PROJECT_DIR$/out/Solution495.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution506.class" afterPath="$PROJECT_DIR$/out/Solution506.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution575.class" afterPath="$PROJECT_DIR$/out/Solution575.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution605.class" afterPath="$PROJECT_DIR$/out/Solution605.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution611.class" afterPath="$PROJECT_DIR$/out/Solution611.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution63.class" afterPath="$PROJECT_DIR$/out/Solution63.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution643.class" afterPath="$PROJECT_DIR$/out/Solution643.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution698.class" afterPath="$PROJECT_DIR$/out/Solution698.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution7.class" afterPath="$PROJECT_DIR$/out/Solution7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution747.class" afterPath="$PROJECT_DIR$/out/Solution747.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution754.class" afterPath="$PROJECT_DIR$/out/Solution754.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution779.class" afterPath="$PROJECT_DIR$/out/Solution779.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution84.class" afterPath="$PROJECT_DIR$/out/Solution84.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution85.class" afterPath="$PROJECT_DIR$/out/Solution85.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution88.class" afterPath="$PROJECT_DIR$/out/Solution88.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution881.class" afterPath="$PROJECT_DIR$/out/Solution881.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution884.class" afterPath="$PROJECT_DIR$/out/Solution884.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution9.class" afterPath="$PROJECT_DIR$/out/Solution9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution904.class" afterPath="$PROJECT_DIR$/out/Solution904.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution922.class" afterPath="$PROJECT_DIR$/out/Solution922.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution932.class" afterPath="$PROJECT_DIR$/out/Solution932.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution977.class" afterPath="$PROJECT_DIR$/out/Solution977.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Solution989.class" afterPath="$PROJECT_DIR$/out/Solution989.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaSolution/META-INF/javaSolution.kotlin_module" afterPath="$PROJECT_DIR$/out/production/javaSolution/META-INF/javaSolution.kotlin_module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/tmp.class" afterPath="$PROJECT_DIR$/out/tmp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitattributes" afterPath="$PROJECT_DIR$/.gitattributes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/LeetCode.iml" afterPath="$PROJECT_DIR$/.idea/LeetCode.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/.idea/LeetCode.iml" afterPath="$PROJECT_DIR$/LeetCode/.idea/LeetCode.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/LeetCode/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/.idea/inspectionProfiles/profiles_settings.xml" afterPath="$PROJECT_DIR$/LeetCode/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/.idea/markdown-navigator/profiles_settings.xml" afterPath="$PROJECT_DIR$/LeetCode/.idea/markdown-navigator/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/.idea/misc.xml" afterPath="$PROJECT_DIR$/LeetCode/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/.idea/modules.xml" afterPath="$PROJECT_DIR$/LeetCode/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/.idea/workspace.xml" afterPath="$PROJECT_DIR$/LeetCode/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode1008construct-binary-search-tree-from-preorder-traversal.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode1008construct-binary-search-tree-from-preorder-traversal.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode100same-tree.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode100same-tree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode101symmetric-tree.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode101symmetric-tree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode1022sum-of-root-to-leaf-binary-numbers.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode1022sum-of-root-to-leaf-binary-numbers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode1024VideoStitching.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode1024VideoStitching.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode1026maximum-difference-between-node-and-ancestor.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode1026maximum-difference-between-node-and-ancestor.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode1028recover-a-tree-from-preorder-traversal.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode1028recover-a-tree-from-preorder-traversal.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode102binary-tree-level-order-traversal.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode102binary-tree-level-order-traversal.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode103binary-tree-zigzag-level-order-traversal.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode103binary-tree-zigzag-level-order-traversal.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode104maximum-depth-of-binary-tree.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode104maximum-depth-of-binary-tree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode1051HeightChecker.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode1051HeightChecker.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode1054DistantBarcodes.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode1054DistantBarcodes.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode105construct-binary-tree-from-preorder-and-inorder-traversal.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode105construct-binary-tree-from-preorder-and-inorder-traversal.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode106construct-binary-tree-from-inorder-and-postorder-traversal.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode106construct-binary-tree-from-inorder-and-postorder-traversal.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode107binary-tree-level-order-traversal-ii.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode107binary-tree-level-order-traversal-ii.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode108convert-sorted-array-to-binary-search-tree.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode108convert-sorted-array-to-binary-search-tree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode110balanced-binary-tree.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode110balanced-binary-tree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode1110delete-nodes-and-return-forest.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode1110delete-nodes-and-return-forest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode111minimum-depth-of-binary-tree.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode111minimum-depth-of-binary-tree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode1123lowest-common-ancestor-of-deepest-leaves.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode1123lowest-common-ancestor-of-deepest-leaves.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode112path-sum.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode112path-sum.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode113path-sum-ii.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode113path-sum-ii.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode114flatten-binary-tree-to-linked-list.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode114flatten-binary-tree-to-linked-list.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode116populating-next-right-pointers-in-each-node.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode116populating-next-right-pointers-in-each-node.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode117populating-next-right-pointers-in-each-node-ii.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode117populating-next-right-pointers-in-each-node-ii.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode11container-with-most-water.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode11container-with-most-water.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode120triangle.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode120triangle.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode121best-time-to-buy-and-sell-stock.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode121best-time-to-buy-and-sell-stock.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode122best-time-to-buy-and-sell-stock-ii.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode122best-time-to-buy-and-sell-stock-ii.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode124binary-tree-maximum-path-sum.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode124binary-tree-maximum-path-sum.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode129sum-root-to-leaf-numbers.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode129sum-root-to-leaf-numbers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode135candy.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode135candy.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode136SingleNumber.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode136SingleNumber.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode139word-break.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode139word-break.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode144binary-tree-preorder-traversal.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode144binary-tree-preorder-traversal.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode145binary-tree-postorder-traversal.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode145binary-tree-postorder-traversal.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode146lru-cache.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode146lru-cache.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode150evaluate-reverse-polish-notation.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode150evaluate-reverse-polish-notation.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode152maximum-product-subarray.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode152maximum-product-subarray.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode164maximum-gap.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode164maximum-gap.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode169majority-element.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode169majority-element.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode171ExcelSheetColumnNumber.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode171ExcelSheetColumnNumber.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode173binary-search-tree-iterator.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode173binary-search-tree-iterator.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode174dungeon-game.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode174dungeon-game.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode176single-number-ii.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode176single-number-ii.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode179largest-number.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode179largest-number.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode17LetterCombinationsofaPhone.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode17LetterCombinationsofaPhone.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode190reverse-bits.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode190reverse-bits.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode198house-robber.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode198house-robber.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode199binary-tree-right-side-view.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode199binary-tree-right-side-view.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode19remove-nth-node-from-end-of-list.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode19remove-nth-node-from-end-of-list.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode1two-sum.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode1two-sum.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode200number-of-islands.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode200number-of-islands.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode203RemoveLinkedListElements.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode203RemoveLinkedListElements.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode208implement-trie-prefix-tree.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode208implement-trie-prefix-tree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode211add-and-search-word-data-structure-design.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode211add-and-search-word-data-structure-design.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode215kth-largest-element-in-an-array.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode215kth-largest-element-in-an-array.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode221maximal-square.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode221maximal-square.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode222count-complete-tree-nodes.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode222count-complete-tree-nodes.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode226invert-binary-tree.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode226invert-binary-tree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode22generate-parentheses.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode22generate-parentheses.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode230kth-smallest-element-in-a-bst.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode230kth-smallest-element-in-a-bst.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode235lowest-common-ancestor-of-a-binary-search-tree.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode235lowest-common-ancestor-of-a-binary-search-tree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode236lowest-common-ancestor-of-a-binary-tree.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode236lowest-common-ancestor-of-a-binary-tree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode238product-of-array-except-self.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode238product-of-array-except-self.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode257binary-tree-paths.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode257binary-tree-paths.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode263UglyNumber.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode263UglyNumber.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode279perfect-squares.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode279perfect-squares.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode283move-zeroes.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode283move-zeroes.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode287find-the-duplicate-number.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode287find-the-duplicate-number.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode292NimGame.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode292NimGame.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode297serialize-and-deserialize-binary-tree.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode297serialize-and-deserialize-binary-tree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode2AddTwoNumbers.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode2AddTwoNumbers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode300longest-increasing-subsequence.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode300longest-increasing-subsequence.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode303range-sum-query-immutable.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode303range-sum-query-immutable.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode309best-time-to-buy-and-sell-stock-with-cooldown.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode309best-time-to-buy-and-sell-stock-with-cooldown.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode312burst-balloons.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode312burst-balloons.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode322coin-change.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode322coin-change.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode334IncreasingTripletSubsequence.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode334IncreasingTripletSubsequence.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode337house-robber-iii.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode337house-robber-iii.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode33search-in-rotated-sorted-array.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode33search-in-rotated-sorted-array.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode347top-k-frequent-elements.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode347top-k-frequent-elements.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode349IntersectionofTwoArrays.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode349IntersectionofTwoArrays.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode382linked-list-random-node.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode382linked-list-random-node.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode386LexicographicalNumbers.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode386LexicographicalNumbers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode394decode-string.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode394decode-string.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode398random-pick-index.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode398random-pick-index.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode3LongestSubstringWithoutRepeatingCharacters.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode3LongestSubstringWithoutRepeatingCharacters.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode404sum-of-left-leaves.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode404sum-of-left-leaves.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode406queue-reconstruction-by-height.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode406queue-reconstruction-by-height.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode410split-array-largest-sum.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode410split-array-largest-sum.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode416partition-equal-subset-sum.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode416partition-equal-subset-sum.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode429n-ary-tree-level-order-traversal.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode429n-ary-tree-level-order-traversal.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode437path-sum-iii.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode437path-sum-iii.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode438find-all-anagrams-in-a-string.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode438find-all-anagrams-in-a-string.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode442find-all-duplicates-in-an-array.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode442find-all-duplicates-in-an-array.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode448find-all-numbers-disappeared-in-an-array.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode448find-all-numbers-disappeared-in-an-array.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode449serialize-and-deserialize-bst.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode449serialize-and-deserialize-bst.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode450delete-node-in-a-bst.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode450delete-node-in-a-bst.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode461hamming-distance.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode461hamming-distance.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode47permutations-ii.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode47permutations-ii.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode48rotate-image.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode48rotate-image.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode491increasing-subsequences.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode491increasing-subsequences.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode494target-sum.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode494target-sum.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode501find-mode-in-binary-search-tree.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode501find-mode-in-binary-search-tree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode508most-frequent-subtree-sum.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode508most-frequent-subtree-sum.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode50powx-n.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode50powx-n.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode513find-bottom-left-tree-value.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode513find-bottom-left-tree-value.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode515find-largest-value-in-each-tree-row.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode515find-largest-value-in-each-tree-row.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode520detect-capital.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode520detect-capital.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode530minimum-absolute-difference-in-bst.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode530minimum-absolute-difference-in-bst.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode538convert-bst-to-greater-tree.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode538convert-bst-to-greater-tree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode53maximum-subarray.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode53maximum-subarray.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode543diameter-of-binary-tree.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode543diameter-of-binary-tree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode559maximum-depth-of-n-ary-tree.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode559maximum-depth-of-n-ary-tree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode55jump-game.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode55jump-game.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode560SubarraySumEqualsK.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode560SubarraySumEqualsK.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode563binary-tree-tilt.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode563binary-tree-tilt.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode56MergeIntervals.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode56MergeIntervals.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode572subtree-of-another-tree.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode572subtree-of-another-tree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode575distribute-candies.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode575distribute-candies.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode581shortest-unsorted-continuous-subarray.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode581shortest-unsorted-continuous-subarray.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode589n-ary-tree-preorder-traversal.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode589n-ary-tree-preorder-traversal.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode590n-ary-tree-postorder-traversal.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode590n-ary-tree-postorder-traversal.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode59SpiralMatrixII.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode59SpiralMatrixII.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode5longest-palindromic-substring.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode5longest-palindromic-substring.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode611valid-triangle-number.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode611valid-triangle-number.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode617merge-two-binary-trees.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode617merge-two-binary-trees.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode621task-scheduler.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode621task-scheduler.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode623add-one-row-to-tree.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode623add-one-row-to-tree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode62unique-paths.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode62unique-paths.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode637average-of-levels-in-binary-tree.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode637average-of-levels-in-binary-tree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode63unique-paths-ii.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode63unique-paths-ii.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode647palindromic-substrings.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode647palindromic-substrings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode64minimum-path-sum.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode64minimum-path-sum.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode652find-duplicate-subtrees.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode652find-duplicate-subtrees.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode653two-sum-iv-input-is-a-bst.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode653two-sum-iv-input-is-a-bst.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode654maximum-binary-tree.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode654maximum-binary-tree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode662maximum-width-of-binary-tree.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode662maximum-width-of-binary-tree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode669trim-a-binary-search-tree.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode669trim-a-binary-search-tree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode671second-minimum-node-in-a-binary-tree.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode671second-minimum-node-in-a-binary-tree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode687longest-univalue-path.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode687longest-univalue-path.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode700search-in-a-binary-search-tree.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode700search-in-a-binary-search-tree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode701insert-into-a-binary-search-tree.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode701insert-into-a-binary-search-tree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode704binary-search.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode704binary-search.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode739daily-temperatures.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode739daily-temperatures.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode740delete-and-earn.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode740delete-and-earn.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode75sort-colors.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode75sort-colors.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode771JewelsandStones.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode771JewelsandStones.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode779K-thSymbolinGrammar.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode779K-thSymbolinGrammar.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode783minimum-distance-between-bst-nodes.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode783minimum-distance-between-bst-nodes.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode78Subsets.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode78Subsets.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode791custom-sort-string.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode791custom-sort-string.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode794valid-tic-tac-toe-state.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode794valid-tic-tac-toe-state.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode79word-search.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode79word-search.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode810ChalkboardXORGame.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode810ChalkboardXORGame.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode812LargestTriangleArea.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode812LargestTriangleArea.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode814binary-tree-pruning.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode814binary-tree-pruning.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode824goat-latin.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode824goat-latin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode829consecutive-numbers-sum.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode829consecutive-numbers-sum.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode860LemonadeChange.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode860LemonadeChange.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode865smallest-subtree-with-all-the-deepest-nodes.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode865smallest-subtree-with-all-the-deepest-nodes.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode867transpose-matrix.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode867transpose-matrix.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode870AdvantageShuffle.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode870AdvantageShuffle.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode872leaf-similar-trees.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode872leaf-similar-trees.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode889construct-binary-tree-from-preorder-and-postorder-traversal.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode889construct-binary-tree-from-preorder-and-postorder-traversal.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode88merge-sorted-array.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode88merge-sorted-array.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode892surface-area-of-3d-shapes.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode892surface-area-of-3d-shapes.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode894all-possible-full-binary-trees.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode894all-possible-full-binary-trees.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode897increasing-order-search-tree.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode897increasing-order-search-tree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode899orderly-queue.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode899orderly-queue.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode903valid-permutations-for-di-sequence.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode903valid-permutations-for-di-sequence.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode917ReverseOnlyLetters.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode917ReverseOnlyLetters.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode91decode-ways.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode91decode-ways.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode932beautiful-array.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode932beautiful-array.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode938range-sum-of-bst.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode938range-sum-of-bst.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode94binary-tree-inorder-traversal.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode94binary-tree-inorder-traversal.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode951flip-equivalent-binary-trees.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode951flip-equivalent-binary-trees.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode958check-completeness-of-a-binary-tree.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode958check-completeness-of-a-binary-tree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode95unique-binary-search-trees-ii.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode95unique-binary-search-trees-ii.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode965univalued-binary-tree.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode965univalued-binary-tree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode96unique-binary-search-trees.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode96unique-binary-search-trees.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode979distribute-coins-in-binary-tree.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode979distribute-coins-in-binary-tree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode98validate-binary-search-tree.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode98validate-binary-search-tree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode993cousins-in-binary-tree.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode993cousins-in-binary-tree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode99recover-binary-search-tree.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode99recover-binary-search-tree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/Leetcode240Searcha2DMatrixII.py" afterPath="$PROJECT_DIR$/LeetCode/Leetcode240Searcha2DMatrixII.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/__init__.py" afterPath="$PROJECT_DIR$/LeetCode/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaSolution.iml" afterPath="$PROJECT_DIR$/javaSolution.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/.idea/LeetCode.iml" afterPath="$PROJECT_DIR$/out/production/LeetCode/.idea/LeetCode.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/.idea/encodings.xml" afterPath="$PROJECT_DIR$/out/production/LeetCode/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/.idea/misc.xml" afterPath="$PROJECT_DIR$/out/production/LeetCode/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/.idea/modules.xml" afterPath="$PROJECT_DIR$/out/production/LeetCode/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/.idea/vcs.xml" afterPath="$PROJECT_DIR$/out/production/LeetCode/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/.idea/workspace.xml" afterPath="$PROJECT_DIR$/out/production/LeetCode/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/Leet Code 3. Longest Substring Without Repeating Characters.py" afterPath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/Leet Code 3. Longest Substring Without Repeating Characters.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 1 two-sum.py" afterPath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 1 two-sum.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 1024. Video Stitching.py" afterPath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 1024. Video Stitching.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 1051. Height Checker.py" afterPath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 1051. Height Checker.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 1054. Distant Barcodes.py" afterPath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 1054. Distant Barcodes.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 120 triangle.py" afterPath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 120 triangle.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 171. Excel Sheet Column Number.py" afterPath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 171. Excel Sheet Column Number.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 19 remove-nth-node-from-end-of-list.py" afterPath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 19 remove-nth-node-from-end-of-list.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 190 reverse-bits.py" afterPath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 190 reverse-bits.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 2. Add Two Numbers.py" afterPath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 2. Add Two Numbers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 203. Remove Linked List Elements.py" afterPath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 203. Remove Linked List Elements.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 211 add-and-search-word-data-structure-design.py" afterPath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 211 add-and-search-word-data-structure-design.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 263. Ugly Number.py" afterPath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 263. Ugly Number.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 292. Nim Game.py" afterPath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 292. Nim Game.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 303 range-sum-query-immutable.py" afterPath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 303 range-sum-query-immutable.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 334. Increasing Triplet Subsequence.py" afterPath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 334. Increasing Triplet Subsequence.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 349. Intersection of Two Arrays.py" afterPath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 349. Intersection of Two Arrays.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 386. Lexicographical Numbers.py" afterPath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 386. Lexicographical Numbers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 56. Merge Intervals.py" afterPath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 56. Merge Intervals.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 560. Subarray Sum Equals K.py" afterPath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 560. Subarray Sum Equals K.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 59. Spiral Matrix II.py" afterPath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 59. Spiral Matrix II.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 64 minimum-path-sum.py" afterPath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 64 minimum-path-sum.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 771. Jewels and Stones.py" afterPath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 771. Jewels and Stones.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 78 Subsets.py" afterPath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 78 Subsets.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 791 custom-sort-string.py" afterPath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 791 custom-sort-string.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 810. Chalkboard XOR Game.py" afterPath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 810. Chalkboard XOR Game.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 812. Largest Triangle Area.py" afterPath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 812. Largest Triangle Area.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 860. Lemonade Change.py" afterPath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 860. Lemonade Change.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 870. Advantage Shuffle.py" afterPath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 870. Advantage Shuffle.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 917. Reverse Only Letters.py" afterPath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LeetCode 917. Reverse Only Letters.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/Leetcode 137 Single Number II.py" afterPath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/Leetcode 137 Single Number II.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/Leetcode 240. Search a 2D Matrix II.py" afterPath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/Leetcode 240. Search a 2D Matrix II.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/README.md" afterPath="$PROJECT_DIR$/out/production/LeetCode/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/javaSolution.iml" afterPath="$PROJECT_DIR$/out/production/LeetCode/javaSolution.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/random/EggTopFloor.py" afterPath="$PROJECT_DIR$/out/production/LeetCode/random/EggTopFloor.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/random/GapCount.py" afterPath="$PROJECT_DIR$/out/production/LeetCode/random/GapCount.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/random/HuffmanEncoding.py" afterPath="$PROJECT_DIR$/out/production/LeetCode/random/HuffmanEncoding.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/random/SortMethod.py" afterPath="$PROJECT_DIR$/out/production/LeetCode/random/SortMethod.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/random/goat-latin.py" afterPath="$PROJECT_DIR$/out/production/LeetCode/random/goat-latin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/random/house-robber.py" afterPath="$PROJECT_DIR$/out/production/LeetCode/random/house-robber.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/random/无序数组排序（时间复杂度为O(n)）.py" afterPath="$PROJECT_DIR$/out/production/LeetCode/random/无序数组排序（时间复杂度为O(n)）.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/random/最大公共字符串长度.py" afterPath="$PROJECT_DIR$/out/production/LeetCode/random/最大公共字符串长度.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/random/01背包.py" afterPath="$PROJECT_DIR$/random/01背包.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/random/BubbleSort.py" afterPath="$PROJECT_DIR$/random/BubbleSort.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/random/EggTopFloor.py" afterPath="$PROJECT_DIR$/random/EggTopFloor.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/random/GapCount.py" afterPath="$PROJECT_DIR$/random/GapCount.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/random/HuffmanEncoding.py" afterPath="$PROJECT_DIR$/random/HuffmanEncoding.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/random/Lru_Cache.py" afterPath="$PROJECT_DIR$/random/Lru_Cache.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/random/SelectSort.py" afterPath="$PROJECT_DIR$/random/SelectSort.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/random/SortMethod.py" afterPath="$PROJECT_DIR$/random/SortMethod.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/random/__init__.py" afterPath="$PROJECT_DIR$/random/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/random/binarySearchTree.py" afterPath="$PROJECT_DIR$/random/binarySearchTree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/random/二分查找.py" afterPath="$PROJECT_DIR$/random/二分查找.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/random/堆排序.py" afterPath="$PROJECT_DIR$/random/堆排序.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/random/希尔排序.py" afterPath="$PROJECT_DIR$/random/希尔排序.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/random/归并排序.py" afterPath="$PROJECT_DIR$/random/归并排序.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/random/意图相似度.py" afterPath="$PROJECT_DIR$/random/意图相似度.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/random/插入排序.py" afterPath="$PROJECT_DIR$/random/插入排序.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/random/数组分组问题.py" afterPath="$PROJECT_DIR$/random/数组分组问题.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/random/文本编辑距离.py" afterPath="$PROJECT_DIR$/random/文本编辑距离.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/random/无序数组排序（时间复杂度为O(n)）.py" afterPath="$PROJECT_DIR$/random/无序数组排序（时间复杂度为O(n)）.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/random/最大公共字符串长度.py" afterPath="$PROJECT_DIR$/random/最大公共字符串长度.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/random/消消乐.py" afterPath="$PROJECT_DIR$/random/消消乐.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/random/素数伴侣.py" afterPath="$PROJECT_DIR$/random/素数伴侣.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/random/约瑟夫环问题.py" afterPath="$PROJECT_DIR$/random/约瑟夫环问题.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/random/花匠摆花.py" afterPath="$PROJECT_DIR$/random/花匠摆花.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/random/计数排序.py" afterPath="$PROJECT_DIR$/random/计数排序.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/random/连乘质数和.py" afterPath="$PROJECT_DIR$/random/连乘质数和.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/random/递增间隔删数.py" afterPath="$PROJECT_DIR$/random/递增间隔删数.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution1018.java" afterPath="$PROJECT_DIR$/src/Solution1018.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution1029.java" afterPath="$PROJECT_DIR$/src/Solution1029.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution1047.java" afterPath="$PROJECT_DIR$/src/Solution1047.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution1137.java" afterPath="$PROJECT_DIR$/src/Solution1137.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution121.java" afterPath="$PROJECT_DIR$/src/Solution121.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution122.java" afterPath="$PROJECT_DIR$/src/Solution122.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution13.java" afterPath="$PROJECT_DIR$/src/Solution13.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution131.java" afterPath="$PROJECT_DIR$/src/Solution131.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution14.java" afterPath="$PROJECT_DIR$/src/Solution14.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution15.java" afterPath="$PROJECT_DIR$/src/Solution15.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution16.java" afterPath="$PROJECT_DIR$/src/Solution16.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution17.java" afterPath="$PROJECT_DIR$/src/Solution17.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution176.java" afterPath="$PROJECT_DIR$/src/Solution176.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution18.java" afterPath="$PROJECT_DIR$/src/Solution18.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution20.java" afterPath="$PROJECT_DIR$/src/Solution20.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution206.java" afterPath="$PROJECT_DIR$/src/Solution206.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution21.java" afterPath="$PROJECT_DIR$/src/Solution21.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution24.java" afterPath="$PROJECT_DIR$/src/Solution24.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution26.java" afterPath="$PROJECT_DIR$/src/Solution26.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution264.java" afterPath="$PROJECT_DIR$/src/Solution264.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution27.java" afterPath="$PROJECT_DIR$/src/Solution27.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution279.java" afterPath="$PROJECT_DIR$/src/Solution279.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution29.java" afterPath="$PROJECT_DIR$/src/Solution29.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution300.java" afterPath="$PROJECT_DIR$/src/Solution300.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution338.java" afterPath="$PROJECT_DIR$/src/Solution338.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution35.java" afterPath="$PROJECT_DIR$/src/Solution35.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution371.java" afterPath="$PROJECT_DIR$/src/Solution371.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution39.java" afterPath="$PROJECT_DIR$/src/Solution39.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution46.java" afterPath="$PROJECT_DIR$/src/Solution46.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution491.java" afterPath="$PROJECT_DIR$/src/Solution491.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution495.java" afterPath="$PROJECT_DIR$/src/Solution495.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution506.java" afterPath="$PROJECT_DIR$/src/Solution506.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution575.java" afterPath="$PROJECT_DIR$/src/Solution575.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution605.java" afterPath="$PROJECT_DIR$/src/Solution605.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution611.java" afterPath="$PROJECT_DIR$/src/Solution611.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution63.java" afterPath="$PROJECT_DIR$/src/Solution63.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution643.java" afterPath="$PROJECT_DIR$/src/Solution643.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution698.java" afterPath="$PROJECT_DIR$/src/Solution698.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution7.java" afterPath="$PROJECT_DIR$/src/Solution7.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution747.java" afterPath="$PROJECT_DIR$/src/Solution747.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution754.java" afterPath="$PROJECT_DIR$/src/Solution754.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution779.java" afterPath="$PROJECT_DIR$/src/Solution779.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution84.java" afterPath="$PROJECT_DIR$/src/Solution84.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution85.java" afterPath="$PROJECT_DIR$/src/Solution85.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution88.java" afterPath="$PROJECT_DIR$/src/Solution88.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution881.java" afterPath="$PROJECT_DIR$/src/Solution881.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution884.java" afterPath="$PROJECT_DIR$/src/Solution884.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution9.java" afterPath="$PROJECT_DIR$/src/Solution9.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution904.java" afterPath="$PROJECT_DIR$/src/Solution904.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution922.java" afterPath="$PROJECT_DIR$/src/Solution922.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution932.java" afterPath="$PROJECT_DIR$/src/Solution932.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution977.java" afterPath="$PROJECT_DIR$/src/Solution977.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution989.java" afterPath="$PROJECT_DIR$/src/Solution989.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tmp.java" afterPath="$PROJECT_DIR$/src/tmp.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -17,37 +409,35 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/LeetCode$LeetCode_892_surface_area_of_3d_shapes.coverage" NAME="LeetCode 892 surface-area-of-3d-shapes Coverage Results" MODIFIED="1566181965110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
-    <SUITE FILE_PATH="coverage/LeetCode$LeetCode_164_pmaximum_gap.coverage" NAME="LeetCode 164 pmaximum-gap Coverage Results" MODIFIED="1566180758681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
-    <SUITE FILE_PATH="coverage/LeetCode$LeetCode55jump_game.coverage" NAME="LeetCode55jump-game Coverage Results" MODIFIED="1571921842433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCode$LeetCode139word_break.coverage" NAME="LeetCode139word-break Coverage Results" MODIFIED="1567238939404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
+    <SUITE FILE_PATH="coverage/LeetCode$LeetCode_164_pmaximum_gap.coverage" NAME="LeetCode 164 pmaximum-gap Coverage Results" MODIFIED="1566180758681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCode$LeetCode406queue_reconstruction_by_height.coverage" NAME="LeetCode406queue-reconstruction-by-height Coverage Results" MODIFIED="1571972957768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
-    <SUITE FILE_PATH="coverage/LeetCode$LeetCode889construct_binary_tree_from_preorder_and_postorder_traversal.coverage" NAME="LeetCode889construct-binary-tree-from-preorder-and-postorder-traversal Coverage Results" MODIFIED="1571053186127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
-    <SUITE FILE_PATH="coverage/LeetCode$LeetCode867transpose_matrix.coverage" NAME="LeetCode867transpose-matrix Coverage Results" MODIFIED="1572148669548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
-    <SUITE FILE_PATH="coverage/LeetCode$BubbleSort.coverage" NAME="BubbleSort Coverage Results" MODIFIED="1567434982976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random" />
-    <SUITE FILE_PATH="coverage/LeetCode$LeetCode96unique_binary_search_trees.coverage" NAME="LeetCode96unique-binary-search-trees Coverage Results" MODIFIED="1570953011157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
-    <SUITE FILE_PATH="coverage/LeetCode$LeetCode309best_time_to_buy_and_sell_stock_with_cooldown.coverage" NAME="LeetCode309best-time-to-buy-and-sell-stock-with-cooldown Coverage Results" MODIFIED="1571973030396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
-    <SUITE FILE_PATH="coverage/LeetCode$SelectSort.coverage" NAME="SelectSort Coverage Results" MODIFIED="1567434849705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random" />
-    <SUITE FILE_PATH="coverage/LeetCode$LeetCode33search_in_rotated_sorted_array.coverage" NAME="LeetCode33search-in-rotated-sorted-array Coverage Results" MODIFIED="1572157593813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
-    <SUITE FILE_PATH="coverage/LeetCode$LeetCode347top_k_frequent_elements.coverage" NAME="LeetCode347top-k-frequent-elements Coverage Results" MODIFIED="1571813042483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
-    <SUITE FILE_PATH="coverage/LeetCode$LeetCode543diameter_of_binary_tree.coverage" NAME="LeetCode543diameter-of-binary-tree Coverage Results" MODIFIED="1570803663913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
-    <SUITE FILE_PATH="coverage/LeetCode$LeetCode1028recover_a_tree_from_preorder_traversal.coverage" NAME="LeetCode1028recover-a-tree-from-preorder-traversal Coverage Results" MODIFIED="1571707997006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
-    <SUITE FILE_PATH="coverage/LeetCode$LeetCode_829_consecutive_numbers_sum.coverage" NAME="LeetCode 829 consecutive-numbers-sum Coverage Results" MODIFIED="1566215887665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
-    <SUITE FILE_PATH="coverage/LeetCode$.coverage" NAME="堆排序 Coverage Results" MODIFIED="1571803485139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random" />
-    <SUITE FILE_PATH="coverage/LeetCode$LeetCode215kth_largest_element_in_an_array.coverage" NAME="LeetCode215kth-largest-element-in-an-array Coverage Results" MODIFIED="1571822880141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
-    <SUITE FILE_PATH="coverage/LeetCode$binarySearchTree.coverage" NAME="binarySearchTree Coverage Results" MODIFIED="1571226216972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random" />
-    <SUITE FILE_PATH="coverage/LeetCode$LeetCode442find_all_duplicates_in_an_array.coverage" NAME="LeetCode442find-all-duplicates-in-an-array Coverage Results" MODIFIED="1567157838307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCode$01.coverage" NAME="01背包 Coverage Results" MODIFIED="1570609941975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random" />
+    <SUITE FILE_PATH="coverage/LeetCode$SelectSort.coverage" NAME="SelectSort Coverage Results" MODIFIED="1567434849705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random" />
+    <SUITE FILE_PATH="coverage/LeetCode$.coverage" NAME="堆排序 Coverage Results" MODIFIED="1571803485139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random" />
+    <SUITE FILE_PATH="coverage/LeetCode$LeetCode892surface_area_of_3d_shapes.coverage" NAME="LeetCode892surface-area-of-3d-shapes Coverage Results" MODIFIED="1572098501552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCode$LeetCode146lru_cache.coverage" NAME="LeetCode146lru-cache Coverage Results" MODIFIED="1571793514542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCode$LeetCode95unique_binary_search_trees_ii.coverage" NAME="LeetCode95unique-binary-search-trees-ii Coverage Results" MODIFIED="1571021960602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
-    <SUITE FILE_PATH="coverage/LeetCode$LeetCode2AddTwoNumbers.coverage" NAME="LeetCode2AddTwoNumbers Coverage Results" MODIFIED="1572003877973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
-    <SUITE FILE_PATH="coverage/LeetCode$LeetCode322coin_change.coverage" NAME="LeetCode322coin-change Coverage Results" MODIFIED="1571822021738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCode$LeetCode105construct_binary_tree_from_preorder_and_inorder_traversal.coverage" NAME="LeetCode105construct-binary-tree-from-preorder-and-inorder-traversal Coverage Results" MODIFIED="1570861030866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
+    <SUITE FILE_PATH="coverage/LeetCode$LeetCode55jump_game.coverage" NAME="LeetCode55jump-game Coverage Results" MODIFIED="1571921842433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
+    <SUITE FILE_PATH="coverage/LeetCode$LeetCode1028recover_a_tree_from_preorder_traversal.coverage" NAME="LeetCode1028recover-a-tree-from-preorder-traversal Coverage Results" MODIFIED="1571707997006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
+    <SUITE FILE_PATH="coverage/LeetCode$binarySearchTree.coverage" NAME="binarySearchTree Coverage Results" MODIFIED="1571226216972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random" />
+    <SUITE FILE_PATH="coverage/LeetCode$LeetCode215kth_largest_element_in_an_array.coverage" NAME="LeetCode215kth-largest-element-in-an-array Coverage Results" MODIFIED="1571822880141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
+    <SUITE FILE_PATH="coverage/LeetCode$LeetCode889construct_binary_tree_from_preorder_and_postorder_traversal.coverage" NAME="LeetCode889construct-binary-tree-from-preorder-and-postorder-traversal Coverage Results" MODIFIED="1571053186127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
+    <SUITE FILE_PATH="coverage/LeetCode$LeetCode442find_all_duplicates_in_an_array.coverage" NAME="LeetCode442find-all-duplicates-in-an-array Coverage Results" MODIFIED="1567157838307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
+    <SUITE FILE_PATH="coverage/LeetCode$BubbleSort.coverage" NAME="BubbleSort Coverage Results" MODIFIED="1567434982976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random" />
+    <SUITE FILE_PATH="coverage/LeetCode$LeetCode_829_consecutive_numbers_sum.coverage" NAME="LeetCode 829 consecutive-numbers-sum Coverage Results" MODIFIED="1566215887665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
+    <SUITE FILE_PATH="coverage/LeetCode$LeetCode_892_surface_area_of_3d_shapes.coverage" NAME="LeetCode 892 surface-area-of-3d-shapes Coverage Results" MODIFIED="1566181965110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
+    <SUITE FILE_PATH="coverage/LeetCode$LeetCode2AddTwoNumbers.coverage" NAME="LeetCode2AddTwoNumbers Coverage Results" MODIFIED="1572003877973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
+    <SUITE FILE_PATH="coverage/LeetCode$LeetCode347top_k_frequent_elements.coverage" NAME="LeetCode347top-k-frequent-elements Coverage Results" MODIFIED="1571813042483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
+    <SUITE FILE_PATH="coverage/LeetCode$LeetCode543diameter_of_binary_tree.coverage" NAME="LeetCode543diameter-of-binary-tree Coverage Results" MODIFIED="1570803663913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
+    <SUITE FILE_PATH="coverage/LeetCode$LeetCode322coin_change.coverage" NAME="LeetCode322coin-change Coverage Results" MODIFIED="1571822021738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCode$LeetCode312burst_balloons.coverage" NAME="LeetCode312burst-balloons Coverage Results" MODIFIED="1572005142378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
-    <SUITE FILE_PATH="coverage/LeetCode$LeetCode91decode_ways.coverage" NAME="LeetCode91decode-ways Coverage Results" MODIFIED="1567133258708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCode$LeetCode394decode_string.coverage" NAME="LeetCode394decode-string Coverage Results" MODIFIED="1571923134553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
-    <SUITE FILE_PATH="coverage/LeetCode$LeetCode621task_scheduler.coverage" NAME="LeetCode621task-scheduler Coverage Results" MODIFIED="1572157759422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
+    <SUITE FILE_PATH="coverage/LeetCode$LeetCode309best_time_to_buy_and_sell_stock_with_cooldown.coverage" NAME="LeetCode309best-time-to-buy-and-sell-stock-with-cooldown Coverage Results" MODIFIED="1571973030396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
+    <SUITE FILE_PATH="coverage/LeetCode$LeetCode91decode_ways.coverage" NAME="LeetCode91decode-ways Coverage Results" MODIFIED="1567133258708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCode$LeetCode208implement_trie_prefix_tree.coverage" NAME="LeetCode208implement-trie-prefix-tree Coverage Results" MODIFIED="1570803696329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
+    <SUITE FILE_PATH="coverage/LeetCode$LeetCode96unique_binary_search_trees.coverage" NAME="LeetCode96unique-binary-search-trees Coverage Results" MODIFIED="1570953011157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -69,31 +459,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
-          <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="120">
-                <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <first_editor relative-caret-position="579">
+                <caret line="1479" column="76" selection-start-line="1479" selection-start-column="76" selection-end-line="1479" selection-end-column="76" />
                 <folding>
-                  <marker date="1572157570991" expanded="true" signature="32499:32649" ph="..." />
-                  <marker date="1572157570991" expanded="true" signature="36377:36616" ph="..." />
-                  <marker date="1572157570991" expanded="true" signature="36412:36616" ph="..." />
-                  <marker date="1572157570991" expanded="true" signature="36421:36532" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                  <marker date="1572162162210" expanded="true" signature="32499:32649" ph="..." />
+                  <marker date="1572162162210" expanded="true" signature="36377:36616" ph="..." />
+                  <marker date="1572162162210" expanded="true" signature="36412:36616" ph="..." />
+                  <marker date="1572162162210" expanded="true" signature="36421:36532" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
                 </folding>
               </first_editor>
               <second_editor />
             </state>
           </provider>
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+          <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="137">
-                <caret line="1465" column="0" selection-start-line="1465" selection-start-column="0" selection-end-line="1465" selection-end-column="0" />
+              <first_editor relative-caret-position="345">
+                <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
                 <folding>
-                  <marker date="1572157570991" expanded="true" signature="32499:32649" ph="..." />
-                  <marker date="1572157570991" expanded="true" signature="36377:36616" ph="..." />
-                  <marker date="1572157570991" expanded="true" signature="36412:36616" ph="..." />
-                  <marker date="1572157570991" expanded="true" signature="36421:36532" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                  <marker date="1572162162210" expanded="true" signature="32499:32649" ph="..." />
+                  <marker date="1572162162210" expanded="true" signature="36377:36616" ph="..." />
+                  <marker date="1572162162210" expanded="true" signature="36412:36616" ph="..." />
+                  <marker date="1572162162210" expanded="true" signature="36421:36532" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
                 </folding>
               </first_editor>
               <second_editor>
@@ -103,11 +493,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LeetCode621task-scheduler.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode621task-scheduler.py">
+      <file leaf-file-name="LeetCode5longest-palindromic-substring.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode5longest-palindromic-substring.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="63" />
+            <state relative-caret-position="180">
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -139,6 +529,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/LeetCode/LeetCode589n-ary-tree-preorder-traversal.py" />
+        <option value="$PROJECT_DIR$/LeetCode/LeetCode590n-ary-tree-postorder-traversal.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode700search-in-a-binary-search-tree.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode701insert-into-a-binary-search-tree.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode94binary-tree-inorder-traversal.py" />
@@ -186,10 +578,8 @@
         <option value="$PROJECT_DIR$/LeetCode/LeetCode406queue-reconstruction-by-height.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode309best-time-to-buy-and-sell-stock-with-cooldown.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode312burst-balloons.py" />
-        <option value="$PROJECT_DIR$/LeetCode/LeetCode867transpose-matrix.py" />
-        <option value="$PROJECT_DIR$/LeetCode/LeetCode33search-in-rotated-sorted-array.py" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/LeetCode/LeetCode621task-scheduler.py" />
+        <option value="$PROJECT_DIR$/LeetCode/LeetCode5longest-palindromic-substring.py" />
       </list>
     </option>
   </component>
@@ -202,7 +592,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="823" />
+    <option name="height" value="821" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -248,7 +638,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -283,7 +673,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -315,7 +705,43 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.LeetCode621task-scheduler">
+  <component name="RunManager" selected="Python.LeetCode892surface-area-of-3d-shapes">
+    <configuration default="false" name="LeetCode406queue-reconstruction-by-height" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="javaSolution" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/LeetCode406queue-reconstruction-by-height.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="LeetCode309best-time-to-buy-and-sell-stock-with-cooldown" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="javaSolution" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/LeetCode309best-time-to-buy-and-sell-stock-with-cooldown.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
     <configuration default="false" name="LeetCode2AddTwoNumbers" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -352,69 +778,22 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="LeetCode867transpose-matrix" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="LeetCode892surface-area-of-3d-shapes" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.7/bin/python3.7" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="javaSolution" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/LeetCode867transpose-matrix.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/LeetCode892surface-area-of-3d-shapes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="LeetCode33search-in-rotated-sorted-array" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="javaSolution" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/LeetCode33search-in-rotated-sorted-array.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="LeetCode621task-scheduler" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="javaSolution" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/LeetCode621task-scheduler.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="INTERPRETER_PATH" value="/bin/bash" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <module name="" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -658,19 +1037,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.LeetCode2AddTwoNumbers" />
-      <item index="1" class="java.lang.String" itemvalue="Python.LeetCode312burst-balloons" />
-      <item index="2" class="java.lang.String" itemvalue="Python.LeetCode867transpose-matrix" />
-      <item index="3" class="java.lang.String" itemvalue="Python.LeetCode33search-in-rotated-sorted-array" />
-      <item index="4" class="java.lang.String" itemvalue="Python.LeetCode621task-scheduler" />
+      <item index="0" class="java.lang.String" itemvalue="Python.LeetCode406queue-reconstruction-by-height" />
+      <item index="1" class="java.lang.String" itemvalue="Python.LeetCode309best-time-to-buy-and-sell-stock-with-cooldown" />
+      <item index="2" class="java.lang.String" itemvalue="Python.LeetCode2AddTwoNumbers" />
+      <item index="3" class="java.lang.String" itemvalue="Python.LeetCode312burst-balloons" />
+      <item index="4" class="java.lang.String" itemvalue="Python.LeetCode892surface-area-of-3d-shapes" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.LeetCode621task-scheduler" />
-        <item index="1" class="java.lang.String" itemvalue="Python.LeetCode33search-in-rotated-sorted-array" />
-        <item index="2" class="java.lang.String" itemvalue="Python.LeetCode867transpose-matrix" />
-        <item index="3" class="java.lang.String" itemvalue="Python.LeetCode312burst-balloons" />
-        <item index="4" class="java.lang.String" itemvalue="Python.LeetCode2AddTwoNumbers" />
+        <item index="0" class="java.lang.String" itemvalue="Python.LeetCode892surface-area-of-3d-shapes" />
+        <item index="1" class="java.lang.String" itemvalue="Python.LeetCode312burst-balloons" />
+        <item index="2" class="java.lang.String" itemvalue="Python.LeetCode2AddTwoNumbers" />
+        <item index="3" class="java.lang.String" itemvalue="Python.LeetCode309best-time-to-buy-and-sell-stock-with-cooldown" />
+        <item index="4" class="java.lang.String" itemvalue="Python.LeetCode406queue-reconstruction-by-height" />
       </list>
     </recent_temporary>
   </component>
@@ -722,6 +1101,20 @@
       <workItem from="1569810765255" duration="3178000" />
       <workItem from="1571630020745" duration="254000" />
       <workItem from="1571995971821" duration="310000" />
+    </task>
+    <task id="LOCAL-00087" summary="log(h)递归">
+      <created>1571366289323</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1571366289324</updated>
+    </task>
+    <task id="LOCAL-00088" summary="递归详解">
+      <created>1571369174948</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1571369174948</updated>
     </task>
     <task id="LOCAL-00089" summary="去重">
       <created>1571378472383</created>
@@ -1052,41 +1445,25 @@
       <option name="project" value="LOCAL" />
       <updated>1572068051161</updated>
     </task>
-    <task id="LOCAL-00136" summary="补充注释">
-      <created>1572068063759</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1572068063759</updated>
-    </task>
-    <task id="LOCAL-00137" summary="矩阵转置">
-      <created>1572148710603</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
-      <option name="project" value="LOCAL" />
-      <updated>1572148710604</updated>
-    </task>
-    <option name="localTasksCounter" value="138" />
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="90479000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="823" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="821" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3040057" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29930556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="15" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32845744" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30780143" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1096,11 +1473,13 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275862" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30718085" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1122,6 +1501,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="二叉树父结点+子节点递归" />
+    <MESSAGE value="前序中序构造搜索树" />
     <MESSAGE value="dfs" />
     <MESSAGE value="复杂的dfs" />
     <MESSAGE value="约瑟夫环问题" />
@@ -1145,9 +1526,7 @@
     <MESSAGE value="dp" />
     <MESSAGE value="热题100，栈" />
     <MESSAGE value="dp极度困难的题目" />
-    <MESSAGE value="补充注释" />
-    <MESSAGE value="矩阵转置" />
-    <option name="LAST_COMMIT_MESSAGE" value="矩阵转置" />
+    <option name="LAST_COMMIT_MESSAGE" value="dp极度困难的题目" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1180,7 +1559,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="27" />
+      <option name="time" value="20" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1189,55 +1568,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode1008construct-binary-search-tree-from-preorder-traversal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode1022sum-of-root-to-leaf-binary-numbers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="36" column="66" selection-start-line="36" selection-start-column="66" selection-end-line="36" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode1026maximum-difference-between-node-and-ancestor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="37" column="64" selection-start-line="37" selection-start-column="64" selection-end-line="37" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode1110delete-nodes-and-return-forest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/random/约瑟夫环问题.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/random/计数排序.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/random/binarySearchTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="168" column="0" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode198house-robber.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1270,6 +1600,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random/二分查找.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1511,67 +1848,118 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode867transpose-matrix.py">
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode1two-sum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="21" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/random/二分查找.py">
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode22generate-parentheses.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode33search-in-rotated-sorted-array.py">
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode48rotate-image.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode621task-scheduler.py">
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode62unique-paths.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="63" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode88merge-sorted-array.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode98validate-binary-search-tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode1051HeightChecker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode938range-sum-of-bst.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode892surface-area-of-3d-shapes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="120">
-            <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <first_editor relative-caret-position="579">
+            <caret line="1479" column="76" selection-start-line="1479" selection-start-column="76" selection-end-line="1479" selection-end-column="76" />
             <folding>
-              <marker date="1572157570991" expanded="true" signature="32499:32649" ph="..." />
-              <marker date="1572157570991" expanded="true" signature="36377:36616" ph="..." />
-              <marker date="1572157570991" expanded="true" signature="36412:36616" ph="..." />
-              <marker date="1572157570991" expanded="true" signature="36421:36532" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+              <marker date="1572162162210" expanded="true" signature="32499:32649" ph="..." />
+              <marker date="1572162162210" expanded="true" signature="36377:36616" ph="..." />
+              <marker date="1572162162210" expanded="true" signature="36412:36616" ph="..." />
+              <marker date="1572162162210" expanded="true" signature="36421:36532" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
             </folding>
           </first_editor>
           <second_editor />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="137">
-            <caret line="1465" column="0" selection-start-line="1465" selection-start-column="0" selection-end-line="1465" selection-end-column="0" />
+          <first_editor relative-caret-position="345">
+            <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
             <folding>
-              <marker date="1572157570991" expanded="true" signature="32499:32649" ph="..." />
-              <marker date="1572157570991" expanded="true" signature="36377:36616" ph="..." />
-              <marker date="1572157570991" expanded="true" signature="36412:36616" ph="..." />
-              <marker date="1572157570991" expanded="true" signature="36421:36532" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+              <marker date="1572162162210" expanded="true" signature="32499:32649" ph="..." />
+              <marker date="1572162162210" expanded="true" signature="36377:36616" ph="..." />
+              <marker date="1572162162210" expanded="true" signature="36412:36616" ph="..." />
+              <marker date="1572162162210" expanded="true" signature="36421:36532" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
             </folding>
           </first_editor>
           <second_editor>
             <js_state />
           </second_editor>
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-18602">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1572162162210" expanded="true" signature="32499:32649" ph="..." />
+            <marker date="1572162162210" expanded="true" signature="36377:36616" ph="..." />
+            <marker date="1572162162210" expanded="true" signature="36412:36616" ph="..." />
+            <marker date="1572162162210" expanded="true" signature="36421:36532" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode5longest-palindromic-substring.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
