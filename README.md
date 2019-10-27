@@ -1478,3 +1478,9 @@ Coming from:https://leetcode-cn.com/problems/task-scheduler/
 ps:二分用的是index:`while end<=right`
 
 Coming from:https://leetcode-cn.com/problems/search-in-rotated-sorted-array/
+
+### [find-first-and-last-position-of-element-in-sorted-array](LeetCode/LeetCode34find-first-and-last-position-of-element-in-sorted-array.py)
+
+这个考的是二分法中的while跳出条件和left、right变化逻辑，本题是找出左右边界
+
+Coming from:https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/
