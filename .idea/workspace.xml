@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="理解一下，出现次数最多的那个字母（出现次数-1）x时间窗口及为最小次数，剩余要考虑的是都为最多次数的字母数">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode34find-first-and-last-position-of-element-in-sorted-array.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-    </list>
+    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="这个考的是二分法中的while跳出条件和left、right变化逻辑，本题是找出左右边界" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,10 +72,10 @@
               <first_editor relative-caret-position="120">
                 <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
                 <folding>
-                  <marker date="1572184894039" expanded="true" signature="32499:32649" ph="..." />
-                  <marker date="1572184894039" expanded="true" signature="36377:36616" ph="..." />
-                  <marker date="1572184894039" expanded="true" signature="36412:36616" ph="..." />
-                  <marker date="1572184894039" expanded="true" signature="36421:36532" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                  <marker date="1572184928440" expanded="true" signature="32499:32649" ph="..." />
+                  <marker date="1572184928440" expanded="true" signature="36377:36616" ph="..." />
+                  <marker date="1572184928440" expanded="true" signature="36412:36616" ph="..." />
+                  <marker date="1572184928440" expanded="true" signature="36421:36532" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -90,25 +86,15 @@
               <first_editor relative-caret-position="287">
                 <caret line="1483" column="0" selection-start-line="1483" selection-start-column="0" selection-end-line="1483" selection-end-column="44" />
                 <folding>
-                  <marker date="1572184894039" expanded="true" signature="32499:32649" ph="..." />
-                  <marker date="1572184894039" expanded="true" signature="36377:36616" ph="..." />
-                  <marker date="1572184894039" expanded="true" signature="36412:36616" ph="..." />
-                  <marker date="1572184894039" expanded="true" signature="36421:36532" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                  <marker date="1572184928440" expanded="true" signature="32499:32649" ph="..." />
+                  <marker date="1572184928440" expanded="true" signature="36377:36616" ph="..." />
+                  <marker date="1572184928440" expanded="true" signature="36412:36616" ph="..." />
+                  <marker date="1572184928440" expanded="true" signature="36421:36532" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
                 </folding>
               </first_editor>
               <second_editor>
                 <js_state />
               </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LeetCode34find-first-and-last-position-of-element-in-sorted-array.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode34find-first-and-last-position-of-element-in-sorted-array.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -699,13 +685,6 @@
       <workItem from="1571630020745" duration="254000" />
       <workItem from="1571995971821" duration="310000" />
     </task>
-    <task id="LOCAL-00090" summary="N叉树前序遍历">
-      <created>1571458936922</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1571458936922</updated>
-    </task>
     <task id="LOCAL-00091" summary="N叉树前序遍历">
       <created>1571458952815</created>
       <option name="number" value="00091" />
@@ -1042,7 +1021,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572157861821</updated>
     </task>
-    <option name="localTasksCounter" value="139" />
+    <task id="LOCAL-00139" summary="这个考的是二分法中的while跳出条件和left、right变化逻辑，本题是找出左右边界">
+      <created>1572184912112</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1572184912112</updated>
+    </task>
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1098,7 +1084,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="复杂的dfs" />
     <MESSAGE value="约瑟夫环问题" />
     <MESSAGE value="fix path" />
     <MESSAGE value="计算每个值比自己小的值的个数，和自己一样大的个数，然后进行范围插值" />
@@ -1123,7 +1108,8 @@
     <MESSAGE value="补充注释" />
     <MESSAGE value="矩阵转置" />
     <MESSAGE value="理解一下，出现次数最多的那个字母（出现次数-1）x时间窗口及为最小次数，剩余要考虑的是都为最多次数的字母数" />
-    <option name="LAST_COMMIT_MESSAGE" value="理解一下，出现次数最多的那个字母（出现次数-1）x时间窗口及为最小次数，剩余要考虑的是都为最多次数的字母数" />
+    <MESSAGE value="这个考的是二分法中的while跳出条件和left、right变化逻辑，本题是找出左右边界" />
+    <option name="LAST_COMMIT_MESSAGE" value="这个考的是二分法中的while跳出条件和left、right变化逻辑，本题是找出左右边界" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1523,10 +1509,10 @@
           <first_editor relative-caret-position="120">
             <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
             <folding>
-              <marker date="1572184894039" expanded="true" signature="32499:32649" ph="..." />
-              <marker date="1572184894039" expanded="true" signature="36377:36616" ph="..." />
-              <marker date="1572184894039" expanded="true" signature="36412:36616" ph="..." />
-              <marker date="1572184894039" expanded="true" signature="36421:36532" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+              <marker date="1572184928440" expanded="true" signature="32499:32649" ph="..." />
+              <marker date="1572184928440" expanded="true" signature="36377:36616" ph="..." />
+              <marker date="1572184928440" expanded="true" signature="36412:36616" ph="..." />
+              <marker date="1572184928440" expanded="true" signature="36421:36532" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
             </folding>
           </first_editor>
           <second_editor />
@@ -1537,10 +1523,10 @@
           <first_editor relative-caret-position="287">
             <caret line="1483" column="0" selection-start-line="1483" selection-start-column="0" selection-end-line="1483" selection-end-column="44" />
             <folding>
-              <marker date="1572184894039" expanded="true" signature="32499:32649" ph="..." />
-              <marker date="1572184894039" expanded="true" signature="36377:36616" ph="..." />
-              <marker date="1572184894039" expanded="true" signature="36412:36616" ph="..." />
-              <marker date="1572184894039" expanded="true" signature="36421:36532" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+              <marker date="1572184928440" expanded="true" signature="32499:32649" ph="..." />
+              <marker date="1572184928440" expanded="true" signature="36377:36616" ph="..." />
+              <marker date="1572184928440" expanded="true" signature="36412:36616" ph="..." />
+              <marker date="1572184928440" expanded="true" signature="36421:36532" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
             </folding>
           </first_editor>
           <second_editor>
