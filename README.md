@@ -1159,5 +1159,120 @@ Coming from:https://leetcode-cn.com/problems/recover-a-tree-from-preorder-traver
 
 ***
 
-# 
+# dfs
+
+- [number-of-islands](LeetCode/LeetCode200number-of-islands.py)
+```回溯/DFS```
+
+Coming from:https://leetcode-cn.com/problems/number-of-islands/
+
+- [increasing-subsequences](src/Solution491.java)
+- [increasing-subsequences](LeetCode/LeetCode491increasing-subsequences.py)
+
+Coming from:https://leetcode-cn.com/problems/increasing-subsequences/
+
+- [generate-parentheses](LeetCode/LeetCode22generate-parentheses.py)
+
+dfs
+
+Coming from:https://leetcode-cn.com/problems/generate-parentheses/
+
+***
+
+# stack
+
+- [Valid Parentheses](src/Solution20.java)
+
+Coming from:https://leetcode-cn.com/problems/valid-parentheses/
+
+- [evaluate-reverse-polish-notation](LeetCode/LeetCode150evaluate-reverse-polish-notation.py)
+`栈，亮点在python 中对负数取整数部分如何操作`
+
+Coming from:https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/
+
+- [min-stack](LeetCode/LeetCode155min-stack.py)
+
+`辅助栈，不需要排序，仅需要知道当前最小即可`
+
+Coming from:https://leetcode-cn.com/problems/min-stack/
+
+- [decode-string](LeetCode/LeetCode394decode-string.py)
+
+`出入栈题，有点难想到`
+
+Coming from:https://leetcode-cn.com/problems/decode-string/
+
+- [daily-temperatures](LeetCode/LeetCode739daily-temperatures.py)
+
+Coming from:https://leetcode-cn.com/problems/daily-temperatures/
+
+- [remove-all-adjacent-duplicates-in-string](src/Solution1047.java)
+
+Coming from:https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/
+
+***
+
+# binary-search
+
+- [divide-two-integers](src/Solution29.java)
+`位运算`
+
+Coming from:https://leetcode-cn.com/problems/divide-two-integers/
+
+- [powx-n](LeetCode/LeetCode50powx-n.py)
+`最简单的递归，和快排，斐波纳切数列一致的写法`
+
+Coming from:https://leetcode-cn.com/problems/powx-n/
+
+- [Searcha2DMatrixII](LeetCode/Leetcode240Searcha2DMatrixII.py)
+
+`这题其实可以从右上角开始查找，会更快`
+
+Coming from :https://leetcode.com/problems/search-a-2d-matrix-ii/
+
+- [IntersectionofTwoArrays](LeetCode/LeetCode349IntersectionofTwoArrays.py)
+
+Coming from:https://leetcode-cn.com/problems/intersection-of-two-arrays/
+
+- [split-array-largest-sum](LeetCode/LeetCode410split-array-largest-sum.py)
+
+>二分搜索，亮点在分组最大和变成了原数组的`[max(原数组),sum(原数组))`
+
+Coming from:https://leetcode-cn.com/problems/split-array-largest-sum/
+
+
+- [binary-search](LeetCode/LeetCode704binary-search.py)
+
+Coming from:https://leetcode-cn.com/problems/binary-search/
+
+*** 
+
+# traceback
+
+- [Letter Combinations of a Phone Number](src/Solution17.java)
+- [LetterCombinationsofaPhoneNumber](LeetCode/LeetCode17LetterCombinationsofaPhone.py)
+`这题用了dp和递归两种方法，dp更好理解也很Pythonic，递归则更加通用`
+
+`盖题递归位置在循环中，很有意思`
+
+Coming from:https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/
+
+
+- [permutations](src/Solution46.java)
+`递归`
+
+Coming from:https://leetcode-cn.com/problems/permutations/
+
+- [permutations-ii](LeetCode/LeetCode47permutations-ii.py)
+```简单的回溯算法```
+
+Coming from:https://leetcode-cn.com/problems/permutations-ii/
+
+- [palindrome-partitioning](src/Solution131.java)
+```
+- 地址和值；已经用ansValue用的是内存地址，时刻在变，所以要new ArrayList<String>(ansValue)固定值使其不变
+- 回溯的剔除；
+```
+
+Coming from:https://leetcode-cn.com/problems/palindrome-partitioning/
 
