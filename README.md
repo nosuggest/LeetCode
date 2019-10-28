@@ -154,11 +154,13 @@ Coming from :https://leetcode-cn.com/problems/two-sum/
 Coming from:https://leetcode-cn.com/problems/container-with-most-water/
 
 - [3Sum](src/Solution15.java)
+
 `左右双指针,亮点在于定义了很多提前跳出条件，在相同值跳过的条件判断中用nums[i+1]还是nums[i-1]尤为灵活`
 
 Coming from:https://leetcode-cn.com/problems/3sum/
 
 - [3Sum Closest](src/Solution16.java)
+
 `这题和上面一题很类似，只是最好不要在多生产变量了，直接拿num[first]+num[last]+num[i]去和target比，而不要考虑差值是否大于0，很容易绕进去`
 
 Coming from:https://leetcode-cn.com/problems/3sum-closest/
@@ -198,6 +200,7 @@ Coming from:https://leetcode-cn.com/problems/find-first-and-last-position-of-ele
 Coming from:https://leetcode-cn.com/problems/search-insert-position/
 
 - [combination-sum](src/Solution39.java)
+
 `这题和上面这题很像，递归在for循环里面的回溯算法，把所有情况跑一遍`
 
 `画重点，求解过程中存着result 是List<List<Integer>>的，而tmp_list是list的,需要把tmp_list再裹一层new ArrayList<>(tmp_list)再进行add`
@@ -235,6 +238,7 @@ Coming from:https://leetcode-cn.com/problems/jump-game/
 Coming from:https://leetcode-cn.com/problems/merge-intervals/
 
 - [SpiralMatrixII](LeetCode/LeetCode59SpiralMatrixII.py)
+
 `旋转矩阵题型，用了余数判断位置，比较亮点`
 
 Coming from:https://leetcode-cn.com/problems/spiral-matrix-ii/
@@ -296,11 +300,13 @@ Coming from:https://leetcode-cn.com/problems/move-zeroes/
 Coming from:https://leetcode-cn.com/problems/find-the-duplicate-number/
 
 - [find-all-duplicates-in-an-array](LeetCode/LeetCode442find-all-duplicates-in-an-array.py)
+
 ```和上面一样，核心是每次对abs(nums[idx])-1的处理获得nums的index很有意思```
 
 Coming from:https://leetcode-cn.com/problems/find-all-duplicates-in-an-array/
 
 - [find-all-numbers-disappeared-in-an-array](LeetCode/LeetCode448find-all-numbers-disappeared-in-an-array.py)
+
 ```nums[abs(nums[idx]) - 1] = -abs(nums[abs(nums[idx]) - 1]),两个abs保证了所有存在的idx都被置负了```
 
 Coming from:https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/
@@ -391,11 +397,13 @@ Coming from:https://leetcode-cn.com/problems/unique-paths/
 
 - [unique-paths-ii](LeetCode/LeetCode63unique-paths-ii.py)
 - [unique-paths-ii](src/Solution63.java)
+
 ```最优路径下的dp```
 
 Coming from:https://leetcode-cn.com/problems/unique-paths-ii/
 
 - [minimum-path-sum](LeetCode/LeetCode64minimum-path-sum.py)
+
 `非常基础简单的动态规划问题，适合理解动态规范的想法`
 
 Coming from:https://leetcode-cn.com/problems/minimum-path-sum/
@@ -405,6 +413,7 @@ Coming from:https://leetcode-cn.com/problems/minimum-path-sum/
 Coming from:https://leetcode-cn.com/problems/maximal-rectangle/ 
 
 - [decode-ways](LeetCode/LeetCode91decode-ways.py)
+
 ```状态转移方程式dp[i] = dp[i-1]+dp[i-2],复杂在什么时候加前项什么时候加后项，什么时候加两项，0的位置的考虑```
 
 Coming from:https://leetcode-cn.com/problems/decode-ways/
@@ -442,6 +451,7 @@ Coming from:https://leetcode-cn.com/problems/maximum-product-subarray/
 Coming from:https://leetcode-cn.com/problems/dungeon-game/
 
 - [house-robber](LeetCode/LeetCode198house-robber.py)
+
 `dp算法很经典的一道题`
 
 Coming from:https://leetcode-cn.com/problems/house-robber/
@@ -528,11 +538,13 @@ Coming from:https://leetcode-cn.com/problems/target-sum/
 Coming from:https://leetcode-cn.com/problems/palindromic-substrings/
 
 - [Partition to K Equal Sum Subsets](src/Solution698.java)
+
 `依旧是递归，区别在递归逻辑在for循环中，相当于并发了n条处理逻辑，有点像树展开`
 
 Coming from:https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets/
 
 - [delete-and-earn](LeetCode/LeetCode740delete-and-earn.py)
+
 `核心在于bitmap+dp，与198题类似`
 
 Coming from:https://leetcode-cn.com/problems/delete-and-earn/
@@ -551,11 +563,13 @@ if S[i-1] == "I":dp[i,j] += dp[i-1,k] k<j
 Coming from:https://leetcode-cn.com/problems/valid-permutations-for-di-sequence/
 
 - [VideoStitching](LeetCode/LeetCode1024VideoStitching.py)
+
 `贪心算法概念的比较好理解的一道题`
 
 Coming from:https://leetcode-cn.com/problems/video-stitching/
 
 - [n-th-tribonacci-number](src/Solution1137.java)
+
 ```最简单的dp```
 
 Coming from:https://leetcode-cn.com/problems/n-th-tribonacci-number/
@@ -1164,6 +1178,7 @@ Coming from:https://leetcode-cn.com/problems/recover-a-tree-from-preorder-traver
 # dfs
 
 - [number-of-islands](LeetCode/LeetCode200number-of-islands.py)
+
 ```回溯/DFS```
 
 Coming from:https://leetcode-cn.com/problems/number-of-islands/
@@ -1188,6 +1203,7 @@ Coming from:https://leetcode-cn.com/problems/generate-parentheses/
 Coming from:https://leetcode-cn.com/problems/valid-parentheses/
 
 - [evaluate-reverse-polish-notation](LeetCode/LeetCode150evaluate-reverse-polish-notation.py)
+
 `栈，亮点在python 中对负数取整数部分如何操作`
 
 Coming from:https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/
@@ -1217,11 +1233,13 @@ Coming from:https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-s
 # binary-search
 
 - [divide-two-integers](src/Solution29.java)
+
 `位运算`
 
 Coming from:https://leetcode-cn.com/problems/divide-two-integers/
 
 - [powx-n](LeetCode/LeetCode50powx-n.py)
+
 `最简单的递归，和快排，斐波纳切数列一致的写法`
 
 Coming from:https://leetcode-cn.com/problems/powx-n/
@@ -1253,6 +1271,7 @@ Coming from:https://leetcode-cn.com/problems/binary-search/
 
 - [Letter Combinations of a Phone Number](src/Solution17.java)
 - [LetterCombinationsofaPhoneNumber](LeetCode/LeetCode17LetterCombinationsofaPhone.py)
+
 `这题用了dp和递归两种方法，dp更好理解也很Pythonic，递归则更加通用`
 
 `盖题递归位置在循环中，很有意思`
@@ -1261,16 +1280,19 @@ Coming from:https://leetcode-cn.com/problems/letter-combinations-of-a-phone-numb
 
 
 - [permutations](src/Solution46.java)
+
 `递归`
 
 Coming from:https://leetcode-cn.com/problems/permutations/
 
 - [permutations-ii](LeetCode/LeetCode47permutations-ii.py)
+
 ```简单的回溯算法```
 
 Coming from:https://leetcode-cn.com/problems/permutations-ii/
 
 - [palindrome-partitioning](src/Solution131.java)
+
 ```
 - 地址和值；已经用ansValue用的是内存地址，时刻在变，所以要new ArrayList<String>(ansValue)固定值使其不变
 - 回溯的剔除；
@@ -1298,6 +1320,7 @@ Coming from:https://leetcode-cn.com/problems/merge-two-sorted-lists/
 
 
 - [Swap Nodes in Pairs](src/Solution24.java)
+
 `递归算法，讲的很详细，递归复习专用`
 
 `该题递归在函数中间位置，很有意思`
@@ -1305,11 +1328,13 @@ Coming from:https://leetcode-cn.com/problems/merge-two-sorted-lists/
 Coming from:https://leetcode-cn.com/problems/swap-nodes-in-pairs/
 
 - [RemoveLinkedListElements](LeetCode/LeetCode203RemoveLinkedListElements.py)
+
 `协助理解链表里面的head = head, head.next = head.next.next`
 
 Coming from:https://leetcode-cn.com/problems/remove-linked-list-elements/
 
 - [reverse-linked-list](src/Solution206.java)
+
 `递归在中间,简单题，对比上面的24题可以对比着看`
 
 Coming from:https://leetcode-cn.com/problems/reverse-linked-list/
@@ -1338,6 +1363,7 @@ Coming from:https://leetcode-cn.com/problems/sliding-window-maximum/
 Coming from:https://leetcode-cn.com/problems/top-k-frequent-elements/
 
 - [DistantBarcodes](LeetCode/LeetCode1054DistantBarcodes.py)
+
 Coming from:https://leetcode-cn.com/problems/distant-barcodes/
 
 ***
@@ -1345,16 +1371,19 @@ Coming from:https://leetcode-cn.com/problems/distant-barcodes/
 # 双指针
 
 - [LongestSubstringWithoutRepeatingCharacters](LeetCode/LeetCode3LongestSubstringWithoutRepeatingCharacters.py)
+
 `滑动窗口`
 
 Coming from:https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/
 
 - [boats-to-save-people](src/Solution881.java)
+
 `双指针`
 
 Coming from:https://leetcode-cn.com/problems/boats-to-save-people/
 
 - [fruit-into-baskets](src/Solution904.java)
+
 ```双指针```
 
 Coming from:https://leetcode-cn.com/problems/fruit-into-baskets/
@@ -1399,11 +1428,13 @@ Coming from:https://leetcode-cn.com/problems/reverse-only-letters/
 
 - [K-thSymbolinGrammar](LeetCode/LeetCode779K-thSymbolinGrammar.py)
 - [K-th Symbol in Grammar](src/Solution779.java)
+
 `python用了最简单的递归表示，把结果表示出来再做，比较慢,所以加了@functools.lru_cache(maxsize=128, typed=False)对结果进行缓存`
 
 Coming from:https://leetcode-cn.com/problems/k-th-symbol-in-grammar/
 
 - [valid-tic-tac-toe-state](LeetCode/LeetCode794valid-tic-tac-toe-state.py)
+
 ```直接罗列全情况，排除一下就行```
 
 Coming from:https://leetcode-cn.com/problems/valid-tic-tac-toe-state/
@@ -1413,6 +1444,7 @@ Coming from:https://leetcode-cn.com/problems/valid-tic-tac-toe-state/
 # 蓄水池抽样
 
 - [random-pick-index](LeetCode/LeetCode398random-pick-index.py)
+
 ```蓄水池抽烟，randint(0,cnt)控制了每次被抛弃的概率为1/(1+cnt）```
 
 Coming from:https://leetcode-cn.com/problems/random-pick-index/
@@ -1445,22 +1477,26 @@ Coming from:https://leetcode-cn.com/problems/ugly-number/
 Coming from:https://leetcode-cn.com/problems/reach-a-number/
 
 - [ChalkboardXORGame](LeetCode/LeetCode810ChalkboardXORGame.py)
+
 `逻辑鬼才的题目`
 
 Coming from:https://leetcode-cn.com/problems/chalkboard-xor-game/
 
 - [LargestTriangleArea](LeetCode/LeetCode812LargestTriangleArea.py)
+
 `任给三点，三角形面积等于abs(x1*(y2-y3)+x2*(y3-y1)+x3*(y1-y2))/2`
 
 Coming from:https://leetcode-cn.com/problems/largest-triangle-area/
 
 - [consecutive-numbers-sum](LeetCode/LeetCode829consecutive-numbers-sum.py)
+
 ```(n-m)(n+m+1)=2N,a=n-m,b=n+m+1,a+b=2n+1,b-a=2m+1,所以a*b=2N,a,b一奇一偶```
 
 Coming from:https://leetcode-cn.com/problems/consecutive-numbers-sum/
 
 
 - [surface-area-of-3d-shapes](LeetCode/LeetCode892surface-area-of-3d-shapes.py)
+
 ```透视图角度```
 
 Coming from:https://leetcode-cn.com/problems/surface-area-of-3d-shapes/
@@ -1477,6 +1513,7 @@ Coming from : https://leetcode.com/problems/single-number/description/
 
 - [single-number-ii](src/Solution176.java)
 - [single-number-ii](LeetCode/LeetCode176single-number-ii.py)
+
 `知识点1：设计一个逻辑运算，使满足存在两个变量a和b，当遍历nums的时候，对于重复元素x，第一次碰到x的时候，我们会将x赋给a，第二次碰到后再赋给b，第三次则全量抵消`
 `知识点2：x&~x=0`
 
@@ -1572,6 +1609,7 @@ Coming from:https://leetcode-cn.com/problems/beautiful-array/
 # 桶排序
 
 - [maximum-gap](LeetCode/LeetCode164maximum-gap.py)
+
 ```分通，亮点在于分N+1个桶，保证一定有一个空桶，空桶的存在保证最大间隔在桶之间，不需要再去比桶内值```
 
 Coming from:https://leetcode-cn.com/problems/maximum-gap/
@@ -1583,16 +1621,19 @@ Coming from:https://leetcode-cn.com/problems/maximum-gap/
 
 
 - [NimGame](LeetCode/LeetCode292NimGame.py)
+
 `规律题，数学归纳`
 
 Coming from:https://leetcode-cn.com/problems/nim-game/
 
 - [LexicographicalNumbers](LeetCode/LeetCode386LexicographicalNumbers.py)
+
 `字典排序，用了python特性，也同时整理基础概念，值得去看`
 
 Coming from:https://leetcode-cn.com/problems/lexicographical-numbers/
 
 - [IncreasingTripletSubsequence](LeetCode/LeetCode334IncreasingTripletSubsequence.py)
+
 `such that arr[i] < arr[j] < arr[k] given 0 ≤ i < j < k ≤ n-1 else return false,其中只要保证固定住最小和最大，不断降低最小值的下限，使得比最小值要大的值可以尽可能的接近最小值，从而更容易找到比接近最小值的值`
 
 Coming from:https://leetcode-cn.com/problems/increasing-triplet-subsequence/
