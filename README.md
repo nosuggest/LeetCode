@@ -214,12 +214,6 @@ Coming from:https://leetcode-cn.com/problems/trapping-rain-water/
 
 Coming from:https://leetcode-cn.com/problems/rotate-image/
 
-- [maximum-subarray](LeetCode/LeetCode53maximum-subarray.py)
-
-```简单递归```
-
-Coming from:https://leetcode-cn.com/problems/maximum-subarray/
-
 - [jump-game](LeetCode/LeetCode55jump-game.py)
 
 ```python
@@ -245,20 +239,10 @@ Coming from:https://leetcode-cn.com/problems/merge-intervals/
 
 Coming from:https://leetcode-cn.com/problems/spiral-matrix-ii/
 
-- [unique-paths](LeetCode/LeetCode62unique-paths.py)
-
-Coming from:https://leetcode-cn.com/problems/unique-paths/
-
-- [unique-paths-ii](LeetCode/LeetCode63unique-paths-ii.py)
-- [unique-paths-ii](src/Solution63.java)
-```最优路径下的dp```
 
 Coming from:https://leetcode-cn.com/problems/unique-paths-ii/
 
-- [minimum-path-sum](LeetCode/LeetCode64minimum-path-sum.py)
-`非常基础简单的动态规划问题，适合理解动态规范的想法`
 
-Coming from:https://leetcode-cn.com/problems/minimum-path-sum/
 
 - [sort-colors](LeetCode/LeetCode75sort-colors.py)
 
@@ -278,24 +262,10 @@ Coming from:https://leetcode-cn.com/problems/word-search/
 
 Coming from:https://leetcode-cn.com/problems/largest-rectangle-in-histogram/
 
-- [maximal-rectangle](src/Solution85.java)
-
-Coming from:https://leetcode-cn.com/problems/maximal-rectangle/ 
-
 - [merge-sorted-array](LeetCode/LeetCode88merge-sorted-array.py)
 - [merge-sorted-array](src/Solution88.java)
 
 Coming from:https://leetcode-cn.com/problems/merge-sorted-array/
-
-- [triangle](LeetCode/LeetCode120triangle.py)
-
-Coming from:https://leetcode-cn.com/problems/triangle/
-
-- [maximum-product-subarray](LeetCode/LeetCode152maximum-product-subarray.py)
-
-```需要存一个max和min，来做条件判断```
-
-Coming from:https://leetcode-cn.com/problems/maximum-product-subarray/
 
 - [majority-element](LeetCode/LeetCode169majority-element.py)
 
@@ -398,3 +368,184 @@ Coming from:https://leetcode-cn.com/problems/binary-prefix-divisible-by-5/
 - [HeightChecker](LeetCode/LeetCode1051HeightChecker.py)
 
 Coming from:https://leetcode-cn.com/problems/height-checker/
+
+***
+
+# dynamic programming
+
+- [longest-palindromic-substring](LeetCode/LeetCode5longest-palindromic-substring.py)
+
+>中心展开，从中间值往两边展开，判断展开终止点的长度
+
+Coming from:https://leetcode-cn.com/problems/longest-palindromic-substring/
+
+- [maximum-subarray](LeetCode/LeetCode53maximum-subarray.py)
+
+```简单递归```
+
+Coming from:https://leetcode-cn.com/problems/maximum-subarray/
+
+- [unique-paths](LeetCode/LeetCode62unique-paths.py)
+
+Coming from:https://leetcode-cn.com/problems/unique-paths/
+
+- [unique-paths-ii](LeetCode/LeetCode63unique-paths-ii.py)
+- [unique-paths-ii](src/Solution63.java)
+```最优路径下的dp```
+
+- [minimum-path-sum](LeetCode/LeetCode64minimum-path-sum.py)
+`非常基础简单的动态规划问题，适合理解动态规范的想法`
+
+Coming from:https://leetcode-cn.com/problems/minimum-path-sum/
+
+- [maximal-rectangle](src/Solution85.java)
+
+Coming from:https://leetcode-cn.com/problems/maximal-rectangle/ 
+
+- [decode-ways](LeetCode/LeetCode91decode-ways.py)
+```状态转移方程式dp[i] = dp[i-1]+dp[i-2],复杂在什么时候加前项什么时候加后项，什么时候加两项，0的位置的考虑```
+
+Coming from:https://leetcode-cn.com/problems/decode-ways/
+
+- [triangle](LeetCode/LeetCode120triangle.py)
+
+Coming from:https://leetcode-cn.com/problems/triangle/
+
+- [best-time-to-buy-and-sell-stock](LeetCode/LeetCode121best-time-to-buy-and-sell-stock.py)
+- [best-time-to-buy-and-sell-stock](src/Solution121.java)
+
+Coming from:https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/
+
+- [word-break](LeetCode/LeetCode139word-break.py)
+
+>第一轮用的traceback，时间复杂度是n的n次方，扑gai；然后我想了下，既然可以考虑回溯，为什么不能递归，其实只要把方程：flag[j] = flag[i]+s[i:j] in wordDict 这个想到就行，这个算是是像加限制性条件的dp，比如20届拼多多校招，多多鸡砍树问题
+
+Coming from:https://leetcode-cn.com/problems/word-break/
+
+- [maximum-product-subarray](LeetCode/LeetCode152maximum-product-subarray.py)
+
+```需要存一个max和min，来做条件判断```
+
+Coming from:https://leetcode-cn.com/problems/maximum-product-subarray/
+
+- [dungeon-game](LeetCode/LeetCode174dungeon-game.py)
+
+```反向递归```
+
+Coming from:https://leetcode-cn.com/problems/dungeon-game/
+
+- [house-robber](LeetCode/LeetCode198house-robber.py)
+`dp算法很经典的一道题`
+
+Coming from:https://leetcode-cn.com/problems/house-robber/
+
+- [maximal-square](LeetCode/LeetCode221maximal-square.py)
+
+Coming from:https://leetcode-cn.com/problems/maximal-square/
+
+- [Ugly Number II](src/Solution264.java)
+
+Coming from:https://leetcode-cn.com/problems/ugly-number-ii/
+
+- [perfect-squares](src/Solution279.java)
+- [perfect-squares](LeetCode/LeetCode279perfect-squares.py)
+
+
+```双循环的dp，同样的思路python会超时，Java不会```
+
+Coming from:https://leetcode-cn.com/problems/perfect-squares/
+
+- [longest-increasing-subsequence](LeetCode/LeetCode300longest-increasing-subsequence.py)
+- [longest-increasing-subsequence](src/Solution300.java)
+```
+dp和递归理解的好题目，值得看
+```
+Coming from:https://leetcode-cn.com/problems/longest-increasing-subsequence/
+
+- [range-sum-query-immutable](LeetCode/LeetCode303range-sum-query-immutable.py)
+
+Coming from:https://leetcode-cn.com/problems/range-sum-query-immutable/
+
+- [best-time-to-buy-and-sell-stock-with-cooldown](LeetCode/LeetCode309best-time-to-buy-and-sell-stock-with-cooldown.py)
+
+`dp的高难题，代码中带完整带解题方法`
+
+Coming from:https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
+
+- [burst-balloons](LeetCode/LeetCode312burst-balloons.py)
+
+`dp的超高难题，代码中带完整带解题方法`
+
+Coming from:https://leetcode-cn.com/problems/burst-balloons/
+
+- [coin-change](LeetCode/LeetCode322coin-change.py)
+
+斐波纳切动态规划
+
+Coming from:https://leetcode-cn.com/problems/coin-change/
+
+- [counting-bits](src/Solution338.java)
+
+Coming from:https://leetcode-cn.com/problems/counting-bits/
+
+- [split-array-largest-sum](LeetCode410split-array-largest-sum.py)
+
+Coming from:https://leetcode-cn.com/problems/split-array-largest-sum/
+
+- [partition-equal-subset-sum](LeetCode/LeetCode416partition-equal-subset-sum.py)
+
+`01背包问题，这题主要考虑提前跳出条件`
+
+Coming from:https://leetcode-cn.com/problems/partition-equal-subset-sum/
+
+- [target-sum](LeetCode/LeetCode494target-sum.py)
+
+```这题有点难，01背包+递归逻辑，值得面试前看一波```
+
+```
+难点1：把原问题转换为算背包容积的问题，因为p-n=t,p-n+p+n=sum+t,p=(sum+t)/2
+难点2：dp[i]=dp[i]+dp[i-num]
+```
+
+Coming from:https://leetcode-cn.com/problems/target-sum/
+
+- [palindromic-substrings](LeetCode/LeetCode647palindromic-substrings.py)
+
+```回文子串问题```
+
+```
+方法1：dp
+方法2：中间搜索
+```
+
+Coming from:https://leetcode-cn.com/problems/palindromic-substrings/
+
+- [Partition to K Equal Sum Subsets](src/Solution698.java)
+`依旧是递归，区别在递归逻辑在for循环中，相当于并发了n条处理逻辑，有点像树展开`
+
+Coming from:https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets/
+
+- [delete-and-earn](LeetCode/LeetCode740delete-and-earn.py)
+`核心在于bitmap+dp，与198题类似`
+
+Coming from:https://leetcode-cn.com/problems/delete-and-earn/
+
+- [valid-permutations-for-di-sequence](LeetCode/LeetCode903valid-permutations-for-di-sequence.py)
+
+`爱奇艺2020届校招`
+
+>这边需要明白一个规则，举个例子：S:[0,1,2,3],P:[DID];dp[i,j]中i指S中的最大范围，此处i最大=3，j为以什么为结尾
+dp[2.1]则为S:[0,1,2],且以1为结尾，因为p为DID，所以当i=2的时候，应该满足DI，1为结尾，又因为I为此时P的结尾，所以
+[0,1]的前两位组合的末尾应该是比二小就行，所以d[1,1]和dp[1,0]都行，dp[2,2] = dp[1,0]+dp[1,1]=1+0；如果是ID的情况
+同上，所以状态转移方程应该是：
+if S[i-1] == "D":dp[i,j] += dp[i-1,k] j<=k<=i-1
+if S[i-1] == "I":dp[i,j] += dp[i-1,k] k<j
+
+Coming from:https://leetcode-cn.com/problems/valid-permutations-for-di-sequence/
+
+- [VideoStitching](LeetCode/LeetCode1024VideoStitching.py)
+`贪心算法概念的比较好理解的一道题`
+
+Coming from:https://leetcode-cn.com/problems/video-stitching/
+
+*** 
