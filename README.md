@@ -140,3 +140,261 @@ Coming from:http://codeforces.com/contest/474/problem/D
 - [归并排序](random/归并排序.py)
 
 - [堆排序](random/堆排序.py)
+
+***
+
+# array
+
+- [two-sum](LeetCode/LeetCode1two-sum.py)
+
+Coming from :https://leetcode-cn.com/problems/two-sum/
+
+- [container-with-most-water](LeetCode/LeetCode11container-with-most-water.py)
+
+Coming from:https://leetcode-cn.com/problems/container-with-most-water/
+
+- [3Sum](src/Solution15.java)
+`左右双指针,亮点在于定义了很多提前跳出条件，在相同值跳过的条件判断中用nums[i+1]还是nums[i-1]尤为灵活`
+
+Coming from:https://leetcode-cn.com/problems/3sum/
+
+- [3Sum Closest](src/Solution16.java)
+`这题和上面一题很类似，只是最好不要在多生产变量了，直接拿num[first]+num[last]+num[i]去和target比，而不要考虑差值是否大于0，很容易绕进去`
+
+Coming from:https://leetcode-cn.com/problems/3sum-closest/
+
+- [4Sum](src/Solution18.java)
+
+Coming from:https://leetcode-cn.com/problems/4sum/
+
+- [Remove Duplicates from Sorted Array](src/Solution26.java)
+
+Coming from:https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/
+
+- [Remove Element](src/Solution27.java)
+
+Coming from:https://leetcode-cn.com/problems/remove-element/
+
+- [search-in-rotated-sorted-array](LeetCode/LeetCode33search-in-rotated-sorted-array.py)
+
+```
+因为是螺旋数组，所以理解2点：
+1、对于mid = （left+right）>>1来说，要么左侧要么右侧，必然会有一边是有序的
+2、判断target在有序侧还是非有序侧，从而决定是修正有序侧还是简单位移
+```
+
+ps:二分用的是index:`while end<=right`
+
+Coming from:https://leetcode-cn.com/problems/search-in-rotated-sorted-array/
+
+- [find-first-and-last-position-of-element-in-sorted-array](LeetCode/LeetCode34find-first-and-last-position-of-element-in-sorted-array.py)
+
+这个考的是二分法中的while跳出条件和left、right变化逻辑，本题是找出左右边界
+
+Coming from:https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+
+- [Search Insert Position](src/Solution35.java)
+
+Coming from:https://leetcode-cn.com/problems/search-insert-position/
+
+- [combination-sum](src/Solution39.java)
+`这题和上面这题很像，递归在for循环里面的回溯算法，把所有情况跑一遍`
+
+`画重点，求解过程中存着result 是List<List<Integer>>的，而tmp_list是list的,需要把tmp_list再裹一层new ArrayList<>(tmp_list)再进行add`
+
+Coming from:https://leetcode-cn.com/problems/combination-sum/
+
+- [trapping-rain-water](LeetCode/LeetCode42trapping-rain-water.py)
+
+动态规划和栈的两种方法，很值得看一下
+
+Coming from:https://leetcode-cn.com/problems/trapping-rain-water/
+
+- [rotate-image](LeetCode/LeetCode48rotate-image.py)
+
+Coming from:https://leetcode-cn.com/problems/rotate-image/
+
+- [maximum-subarray](LeetCode/LeetCode53maximum-subarray.py)
+
+```简单递归```
+
+Coming from:https://leetcode-cn.com/problems/maximum-subarray/
+
+- [jump-game](LeetCode/LeetCode55jump-game.py)
+
+```python
+max_dis：上次每次可跳的最远距离
+本次是在range中产生的，所以需要减去1，剩下的才是还可供跳跃的长度
+
+nums[idx]：是本次新可跳的距离
+
+比较max_ids-1和nums[idx]得出当前可跳的新最远距离
+如果max_ids==0代表可跳的距离额度没有了，return False
+```
+
+这题和[distribute-coins-in-binary-tree](LeetCode/LeetCode979distribute-coins-in-binary-tree.py)神似。
+
+Coming from:https://leetcode-cn.com/problems/jump-game/
+
+- [MergeIntervals](LeetCode/LeetCode56MergeIntervals.py)
+
+Coming from:https://leetcode-cn.com/problems/merge-intervals/
+
+- [SpiralMatrixII](LeetCode/LeetCode59SpiralMatrixII.py)
+`旋转矩阵题型，用了余数判断位置，比较亮点`
+
+Coming from:https://leetcode-cn.com/problems/spiral-matrix-ii/
+
+- [unique-paths](LeetCode/LeetCode62unique-paths.py)
+
+Coming from:https://leetcode-cn.com/problems/unique-paths/
+
+- [unique-paths-ii](LeetCode/LeetCode63unique-paths-ii.py)
+- [unique-paths-ii](src/Solution63.java)
+```最优路径下的dp```
+
+Coming from:https://leetcode-cn.com/problems/unique-paths-ii/
+
+- [minimum-path-sum](LeetCode/LeetCode64minimum-path-sum.py)
+`非常基础简单的动态规划问题，适合理解动态规范的想法`
+
+Coming from:https://leetcode-cn.com/problems/minimum-path-sum/
+
+- [sort-colors](LeetCode/LeetCode75sort-colors.py)
+
+Coming from:https://leetcode-cn.com/problems/sort-colors/
+
+- [Subsets](LeetCode/LeetCode78Subsets.py)
+
+`这题利用了python的语言机制，很有意思`
+
+Coming from :https://leetcode.com/problems/subsets/
+
+- [word-search](LeetCode/LeetCode79word-search.py)
+
+Coming from:https://leetcode-cn.com/problems/word-search/
+
+- [largest-rectangle-in-histogram](src/Solution84.java)
+
+Coming from:https://leetcode-cn.com/problems/largest-rectangle-in-histogram/
+
+- [maximal-rectangle](src/Solution85.java)
+
+Coming from:https://leetcode-cn.com/problems/maximal-rectangle/ 
+
+- [merge-sorted-array](LeetCode/LeetCode88merge-sorted-array.py)
+- [merge-sorted-array](src/Solution88.java)
+
+Coming from:https://leetcode-cn.com/problems/merge-sorted-array/
+
+- [triangle](LeetCode/LeetCode120triangle.py)
+
+Coming from:https://leetcode-cn.com/problems/triangle/
+
+- [maximum-product-subarray](LeetCode/LeetCode152maximum-product-subarray.py)
+
+```需要存一个max和min，来做条件判断```
+
+Coming from:https://leetcode-cn.com/problems/maximum-product-subarray/
+
+- [majority-element](LeetCode/LeetCode169majority-element.py)
+
+Coming from:https://leetcode-cn.com/problems/majority-element/
+
+- [product-of-array-except-self](LeetCode/LeetCode238product-of-array-except-self.py)
+
+`两侧分别扫描一遍`
+
+Coming from:https://leetcode-cn.com/problems/product-of-array-except-self/
+
+- [move-zeroes](LeetCode/LeetCode283move-zeroes.py)
+
+Coming from:https://leetcode-cn.com/problems/move-zeroes/
+
+- [find-the-duplicate-number](LeetCode/LeetCode287find-the-duplicate-number.py)
+
+```
+（1）使用哈希表判重
+（2）排序以后，重复的数相邻
+（3）使用“抽屉原理”，当两个数发现要放在同一个地方的时候，就发现了这个重复的元素
+（4）既然要定位数，可以对“数”做二分
+（5）还可以使用“快慢指针”来完成
+```
+
+环概念：代码内部，好好看
+
+Coming from:https://leetcode-cn.com/problems/find-the-duplicate-number/
+
+- [find-all-duplicates-in-an-array](LeetCode/LeetCode442find-all-duplicates-in-an-array.py)
+```和上面一样，核心是每次对abs(nums[idx])-1的处理获得nums的index很有意思```
+
+Coming from:https://leetcode-cn.com/problems/find-all-duplicates-in-an-array/
+
+- [find-all-numbers-disappeared-in-an-array](LeetCode/LeetCode448find-all-numbers-disappeared-in-an-array.py)
+```nums[abs(nums[idx]) - 1] = -abs(nums[abs(nums[idx]) - 1]),两个abs保证了所有存在的idx都被置负了```
+
+Coming from:https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/
+
+- [teemo-attacking](src/Solution495.java)
+
+Coming from:https://leetcode-cn.com/problems/teemo-attacking/
+
+- [SubarraySumEqualsK](LeetCode/LeetCode560SubarraySumEqualsK.py)
+
+Coming from:https://leetcode-cn.com/problems/subarray-sum-equals-k/
+
+- [shortest-unsorted-continuous-subarray](LeetCode/LeetCode581shortest-unsorted-continuous-subarray.py)
+
+Coming from:https://leetcode-cn.com/problems/shortest-unsorted-continuous-subarray/
+
+- [can-place-flowers](src/Solution605.java)
+
+Coming from:https://leetcode-cn.com/problems/can-place-flowers/
+
+- [valid-triangle-number](LeetCode/LeetCode611valid-triangle-number.py)
+- [valid-triangle-number](src/Solution611.java)
+
+Coming from:https://leetcode-cn.com/problems/valid-triangle-number/
+
+- [task-scheduler](LeetCode/LeetCode621task-scheduler.py)
+
+理解一下，出现次数最多的那个字母（出现次数-1）x时间窗口及为最小次数，剩余要考虑的是都为最多次数的字母数
+
+Coming from:https://leetcode-cn.com/problems/task-scheduler/
+
+- [maximum-average-subarray-i](src/Solution643.java)
+
+Coming from:https://leetcode-cn.com/problems/maximum-average-subarray-i/
+
+- [largest-number-at-least-twice-of-others](src/Solution747.java)
+
+Coming from:https://leetcode-cn.com/problems/largest-number-at-least-twice-of-others/
+
+- [transpose-matrix](LeetCode/LeetCode867transpose-matrix.py)
+
+Coming from:https://leetcode-cn.com/problems/transpose-matrix/
+
+- [AdvantageShuffle](LeetCode/LeetCode870AdvantageShuffle.py)
+`这道题的难点在于耗时，贪心算法即可，田忌赛马，可以看下`
+
+Coming from:https://leetcode-cn.com/problems/advantage-shuffle/
+
+- [sort-array-by-parity-ii](src/Solution922.java)
+
+Coming from:https://leetcode-cn.com/problems/sort-array-by-parity-ii/
+
+- [squares-of-a-sorted-array](src/Solution977.java)
+
+Coming from:https://leetcode-cn.com/problems/squares-of-a-sorted-array/
+
+- [add-to-array-form-of-integer](src/Solution989.java)
+
+Coming from:https://leetcode-cn.com/problems/add-to-array-form-of-integer/
+
+- [binary-prefix-divisible-by-5](src/Solution1018.java)
+
+Coming from:https://leetcode-cn.com/problems/binary-prefix-divisible-by-5/
+
+- [HeightChecker](LeetCode/LeetCode1051HeightChecker.py)
+
+Coming from:https://leetcode-cn.com/problems/height-checker/

@@ -83,7 +83,7 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="580">
+              <first_editor relative-caret-position="415">
                 <caret line="142" column="0" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
                 <folding />
               </first_editor>
@@ -801,13 +801,6 @@
       <workItem from="1571630020745" duration="254000" />
       <workItem from="1571995971821" duration="310000" />
     </task>
-    <task id="LOCAL-00094" summary="二叉树中利用[root,depth]进行数值传递">
-      <created>1571483980759</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1571483980760</updated>
-    </task>
     <task id="LOCAL-00095" summary="二叉树">
       <created>1571484867726</created>
       <option name="number" value="00095" />
@@ -1144,7 +1137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572278502361</updated>
     </task>
-    <option name="localTasksCounter" value="143" />
+    <task id="LOCAL-00143" summary="readme整理">
+      <created>1572278633601</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1572278633601</updated>
+    </task>
+    <option name="localTasksCounter" value="144" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1632,7 +1632,7 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="580">
+          <first_editor relative-caret-position="415">
             <caret line="142" column="0" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
             <folding />
           </first_editor>
