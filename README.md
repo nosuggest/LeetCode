@@ -1276,3 +1276,337 @@ Coming from:https://leetcode-cn.com/problems/permutations-ii/
 
 Coming from:https://leetcode-cn.com/problems/palindrome-partitioning/
 
+***
+
+# linked-list
+
+- [AddTwoNumbers](LeetCode/LeetCode2AddTwoNumbers.py)
+
+Coming from:https://leetcode-cn.com/problems/add-two-numbers/
+
+- [remove-nth-node-from-end-of-list](LeetCode/LeetCode19remove-nth-node-from-end-of-list.py)
+
+`链表很经典的一道题`
+
+Coming from :https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/
+
+- [Merge Two Sorted Lists](src/Solution21.java)
+
+Coming from:https://leetcode-cn.com/problems/merge-two-sorted-lists/
+
+
+- [Swap Nodes in Pairs](src/Solution24.java)
+`递归算法，讲的很详细，递归复习专用`
+
+`该题递归在函数中间位置，很有意思`
+
+Coming from:https://leetcode-cn.com/problems/swap-nodes-in-pairs/
+
+- [RemoveLinkedListElements](LeetCode/LeetCode203RemoveLinkedListElements.py)
+`协助理解链表里面的head = head, head.next = head.next.next`
+
+Coming from:https://leetcode-cn.com/problems/remove-linked-list-elements/
+
+- [reverse-linked-list](src/Solution206.java)
+`递归在中间,简单题，对比上面的24题可以对比着看`
+
+Coming from:https://leetcode-cn.com/problems/reverse-linked-list/
+
+***
+
+# heap
+
+- [kth-largest-element-in-an-array](LeetCode/LeetCode215kth-largest-element-in-an-array.py)
+
+加速的地方在于，维护好容量为k的小根堆之后，只需要保证根堆的根结点最小即可。`min_heap(k_min, k, 0)`
+
+Coming from:https://leetcode-cn.com/problems/kth-largest-element-in-an-array/
+
+- [sliding-window-maximum](LeetCode/LeetCode239sliding-window-maximum.py)
+
+双端队列题目，用队列保留一个递减序列
+
+Coming from:https://leetcode-cn.com/problems/sliding-window-maximum/
+
+- [top-k-frequent-elements](LeetCode/LeetCode347top-k-frequent-elements.py)
+
+求最大：小根堆；求最小：大根堆。因为只需要保证最大最小的k个值在堆内即可，无需遍历堆。
+根堆输出的时候，每次交换根堆根结点到最后，小根堆的化，数组越靠后越小，相当于降序排列；大根堆的话，数组越往后越大，相当于升序排列。
+
+Coming from:https://leetcode-cn.com/problems/top-k-frequent-elements/
+
+- [DistantBarcodes](LeetCode/LeetCode1054DistantBarcodes.py)
+Coming from:https://leetcode-cn.com/problems/distant-barcodes/
+
+***
+
+# 双指针
+
+- [LongestSubstringWithoutRepeatingCharacters](LeetCode/LeetCode3LongestSubstringWithoutRepeatingCharacters.py)
+`滑动窗口`
+
+Coming from:https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/
+
+- [boats-to-save-people](src/Solution881.java)
+`双指针`
+
+Coming from:https://leetcode-cn.com/problems/boats-to-save-people/
+
+- [fruit-into-baskets](src/Solution904.java)
+```双指针```
+
+Coming from:https://leetcode-cn.com/problems/fruit-into-baskets/
+
+***
+
+# string
+
+- [Roman to Integer](src/Solution13.java)
+
+Coming from:https://leetcode-cn.com/problems/roman-to-integer/
+
+- [Longest Common Prefix](src/Solution14.java)
+
+Coming from:https://leetcode-cn.com/problems/longest-common-prefix/
+
+- [detect-capital](LeetCode/LeetCode520detect-capital.py)
+
+Coming from:https://leetcode-cn.com/problems/detect-capital/
+
+- [custom-sort-string](LeetCode/LeetCode791custom-sort-string.py)
+
+Coming from:https://leetcode-cn.com/problems/custom-sort-string/
+
+- [goat-latin](LeetCode/LeetCode824goat-latin.py)
+
+Coming from:https://leetcode-cn.com/problems/goat-latin/
+
+- [orderly-queue](LeetCode/LeetCode899orderly-queue.py)
+
+`有点冒泡排序的意思`
+
+Coming from:https://leetcode-cn.com/problems/orderly-queue/
+
+- [ReverseOnlyLetters](LeetCode/LeetCode917ReverseOnlyLetters.py)
+
+Coming from:https://leetcode-cn.com/problems/reverse-only-letters/
+
+***
+
+# helper
+
+- [K-thSymbolinGrammar](LeetCode/LeetCode779K-thSymbolinGrammar.py)
+- [K-th Symbol in Grammar](src/Solution779.java)
+`python用了最简单的递归表示，把结果表示出来再做，比较慢,所以加了@functools.lru_cache(maxsize=128, typed=False)对结果进行缓存`
+
+Coming from:https://leetcode-cn.com/problems/k-th-symbol-in-grammar/
+
+- [valid-tic-tac-toe-state](LeetCode/LeetCode794valid-tic-tac-toe-state.py)
+```直接罗列全情况，排除一下就行```
+
+Coming from:https://leetcode-cn.com/problems/valid-tic-tac-toe-state/
+
+***
+
+# 蓄水池抽样
+
+- [random-pick-index](LeetCode/LeetCode398random-pick-index.py)
+```蓄水池抽烟，randint(0,cnt)控制了每次被抛弃的概率为1/(1+cnt）```
+
+Coming from:https://leetcode-cn.com/problems/random-pick-index/
+
+- [linked-list-random-node](LeetCode/LeetCode382linked-list-random-node.py)
+
+Coming from:https://leetcode-cn.com/problems/linked-list-random-node/
+
+***
+
+# math
+
+- [reverse Integera](src/Solution7.java)
+
+Coming from:https://leetcode-cn.com/problems/reverse-integer/
+
+- [Palindrome Number](src/Solution9.java)
+
+Coming from:https://leetcode-cn.com/problems/palindrome-number/
+
+- [ExcelSheetColumnNumber](LeetCode/LeetCode171ExcelSheetColumnNumber.py)
+
+Coming from:https://leetcode-cn.com/problems/excel-sheet-column-number/
+
+- [UglyNumber](LeetCode/LeetCode263UglyNumber.py)
+Coming from:https://leetcode-cn.com/problems/ugly-number/
+
+- [reach-a-number](src/Solution754.java)
+
+Coming from:https://leetcode-cn.com/problems/reach-a-number/
+
+- [ChalkboardXORGame](LeetCode/LeetCode810ChalkboardXORGame.py)
+`逻辑鬼才的题目`
+
+Coming from:https://leetcode-cn.com/problems/chalkboard-xor-game/
+
+- [LargestTriangleArea](LeetCode/LeetCode812LargestTriangleArea.py)
+`任给三点，三角形面积等于abs(x1*(y2-y3)+x2*(y3-y1)+x3*(y1-y2))/2`
+
+Coming from:https://leetcode-cn.com/problems/largest-triangle-area/
+
+- [consecutive-numbers-sum](LeetCode/LeetCode829consecutive-numbers-sum.py)
+```(n-m)(n+m+1)=2N,a=n-m,b=n+m+1,a+b=2n+1,b-a=2m+1,所以a*b=2N,a,b一奇一偶```
+
+Coming from:https://leetcode-cn.com/problems/consecutive-numbers-sum/
+
+
+- [surface-area-of-3d-shapes](LeetCode/LeetCode892surface-area-of-3d-shapes.py)
+```透视图角度```
+
+Coming from:https://leetcode-cn.com/problems/surface-area-of-3d-shapes/
+
+***
+
+# Bit Manipulation
+
+- [SingleNumber](LeetCode/LeetCode136SingleNumber.py)
+
+`这题有数学解法和位解法两种，都很值得看一下`
+
+Coming from : https://leetcode.com/problems/single-number/description/
+
+- [single-number-ii](src/Solution176.java)
+- [single-number-ii](LeetCode/LeetCode176single-number-ii.py)
+`知识点1：设计一个逻辑运算，使满足存在两个变量a和b，当遍历nums的时候，对于重复元素x，第一次碰到x的时候，我们会将x赋给a，第二次碰到后再赋给b，第三次则全量抵消`
+`知识点2：x&~x=0`
+
+```
+更多解释在java代码注释块中
+  a b
+0 0 0
+1 x 0
+2 0 x
+3 0 0
+```
+
+Coming from:https://leetcode-cn.com/problems/single-number-ii/
+
+
+
+- [reverse-bits](LeetCode/LeetCode190reverse-bits.py)
+
+Coming from:https://leetcode-cn.com/problems/reverse-bits/
+
+- [sum-of-two-integers](src/Solution371.java)
+
+Coming from:https://leetcode-cn.com/problems/sum-of-two-integers/
+
+- [hamming-distance](LeetCode/LeetCode461hamming-distance.py)
+
+Coming from:https://leetcode-cn.com/problems/hamming-distance/
+
+
+***
+
+# Hash Table
+
+- [JewelsandStones](LeetCode/LeetCode771JewelsandStones.py)
+
+Coming from:https://leetcode-cn.com/problems/jewels-and-stones/
+
+- [find-all-anagrams-in-a-string](LeetCode/LeetCode438find-all-anagrams-in-a-string.py)
+
+滑动窗口去解决字符串匹配问题
+
+Coming from:https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/
+
+- [distribute-candies](LeetCode/LeetCode575distribute-candies.py)
+- [distribute-candies](src/Solution575.java)
+
+Coming from:https://leetcode-cn.com/problems/distribute-candies/
+
+
+- [uncommon-words-from-two-sentences](src/Solution884.java)
+
+Coming from:https://leetcode-cn.com/problems/uncommon-words-from-two-sentences/
+
+***
+
+# 贪心算法
+
+- [candy](LeetCode/LeetCode135candy.py)
+
+`转转2020届校招`
+
+
+>135. 分发糖果，左右各扫一遍取max
+
+Coming from:https://leetcode-cn.com/problems/candy/
+
+
+- [queue-reconstruction-by-height](LeetCode/LeetCode406queue-reconstruction-by-height.py)
+
+`原题说的是前面大于等于当前身高的，所以插矮个子不会影响排序`
+
+Coming from:https://leetcode-cn.com/problems/queue-reconstruction-by-height/
+
+- [two-city-scheduling](src/Solution1029.java)
+
+Coming from:https://leetcode-cn.com/problems/two-city-scheduling/
+
+- [LemonadeChange](LeetCode/LeetCode860LemonadeChange.py)
+Coming from:https://leetcode-cn.com/problems/lemonade-change/
+
+
+***
+
+# 分治算法
+
+- [beautiful-array](LeetCode/LeetCode932beautiful-array.py)
+- [beautiful-array](src/Solution932.java)
+
+Coming from:https://leetcode-cn.com/problems/beautiful-array/
+
+***
+
+# 桶排序
+
+- [maximum-gap](LeetCode/LeetCode164maximum-gap.py)
+```分通，亮点在于分N+1个桶，保证一定有一个空桶，空桶的存在保证最大间隔在桶之间，不需要再去比桶内值```
+
+Coming from:https://leetcode-cn.com/problems/maximum-gap/
+
+
+***
+
+# other
+
+
+- [NimGame](LeetCode/LeetCode292NimGame.py)
+`规律题，数学归纳`
+
+Coming from:https://leetcode-cn.com/problems/nim-game/
+
+- [LexicographicalNumbers](LeetCode/LeetCode386LexicographicalNumbers.py)
+`字典排序，用了python特性，也同时整理基础概念，值得去看`
+
+Coming from:https://leetcode-cn.com/problems/lexicographical-numbers/
+
+- [IncreasingTripletSubsequence](LeetCode/LeetCode334IncreasingTripletSubsequence.py)
+`such that arr[i] < arr[j] < arr[k] given 0 ≤ i < j < k ≤ n-1 else return false,其中只要保证固定住最小和最大，不断降低最小值的下限，使得比最小值要大的值可以尽可能的接近最小值，从而更容易找到比接近最小值的值`
+
+Coming from:https://leetcode-cn.com/problems/increasing-triplet-subsequence/
+
+- [relative-ranks](src/Solution506.java)
+
+Coming from:https://leetcode-cn.com/problems/relative-ranks/
+
+- [largest-number](LeetCode/LeetCode179largest-number.py)
+
+`这题技巧题，理解sorted中的cmp和key的作用，key是sorted元素判断依据的接受入口，而接收值需要调用functools中的cmp_to_key进行包装，python2不用这么复杂`
+
+Coming from:https://leetcode-cn.com/problems/largest-number/
+
+
+- [lru-cache](LeetCode/LeetCode146lru-cache.py)
+
+Coming from:https://leetcode-cn.com/problems/lru-cache/
+

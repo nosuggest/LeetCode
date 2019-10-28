@@ -77,10 +77,10 @@
               <first_editor relative-caret-position="120">
                 <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
                 <folding>
-                  <marker date="1572281690741" expanded="true" signature="25576:25726" ph="..." />
-                  <marker date="1572281690741" expanded="true" signature="29414:29653" ph="..." />
-                  <marker date="1572281690741" expanded="true" signature="29449:29653" ph="..." />
-                  <marker date="1572281690741" expanded="true" signature="29458:29569" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                  <marker date="1572283327038" expanded="true" signature="25576:25726" ph="..." />
+                  <marker date="1572283327038" expanded="true" signature="29414:29653" ph="..." />
+                  <marker date="1572283327038" expanded="true" signature="29449:29653" ph="..." />
+                  <marker date="1572283327038" expanded="true" signature="29458:29569" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -88,13 +88,13 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="580">
-                <caret line="1278" column="0" selection-start-line="1278" selection-start-column="0" selection-end-line="1278" selection-end-column="0" />
+              <first_editor relative-caret-position="295">
+                <caret line="1570" column="0" selection-start-line="1570" selection-start-column="0" selection-end-line="1570" selection-end-column="0" />
                 <folding>
-                  <marker date="1572281690741" expanded="true" signature="25576:25726" ph="..." />
-                  <marker date="1572281690741" expanded="true" signature="29414:29653" ph="..." />
-                  <marker date="1572281690741" expanded="true" signature="29449:29653" ph="..." />
-                  <marker date="1572281690741" expanded="true" signature="29458:29569" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                  <marker date="1572283327038" expanded="true" signature="25576:25726" ph="..." />
+                  <marker date="1572283327038" expanded="true" signature="29414:29653" ph="..." />
+                  <marker date="1572283327038" expanded="true" signature="29449:29653" ph="..." />
+                  <marker date="1572283327038" expanded="true" signature="29458:29569" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
                 </folding>
               </first_editor>
               <second_editor>
@@ -811,13 +811,6 @@
       <workItem from="1571630020745" duration="254000" />
       <workItem from="1571995971821" duration="310000" />
     </task>
-    <task id="LOCAL-00098" summary="BST 左侧&lt;root.val&lt;右侧">
-      <created>1571490998520</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1571490998520</updated>
-    </task>
     <task id="LOCAL-00099" summary="二叉树">
       <created>1571491419295</created>
       <option name="number" value="00099" />
@@ -1154,7 +1147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572280924671</updated>
     </task>
-    <option name="localTasksCounter" value="147" />
+    <task id="LOCAL-00147" summary="readme整理">
+      <created>1572281694436</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1572281694436</updated>
+    </task>
+    <option name="localTasksCounter" value="148" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1642,8 +1642,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="580">
-            <caret line="1278" column="0" selection-start-line="1278" selection-start-column="0" selection-end-line="1278" selection-end-column="0" />
+          <first_editor relative-caret-position="295">
+            <caret line="1570" column="0" selection-start-line="1570" selection-start-column="0" selection-end-line="1570" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor>
