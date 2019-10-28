@@ -173,7 +173,7 @@ Coming from:https://leetcode-cn.com/problems/reverse-only-letters/
 Coming from:https://leetcode-cn.com/problems/increasing-triplet-subsequence/
 
 ### [AdvantageShuffle](LeetCode/LeetCode870AdvantageShuffle.py)
-`这道题的难点在于耗时，贪心算法即可`
+`这道题的难点在于耗时，贪心算法即可，田忌赛马，可以看下`
 
 Coming from:https://leetcode-cn.com/problems/advantage-shuffle/
 
@@ -1484,3 +1484,15 @@ Coming from:https://leetcode-cn.com/problems/search-in-rotated-sorted-array/
 这个考的是二分法中的while跳出条件和left、right变化逻辑，本题是找出左右边界
 
 Coming from:https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+
+### [min-stack](LeetCode/LeetCode155min-stack.py)
+
+`辅助栈，不需要排序，仅需要知道当前最小即可`
+
+Coming from:https://leetcode-cn.com/problems/min-stack/
+
+### [trapping-rain-water](LeetCode/LeetCode42trapping-rain-water.py)
+
+动态规划和栈的两种方法，很值得看一下
+
+Coming from:https://leetcode-cn.com/problems/trapping-rain-water/
