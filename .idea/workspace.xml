@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="双端队列">
+    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="readme整理">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -83,8 +83,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="640">
-                <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+              <first_editor relative-caret-position="580">
+                <caret line="142" column="0" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -801,13 +801,6 @@
       <workItem from="1571630020745" duration="254000" />
       <workItem from="1571995971821" duration="310000" />
     </task>
-    <task id="LOCAL-00093" summary="fix">
-      <created>1571462942253</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1571462942253</updated>
-    </task>
     <task id="LOCAL-00094" summary="二叉树中利用[root,depth]进行数值传递">
       <created>1571483980759</created>
       <option name="number" value="00094" />
@@ -1144,7 +1137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572271609235</updated>
     </task>
-    <option name="localTasksCounter" value="142" />
+    <task id="LOCAL-00142" summary="readme整理">
+      <created>1572278502361</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1572278502361</updated>
+    </task>
+    <option name="localTasksCounter" value="143" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1200,7 +1200,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="计算每个值比自己小的值的个数，和自己一样大的个数，然后进行范围插值" />
     <MESSAGE value="fix tab to space" />
     <MESSAGE value="fix format" />
     <MESSAGE value="插入排序" />
@@ -1225,7 +1224,8 @@
     <MESSAGE value="这个考的是二分法中的while跳出条件和left、right变化逻辑，本题是找出左右边界" />
     <MESSAGE value="栈系列" />
     <MESSAGE value="双端队列" />
-    <option name="LAST_COMMIT_MESSAGE" value="双端队列" />
+    <MESSAGE value="readme整理" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme整理" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1632,8 +1632,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="640">
-            <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+          <first_editor relative-caret-position="580">
+            <caret line="142" column="0" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor>
