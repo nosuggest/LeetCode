@@ -1499,4 +1499,6 @@ Coming from:https://leetcode-cn.com/problems/trapping-rain-water/
 
 ### [sliding-window-maximum](LeetCode/LeetCode239sliding-window-maximum.py)
 
+双端队列题目，用队列保留一个递减序列
+
 Coming from:https://leetcode-cn.com/problems/sliding-window-maximum/
