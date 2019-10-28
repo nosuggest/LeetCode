@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="Default Changelist">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode155min-stack.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode42trapping-rain-water.py" />
+    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="栈系列">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode239sliding-window-maximum.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -24,7 +23,7 @@
     <SUITE FILE_PATH="coverage/LeetCode$LeetCode139word_break.coverage" NAME="LeetCode139word-break Coverage Results" MODIFIED="1567238939404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCode$LeetCode406queue_reconstruction_by_height.coverage" NAME="LeetCode406queue-reconstruction-by-height Coverage Results" MODIFIED="1571972957768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCode$LeetCode889construct_binary_tree_from_preorder_and_postorder_traversal.coverage" NAME="LeetCode889construct-binary-tree-from-preorder-and-postorder-traversal Coverage Results" MODIFIED="1571053186127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
-    <SUITE FILE_PATH="coverage/LeetCode$LeetCode42trapping_rain_water.coverage" NAME="LeetCode42trapping-rain-water Coverage Results" MODIFIED="1572253098986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
+    <SUITE FILE_PATH="coverage/LeetCode$LeetCode42trapping_rain_water.coverage" NAME="LeetCode42trapping-rain-water Coverage Results" MODIFIED="1572271435441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCode$LeetCode867transpose_matrix.coverage" NAME="LeetCode867transpose-matrix Coverage Results" MODIFIED="1572148669548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCode$BubbleSort.coverage" NAME="BubbleSort Coverage Results" MODIFIED="1567434982976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random" />
     <SUITE FILE_PATH="coverage/LeetCode$LeetCode96unique_binary_search_trees.coverage" NAME="LeetCode96unique-binary-search-trees Coverage Results" MODIFIED="1570953011157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
@@ -43,6 +42,7 @@
     <SUITE FILE_PATH="coverage/LeetCode$LeetCode146lru_cache.coverage" NAME="LeetCode146lru-cache Coverage Results" MODIFIED="1571793514542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCode$LeetCode95unique_binary_search_trees_ii.coverage" NAME="LeetCode95unique-binary-search-trees-ii Coverage Results" MODIFIED="1571021960602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCode$LeetCode2AddTwoNumbers.coverage" NAME="LeetCode2AddTwoNumbers Coverage Results" MODIFIED="1572003877973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
+    <SUITE FILE_PATH="coverage/LeetCode$LeetCode239sliding_window_maximum.coverage" NAME="LeetCode239sliding-window-maximum Coverage Results" MODIFIED="1572271458881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCode$LeetCode322coin_change.coverage" NAME="LeetCode322coin-change Coverage Results" MODIFIED="1571822021738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCode$LeetCode105construct_binary_tree_from_preorder_and_inorder_traversal.coverage" NAME="LeetCode105construct-binary-tree-from-preorder-and-inorder-traversal Coverage Results" MODIFIED="1570861030866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCode$LeetCode312burst_balloons.coverage" NAME="LeetCode312burst-balloons Coverage Results" MODIFIED="1572005142378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
@@ -71,17 +71,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="120">
                 <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
                 <folding>
-                  <marker date="1572261569588" expanded="true" signature="32509:32659" ph="..." />
-                  <marker date="1572261569588" expanded="true" signature="36387:36626" ph="..." />
-                  <marker date="1572261569588" expanded="true" signature="36422:36626" ph="..." />
-                  <marker date="1572261569588" expanded="true" signature="36431:36542" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                  <marker date="1572270429802" expanded="true" signature="32509:32659" ph="..." />
+                  <marker date="1572270429802" expanded="true" signature="36387:36626" ph="..." />
+                  <marker date="1572270429802" expanded="true" signature="36422:36626" ph="..." />
+                  <marker date="1572270429802" expanded="true" signature="36431:36542" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -89,18 +89,28 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-19527">
-                <caret line="175" column="28" selection-start-line="175" selection-start-column="28" selection-end-line="175" selection-end-column="28" />
+              <first_editor relative-caret-position="303">
+                <caret line="1499" column="38" selection-start-line="1499" selection-start-column="38" selection-end-line="1499" selection-end-column="71" />
                 <folding>
-                  <marker date="1572261569588" expanded="true" signature="32509:32659" ph="..." />
-                  <marker date="1572261569588" expanded="true" signature="36387:36626" ph="..." />
-                  <marker date="1572261569588" expanded="true" signature="36422:36626" ph="..." />
-                  <marker date="1572261569588" expanded="true" signature="36431:36542" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                  <marker date="1572270429802" expanded="true" signature="32509:32659" ph="..." />
+                  <marker date="1572270429802" expanded="true" signature="36387:36626" ph="..." />
+                  <marker date="1572270429802" expanded="true" signature="36422:36626" ph="..." />
+                  <marker date="1572270429802" expanded="true" signature="36431:36542" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
                 </folding>
               </first_editor>
               <second_editor>
                 <js_state />
               </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LeetCode239sliding-window-maximum.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode239sliding-window-maximum.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -131,7 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LeetCode/LeetCode783minimum-distance-between-bst-nodes.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode814binary-tree-pruning.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode865smallest-subtree-with-all-the-deepest-nodes.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode872leaf-similar-trees.py" />
@@ -182,6 +191,7 @@
         <option value="$PROJECT_DIR$/LeetCode/LeetCode155min-stack.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode42trapping-rain-water.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/LeetCode/LeetCode239sliding-window-maximum.py" />
       </list>
     </option>
   </component>
@@ -293,25 +303,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.LeetCode42trapping-rain-water">
-    <configuration default="false" name="LeetCode867transpose-matrix" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="javaSolution" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/LeetCode867transpose-matrix.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.LeetCode239sliding-window-maximum">
     <configuration default="false" name="LeetCode33search-in-rotated-sorted-array" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -380,6 +372,24 @@
       <module name="javaSolution" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/LeetCode42trapping-rain-water.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="LeetCode239sliding-window-maximum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="javaSolution" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/LeetCode239sliding-window-maximum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -636,19 +646,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.LeetCode867transpose-matrix" />
-      <item index="1" class="java.lang.String" itemvalue="Python.LeetCode33search-in-rotated-sorted-array" />
-      <item index="2" class="java.lang.String" itemvalue="Python.LeetCode621task-scheduler" />
-      <item index="3" class="java.lang.String" itemvalue="Python.LeetCode34find-first-and-last-position-of-element-in-sorted-array" />
-      <item index="4" class="java.lang.String" itemvalue="Python.LeetCode42trapping-rain-water" />
+      <item index="0" class="java.lang.String" itemvalue="Python.LeetCode33search-in-rotated-sorted-array" />
+      <item index="1" class="java.lang.String" itemvalue="Python.LeetCode621task-scheduler" />
+      <item index="2" class="java.lang.String" itemvalue="Python.LeetCode34find-first-and-last-position-of-element-in-sorted-array" />
+      <item index="3" class="java.lang.String" itemvalue="Python.LeetCode42trapping-rain-water" />
+      <item index="4" class="java.lang.String" itemvalue="Python.LeetCode239sliding-window-maximum" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.LeetCode42trapping-rain-water" />
-        <item index="1" class="java.lang.String" itemvalue="Python.LeetCode34find-first-and-last-position-of-element-in-sorted-array" />
-        <item index="2" class="java.lang.String" itemvalue="Python.LeetCode621task-scheduler" />
-        <item index="3" class="java.lang.String" itemvalue="Python.LeetCode33search-in-rotated-sorted-array" />
-        <item index="4" class="java.lang.String" itemvalue="Python.LeetCode867transpose-matrix" />
+        <item index="0" class="java.lang.String" itemvalue="Python.LeetCode239sliding-window-maximum" />
+        <item index="1" class="java.lang.String" itemvalue="Python.LeetCode42trapping-rain-water" />
+        <item index="2" class="java.lang.String" itemvalue="Python.LeetCode34find-first-and-last-position-of-element-in-sorted-array" />
+        <item index="3" class="java.lang.String" itemvalue="Python.LeetCode621task-scheduler" />
+        <item index="4" class="java.lang.String" itemvalue="Python.LeetCode33search-in-rotated-sorted-array" />
       </list>
     </recent_temporary>
   </component>
@@ -700,13 +710,6 @@
       <workItem from="1569810765255" duration="3178000" />
       <workItem from="1571630020745" duration="254000" />
       <workItem from="1571995971821" duration="310000" />
-    </task>
-    <task id="LOCAL-00091" summary="N叉树前序遍历">
-      <created>1571458952815</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1571458952815</updated>
     </task>
     <task id="LOCAL-00092" summary="二叉树修剪">
       <created>1571462883626</created>
@@ -1044,7 +1047,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572184912112</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <task id="LOCAL-00140" summary="栈系列">
+      <created>1572261591285</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1572261591285</updated>
+    </task>
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1060,7 +1070,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30780143" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30780143" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -1100,7 +1110,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="约瑟夫环问题" />
     <MESSAGE value="fix path" />
     <MESSAGE value="计算每个值比自己小的值的个数，和自己一样大的个数，然后进行范围插值" />
     <MESSAGE value="fix tab to space" />
@@ -1125,7 +1134,8 @@
     <MESSAGE value="矩阵转置" />
     <MESSAGE value="理解一下，出现次数最多的那个字母（出现次数-1）x时间窗口及为最小次数，剩余要考虑的是都为最多次数的字母数" />
     <MESSAGE value="这个考的是二分法中的while跳出条件和left、right变化逻辑，本题是找出左右边界" />
-    <option name="LAST_COMMIT_MESSAGE" value="这个考的是二分法中的while跳出条件和left、right变化逻辑，本题是找出左右边界" />
+    <MESSAGE value="栈系列" />
+    <option name="LAST_COMMIT_MESSAGE" value="栈系列" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1150,6 +1160,11 @@
           <line>21</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/LeetCode/LeetCode239sliding-window-maximum.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -1158,7 +1173,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="30" />
+      <option name="time" value="32" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1167,13 +1182,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode1110delete-nodes-and-return-forest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/random/约瑟夫环问题.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1525,10 +1533,10 @@
           <first_editor relative-caret-position="120">
             <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
             <folding>
-              <marker date="1572261569588" expanded="true" signature="32509:32659" ph="..." />
-              <marker date="1572261569588" expanded="true" signature="36387:36626" ph="..." />
-              <marker date="1572261569588" expanded="true" signature="36422:36626" ph="..." />
-              <marker date="1572261569588" expanded="true" signature="36431:36542" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+              <marker date="1572270429802" expanded="true" signature="32509:32659" ph="..." />
+              <marker date="1572270429802" expanded="true" signature="36387:36626" ph="..." />
+              <marker date="1572270429802" expanded="true" signature="36422:36626" ph="..." />
+              <marker date="1572270429802" expanded="true" signature="36431:36542" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
             </folding>
           </first_editor>
           <second_editor />
@@ -1536,18 +1544,26 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-19527">
-            <caret line="175" column="28" selection-start-line="175" selection-start-column="28" selection-end-line="175" selection-end-column="28" />
+          <first_editor relative-caret-position="303">
+            <caret line="1499" column="38" selection-start-line="1499" selection-start-column="38" selection-end-line="1499" selection-end-column="71" />
             <folding>
-              <marker date="1572261569588" expanded="true" signature="32509:32659" ph="..." />
-              <marker date="1572261569588" expanded="true" signature="36387:36626" ph="..." />
-              <marker date="1572261569588" expanded="true" signature="36422:36626" ph="..." />
-              <marker date="1572261569588" expanded="true" signature="36431:36542" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+              <marker date="1572270429802" expanded="true" signature="32509:32659" ph="..." />
+              <marker date="1572270429802" expanded="true" signature="36387:36626" ph="..." />
+              <marker date="1572270429802" expanded="true" signature="36422:36626" ph="..." />
+              <marker date="1572270429802" expanded="true" signature="36431:36542" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
             </folding>
           </first_editor>
           <second_editor>
             <js_state />
           </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode239sliding-window-maximum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
