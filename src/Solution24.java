@@ -13,7 +13,7 @@ public class Solution24 {
         head.next = tmp.next;
 //        2->1->3->4->5->6
         tmp.next = head;
-//        因为tmp和head已经交换完成，只需要把head.next后面排序好即可，递归调用即可
+//        因为tmp和head已经交换完成，只需要把head.next后面排序好即可，递归调用即可。为了构造出head.next才进行上面的不然就要head.next.next进行判断
         head.next = swapPairs(head.next);
 
         return tmp;

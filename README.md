@@ -1067,6 +1067,9 @@ You can click the title with blue url linking to the code, the original problems
 
     - source from:https://leetcode-cn.com/problems/reverse-linked-list/
 
+- [palindrome-linked-list](LeetCode/LeetCode234palindrome-linked-list.py)
+    - source from:https://leetcode-cn.com/problems/palindrome-linked-list/
+
 ***
 
 # heap
