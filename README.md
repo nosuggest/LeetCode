@@ -1116,6 +1116,13 @@ You can click the title with blue url linking to the code, the original problems
 
     - source from:https://leetcode-cn.com/problems/fruit-into-baskets/
 
+- [minimum-window-substring](LeetCode/LeetCode76minimum-window-substring.py)
+
+    - 双指针+滑动窗口，模板要记得
+
+    - source from:https://leetcode-cn.com/problems/minimum-window-substring/
+
+
 ***
 
 # string
