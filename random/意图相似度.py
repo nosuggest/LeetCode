@@ -3,7 +3,21 @@
 # @Time    : 2019/9/5 4:27 PM
 # @Author  : Slade
 # @File    : 意图相似度.py
-    
+
+'''
+>找出相似意图（编辑距离<阈值）的pair，且每一个意图要满足一定长要求条件`[minSeqLen,maxSeqLen]`，一个子序列可能存在多个重复的，比如如下就是满足长度`[5,8]`(编辑距离为1，小于阈值等于2)子意图序列pair：
+```
+>A:weather,joker,music,stock,joker,joker,news
+>B:weather,joker,music,stock,joker,joker,texi
+输入：
+第一行：阈值
+第二行：最小序列长度
+第三行：最多序列长度
+第四行：A用户的意图序列
+第五行：B用户的意图序列
+```
+'''
+
 def word_edit_distince(str1, str2):
     # 构造(len(str1)+1) x (len(str2)+1)的矩阵，其中+1是为了考虑str1或者st2为空的情况
     matrix = [[i + j for i in range(len(str2) + 1)] for j in range(len(str1) + 1)]

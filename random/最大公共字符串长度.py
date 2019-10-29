@@ -4,6 +4,8 @@
 # @Author  : Slade
 # @File    : 最大公共字符串长度.py
 
+'''有两个字符串，你只可以进行删除操作，问你最少进行多少次操作可以使两个字符串相等'''
+
 def getNumofCommonSubstr(str1, str2):
     lstr1 = len(str1)
     lstr2 = len(str2)
