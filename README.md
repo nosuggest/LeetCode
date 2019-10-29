@@ -131,7 +131,7 @@ You can click the title with blue url linking to the code, the original problems
 
 - [SpiralMatrixII](LeetCode/LeetCode59SpiralMatrixII.py)
 
-    - `旋转矩阵题型，用了余数判断位置，比较亮点`
+    - 旋转矩阵题型，用了余数判断位置，比较亮点
 
     - source from:https://leetcode-cn.com/problems/spiral-matrix-ii/
 
@@ -1070,6 +1070,10 @@ You can click the title with blue url linking to the code, the original problems
 - [palindrome-linked-list](LeetCode/LeetCode234palindrome-linked-list.py)
     - source from:https://leetcode-cn.com/problems/palindrome-linked-list/
 
+- [linked-list-cycle](LeetCode/LeetCode141linked-list-cycle.py)
+    - 快慢指针，类似题型[find-the-duplicate-number](LeetCode/LeetCode287find-the-duplicate-number.py)
+    - source from:https://leetcode-cn.com/problems/linked-list-cycle/
+
 ***
 
 # heap
@@ -1173,7 +1177,7 @@ You can click the title with blue url linking to the code, the original problems
 
 - [valid-tic-tac-toe-state](LeetCode/LeetCode794valid-tic-tac-toe-state.py)
 
-```直接罗列全情况，排除一下就行```
+    - 直接罗列全情况，排除一下就行
 
     - source from:https://leetcode-cn.com/problems/valid-tic-tac-toe-state/
 
