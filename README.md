@@ -29,7 +29,7 @@ You can click the title with blue url linking to the code, the original problems
 
 	- **Tencent** - Deep learning Engineer
 	
-Coming from:http://codeforces.com/contest/474/problem/D
+    - source from:http://codeforces.com/contest/474/problem/D
 - [意图相似度](random/意图相似度.py)
 	- **阿里** - Algorithm Engineer
 - [数组分组问题](random/数组分组问题.py)
@@ -147,7 +147,7 @@ Coming from:http://codeforces.com/contest/474/problem/D
 
     - 这题利用了python的语言机制，很有意思
 
-Coming from :https://leetcode.com/problems/subsets/
+    - source from::https://leetcode.com/problems/subsets/
 
 - [word-search](LeetCode/LeetCode79word-search.py)
 
@@ -670,7 +670,7 @@ Coming from :https://leetcode.com/problems/subsets/
 
     - Tire树很经典的一道题
 
-Coming from :https://leetcode-cn.com/problems/add-and-search-word-data-structure-design/
+    - source from::https://leetcode-cn.com/problems/add-and-search-word-data-structure-design/
 
 - [count-complete-tree-nodes](LeetCode/LeetCode222count-complete-tree-nodes.py)
 
@@ -979,7 +979,7 @@ Coming from :https://leetcode-cn.com/problems/add-and-search-word-data-structure
 
     - 这题其实可以从右上角开始查找，会更快
 
-Coming from :https://leetcode.com/problems/search-a-2d-matrix-ii/
+    - source from::https://leetcode.com/problems/search-a-2d-matrix-ii/
 
 - [IntersectionofTwoArrays](LeetCode/LeetCode349IntersectionofTwoArrays.py)
 
@@ -1040,7 +1040,7 @@ Coming from :https://leetcode.com/problems/search-a-2d-matrix-ii/
 
     - 链表很经典的一道题
 
-Coming from :https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/
+    - source from::https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/
 
 - [Merge Two Sorted Lists](src/Solution21.java)
 
@@ -1237,7 +1237,7 @@ Coming from :https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/
 
     - 这题有数学解法和位解法两种，都很值得看一下
 
-Coming from : https://leetcode.com/problems/single-number/description/
+    - source from:https://leetcode.com/problems/single-number/description/
 
 - [single-number-ii](src/Solution176.java)
 - [single-number-ii](LeetCode/LeetCode176single-number-ii.py)

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="readme整理">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode176single-number-ii.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode176single-number-ii.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -84,8 +83,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="565">
-                <caret line="1374" column="0" selection-start-line="1374" selection-start-column="0" selection-end-line="1374" selection-end-column="0" />
+              <first_editor relative-caret-position="30">
+                <caret line="2" column="110" selection-start-line="2" selection-start-column="104" selection-end-line="2" selection-end-column="110" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -817,13 +816,6 @@
       <workItem from="1571630020745" duration="254000" />
       <workItem from="1571995971821" duration="310000" />
     </task>
-    <task id="LOCAL-00105" summary="前序中序构造搜索树">
-      <created>1571554734220</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1571554734220</updated>
-    </task>
     <task id="LOCAL-00106" summary="dfs">
       <created>1571557479134</created>
       <option name="number" value="00106" />
@@ -1160,7 +1152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572312512814</updated>
     </task>
-    <option name="localTasksCounter" value="154" />
+    <task id="LOCAL-00154" summary="readme整理">
+      <created>1572312941177</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1572312941177</updated>
+    </task>
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1681,8 +1680,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="565">
-            <caret line="1374" column="0" selection-start-line="1374" selection-start-column="0" selection-end-line="1374" selection-end-column="0" />
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="110" selection-start-line="2" selection-start-column="104" selection-end-line="2" selection-end-column="110" />
             <folding />
           </first_editor>
           <second_editor>
