@@ -1074,6 +1074,10 @@ You can click the title with blue url linking to the code, the original problems
     - 快慢指针，类似题型[find-the-duplicate-number](LeetCode/LeetCode287find-the-duplicate-number.py)
     - source from:https://leetcode-cn.com/problems/linked-list-cycle/
 
+- [intersection-of-two-linked-lists](LeetCode/LeetCode160intersection-of-two-linked-lists.py)
+    - source from:https://leetcode-cn.com/problems/intersection-of-two-linked-lists/
+    - 短链表+长链表<-->长链表+短链表，同等初始的结尾即为交点
+
 ***
 
 # heap
