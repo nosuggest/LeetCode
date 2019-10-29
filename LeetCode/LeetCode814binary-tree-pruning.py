@@ -10,7 +10,16 @@
 #         self.val = x
 #         self.left = None
 #         self.right = None
+'''
 
+```python
+# 修剪值
+if root.val == 0 and not root.left and not root.right:
+    return None
+else:
+    return root
+```
+'''
 class Solution(object):
     def pruneTree(self, root):
         """

@@ -10,7 +10,14 @@
 #         self.val = x
 #         self.left = None
 #         self.right = None
+'''
 
+```
+BST两个特点
+1、左支<结点<右支
+2、无重复
+```
+'''
 class Solution(object):
     def isValidBST(self, root):
         """

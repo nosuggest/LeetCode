@@ -4,7 +4,20 @@
 #         self.val = x
 #         self.left = None
 #         self.right = None
+'''
+```python
+def search(root):
+    if not root:
+        return
+    for i in search(root.left):
+        yield i
 
+    yield root.val
+
+    for i in search(root.right):
+        yield i
+```
+'''
 class BSTIterator:
     def __init__(self, root):
         """

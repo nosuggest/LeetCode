@@ -10,7 +10,23 @@
 #         self.val = x
 #         self.left = None
 #         self.right = None
+'''
+```python
+class Solution(object):
+    def trimBST(self, root, L, R):
+        """
+        :type root: TreeNode
+        :type L: int
+        :type R: int
+        :rtype: TreeNode
+        """
+        if not root:
+            return None
+        # 计算逻辑
+        return root
+```
 
+'''
 class Solution(object):
     def trimBST(self, root, L, R):
         """

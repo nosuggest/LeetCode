@@ -10,7 +10,13 @@
 #         self.val = x
 #         self.left = None
 #         self.right = None
-
+'''
+```python
+depth[root.val] = depth[par.val]+1 if par else 0
+parent[root.val] = par
+```
+对于根层，depth\[root.val]=0，parent\[root.val]=None
+'''
 class Solution(object):
     def isCousins(self, root, x, y):
         """

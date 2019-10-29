@@ -11,7 +11,20 @@
 #         self.left = None
 #         self.right = None
 from collections import defaultdict
+'''
+```python
+out+=[root.val] +self.findDuplicateSubtrees(root.left)+self.findDuplicateSubtrees(root.right)
+# 等价于
+out+=[root.val]
+out+=self.findDuplicateSubtrees(root.left)
+out+=self.findDuplicateSubtrees(root.right)
+````
 
+```python
+if not root:
+    return "null"
+```
+'''
 
 class Solution(object):
     def findDuplicateSubtrees(self, root):

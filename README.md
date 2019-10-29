@@ -61,7 +61,7 @@ Coming from:http://codeforces.com/contest/474/problem/D
 
 - [two-sum](LeetCode/LeetCode1two-sum.py)
 
-Coming from :https://leetcode-cn.com/problems/two-sum/
+    - source from:https://leetcode-cn.com/problems/two-sum/
 
 - [container-with-most-water](LeetCode/LeetCode11container-with-most-water.py)
 
@@ -438,3 +438,469 @@ Coming from :https://leetcode.com/problems/subsets/
     - 最简单的dp
 
     - source from:https://leetcode-cn.com/problems/n-th-tribonacci-number/
+
+
+*** 
+
+# binary-tree
+
+- [binary-tree-inorder-traversal](LeetCode/LeetCode94binary-tree-inorder-traversal.py)
+
+    - 二叉树中序遍历三种写法
+
+    - source from:https://leetcode-cn.com/problems/binary-tree-inorder-traversal/
+
+- [binary-tree-level-order-traversal](LeetCode/LeetCode102binary-tree-level-order-traversal.py)
+
+    - 二叉树层序遍历，利用了队列先进先出的性质
+
+    - source from:https://leetcode-cn.com/problems/binary-tree-level-order-traversal/
+
+- [maximum-depth-of-binary-tree](LeetCode/LeetCode104maximum-depth-of-binary-tree.py)
+
+    - 二叉树深度计算，利用了递归性质
+
+    - source from:https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/
+
+- [merge-two-binary-trees](LeetCode/LeetCode617merge-two-binary-trees.py)
+
+    - 二叉树合并，利用了递归性质
+
+    - source from:https://leetcode-cn.com/problems/merge-two-binary-trees/
+
+- [diameter-of-binary-tree](LeetCode/LeetCode543diameter-of-binary-tree.py)
+
+    - 结点之间的最大距离，和104题的深度一样
+
+    - source from:https://leetcode-cn.com/problems/diameter-of-binary-tree/
+
+- [convert-bst-to-greater-tree](LeetCode/LeetCode538convert-bst-to-greater-tree.py)
+
+    - 先遍历右子树的中序遍历，面试之前一定要看，易于理解递归在二叉树中的应用
+
+    - source from:https://leetcode-cn.com/problems/convert-bst-to-greater-tree/
+
+- [invert-binary-tree](LeetCode/LeetCode226invert-binary-tree.py)
+
+    - 反转树，相互对称
+
+    - source from:https://leetcode-cn.com/problems/invert-binary-tree/
+
+- [implement-trie-prefix-tree](LeetCode/LeetCode208implement-trie-prefix-tree.py)
+
+    - tire 字典实现
+
+    - source from:https://leetcode-cn.com/problems/implement-trie-prefix-tree/
+
+- [construct-binary-tree-from-preorder-and-inorder-traversal](LeetCode/LeetCode105construct-binary-tree-from-preorder-and-inorder-traversal.py)
+
+    - 360面试题，真有意思
+
+    - source from:https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+
+- [serialize-and-deserialize-binary-tree](LeetCode/LeetCode297serialize-and-deserialize-binary-tree.py)
+
+    - 二叉树-->list//list-->二叉树
+
+    - source from:https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/
+
+- [lowest-common-ancestor-of-a-binary-tree](LeetCode/LeetCode236lowest-common-ancestor-of-a-binary-tree.py)
+
+- left if right is None else right if left is None else root
+
+    - source from:https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/
+
+- [lowest-common-ancestor-of-a-binary-search-tree](LeetCode/LeetCode235lowest-common-ancestor-of-a-binary-search-tree.py)
+
+    - 和上面一题一摸一样
+
+    - source from:https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
+
+- [unique-binary-search-trees](LeetCode/LeetCode96unique-binary-search-trees.py)
+
+    - 动态规划
+
+    - source from:https://leetcode-cn.com/problems/unique-binary-search-trees/
+
+- [symmetric-tree](LeetCode/LeetCode101symmetric-tree.py)
+
+    - 层次遍历
+
+    - source from:https://leetcode-cn.com/problems/symmetric-tree/
+
+- [validate-binary-search-tree](LeetCode/LeetCode98validate-binary-search-tree.py)
+
+    - 搜索二叉树的左支<结点<右支，正好可以用中序遍历比较
+
+    - source from:https://leetcode-cn.com/problems/validate-binary-search-tree/
+
+- [binary-tree-maximum-path-sum](LeetCode/LeetCode124binary-tree-maximum-path-sum.py)
+
+    - 类似104题、543题这种递归的方式
+
+    - source from:https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/
+
+- [path-sum-iii](LeetCode/LeetCode437path-sum-iii.py)
+
+    - dfs+两数之和
+
+    - source from:https://leetcode-cn.com/problems/path-sum-iii/
+
+- [unique-binary-search-trees-ii](LeetCode/LeetCode95unique-binary-search-trees-ii.py)
+
+    - 和[unique-binary-search-trees](LeetCode/LeetCode96unique-binary-search-trees.py)这题思路一样，不同的是，unique-binary-search-trees用的是dp，本题用的是递归，核心和之前一样，\[start,i]作为左树去递归，node(i)作为根，\[i+1,end]作为右树去递归
+
+    - source from:https://leetcode-cn.com/problems/unique-binary-search-trees-ii/
+
+- [same-tree](LeetCode/LeetCode100same-tree.py)
+
+    - 层序遍历改写
+
+    - source from:https://leetcode-cn.com/problems/same-tree/
+
+- [binary-tree-zigzag-level-order-traversal](LeetCode/LeetCode103binary-tree-zigzag-level-order-traversal.py)
+
+- 层序遍历改写
+
+    - source from:https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/
+
+- [recover-binary-search-tree](LeetCode/LeetCode99recover-binary-search-tree.py)
+
+    - **BST+中序遍历的结果是有序的**,`self.ans.append(root)`直接加结点，而非加值了
+
+    - source from:https://leetcode-cn.com/problems/recover-binary-search-tree/
+
+- [house-robber-iii](LeetCode/LeetCode337house-robber-iii.py)
+
+    - **基于树结构+动态规划**，可谓是花哨到极点了
+
+    - source from:https://leetcode-cn.com/problems/house-robber-iii/
+
+- [construct-binary-tree-from-inorder-and-postorder-traversal](LeetCode/LeetCode106construct-binary-tree-from-inorder-and-postorder-traversal.py)
+
+    - 和[construct-binary-tree-from-preorder-and-inorder-traversal](LeetCode/LeetCode105construct-binary-tree-from-preorder-and-inorder-traversal.py)类似
+
+    - source from:https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
+
+- [construct-binary-tree-from-preorder-and-postorder-traversal](LeetCode/LeetCode889construct-binary-tree-from-preorder-and-postorder-traversal.py)
+
+    - 和[construct-binary-tree-from-preorder-and-inorder-traversal](LeetCode/LeetCode105construct-binary-tree-from-preorder-and-inorder-traversal.py)类似
+
+    - source from:https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/
+
+- [binary-tree-level-order-traversal-ii](LeetCode/LeetCode107binary-tree-level-order-traversal-ii.py)
+
+    - 层次遍历翻版
+
+    - source from:https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/
+
+- [convert-sorted-array-to-binary-search-tree](LeetCode/LeetCode108convert-sorted-array-to-binary-search-tree.py)
+
+    - 有序数组-->平衡二叉树：二分查找+递归
+
+    - source from:https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/
+
+- [balanced-binary-tree](LeetCode/LeetCode110balanced-binary-tree.py)
+
+    - 判断是否为平衡二叉树，利用的是dfs+[maximum-depth-of-binary-tree](LeetCode/LeetCode104maximum-depth-of-binary-tree.py)二叉树深度计算的方法
+
+    - source from:https://leetcode-cn.com/problems/balanced-binary-tree/
+
+- [minimum-depth-of-binary-tree](LeetCode/LeetCode111minimum-depth-of-binary-tree.py)
+
+    - source from:https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/
+
+- [path-sum](LeetCode/LeetCode112path-sum.py)
+
+    - source from:https://leetcode-cn.com/problems/path-sum/
+
+    - 上面这两题在return的时候都做了是否是根结点的判断:`left if root.right is None else right if root.left is None else left or right`
+
+- [path-sum-ii](LeetCode/LeetCode113path-sum-ii.py)
+
+    - dfs
+
+    - source from:https://leetcode-cn.com/problems/path-sum-ii/
+
+- [flatten-binary-tree-to-linked-list](LeetCode/LeetCode114flatten-binary-tree-to-linked-list.py)
+
+    - 有点技巧性
+
+    - source from:https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/
+
+- [populating-next-right-pointers-in-each-node](LeetCode/LeetCode116populating-next-right-pointers-in-each-node.py)
+
+    - 跨结点直接的指向关系由root.next is not None产生
+
+    - source from:https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/
+
+- [populating-next-right-pointers-in-each-node-ii](LeetCode/LeetCode117populating-next-right-pointers-in-each-node-ii.py)
+
+    - 与上一次递归不同，这一次因为不知道root对应的下一层是否有空结点，所以针对上一层的判断结果进行迭代
+
+    - source from:https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii/
+
+- [sum-root-to-leaf-numbers](LeetCode/LeetCode129sum-root-to-leaf-numbers.py)
+
+    - dfs
+
+    - source from:https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/
+
+- [binary-tree-preorder-traversal](LeetCode/LeetCode144binary-tree-preorder-traversal.py)
+
+    - 前序遍历迭代版，技巧就是queue进栈的策略是先右后左，因为前序遍历是中左右，进栈越早出栈越晚
+
+    - source from:https://leetcode-cn.com/problems/binary-tree-preorder-traversal/
+
+- [binary-tree-postorder-traversal](LeetCode/LeetCode145binary-tree-postorder-traversal.py)
+
+    - `巧妙的解法：宽度搜索+逆序出栈==后序输出`。另外，这份代码在`node = queue.pop()`-->`node = queue.pop(0)`,加个0就是层序遍历
+
+    - source from:https://leetcode-cn.com/problems/binary-tree-postorder-traversal/
+
+>以上两题加[binary-tree-inorder-traversal](LeetCode/LeetCode94binary-tree-inorder-traversal.py)都是迭代的解法，前序中序写的比较中规中矩，后序写的真的是惊艳
+
+- [binary-tree-right-side-view](LeetCode/LeetCode199binary-tree-right-side-view.py)
+
+    - 层序遍历
+
+    - source from:https://leetcode-cn.com/problems/binary-tree-right-side-view/
+
+- [add-and-search-word-data-structure-design](LeetCode/LeetCode211add-and-search-word-data-structure-design.py)
+
+    - Tire树很经典的一道题
+
+Coming from :https://leetcode-cn.com/problems/add-and-search-word-data-structure-design/
+
+- [count-complete-tree-nodes](LeetCode/LeetCode222count-complete-tree-nodes.py)
+
+    - source from:https://leetcode-cn.com/problems/count-complete-tree-nodes/
+
+- [kth-smallest-element-in-a-bst](LeetCode/LeetCode230kth-smallest-element-in-a-bst.py)
+
+    - source from:https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/
+
+- [binary-search-tree-iterator](LeetCode/LeetCode173binary-search-tree-iterator.py)
+
+    - 借鉴了上一题中的generation的写法，我觉得非常适合业务中真实使用
+
+    - source from:https://leetcode-cn.com/problems/binary-search-tree-iterator/
+
+- [binary-tree-paths](LeetCode/LeetCode257binary-tree-paths.py)
+
+    - dfs
+
+    - source from:https://leetcode-cn.com/problems/binary-tree-paths/
+
+- [sum-of-left-leaves](LeetCode/LeetCode404sum-of-left-leaves.py)
+
+    - 限制性条件下的二叉树遍历计算查找，迭代要比计算更加高效
+
+    - source from:https://leetcode-cn.com/problems/sum-of-left-leaves/    
+
+- [serialize-and-deserialize-bst](LeetCode/LeetCode449serialize-and-deserialize-bst.py)
+
+    - 前序遍历保存，二叉搜索树的中序遍历为升序列，两则可以恢复原树
+
+    - source from:https://leetcode-cn.com/problems/serialize-and-deserialize-bst/    
+
+- [delete-node-in-a-bst](LeetCode/LeetCode450delete-node-in-a-bst.py)
+
+    - 看子节点的是否为None，分情况讨论
+
+    - source from:https://leetcode-cn.com/problems/delete-node-in-a-bst/    
+
+- [find-mode-in-binary-search-tree](LeetCode/LeetCode501find-mode-in-binary-search-tree.py)
+
+    - 直接遍历统计
+
+    - source from:https://leetcode-cn.com/problems/find-mode-in-binary-search-tree/    
+
+- [find-bottom-left-tree-value](LeetCode/LeetCode513find-bottom-left-tree-value.py)
+
+    - source from:https://leetcode-cn.com/problems/find-bottom-left-tree-value/    
+
+- [find-largest-value-in-each-tree-row](LeetCode/LeetCode515find-largest-value-in-each-tree-row.py)
+
+    - source from:https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/    
+
+- [minimum-absolute-difference-in-bst](LeetCode/LeetCode530minimum-absolute-difference-in-bst.py)
+
+    - source from:https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/    
+
+- [binary-tree-tilt](LeetCode/LeetCode563binary-tree-tilt.py)
+
+    - source from:https://leetcode-cn.com/problems/binary-tree-tilt/    
+
+- [subtree-of-another-tree](LeetCode/LeetCode572subtree-of-another-tree.py)
+
+    - 递归求解，好题目
+
+    - source from:https://leetcode-cn.com/problems/subtree-of-another-tree/    
+
+- [most-frequent-subtree-sum](LeetCode/LeetCode508most-frequent-subtree-sum.py)
+
+    - 和[binary-tree-tilt](LeetCode/LeetCode563binary-tree-tilt.py)一样，计算每个结点的子树之和。
+
+    - source from:https://leetcode-cn.com/problems/most-frequent-subtree-sum/    
+
+- [add-one-row-to-tree](LeetCode/LeetCode623add-one-row-to-tree.py)
+
+    - 递归直接修改树的实现，爬楼梯的翻版
+
+    - source from:https://leetcode-cn.com/problems/add-one-row-to-tree/    
+
+- [average-of-levels-in-binary-tree](LeetCode/LeetCode637average-of-levels-in-binary-tree.py)
+
+    - source from:https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/    
+
+- [find-duplicate-subtrees](LeetCode/LeetCode652find-duplicate-subtrees.py)
+
+    -   套路总结
+
+    - source from:https://leetcode-cn.com/problems/find-duplicate-subtrees/    
+
+- [two-sum-iv-input-is-a-bst](LeetCode/LeetCode653two-sum-iv-input-is-a-bst.py)
+
+    - source from:https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/    
+
+- [maximum-binary-tree](LeetCode/LeetCode654maximum-binary-tree.py)
+
+    - source from:https://leetcode-cn.com/problems/maximum-binary-tree/
+
+- [n-ary-tree-level-order-traversal](LeetCode/LeetCode429n-ary-tree-level-order-traversal.py)
+
+    - source from:https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/
+
+- [maximum-depth-of-n-ary-tree](LeetCode/LeetCode559maximum-depth-of-n-ary-tree.py)
+
+    - source from:https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/
+
+- [maximum-width-of-binary-tree](LeetCode/LeetCode662maximum-width-of-binary-tree.py)
+
+    - source from:https://leetcode-cn.com/problems/maximum-width-of-binary-tree/
+
+- [trim-a-binary-search-tree](LeetCode/LeetCode669trim-a-binary-search-tree.py)
+
+    - 如果接一个`root = self.trimBST`相当于对结点做一个覆盖，也就是直接修改树
+
+    - source from:https://leetcode-cn.com/problems/trim-a-binary-search-tree/
+
+- [second-minimum-node-in-a-binary-tree](LeetCode/LeetCode671second-minimum-node-in-a-binary-tree.py)
+
+    - log(h)的跳出条件的递归写法
+
+    - source from:https://leetcode-cn.com/problems/second-minimum-node-in-a-binary-tree/
+
+- [longest-univalue-path](LeetCode/LeetCode687longest-univalue-path.py)
+
+    - 逻辑理解的递归
+    
+    - source from:https://leetcode-cn.com/problems/longest-univalue-path/  
+
+- [n-ary-tree-preorder-traversal](LeetCode/LeetCode589n-ary-tree-preorder-traversal.py)
+
+    - source from:https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/
+
+- [n-ary-tree-postorder-traversal](LeetCode/LeetCode590n-ary-tree-postorder-traversal.py)
+
+    - source from:https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/
+
+- [search-in-a-binary-search-tree](LeetCode/LeetCode700search-in-a-binary-search-tree.py)
+
+    - source from:https://leetcode-cn.com/problems/search-in-a-binary-search-tree/
+
+- [insert-into-a-binary-search-tree](LeetCode/LeetCode701insert-into-a-binary-search-tree.py)
+
+    - source from:https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/
+
+- [minimum-distance-between-bst-nodes](LeetCode/LeetCode783minimum-distance-between-bst-nodes.py)
+
+    - source from:https://leetcode-cn.com/problems/minimum-distance-between-bst-nodes/
+
+- [binary-tree-pruning](LeetCode/LeetCode814binary-tree-pruning.py)
+
+    - 先递归到底层，然后在判断是否可以被修剪，修剪条件就是`root.val == 0 and not root.left and not root.right:`
+
+    - source from:https://leetcode-cn.com/problems/binary-tree-pruning/
+
+- [smallest-subtree-with-all-the-deepest-nodes](LeetCode/LeetCode865smallest-subtree-with-all-the-deepest-nodes.py)
+
+    - 构造了数据对\[root,depth]，用depth判断深度，用root返回depth对应的root
+
+    - source from:https://leetcode-cn.com/problems/smallest-subtree-with-all-the-deepest-nodes/
+
+- [leaf-similar-trees](LeetCode/LeetCode872leaf-similar-trees.py)
+
+    - source from:https://leetcode-cn.com/problems/leaf-similar-trees/
+
+- [all-possible-full-binary-trees](LeetCode/LeetCode894all-possible-full-binary-trees.py)
+
+    - 基于树的动态规划，考前必看
+
+    - source from:https://leetcode-cn.com/problems/all-possible-full-binary-trees/
+
+- [increasing-order-search-tree](LeetCode/LeetCode897increasing-order-search-tree.py)
+
+    - source from:https://leetcode-cn.com/problems/increasing-order-search-tree/
+
+- [range-sum-of-bst](LeetCode/LeetCode938range-sum-of-bst.py)
+
+    - source from:https://leetcode-cn.com/problems/range-sum-of-bst/
+
+- [flip-equivalent-binary-trees](LeetCode/LeetCode951flip-equivalent-binary-trees.py)
+
+    - source from:https://leetcode-cn.com/problems/flip-equivalent-binary-trees/
+
+- [check-completeness-of-a-binary-tree](LeetCode/LeetCode958check-completeness-of-a-binary-tree.py)
+
+    - 层次遍历，出现空之后不能再出现结点
+
+    - source from:https://leetcode-cn.com/problems/check-completeness-of-a-binary-tree/
+
+- [univalued-binary-tree](LeetCode/LeetCode965univalued-binary-tree.py)
+
+    - source from:https://leetcode-cn.com/problems/univalued-binary-tree/
+
+- [distribute-coins-in-binary-tree](LeetCode/LeetCode979distribute-coins-in-binary-tree.py)
+
+    - 金币题，题目有点难理解，算得是每个结点的多余量，这题和[jump-game](LeetCode/LeetCode55jump-game.py)神似
+
+    - source from:https://leetcode-cn.com/problems/distribute-coins-in-binary-tree/
+
+- [cousins-in-binary-tree](LeetCode/LeetCode993cousins-in-binary-tree.py)
+
+    - 这题是结合了父结点+子节点递归，利用depth保存层数，parent保存子结点对应的父结点
+
+    - source from:https://leetcode-cn.com/problems/cousins-in-binary-tree/
+
+- [construct-binary-search-tree-from-preorder-traversal](LeetCode/LeetCode1008construct-binary-search-tree-from-preorder-traversal.py)
+
+    - source from:https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal/
+
+- [sum-of-root-to-leaf-binary-numbers](LeetCode/LeetCode1022sum-of-root-to-leaf-binary-numbers.py)
+
+    - `^`在python里面是抑或，不是次方
+
+    - source from:https://leetcode-cn.com/problems/sum-of-root-to-leaf-binary-numbers/
+
+- [maximum-difference-between-node-and-ancestor](LeetCode/LeetCode1026maximum-difference-between-node-and-ancestor.py)
+
+    - source from:https://leetcode-cn.com/problems/maximum-difference-between-node-and-ancestor/
+
+- [delete-nodes-and-return-forest](LeetCode/LeetCode1110delete-nodes-and-return-forest.py)
+
+    - 复杂的dfs，在dfs的过程中对树进行修正和保存，有点难
+
+    - source from:https://leetcode-cn.com/problems/delete-nodes-and-return-forest/
+
+
+- [lowest-common-ancestor-of-deepest-leaves](LeetCode/LeetCode1123lowest-common-ancestor-of-deepest-leaves.py)
+
+    - source from:https://leetcode-cn.com/problems/lowest-common-ancestor-of-deepest-leaves/
+
+- [recover-a-tree-from-preorder-traversal](LeetCode/LeetCode1028recover-a-tree-from-preorder-traversal.py)
+
+    - hashmap存结点，每次更新
+
+    - source from:https://leetcode-cn.com/problems/recover-a-tree-from-preorder-traversal/

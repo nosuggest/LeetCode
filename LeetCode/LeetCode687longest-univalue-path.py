@@ -10,7 +10,31 @@
 #         self.val = x
 #         self.left = None
 #         self.right = None
+'''
+1.基于跳出条件，先递归到终止条件前
+```
+if not root:
+    return 0
+left = helper(root.left)
+right = helper(root.right)
+```
+2.初始化终止条件的初始值
 
+```lefts = 0,rights=0 ```
+
+3.基于初始值进行逻辑计算，如果需要保存中间变量需要在__init__函数中记录
+```
+if root.left and root.val == root.left.val:
+    lefts = lefth + 1
+if root.right and root.val == root.right.val:
+    rights = righth + 1
+self.ans = max(self.ans,lefts+rights)
+```
+4.返回一次子任务执行的结果，通常需要处理
+
+`return max(lefts,rights)`
+
+'''
 class Solution(object):
     def __init__(self):
         self.ans = 0

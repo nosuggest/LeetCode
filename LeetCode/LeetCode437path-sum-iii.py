@@ -10,7 +10,15 @@
 #         self.val = x
 #         self.left = None
 #         self.right = None
+'''
+>这题leetcode认为是简单，但是我觉得贼难：
+1、python闭包的理解，count虽然是局部遍历，但是在递归的时候，每个count都是独立的
+2、dfs(root.？？？？？, sum - root.val)用的是两数之和的逻辑进行递归
+3、dfs(root,sum) + self.pathSum(root.left, sum) + self.pathSum(root.right, sum)
+这个用的是遍历所有结点的方法
 
+换句话说，这题解法是函数用递归实现，函数体是另外一个递归真的有点恶心
+'''
 class Solution(object):
     def pathSum(self, root, sum):
         """

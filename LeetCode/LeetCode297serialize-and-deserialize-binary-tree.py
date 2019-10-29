@@ -3,7 +3,17 @@
 # @Time    : 2019/10/12 2:55 PM
 # @Author  : Slade
 # @File    : LeetCode297serialize-and-deserialize-binary-tree.py
+'''
 
+```
+        tmp = data.pop(0)
+        if tmp == "null":
+            return None
+        root = TreeNode(int(tmp))
+```
+这三行很重要，`data.pop`不断的拿结点去赋值，`if`判断条件用来当数据到最底层时候，跳出此次递归分支，切换到另一个子树上（此处为右子树）
+
+'''
 # Definition for a binary tree node.
 class TreeNode(object):
     def __init__(self, x):

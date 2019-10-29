@@ -26,3 +26,13 @@ class Solution(object):
         self.add = root.val
         _ = self.convertBST(root.left)
         return root
+'''
+
+```
+1、先遍历到右树的根树，然后把根树的value赋值给add
+2、更新此树对应的父结点，并更新父结点对应的value = value+add
+3、同时再更新add，把父结点的值也更新到add上
+4、再更新父结点的左子树的value结点
+5、这样一次更新便完成了
+```
+'''

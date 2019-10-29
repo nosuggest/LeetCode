@@ -5,6 +5,12 @@
 # @File    : LeetCode543diameter-of-binary-tree.py
 
 # Definition for a binary tree node.
+'''
+比较坑的点：只有一个结点的时候，该题认为点重合，距离为0
+做题思路就是：遍历所有结点，保存所有结点作为根结点的情况下，左右子树的最大深度和即可
+
+
+'''
 class TreeNode(object):
     def __init__(self, x):
         self.val = x

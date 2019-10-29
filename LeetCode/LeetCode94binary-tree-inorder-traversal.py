@@ -10,7 +10,12 @@
 #         self.left = None
 #         self.right = None
 
-
+'''
+三种写法：
+1、好理解的递归
+2、qsort递归写法
+3、利用栈性质的迭代写法
+'''
 # 最好理解的写法
 class Solution(object):
     def __init__(self):
