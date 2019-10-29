@@ -4,6 +4,18 @@
 # @Author  : Slade
 # @File    : LeetCode287find-the-duplicate-number.py
 
+'''
+```
+（1）使用哈希表判重
+（2）排序以后，重复的数相邻
+（3）使用“抽屉原理”，当两个数发现要放在同一个地方的时候，就发现了这个重复的元素
+（4）既然要定位数，可以对“数”做二分
+（5）还可以使用“快慢指针”来完成
+```
+
+环概念：代码内部，好好看
+'''
+
 class Solution(object):
     def findDuplicate(self, nums):
         """

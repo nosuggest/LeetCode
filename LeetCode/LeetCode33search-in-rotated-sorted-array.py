@@ -3,6 +3,17 @@
 # @Time    : 2019/10/27 12:30 PM
 # @Author  : Slade
 # @File    : LeetCode33search-in-rotated-sorted-array.py
+'''
+
+```
+因为是螺旋数组，所以理解2点：
+1、对于mid = （left+right）>>1来说，要么左侧要么右侧，必然会有一边是有序的
+2、判断target在有序侧还是非有序侧，从而决定是修正有序侧还是简单位移
+```
+
+ps:二分用的是index:`while end<=right`
+'''
+
 class Solution(object):
     def search(self, nums, target):
         """

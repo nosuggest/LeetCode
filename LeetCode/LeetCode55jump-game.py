@@ -3,7 +3,19 @@
 # @Time    : 2019/10/24 9:41 AM
 # @Author  : Slade
 # @File    : LeetCode55jump-game.py
+'''
+```python
+max_dis：上次每次可跳的最远距离
+本次是在range中产生的，所以需要减去1，剩下的才是还可供跳跃的长度
 
+nums[idx]：是本次新可跳的距离
+
+比较max_ids-1和nums[idx]得出当前可跳的新最远距离
+如果max_ids==0代表可跳的距离额度没有了，return False
+```
+
+这题和[distribute-coins-in-binary-tree](LeetCode/LeetCode979distribute-coins-in-binary-tree.py)神似。
+'''
 class Solution0(object):
     '''
     超时

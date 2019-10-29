@@ -3,6 +3,13 @@
 # @Time    : 2019/9/29 10:41 PM
 # @Author  : Slade
 # @File    : LeetCode647palindromic-substrings.py
+'''
+```
+方法1：dp
+方法2：中间搜索
+```
+'''
+
 class Solution1(object):
     def countSubstrings(self, s):
         """
