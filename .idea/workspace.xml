@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="快慢指针">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode160intersection-of-two-linked-lists.py" />
+    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="链表交点">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode142linked-list-cycle-ii.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -87,8 +87,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="315">
-                <caret line="1078" column="33" selection-start-line="1078" selection-start-column="33" selection-end-line="1078" selection-end-column="33" />
+              <first_editor relative-caret-position="285">
+                <caret line="1076" column="69" selection-start-line="1076" selection-start-column="69" selection-end-line="1076" selection-end-column="69" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -124,7 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LeetCode/LeetCode322coin-change.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode215kth-largest-element-in-an-array.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode394decode-string.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode406queue-reconstruction-by-height.py" />
@@ -175,6 +174,7 @@
         <option value="$PROJECT_DIR$/LeetCode/LeetCode141linked-list-cycle.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode160intersection-of-two-linked-lists.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/LeetCode/LeetCode142linked-list-cycle-ii.py" />
       </list>
     </option>
   </component>
@@ -247,6 +247,20 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="LeetCode" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="LeetCode" />
@@ -806,13 +820,6 @@
       <workItem from="1571630020745" duration="254000" />
       <workItem from="1571995971821" duration="310000" />
     </task>
-    <task id="LOCAL-00110" summary="复杂的dfs">
-      <created>1571568088704</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1571568088705</updated>
-    </task>
     <task id="LOCAL-00111" summary="约瑟夫环问题">
       <created>1571572656833</created>
       <option name="number" value="00111" />
@@ -1149,7 +1156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572348253837</updated>
     </task>
-    <option name="localTasksCounter" value="159" />
+    <task id="LOCAL-00159" summary="链表交点">
+      <created>1572350298252</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1572350298252</updated>
+    </task>
+    <option name="localTasksCounter" value="160" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1205,7 +1219,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="桶排序" />
     <MESSAGE value="基于插入排序的希尔排序" />
     <MESSAGE value="归并排序" />
     <MESSAGE value="堆排序" />
@@ -1230,7 +1243,8 @@
     <MESSAGE value="双指针" />
     <MESSAGE value="链表" />
     <MESSAGE value="快慢指针" />
-    <option name="LAST_COMMIT_MESSAGE" value="快慢指针" />
+    <MESSAGE value="链表交点" />
+    <option name="LAST_COMMIT_MESSAGE" value="链表交点" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1272,13 +1286,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode34find-first-and-last-position-of-element-in-sorted-array.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode155min-stack.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -1671,6 +1678,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode142linked-list-cycle-ii.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1683,8 +1698,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="315">
-            <caret line="1078" column="33" selection-start-line="1078" selection-start-column="33" selection-end-line="1078" selection-end-column="33" />
+          <first_editor relative-caret-position="285">
+            <caret line="1076" column="69" selection-start-line="1076" selection-start-column="69" selection-end-line="1076" selection-end-column="69" />
             <folding />
           </first_editor>
           <second_editor>
