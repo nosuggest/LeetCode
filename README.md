@@ -1067,6 +1067,13 @@ You can click the title with blue url linking to the code, the original problems
 
     - source from:https://leetcode-cn.com/problems/reverse-linked-list/
 
+- [reverse-nodes-in-k-group](LeetCode/LeetCode25reverse-nodes-in-k-group.py)
+
+    - 翻转链表用的是迭代，参考206题reverse-linked-list
+    - 交换参考的是24题Swap Nodes in Pairs
+    - source from:https://leetcode-cn.com/problems/reverse-nodes-in-k-group/
+    - 深入理解地址和值
+
 - [palindrome-linked-list](LeetCode/LeetCode234palindrome-linked-list.py)
     - source from:https://leetcode-cn.com/problems/palindrome-linked-list/
 
@@ -1085,7 +1092,11 @@ You can click the title with blue url linking to the code, the original problems
 - [sort-list](LeetCode/LeetCode148sort-list.py)
     - source from:https://leetcode-cn.com/problems/sort-list/
     - 并归排序+链表
-
+    
+- [merge-k-sorted-lists](LeetCode/LeetCode23merge-k-sorted-lists.py)
+    - source from:https://leetcode-cn.com/problems/merge-k-sorted-lists/
+    - 和上一个很像，并归排序+链表
+    - 快排按照标值二分，小的在前大的在后，而归并则是按照下标二分，再分别对两个部分归并排序，先分后和，在和的过程中排序
 ***
 
 # heap

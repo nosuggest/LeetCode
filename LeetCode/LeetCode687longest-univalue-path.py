@@ -59,6 +59,7 @@ class Solution(object):
                 return root.val == val
 
             # 递归到底层
+            # 需要注意的是这边是用root的左枝和root结点的值进行比较，看的是联系的父子层之间是否一致
             left = search(root.left, root.val)
             right = search(root.right, root.val)
 
