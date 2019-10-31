@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="链表翻转">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode82remove-duplicates-from-sorted-list-ii.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode83remove-duplicates-from-sorted-list.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -87,8 +87,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="225">
-                <caret line="1105" column="39" selection-start-line="1105" selection-start-column="39" selection-end-line="1105" selection-end-column="39" />
+              <first_editor relative-caret-position="315">
+                <caret line="1111" column="52" selection-start-line="1111" selection-start-column="52" selection-end-line="1111" selection-end-column="52" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -124,7 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LeetCode/LeetCode312burst-balloons.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode867transpose-matrix.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode621task-scheduler.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode34find-first-and-last-position-of-element-in-sorted-array.py" />
@@ -174,6 +173,7 @@
         <option value="$PROJECT_DIR$/LeetCode/LeetCode687longest-univalue-path.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode61rotate-list.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode82remove-duplicates-from-sorted-list-ii.py" />
+        <option value="$PROJECT_DIR$/LeetCode/LeetCode83remove-duplicates-from-sorted-list.py" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -245,6 +245,20 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="LeetCode" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="LeetCode" />
@@ -1150,13 +1164,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode33search-in-rotated-sorted-array.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode449serialize-and-deserialize-bst.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1496,10 +1503,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode83remove-duplicates-from-sorted-list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode82remove-duplicates-from-sorted-list-ii.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="34" column="16" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="16" />
+        <state relative-caret-position="69">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -1516,8 +1531,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="225">
-            <caret line="1105" column="39" selection-start-line="1105" selection-start-column="39" selection-end-line="1105" selection-end-column="39" />
+          <first_editor relative-caret-position="315">
+            <caret line="1111" column="52" selection-start-line="1111" selection-start-column="52" selection-end-line="1111" selection-end-column="52" />
             <folding />
           </first_editor>
           <second_editor>

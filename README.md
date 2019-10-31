@@ -1104,6 +1104,13 @@ You can click the title with blue url linking to the code, the original problems
 - [remove-duplicates-from-sorted-list-ii](LeetCode/LeetCode82remove-duplicates-from-sorted-list-ii.py)
     - source from:https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/
     - 建立一个哨兵指针，每次对比cur和cur.next的val是否一致
+
+- [remove-duplicates-from-sorted-list](LeetCode/LeetCode83remove-duplicates-from-sorted-list.py)
+    - source from:https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/
+    - 上面一条的简单版本
+
+- [partition-list](LeetCode/LeetCode86partition-list.py)
+    - source from:https://leetcode-cn.com/problems/partition-list/        
         
 ***
 
