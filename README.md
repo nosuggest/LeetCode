@@ -1097,6 +1097,10 @@ You can click the title with blue url linking to the code, the original problems
     - source from:https://leetcode-cn.com/problems/merge-k-sorted-lists/
     - 和上一个很像，并归排序+链表
     - 快排按照标值二分，小的在前大的在后，而归并则是按照下标二分，再分别对两个部分归并排序，先分后和，在和的过程中排序
+    
+- [rotate-list](LeetCode/LeetCode61rotate-list.py)
+    - source from:https://leetcode-cn.com/problems/rotate-list/
+    
 ***
 
 # heap
