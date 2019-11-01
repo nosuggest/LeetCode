@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="链表翻转">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode83remove-duplicates-from-sorted-list.py" />
+    <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="链表">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode109convert-sorted-list-to-binary-search-tree.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode92reverse-linked-list-ii.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -87,8 +88,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="315">
-                <caret line="1111" column="52" selection-start-line="1111" selection-start-column="52" selection-end-line="1111" selection-end-column="52" />
+              <first_editor relative-caret-position="198">
+                <caret line="1120" column="128" selection-start-line="1120" selection-start-column="6" selection-end-line="1120" selection-end-column="128" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -124,8 +125,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LeetCode/LeetCode867transpose-matrix.py" />
-        <option value="$PROJECT_DIR$/LeetCode/LeetCode621task-scheduler.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode34find-first-and-last-position-of-element-in-sorted-array.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode155min-stack.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode42trapping-rain-water.py" />
@@ -174,6 +173,8 @@
         <option value="$PROJECT_DIR$/LeetCode/LeetCode61rotate-list.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode82remove-duplicates-from-sorted-list-ii.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode83remove-duplicates-from-sorted-list.py" />
+        <option value="$PROJECT_DIR$/LeetCode/LeetCode92reverse-linked-list-ii.py" />
+        <option value="$PROJECT_DIR$/LeetCode/LeetCode109convert-sorted-list-to-binary-search-tree.py" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -698,13 +699,6 @@
       <workItem from="1571630020745" duration="254000" />
       <workItem from="1571995971821" duration="310000" />
     </task>
-    <task id="LOCAL-00113" summary="fix path">
-      <created>1571579523339</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1571579523339</updated>
-    </task>
     <task id="LOCAL-00114" summary="计算每个值比自己小的值的个数，和自己一样大的个数，然后进行范围插值">
       <created>1571625095132</created>
       <option name="number" value="00114" />
@@ -1041,7 +1035,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572437981330</updated>
     </task>
-    <option name="localTasksCounter" value="162" />
+    <task id="LOCAL-00162" summary="链表">
+      <created>1572525331017</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1572525331029</updated>
+    </task>
+    <option name="localTasksCounter" value="163" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1117,12 +1118,12 @@
     <MESSAGE value="双端队列" />
     <MESSAGE value="readme整理" />
     <MESSAGE value="双指针" />
-    <MESSAGE value="链表" />
     <MESSAGE value="快慢指针" />
     <MESSAGE value="链表交点" />
     <MESSAGE value="环形链表" />
     <MESSAGE value="链表翻转" />
-    <option name="LAST_COMMIT_MESSAGE" value="链表翻转" />
+    <MESSAGE value="链表" />
+    <option name="LAST_COMMIT_MESSAGE" value="链表" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1164,41 +1165,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode449serialize-and-deserialize-bst.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode903valid-permutations-for-di-sequence.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode647palindromic-substrings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode494target-sum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode94binary-tree-inorder-traversal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode543diameter-of-binary-tree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1246,13 +1212,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode337house-robber-iii.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -1519,6 +1478,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode279perfect-squares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode337house-robber-iii.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode92reverse-linked-list-ii.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode108convert-sorted-array-to-binary-search-tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode110balanced-binary-tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode109convert-sorted-list-to-binary-search-tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36">
+          <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1531,8 +1538,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="315">
-            <caret line="1111" column="52" selection-start-line="1111" selection-start-column="52" selection-end-line="1111" selection-end-column="52" />
+          <first_editor relative-caret-position="198">
+            <caret line="1120" column="128" selection-start-line="1120" selection-start-column="6" selection-end-line="1120" selection-end-column="128" />
             <folding />
           </first_editor>
           <second_editor>

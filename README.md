@@ -1111,7 +1111,15 @@ You can click the title with blue url linking to the code, the original problems
 
 - [partition-list](LeetCode/LeetCode86partition-list.py)
     - source from:https://leetcode-cn.com/problems/partition-list/        
-        
+
+- [reverse-linked-list-ii](LeetCode/LeetCode92reverse-linked-list-ii.py)
+    - source from:https://leetcode-cn.com/problems/reverse-linked-list-ii/
+    - prev.next为反转后的尾结点，正好可以接剩余结点，非常精彩
+
+- [convert-sorted-list-to-binary-search-tree](LeetCode/LeetCode109convert-sorted-list-to-binary-search-tree.py)
+    - source from:https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/
+    - 反转链表[reverse-linked-list](src/Solution206.java) + 平衡二叉树[balanced-binary-tree](LeetCode/LeetCode110balanced-binary-tree.py)
+    
 ***
 
 # heap
