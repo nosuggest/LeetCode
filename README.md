@@ -1123,7 +1123,15 @@ You can click the title with blue url linking to the code, the original problems
 - [reorder-list](LeetCode/LeetCode143reorder-list.py)
     - source from:https://leetcode-cn.com/problems/reorder-list/
     - 反转链表[reverse-linked-list](src/Solution206.java) 
-        
+
+- [insertion-sort-list](LeetCode/LeetCode147insertion-sort-list.py)
+    - source from:https://leetcode-cn.com/problems/insertion-sort-list/
+    - 这题和[remove-duplicates-from-sorted-list-ii](LeetCode/LeetCode82remove-duplicates-from-sorted-list-ii.py)类似，需要不停的从head结点找到比当前结点.next.val要小的结点位置
+    - 链表删结点方法
+
+- [delete-node-in-a-linked-list](LeetCode/LeetCode237delete-node-in-a-linked-list.py)
+    - https://leetcode-cn.com/problems/delete-node-in-a-linked-list/
+    - 一行但是非常技巧
 ***
 
 # heap
