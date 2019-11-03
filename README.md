@@ -1139,6 +1139,10 @@ You can click the title with blue url linking to the code, the original problems
 - [add-two-numbers-ii](LeetCode/LeetCode445add-two-numbers-ii.py)
     - source from:https://leetcode-cn.com/problems/add-two-numbers-ii/  
     - 双栈+链表
+
+- [split-linked-list-in-parts](LeetCode/LeetCode725split-linked-list-in-parts.py)
+    - source from:https://leetcode-cn.com/problems/split-linked-list-in-parts/
+
 ***
 
 # heap

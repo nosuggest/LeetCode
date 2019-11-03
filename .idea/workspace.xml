@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="链表+栈">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode328odd-even-linked-list.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode445add-two-numbers-ii.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode725split-linked-list-in-parts.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -75,26 +74,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="325">
-                <caret line="1140" column="11" selection-start-line="1140" selection-start-column="11" selection-end-line="1140" selection-end-column="11" />
-                <folding />
-              </first_editor>
-              <second_editor>
-                <js_state />
-              </second_editor>
-            </state>
-          </provider>
-          <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="195">
-                <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="LeetCode725split-linked-list-in-parts.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode725split-linked-list-in-parts.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -125,7 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LeetCode/LeetCode34find-first-and-last-position-of-element-in-sorted-array.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode155min-stack.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode42trapping-rain-water.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode239sliding-window-maximum.py" />
@@ -176,6 +160,7 @@
         <option value="$PROJECT_DIR$/LeetCode/LeetCode328odd-even-linked-list.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode445add-two-numbers-ii.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/LeetCode/LeetCode725split-linked-list-in-parts.py" />
       </list>
     </option>
   </component>
@@ -826,13 +811,6 @@
       <workItem from="1571630020745" duration="254000" />
       <workItem from="1571995971821" duration="310000" />
     </task>
-    <task id="LOCAL-00115" summary="fix tab to space">
-      <created>1571625227069</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1571625227069</updated>
-    </task>
     <task id="LOCAL-00116" summary="fix format">
       <created>1571625911688</created>
       <option name="number" value="00116" />
@@ -1169,7 +1147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572790046961</updated>
     </task>
-    <option name="localTasksCounter" value="164" />
+    <task id="LOCAL-00164" summary="链表+栈">
+      <created>1572794531213</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1572794531213</updated>
+    </task>
+    <option name="localTasksCounter" value="165" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1225,7 +1210,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="带深度的递归" />
     <MESSAGE value="hashmap存结点，每次更新" />
     <MESSAGE value="滑动窗口" />
     <MESSAGE value="是否达到最大容量决定是否需要剔除" />
@@ -1250,7 +1234,8 @@
     <MESSAGE value="链表翻转" />
     <MESSAGE value="链表" />
     <MESSAGE value="链表删结点" />
-    <option name="LAST_COMMIT_MESSAGE" value="链表删结点" />
+    <MESSAGE value="链表+栈" />
+    <option name="LAST_COMMIT_MESSAGE" value="链表+栈" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1292,13 +1277,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode94binary-tree-inorder-traversal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode543diameter-of-binary-tree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1654,8 +1632,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="325">
-            <caret line="1140" column="11" selection-start-line="1140" selection-start-column="11" selection-end-line="1140" selection-end-column="11" />
+          <first_editor relative-caret-position="355">
+            <caret line="1142" column="40" selection-start-line="1142" selection-start-column="40" selection-end-line="1142" selection-end-column="77" />
             <folding />
           </first_editor>
           <second_editor>
@@ -1670,6 +1648,14 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode725split-linked-list-in-parts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
