@@ -1130,8 +1130,15 @@ You can click the title with blue url linking to the code, the original problems
     - 链表删结点方法
 
 - [delete-node-in-a-linked-list](LeetCode/LeetCode237delete-node-in-a-linked-list.py)
-    - https://leetcode-cn.com/problems/delete-node-in-a-linked-list/
+    - source from:https://leetcode-cn.com/problems/delete-node-in-a-linked-list/
     - 一行但是非常技巧
+
+- [odd-even-linked-list](LeetCode/LeetCode328odd-even-linked-list.py)
+    - source from:https://leetcode-cn.com/problems/odd-even-linked-list/ 
+
+- [add-two-numbers-ii](LeetCode/LeetCode445add-two-numbers-ii.py)
+    - source from:https://leetcode-cn.com/problems/add-two-numbers-ii/  
+    - 双栈+链表
 ***
 
 # heap
