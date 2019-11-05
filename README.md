@@ -1143,6 +1143,25 @@ You can click the title with blue url linking to the code, the original problems
 - [split-linked-list-in-parts](LeetCode/LeetCode725split-linked-list-in-parts.py)
     - source from:https://leetcode-cn.com/problems/split-linked-list-in-parts/
 
+- [flatten-a-multilevel-doubly-linked-list](LeetCode/LeetCode430flatten-a-multilevel-doubly-linked-list.py)
+    - source from:https://leetcode-cn.com/problems/flatten-a-multilevel-doubly-linked-list/
+
+- [linked-list-components](LeetCode/LeetCode817linked-list-components.py)
+    - source from:https://leetcode-cn.com/problems/linked-list-components/
+    
+- [linked-list-components](LeetCode/LeetCode817linked-list-components.py)
+    - source from:https://leetcode-cn.com/problems/linked-list-components/
+
+- [middle-of-the-linked-list](LeetCode/LeetCode876middle-of-the-linked-list.py)
+    - source from:https://leetcode-cn.com/problems/middle-of-the-linked-list/
+
+- [next-greater-node-in-linked-list](LeetCode/LeetCode1019next-greater-node-in-linked-list.py)
+    - source from:https://leetcode-cn.com/problems/next-greater-node-in-linked-list/    
+    - 栈
+    
+- [remove-zero-sum-consecutive-nodes-from-linked-list](LeetCode/LeetCode1171remove-zero-sum-consecutive-nodes-from-linked-list.py)
+    - source from:https://leetcode-cn.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/
+    - 前缀和+递归，面试前必看
 ***
 
 # heap

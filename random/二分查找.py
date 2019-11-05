@@ -10,7 +10,7 @@
 
 def binarySreach(data, element):
     start = 0
-    end = len(data)-1
+    end = len(data) - 1
     while start <= end:
         mid = (start + end) // 2
         if data[mid] == element:
