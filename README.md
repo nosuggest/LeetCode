@@ -295,6 +295,11 @@ You can click the title with blue url linking to the code, the original problems
 
     - source from:https://leetcode-cn.com/problems/maximal-rectangle/ 
 
+- [gray-code](LeetCode/LeetCode89gray-code.py)
+
+    - dp
+    - source from:https://leetcode-cn.com/problems/gray-code/
+
 - [decode-ways](LeetCode/LeetCode91decode-ways.py)
 
     - 状态转移方程式dp[i] = dp[i-1]+dp[i-2],复杂在什么时候加前项什么时候加后项，什么时候加两项，0的位置的考虑
@@ -940,10 +945,12 @@ You can click the title with blue url linking to the code, the original problems
 
 - [permutation-sequence](LeetCode/LeetCode60permutation-sequence.py)
 
-    - dfs
+    - dfs,当迭代轮数超过一次完整循环的值的时候，直接跳过
     - source from:https://leetcode-cn.com/problems/permutation-sequence/
 
+- [combinations](LeetCode/LeetCode77combinations.py)
 
+    - source from:https://leetcode-cn.com/problems/combinations/
 
 ***
 
