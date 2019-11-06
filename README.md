@@ -911,7 +911,6 @@ You can click the title with blue url linking to the code, the original problems
 - [number-of-islands](LeetCode/LeetCode200number-of-islands.py)
 
     - 回溯/DFS
-
     - source from:https://leetcode-cn.com/problems/number-of-islands/
 
 - [increasing-subsequences](src/Solution491.java)
@@ -922,8 +921,22 @@ You can click the title with blue url linking to the code, the original problems
 - [generate-parentheses](LeetCode/LeetCode22generate-parentheses.py)
 
     - dfs
-
     - source from:https://leetcode-cn.com/problems/generate-parentheses/
+
+- [combination-sum](LeetCode/LeetCode39combination-sum.py)
+
+    - dfs
+    - source from:https://leetcode-cn.com/problems/combination-sum/
+
+- [combination-sum-ii](LeetCode/LeetCode40combination-sum-ii.py)
+
+    - dfs
+    - source from:https://leetcode-cn.com/problems/combination-sum-ii/
+
+- [combination-sum-iii](LeetCode/LeetCode216combination-sum-iii.py)
+
+    - dfs
+    - source from:https://leetcode-cn.com/problems/combination-sum-iii/
 
 ***
 
