@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="链表">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode216combination-sum-iii.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode39combination-sum.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode40combination-sum-ii.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode60permutation-sequence.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -80,8 +78,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="296">
-                <caret line="935" column="33" selection-start-line="935" selection-start-column="33" selection-end-line="935" selection-end-column="63" />
+              <first_editor relative-caret-position="386">
+                <caret line="940" column="64" selection-start-line="940" selection-start-column="34" selection-end-line="940" selection-end-column="64" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -100,31 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LeetCode216combination-sum-iii.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode216combination-sum-iii.py">
+      <file leaf-file-name="LeetCode60permutation-sequence.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode60permutation-sequence.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LeetCode40combination-sum-ii.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode40combination-sum-ii.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LeetCode39combination-sum.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode39combination-sum.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="525">
+              <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -156,7 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/random/数组分组问题.py" />
         <option value="$PROJECT_DIR$/random/连乘质数和.py" />
         <option value="$PROJECT_DIR$/random/递增间隔删数.py" />
         <option value="$PROJECT_DIR$/random/约瑟夫环问题.py" />
@@ -204,9 +181,10 @@
         <option value="$PROJECT_DIR$/LeetCode/LeetCode1019next-greater-node-in-linked-list.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode1171remove-zero-sum-consecutive-nodes-from-linked-list.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode39combination-sum.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode40combination-sum-ii.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode216combination-sum-iii.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/LeetCode/LeetCode60permutation-sequence.py" />
       </list>
     </option>
   </component>
@@ -278,6 +256,20 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="LeetCode" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="LeetCode" />
@@ -1078,9 +1070,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="823" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2081545" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2081545" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="15" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1193,13 +1185,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode652find-duplicate-subtrees.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode669trim-a-binary-search-tree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -1522,11 +1507,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode216combination-sum-iii.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode39combination-sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode40combination-sum-ii.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="296">
-            <caret line="935" column="33" selection-start-line="935" selection-start-column="33" selection-end-line="935" selection-end-column="63" />
+          <first_editor relative-caret-position="386">
+            <caret line="940" column="64" selection-start-line="940" selection-start-column="34" selection-end-line="940" selection-end-column="64" />
             <folding />
           </first_editor>
           <second_editor>
@@ -1544,26 +1553,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode40combination-sum-ii.py">
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode60permutation-sequence.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode39combination-sum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode216combination-sum-iii.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        <state relative-caret-position="525">
+          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
           <folding />
         </state>
       </provider>

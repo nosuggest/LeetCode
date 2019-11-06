@@ -925,18 +925,25 @@ You can click the title with blue url linking to the code, the original problems
 
 - [combination-sum](LeetCode/LeetCode39combination-sum.py)
 
-    - dfs
+    - dfs，组合题型1
     - source from:https://leetcode-cn.com/problems/combination-sum/
 
 - [combination-sum-ii](LeetCode/LeetCode40combination-sum-ii.py)
 
-    - dfs
+    - dfs，组合题型2，index>start保证了双跳跃逻辑，很nice
     - source from:https://leetcode-cn.com/problems/combination-sum-ii/
 
 - [combination-sum-iii](LeetCode/LeetCode216combination-sum-iii.py)
 
-    - dfs
+    - dfs，组合题型3
     - source from:https://leetcode-cn.com/problems/combination-sum-iii/
+
+- [permutation-sequence](LeetCode/LeetCode60permutation-sequence.py)
+
+    - dfs
+    - source from:https://leetcode-cn.com/problems/permutation-sequence/
+
+
 
 ***
 
