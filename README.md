@@ -1257,7 +1257,11 @@ You can click the title with blue url linking to the code, the original problems
 
     - source from:https://leetcode-cn.com/problems/minimum-window-substring/
 
+- [is-subsequence](LeetCode/LeetCode392is-subsequence.py)
 
+    - 双指针+滑动窗口，模板要记得
+
+    - source from:https://leetcode-cn.com/problems/is-subsequence/
 ***
 
 # string
