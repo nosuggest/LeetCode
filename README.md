@@ -262,6 +262,11 @@ You can click the title with blue url linking to the code, the original problems
 
 # dynamic programming
 
+- [regular-expression-matching](LeetCode/LeetCode10regular-expression-matching.py)
+    
+    - 分N种情况讨论状态转移矩阵。复杂：1、转移矩阵，2、初始化逻辑
+    - source from:https://leetcode-cn.com/problems/regular-expression-matching/
+
 - [longest-palindromic-substring](LeetCode/LeetCode5longest-palindromic-substring.py)
 
     - 中心展开，从中间值往两边展开，判断展开终止点的长度
@@ -397,7 +402,11 @@ You can click the title with blue url linking to the code, the original problems
 
     - source from:https://leetcode-cn.com/problems/counting-bits/
 
-- [split-array-largest-sum](LeetCode410split-array-largest-sum.py)
+- [integer-break](LeetCode/LeetCode343integer-break.py)
+
+    - source from:https://leetcode-cn.com/problems/integer-break/
+
+- [split-array-largest-sum](LeetCode/LeetCode410split-array-largest-sum.py)
 
     - source from:https://leetcode-cn.com/problems/split-array-largest-sum/
 
