@@ -325,6 +325,10 @@ You can click the title with blue url linking to the code, the original problems
 
     - source from:https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/
 
+- [best-time-to-buy-and-sell-stock-iii](LeetCode/LeetCode123best-time-to-buy-and-sell-stock-iii.py)
+
+    - source from:https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/
+
 - [word-break](LeetCode/LeetCode139word-break.py)
 
     - 第一轮用的traceback，时间复杂度是n的n次方，扑gai；然后我想了下，既然可以考虑回溯，为什么不能递归，其实只要把方程：flag[j] = flag[i]+s[i:j] in wordDict 这个想到就行，这个算是是像加限制性条件的dp，比如20届拼多多校招，多多鸡砍树问题
@@ -342,6 +346,10 @@ You can click the title with blue url linking to the code, the original problems
     - 反向递归
 
     - source from:https://leetcode-cn.com/problems/dungeon-game/
+    
+- [best-time-to-buy-and-sell-stock-iv](LeetCode/LeetCode188best-time-to-buy-and-sell-stock-iv.py)
+
+    - source from:https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/    
 
 - [house-robber](LeetCode/LeetCode198house-robber.py)
 
@@ -405,6 +413,10 @@ You can click the title with blue url linking to the code, the original problems
 - [integer-break](LeetCode/LeetCode343integer-break.py)
 
     - source from:https://leetcode-cn.com/problems/integer-break/
+
+- [count-numbers-with-unique-digits](LeetCode/LeetCode357count-numbers-with-unique-digits.py)
+
+    - source from:https://leetcode-cn.com/problems/count-numbers-with-unique-digits/
 
 - [split-array-largest-sum](LeetCode/LeetCode410split-array-largest-sum.py)
 

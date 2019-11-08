@@ -22,10 +22,11 @@ class Solution(object):
             if (prices[idx] < prices[idx - 1]):
                 sumProfit += prices[idx - 1] - start_val
                 start_val = prices[idx]
-            if prices[idx] >= prices[idx - 1] and idx == len(prices)-1:
+            if prices[idx] >= prices[idx - 1] and idx == len(prices) - 1:
                 sumProfit += prices[idx] - start_val
         return sumProfit
 
+
 if __name__ == '__main__':
     s = Solution()
-    print (s.maxProfit([1,9,6,9,1,7,1,1,5,9,9,9]))
+    print(s.maxProfit([1, 9, 6, 9, 1, 7, 1, 1, 5, 9, 9, 9]))
