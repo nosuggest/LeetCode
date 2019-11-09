@@ -40,6 +40,9 @@ You can click the title with blue url linking to the code, the original problems
 	- 搜索二叉树
 - [文本编辑距离](random/文本编辑距离.py)
 - [01背包](random/01背包.py)
+- [完全背包](random/完全背包.py)
+- [多重背包](random/多重背包.py)
+    - 三个都是一个套路，以01背包进行拓展
 - [约瑟夫环问题](random/约瑟夫环问题.py)
 - [按递增间隔删数，直到最后只剩下一个数](random/递增间隔删数.py)
 -  [SortAlgorithm](random/SortMethod.py)
@@ -432,7 +435,7 @@ You can click the title with blue url linking to the code, the original problems
     - 01背包+递归逻辑
     
     - source from:https://leetcode-cn.com/problems/target-sum/
-
+    
 - [palindromic-substrings](LeetCode/LeetCode647palindromic-substrings.py)
 
     - 回文子串问题
@@ -976,7 +979,11 @@ You can click the title with blue url linking to the code, the original problems
 - [combinations](LeetCode/LeetCode77combinations.py)
 
     - source from:https://leetcode-cn.com/problems/combinations/
-    
+
+- [coin-change-2](LeetCode/LeetCode518coin-change-2.py)
+   
+    - dfs
+    - source from:https://leetcode-cn.com/problems/coin-change-2/    
 ***
 
 # stack
