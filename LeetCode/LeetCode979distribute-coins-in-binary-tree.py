@@ -35,3 +35,6 @@ class Solution(object):
 
             # 针对root结点来说，需要把多少left和right上的金币移到root上，但是root需要保留一个，多余的为多余量
             return root.val + left + right - 1
+
+        dfs(root)
+        return self.ans

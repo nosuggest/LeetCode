@@ -57,6 +57,8 @@ You can click the title with blue url linking to the code, the original problems
 - [希尔排序](random/希尔排序.py)
 - [归并排序](random/归并排序.py)
 - [堆排序](random/堆排序.py)
+- [切钢条](random/切钢条.py)
+
 
 ***
 
@@ -429,7 +431,7 @@ You can click the title with blue url linking to the code, the original problems
     
     - 01背包
     
-    - source from:https://leetcode-cn.com/problems/ones-and-zeroes/
+    - source from:https://leetcode-cn.com/problems/ones-and-zeroes/ 
     
 - [partition-equal-subset-sum](LeetCode/LeetCode416partition-equal-subset-sum.py)
 
@@ -449,6 +451,7 @@ You can click the title with blue url linking to the code, the original problems
     - source from:https://leetcode-cn.com/problems/palindromic-substrings/
 
 - [Partition to K Equal Sum Subsets](src/Solution698.java)
+- [Partition to K Equal Sum Subsets](LeetCode/LeetCode698Partition-to-K-Equal-Sum-Subsets.py)
 
     - 依旧是递归，区别在递归逻辑在for循环中，相当于并发了n条处理逻辑，有点像树展开
 
@@ -545,7 +548,7 @@ You can click the title with blue url linking to the code, the original problems
 
 - [lowest-common-ancestor-of-a-binary-tree](LeetCode/LeetCode236lowest-common-ancestor-of-a-binary-tree.py)
 
-- left if right is None else right if left is None else root
+    - left if right is None else right if left is None else root
 
     - source from:https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/
 
@@ -599,7 +602,7 @@ You can click the title with blue url linking to the code, the original problems
 
 - [binary-tree-zigzag-level-order-traversal](LeetCode/LeetCode103binary-tree-zigzag-level-order-traversal.py)
 
-- 层序遍历改写
+    - 层序遍历改写
 
     - source from:https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/
 
@@ -972,6 +975,11 @@ You can click the title with blue url linking to the code, the original problems
     - dfs，组合题型2，index>start保证了双跳跃逻辑，很nice
     - source from:https://leetcode-cn.com/problems/combination-sum-ii/
 
+- [subsets-ii](LeetCode/LeetCode90subsets-ii.py)
+
+    - dfs，全排列升级版
+    - source from:https://leetcode-cn.com/problems/subsets-ii/
+
 - [combination-sum-iii](LeetCode/LeetCode216combination-sum-iii.py)
 
     - dfs，组合题型3
@@ -1287,6 +1295,13 @@ You can click the title with blue url linking to the code, the original problems
     - 双指针+滑动窗口，模板要记得
 
     - source from:https://leetcode-cn.com/problems/is-subsequence/
+
+- [minimum-size-subarray-sum](LeetCode/LeetCode209minimum-size-subarray-sum.py)
+    
+    - 子集问题，双指针
+    
+    - source from:https://leetcode-cn.com/problems/minimum-size-subarray-sum/       
+    
 ***
 
 # string

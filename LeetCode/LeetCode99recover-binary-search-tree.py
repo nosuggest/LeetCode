@@ -23,6 +23,7 @@ class Solution(object):
         self.inOrderTraverse(root)
         node1 = None
         node2 = None
+        # 找出第一次递减和最后一次递减的值交换即可
         for i in range(len(self.ans) - 1):
             if self.ans[i].val > self.ans[i + 1].val and node1 == None:
                 node1 = self.ans[i]

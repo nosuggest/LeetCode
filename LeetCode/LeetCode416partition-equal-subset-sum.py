@@ -33,30 +33,19 @@ class Solution(object):
         else:
             cutOff = int(numsSum / 2)
 
-        dp = [[0 for i in range(1, cutOff + 1)] for j in nums]
+        dp = [[0 for i in range(cutOff + 1)] for j in nums]
 
-        row = len(dp)
-        col = len(dp[0])
+        # 初始化,第一个值是否可以达到cutoff
+        for i in range(cutOff + 1):
+            if i == nums[0]:
+                dp[0][i] = True
 
-        # 初始化
-        for i in range(0, col):
-            if i + 1 == nums[0]:
-                dp[0][i] = 1
+        for i in range(1, len(nums)):
+            for j in range(cutOff + 1):
+                dp[i][j] = dp[i - 1][j]
+                if j >= nums[i] and dp[i - 1][j - nums[i]]:
+                    dp[i][j] = True
 
-        for i in range(1, row):
-            for j in range(0, col):
-                # 当前值
-                if j + 1 == nums[i]:
-                    dp[i][j] = 1
-                # 上次结果
-                if dp[i - 1][j]:
-                    dp[i][j] = 1
-                # 上次结果+当前值
-                if j + 1 > nums[i] and dp[i - 1][j - nums[i]]:
-                    dp[i][j] = 1
-            # 不加以下代码会超时，因为只要有一个行满足条件，没有必要再试其他的，剩下的各个元素都不取即可
-            if dp[i][-1]:
-                return True
         return dp[-1][-1]
 
 
