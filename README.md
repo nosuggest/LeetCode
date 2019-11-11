@@ -425,6 +425,12 @@ You can click the title with blue url linking to the code, the original problems
 
     - source from:https://leetcode-cn.com/problems/split-array-largest-sum/
 
+- [ones-and-zeroes](LeetCode/LeetCode474ones-and-zeroes.py)
+    
+    - 01背包
+    
+    - source from:https://leetcode-cn.com/problems/ones-and-zeroes/
+    
 - [partition-equal-subset-sum](LeetCode/LeetCode416partition-equal-subset-sum.py)
 
     - 01背包问题，这题主要考虑提前跳出条件
