@@ -16,3 +16,6 @@ class Solution(object):
             for k in range(1,j):
                 dp[i] = max(dp[i],(i-k)*k,dp[k]*dp[i-k],(i-k)*dp[k],k*dp[i-k])
         return dp[-1]
+
+if __name__ == '__main__':
+    print(Solution().integerBreak(10))
