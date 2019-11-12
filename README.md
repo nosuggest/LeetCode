@@ -468,6 +468,11 @@ You can click the title with blue url linking to the code, the original problems
 
     - source from:https://leetcode-cn.com/problems/delete-and-earn/
 
+- [length-of-longest-fibonacci-subsequence](LeetCode/LeetCode873length-of-longest-fibonacci-subsequence.py)
+    
+    - 字典进行递归，以后\[i,j]作为递归条件判断
+    - source from:https://leetcode-cn.com/problems/length-of-longest-fibonacci-subsequence/
+
 - [valid-permutations-for-di-sequence](LeetCode/LeetCode903valid-permutations-for-di-sequence.py)
 
     - 爱奇艺2020届校招
@@ -1105,6 +1110,14 @@ You can click the title with blue url linking to the code, the original problems
     - 回溯的剔除；
 
     - source from:https://leetcode-cn.com/problems/palindrome-partitioning/
+
+- [additive-number](LeetCode/LeetCode306additive-number.py)
+
+    - source from:https://leetcode-cn.com/problems/additive-number/
+
+- [split-array-into-fibonacci-sequence](LeetCode/LeetCode842split-array-into-fibonacci-sequence.py)
+
+    - source from:https://leetcode-cn.com/problems/split-array-into-fibonacci-sequence/    
 
 ***
 
