@@ -272,6 +272,10 @@ You can click the title with blue url linking to the code, the original problems
     - 分N种情况讨论状态转移矩阵。复杂：1、转移矩阵，2、初始化逻辑
     - source from:https://leetcode-cn.com/problems/regular-expression-matching/
 
+- [jump-game-ii](LeetCode/LeetCode45jump-game-ii.py)
+    
+    - source from:https://leetcode-cn.com/problems/jump-game-ii/
+
 - [longest-palindromic-substring](LeetCode/LeetCode5longest-palindromic-substring.py)
 
     - 中心展开，从中间值往两边展开，判断展开终止点的长度
@@ -1432,6 +1436,12 @@ You can click the title with blue url linking to the code, the original problems
     - 透视图角度
 
     - source from:https://leetcode-cn.com/problems/surface-area-of-3d-shapes/
+
+- [greatest-common-divisor-of-strings](LeetCode/LeetCode1071greatest-common-divisor-of-strings.py)
+
+    - gcd，最大公约数；辗转相除法复习
+
+    - source from:https://leetcode-cn.com/problems/greatest-common-divisor-of-strings/
 
 ***
 
