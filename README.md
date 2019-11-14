@@ -1323,7 +1323,13 @@ You can click the title with blue url linking to the code, the original problems
     - 子集问题，双指针
     
     - source from:https://leetcode-cn.com/problems/minimum-size-subarray-sum/       
+
+- [longest-chunked-palindrome-decomposition](LeetCode/LeetCode1147longest-chunked-palindrome-decomposition.py)
     
+    - 回文问题，双指针
+    
+    - source from:https://leetcode-cn.com/problems/longest-chunked-palindrome-decomposition/
+        
 ***
 
 # string
@@ -1374,6 +1380,11 @@ You can click the title with blue url linking to the code, the original problems
     - 直接罗列全情况，排除一下就行
 
     - source from:https://leetcode-cn.com/problems/valid-tic-tac-toe-state/
+
+- [valid-palindrome-ii](LeetCode/LeetCode680valid-palindrome-ii.py)
+
+    - source from:https://leetcode-cn.com/problems/valid-palindrome-ii/
+
 
 ***
 
