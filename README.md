@@ -167,6 +167,11 @@ You can click the title with blue url linking to the code, the original problems
 
     - source from:https://leetcode-cn.com/problems/merge-sorted-array/
 
+- [palindrome-partitioning-ii](LeetCode/LeetCode132palindrome-partitioning-ii.py)
+
+    - 状态二维dp+值一维dp
+    - source from:https://leetcode-cn.com/problems/palindrome-partitioning-ii/
+
 - [majority-element](LeetCode/LeetCode169majority-element.py)
 
     - source from:https://leetcode-cn.com/problems/majority-element/
@@ -1333,7 +1338,12 @@ You can click the title with blue url linking to the code, the original problems
     - 回文问题，双指针
     
     - source from:https://leetcode-cn.com/problems/longest-chunked-palindrome-decomposition/
-        
+
+- [shortest-palindrome](LeetCode/LeetCode214shortest-palindrome.py)
+    
+    - 回文问题，双指针
+    
+    - source from:https://leetcode-cn.com/problems/shortest-palindrome/        
 ***
 
 # string
