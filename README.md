@@ -170,6 +170,7 @@ You can click the title with blue url linking to the code, the original problems
 - [palindrome-partitioning-ii](LeetCode/LeetCode132palindrome-partitioning-ii.py)
 
     - 状态二维dp+值一维dp
+    - 半三角dp修正
     - source from:https://leetcode-cn.com/problems/palindrome-partitioning-ii/
 
 - [majority-element](LeetCode/LeetCode169majority-element.py)

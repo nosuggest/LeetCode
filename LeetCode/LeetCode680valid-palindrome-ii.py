@@ -10,11 +10,13 @@ class Solution(object):
         :type s: str
         :rtype: bool
         """
-        def search(start,end,s,tmp):
-            if start>=end or tmp>1:
+
+        def search(start, end, s, tmp):
+            if start >= end or tmp > 1:
                 return tmp
-            if s[start]==s[end]:
-                return search(start+1,end-1,s,tmp)
+            if s[start] == s[end]:
+                return search(start + 1, end - 1, s, tmp)
             else:
-                return min(search(start+1,end,s,tmp+1),search(start,end-1,s,tmp+1))
-        return True if search(0,len(s)-1,s,0)<=1 else False
+                return min(search(start + 1, end, s, tmp + 1), search(start, end - 1, s, tmp + 1))
+
+        return True if search(0, len(s) - 1, s, 0) <= 1 else False

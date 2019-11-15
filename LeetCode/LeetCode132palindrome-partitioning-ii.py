@@ -43,9 +43,11 @@ class Solution(object):
         for i in range(n):
             # +1为了修正dp[i][i]为True
             for j in range(i + 1):
+                # 这种半三角修正需要看下，第一次
                 if s[i] == s[j] and (i - j < 2 or dp[j + 1][i - 1]):
                     dp[j][i] = True
                     if j == 0:
+                        # 初始化最小值，i-j不需要切分
                         minl[i] = 0
                     else:
                         # [j,i]已经保证是回文了

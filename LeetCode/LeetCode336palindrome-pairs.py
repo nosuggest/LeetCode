@@ -58,11 +58,12 @@ class Solution(object):
             for idx in range(len(w) + 1):
                 fri, las = w[:idx], w[idx:]
                 '''bbc | c'''
+                '''1.前缀回文，2.后缀需要匹配的词不是该词本身，3.后缀可寻'''
                 if fri[::-1] == fri and las[::-1] != w and las[::-1] in lookup:
                     ans.append([lookup[las[::-1]], i])
                 '''acc | a'''
                 if fri[::-1] != w and las[::-1] == las and fri[::-1] in lookup:
-                    if idx ==len(w):
+                    if idx == len(w):
                         '''fir 和 last在idx=0和len(w)是一样的,只是交换了一下'''
                         continue
                     ans.append([i, lookup[fri[::-1]]])

@@ -14,7 +14,7 @@ class Solution:
     def shortestPalindrome1(self, s: str) -> str:
         length = len(s)
         start = 0
-        # 从左侧开始的最长回文子串
+        # 从左侧开始的可能的最长回文子串
         for end in range(length - 1, -1, -1):
             if s[end] == s[start]:
                 start += 1
