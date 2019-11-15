@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="链表">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode132palindrome-partitioning-ii.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode132palindrome-partitioning-ii.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode214shortest-palindrome.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode214shortest-palindrome.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode336palindrome-pairs.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode336palindrome-pairs.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode680valid-palindrome-ii.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode680valid-palindrome-ii.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/LeetCode5longest-palindromic-substring.py" afterPath="$PROJECT_DIR$/LeetCode/LeetCode5longest-palindromic-substring.py" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -36,6 +32,7 @@
     <SUITE FILE_PATH="coverage/LeetCode$LeetCode215kth_largest_element_in_an_array.coverage" NAME="LeetCode215kth-largest-element-in-an-array Coverage Results" MODIFIED="1571822880141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCode$binarySearchTree.coverage" NAME="binarySearchTree Coverage Results" MODIFIED="1571226216972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random" />
     <SUITE FILE_PATH="coverage/LeetCode$LeetCode89gray_code.coverage" NAME="LeetCode89gray-code Coverage Results" MODIFIED="1573048391394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
+    <SUITE FILE_PATH="coverage/LeetCode$LeetCode5longest_palindromic_substring.coverage" NAME="LeetCode5longest-palindromic-substring Coverage Results" MODIFIED="1573799191193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCode$01.coverage" NAME="01背包 Coverage Results" MODIFIED="1570609941975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random" />
     <SUITE FILE_PATH="coverage/LeetCode$LeetCode494target_sum.coverage" NAME="LeetCode494target-sum Coverage Results" MODIFIED="1573458837070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCode$LeetCode357count_numbers_with_unique_digits.coverage" NAME="LeetCode357count-numbers-with-unique-digits Coverage Results" MODIFIED="1573184369372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
@@ -60,7 +57,7 @@
     <SUITE FILE_PATH="coverage/LeetCode$LeetCode347top_k_frequent_elements.coverage" NAME="LeetCode347top-k-frequent-elements Coverage Results" MODIFIED="1571813042483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCode$LeetCode518coin_change_2.coverage" NAME="LeetCode518coin-change-2 Coverage Results" MODIFIED="1573267190232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$LeetCode1028recover_a_tree_from_preorder_traversal.coverage" NAME="LeetCode1028recover-a-tree-from-preorder-traversal Coverage Results" MODIFIED="1571707997006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
-    <SUITE FILE_PATH="coverage/LeetCode$LeetCode214shortest_palindrome.coverage" NAME="LeetCode214shortest-palindrome Coverage Results" MODIFIED="1573795212838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
+    <SUITE FILE_PATH="coverage/LeetCode$LeetCode214shortest_palindrome.coverage" NAME="LeetCode214shortest-palindrome Coverage Results" MODIFIED="1573799058021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCode$.coverage" NAME="切钢条 Coverage Results" MODIFIED="1573470202548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random" />
     <SUITE FILE_PATH="coverage/LeetCode$LeetCode1071greatest_common_divisor_of_strings.coverage" NAME="LeetCode1071greatest-common-divisor-of-strings Coverage Results" MODIFIED="1573610734217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCode$LeetCode45jump_game_ii.coverage" NAME="LeetCode45jump-game-ii Coverage Results" MODIFIED="1573612908757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
@@ -125,8 +122,8 @@
       <file leaf-file-name="LeetCode214shortest-palindrome.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode214shortest-palindrome.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="390">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -158,7 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LeetCode/LeetCode687longest-univalue-path.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode61rotate-list.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode147insertion-sort-list.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode237delete-node-in-a-linked-list.py" />
@@ -209,6 +205,7 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode132palindrome-partitioning-ii.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode214shortest-palindrome.py" />
+        <option value="$PROJECT_DIR$/LeetCode/LeetCode5longest-palindromic-substring.py" />
       </list>
     </option>
   </component>
@@ -321,25 +318,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.LeetCode214shortest-palindrome">
-    <configuration default="false" name="LeetCode45jump-game-ii" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="javaSolution" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/LeetCode45jump-game-ii.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.LeetCode5longest-palindromic-substring">
     <configuration default="false" name="LeetCode1147longest-chunked-palindrome-decomposition" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -408,6 +387,24 @@
       <module name="javaSolution" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/LeetCode214shortest-palindrome.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="LeetCode5longest-palindromic-substring" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="javaSolution" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/LeetCode5longest-palindromic-substring.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -664,19 +661,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.LeetCode45jump-game-ii" />
-      <item index="1" class="java.lang.String" itemvalue="Python.LeetCode1147longest-chunked-palindrome-decomposition" />
-      <item index="2" class="java.lang.String" itemvalue="Python.LeetCode336palindrome-pairs" />
-      <item index="3" class="java.lang.String" itemvalue="Python.LeetCode132palindrome-partitioning-ii" />
-      <item index="4" class="java.lang.String" itemvalue="Python.LeetCode214shortest-palindrome" />
+      <item index="0" class="java.lang.String" itemvalue="Python.LeetCode1147longest-chunked-palindrome-decomposition" />
+      <item index="1" class="java.lang.String" itemvalue="Python.LeetCode336palindrome-pairs" />
+      <item index="2" class="java.lang.String" itemvalue="Python.LeetCode132palindrome-partitioning-ii" />
+      <item index="3" class="java.lang.String" itemvalue="Python.LeetCode214shortest-palindrome" />
+      <item index="4" class="java.lang.String" itemvalue="Python.LeetCode5longest-palindromic-substring" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.LeetCode214shortest-palindrome" />
-        <item index="1" class="java.lang.String" itemvalue="Python.LeetCode132palindrome-partitioning-ii" />
-        <item index="2" class="java.lang.String" itemvalue="Python.LeetCode1147longest-chunked-palindrome-decomposition" />
-        <item index="3" class="java.lang.String" itemvalue="Python.LeetCode336palindrome-pairs" />
-        <item index="4" class="java.lang.String" itemvalue="Python.LeetCode45jump-game-ii" />
+        <item index="0" class="java.lang.String" itemvalue="Python.LeetCode5longest-palindromic-substring" />
+        <item index="1" class="java.lang.String" itemvalue="Python.LeetCode214shortest-palindrome" />
+        <item index="2" class="java.lang.String" itemvalue="Python.LeetCode132palindrome-partitioning-ii" />
+        <item index="3" class="java.lang.String" itemvalue="Python.LeetCode1147longest-chunked-palindrome-decomposition" />
+        <item index="4" class="java.lang.String" itemvalue="Python.LeetCode336palindrome-pairs" />
       </list>
     </recent_temporary>
   </component>
@@ -1088,7 +1085,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25815603" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25815603" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -1221,13 +1218,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode216combination-sum-iii.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode39combination-sum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -1589,10 +1579,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode5longest-palindromic-substring.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="51" column="23" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode214shortest-palindrome.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="390">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
