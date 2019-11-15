@@ -1123,6 +1123,10 @@ You can click the title with blue url linking to the code, the original problems
 
     - source from:https://leetcode-cn.com/problems/split-array-into-fibonacci-sequence/    
 
+- [palindrome-pairs](LeetCode/LeetCode336palindrome-pairs.py)
+
+    - source from:https://leetcode-cn.com/problems/palindrome-pairs/
+
 ***
 
 # linked-list
