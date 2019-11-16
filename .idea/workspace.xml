@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="链表">
-      <change beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode459repeated-substring-pattern.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode564find-the-closest-palindrome.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode30substring-with-concatenation-of-all-words.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -55,6 +54,7 @@
     <SUITE FILE_PATH="coverage/LeetCode$BubbleSort.coverage" NAME="BubbleSort Coverage Results" MODIFIED="1567434982976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random" />
     <SUITE FILE_PATH="coverage/LeetCode$LeetCode_164_pmaximum_gap.coverage" NAME="LeetCode 164 pmaximum-gap Coverage Results" MODIFIED="1566180758681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCode$LeetCode33search_in_rotated_sorted_array.coverage" NAME="LeetCode33search-in-rotated-sorted-array Coverage Results" MODIFIED="1572157593813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
+    <SUITE FILE_PATH="coverage/LeetCode$LeetCode30substring_with_concatenation_of_all_words.coverage" NAME="LeetCode30substring-with-concatenation-of-all-words Coverage Results" MODIFIED="1573904064093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -75,12 +75,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="361">
-                <caret line="1485" column="12" lean-forward="false" selection-start-line="1485" selection-start-column="12" selection-end-line="1485" selection-end-column="12" />
+              <first_editor relative-caret-position="230">
+                <caret line="1549" column="12" lean-forward="false" selection-start-line="1549" selection-start-column="12" selection-end-line="1549" selection-end-column="12" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -88,7 +88,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LeetCode459repeated-substring-pattern.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LeetCode30substring-with-concatenation-of-all-words.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode30substring-with-concatenation-of-all-words.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-287">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LeetCode459repeated-substring-pattern.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode459repeated-substring-pattern.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="243">
@@ -111,6 +121,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>math</find>
+      <find>hash</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -129,7 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LeetCode/LeetCode445add-two-numbers-ii.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode725split-linked-list-in-parts.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode430flatten-a-multilevel-doubly-linked-list.py" />
         <option value="$PROJECT_DIR$/random/二分查找.py" />
@@ -178,8 +188,9 @@
         <option value="$PROJECT_DIR$/LeetCode/LeetCode516longest-palindromic-subsequence.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode866prime-palindrome.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode564find-the-closest-palindrome.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode459repeated-substring-pattern.py" />
+        <option value="$PROJECT_DIR$/LeetCode/LeetCode30substring-with-concatenation-of-all-words.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -282,26 +293,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.LeetCode516longest-palindromic-subsequence">
-    <configuration name="LeetCode1147longest-chunked-palindrome-decomposition" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="javaSolution" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/LeetCode1147longest-chunked-palindrome-decomposition.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.LeetCode30substring-with-concatenation-of-all-words">
     <configuration name="LeetCode132palindrome-partitioning-ii" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -335,6 +327,25 @@
       <module name="javaSolution" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/LeetCode214shortest-palindrome.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="LeetCode30substring-with-concatenation-of-all-words" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\conda\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="javaSolution" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/LeetCode30substring-with-concatenation-of-all-words.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -629,19 +640,19 @@
       <envs />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.LeetCode1147longest-chunked-palindrome-decomposition" />
-      <item index="1" class="java.lang.String" itemvalue="Python.LeetCode132palindrome-partitioning-ii" />
-      <item index="2" class="java.lang.String" itemvalue="Python.LeetCode214shortest-palindrome" />
-      <item index="3" class="java.lang.String" itemvalue="Python.LeetCode5longest-palindromic-substring" />
-      <item index="4" class="java.lang.String" itemvalue="Python.LeetCode516longest-palindromic-subsequence" />
+      <item index="0" class="java.lang.String" itemvalue="Python.LeetCode132palindrome-partitioning-ii" />
+      <item index="1" class="java.lang.String" itemvalue="Python.LeetCode214shortest-palindrome" />
+      <item index="2" class="java.lang.String" itemvalue="Python.LeetCode5longest-palindromic-substring" />
+      <item index="3" class="java.lang.String" itemvalue="Python.LeetCode516longest-palindromic-subsequence" />
+      <item index="4" class="java.lang.String" itemvalue="Python.LeetCode30substring-with-concatenation-of-all-words" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.LeetCode516longest-palindromic-subsequence" />
-        <item index="1" class="java.lang.String" itemvalue="Python.LeetCode5longest-palindromic-substring" />
-        <item index="2" class="java.lang.String" itemvalue="Python.LeetCode214shortest-palindrome" />
-        <item index="3" class="java.lang.String" itemvalue="Python.LeetCode132palindrome-partitioning-ii" />
-        <item index="4" class="java.lang.String" itemvalue="Python.LeetCode1147longest-chunked-palindrome-decomposition" />
+        <item index="0" class="java.lang.String" itemvalue="Python.LeetCode30substring-with-concatenation-of-all-words" />
+        <item index="1" class="java.lang.String" itemvalue="Python.LeetCode516longest-palindromic-subsequence" />
+        <item index="2" class="java.lang.String" itemvalue="Python.LeetCode5longest-palindromic-substring" />
+        <item index="3" class="java.lang.String" itemvalue="Python.LeetCode214shortest-palindrome" />
+        <item index="4" class="java.lang.String" itemvalue="Python.LeetCode132palindrome-partitioning-ii" />
       </list>
     </recent_temporary>
   </component>
@@ -1186,7 +1197,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode207course-schedule.py" />
     <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode213house-robber-ii.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1508,22 +1518,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="361">
-            <caret line="1485" column="12" lean-forward="false" selection-start-line="1485" selection-start-column="12" selection-end-line="1485" selection-end-column="12" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode459repeated-substring-pattern.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="19" selection-end-column="33" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode30substring-with-concatenation-of-all-words.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-287">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="230">
+            <caret line="1549" column="12" lean-forward="false" selection-start-line="1549" selection-start-column="12" selection-end-line="1549" selection-end-column="12" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

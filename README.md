@@ -1545,6 +1545,12 @@ You can click the title with blue url linking to the code, the original problems
 
     - source from:https://leetcode-cn.com/problems/uncommon-words-from-two-sentences/
 
+- [substring-with-concatenation-of-all-words](LeetCode/LeetCode30substring-with-concatenation-of-all-words.py)
+    
+    - hash对比
+    - source from:https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/
+
+
 ***
 
 # 贪心算法
