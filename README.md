@@ -458,6 +458,11 @@ You can click the title with blue url linking to the code, the original problems
 
     - source from:https://leetcode-cn.com/problems/fibonacci-number/
 
+- [longest-palindromic-subsequence](LeetCode/LeetCode516longest-palindromic-subsequence.py)
+    
+    - 子序列通用双循环dp，这次因为涉及反推，所以用的是倒推法
+    - source from:https://leetcode-cn.com/problems/longest-palindromic-subsequence/
+
     
 - [palindromic-substrings](LeetCode/LeetCode647palindromic-substrings.py)
 
