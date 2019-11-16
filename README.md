@@ -1474,6 +1474,10 @@ You can click the title with blue url linking to the code, the original problems
 
     - source from:https://leetcode-cn.com/problems/greatest-common-divisor-of-strings/
 
+- [prime-palindrome](LeetCode/LeetCode866prime-palindrome.py)
+    - 素数+回文
+    - source from:https://leetcode-cn.com/problems/prime-palindrome/
+
 ***
 
 # Bit Manipulation
