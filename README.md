@@ -1478,6 +1478,14 @@ You can click the title with blue url linking to the code, the original problems
     - 素数+回文
     - source from:https://leetcode-cn.com/problems/prime-palindrome/
 
+- [find-the-closest-palindrome](LeetCode/LeetCode564find-the-closest-palindrome.py)
+    - 罗列情况
+    - source from:https://leetcode-cn.com/problems/find-the-closest-palindrome/
+
+- [repeated-substring-pattern](LeetCode/LeetCode459repeated-substring-pattern.py)
+    - 2N-2>N
+    - source from:https://leetcode-cn.com/problems/repeated-substring-pattern/
+
 ***
 
 # Bit Manipulation

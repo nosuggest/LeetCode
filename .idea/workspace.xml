@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="链表">
-      <change beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode866prime-palindrome.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode459repeated-substring-pattern.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode564find-the-closest-palindrome.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -79,7 +80,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="361">
-                <caret line="1476" column="30" lean-forward="false" selection-start-line="1476" selection-start-column="30" selection-end-line="1476" selection-end-column="57" />
+                <caret line="1485" column="12" lean-forward="false" selection-start-line="1485" selection-start-column="12" selection-end-line="1485" selection-end-column="12" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -87,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LeetCode866prime-palindrome.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode866prime-palindrome.py">
+      <file leaf-file-name="LeetCode459repeated-substring-pattern.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode459repeated-substring-pattern.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="243">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="19" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -128,8 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LeetCode/LeetCode237delete-node-in-a-linked-list.py" />
-        <option value="$PROJECT_DIR$/LeetCode/LeetCode328odd-even-linked-list.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode445add-two-numbers-ii.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode725split-linked-list-in-parts.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode430flatten-a-multilevel-doubly-linked-list.py" />
@@ -177,8 +176,10 @@
         <option value="$PROJECT_DIR$/LeetCode/LeetCode214shortest-palindrome.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode5longest-palindromic-substring.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode516longest-palindromic-subsequence.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode866prime-palindrome.py" />
+        <option value="$PROJECT_DIR$/LeetCode/LeetCode564find-the-closest-palindrome.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/LeetCode/LeetCode459repeated-substring-pattern.py" />
       </list>
     </option>
   </component>
@@ -1185,20 +1186,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode60permutation-sequence.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="33" lean-forward="false" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode77combinations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode207course-schedule.py" />
     <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode213house-robber-ii.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1505,21 +1492,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode866prime-palindrome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode564find-the-closest-palindrome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="85" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="361">
-            <caret line="1476" column="30" lean-forward="false" selection-start-line="1476" selection-start-column="30" selection-end-line="1476" selection-end-column="57" />
+            <caret line="1485" column="12" lean-forward="false" selection-start-line="1485" selection-start-column="12" selection-end-line="1485" selection-end-column="12" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode866prime-palindrome.py">
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode459repeated-substring-pattern.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="243">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="19" selection-end-column="33" />
           <folding />
         </state>
       </provider>
