@@ -1,17 +1,14 @@
-# Purpose
-In order to solving the interesting alogrithm problems which meeting at the interviews frequently by me and some interesting LeetCode problems.
-You can click the title with blue url linking to the code, the original problems may be archived by the Coming from URL.
-
+# 一个工程师的自我修养
 ****
 
-1.solved with python,folder named as **Leetcode? + details**
+1.python解题**Leetcode? + details**
 
-2.solved with java,folder named as **src/Solution? + details**
+2.java解题**src/Solution? + details**
 
-3.others solved,folder named as **random**
+3.特别部分**random**
 ****
 
-# interviews 
+# 面试过 
 - [EggTopFloor](random/EggTopFloor.py)
 	- **Tencent** - Machine learning Engineer
 - [HuffmanEncoding](random/HuffmanEncoding.py)
@@ -62,7 +59,7 @@ You can click the title with blue url linking to the code, the original problems
 
 ***
 
-# array
+# 数组
 
 - [two-sum](LeetCode/LeetCode1two-sum.py)
 
@@ -271,7 +268,7 @@ You can click the title with blue url linking to the code, the original problems
 
 ***
 
-# dynamic programming
+# 动态规划
 
 - [regular-expression-matching](LeetCode/LeetCode10regular-expression-matching.py)
     
@@ -509,7 +506,7 @@ You can click the title with blue url linking to the code, the original problems
 
 *** 
 
-# binary-tree
+# 二叉树
 
 - [binary-tree-inorder-traversal](LeetCode/LeetCode94binary-tree-inorder-traversal.py)
 
@@ -973,7 +970,7 @@ You can click the title with blue url linking to the code, the original problems
     - source from:https://leetcode-cn.com/problems/recover-a-tree-from-preorder-traversal/
 ***
 
-# dfs
+# 深度遍历
 
 - [number-of-islands](LeetCode/LeetCode200number-of-islands.py)
 
@@ -1025,7 +1022,7 @@ You can click the title with blue url linking to the code, the original problems
     - source from:https://leetcode-cn.com/problems/coin-change-2/    
 ***
 
-# stack
+# 栈
 
 - [Valid Parentheses](src/Solution20.java)
 
@@ -1059,7 +1056,7 @@ You can click the title with blue url linking to the code, the original problems
 
 ***
 
-# binary-search
+# 二分搜索
 
 - [divide-two-integers](src/Solution29.java)
 
@@ -1096,7 +1093,7 @@ You can click the title with blue url linking to the code, the original problems
 
 *** 
 
-# traceback
+# 回溯
 
 - [Letter Combinations of a Phone Number](src/Solution17.java)
 - [LetterCombinationsofaPhoneNumber](LeetCode/LeetCode17LetterCombinationsofaPhone.py)
@@ -1140,7 +1137,7 @@ You can click the title with blue url linking to the code, the original problems
 
 ***
 
-# linked-list
+# 链表
 
 - [AddTwoNumbers](LeetCode/LeetCode2AddTwoNumbers.py)
 
@@ -1274,7 +1271,7 @@ You can click the title with blue url linking to the code, the original problems
     - 前缀和+递归，面试前必看
 ***
 
-# heap
+# 堆
 
 - [kth-largest-element-in-an-array](LeetCode/LeetCode215kth-largest-element-in-an-array.py)
 
@@ -1352,7 +1349,7 @@ You can click the title with blue url linking to the code, the original problems
     - source from:https://leetcode-cn.com/problems/shortest-palindrome/        
 ***
 
-# string
+# 字符串
 
 - [Roman to Integer](src/Solution13.java)
 
@@ -1386,7 +1383,7 @@ You can click the title with blue url linking to the code, the original problems
 
 ***
 
-# helper
+# 递归
 
 - [K-thSymbolinGrammar](LeetCode/LeetCode779K-thSymbolinGrammar.py)
 - [K-th Symbol in Grammar](src/Solution779.java)
@@ -1422,7 +1419,7 @@ You can click the title with blue url linking to the code, the original problems
 
 ***
 
-# math
+# 数学
 
 - [reverse Integera](src/Solution7.java)
 
@@ -1488,7 +1485,7 @@ You can click the title with blue url linking to the code, the original problems
 
 ***
 
-# Bit Manipulation
+# 位运算
 
 - [SingleNumber](LeetCode/LeetCode136SingleNumber.py)
 
@@ -1523,7 +1520,7 @@ You can click the title with blue url linking to the code, the original problems
 
 
 
-# Hash Table
+# 哈希表
 
 - [JewelsandStones](LeetCode/LeetCode771JewelsandStones.py)
 
@@ -1600,7 +1597,7 @@ You can click the title with blue url linking to the code, the original problems
 
 ***
 
-# other
+# 其他
 
 
 - [NimGame](LeetCode/LeetCode292NimGame.py)
