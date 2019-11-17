@@ -1347,6 +1347,13 @@
     - 回文问题，双指针
     
     - source from:https://leetcode-cn.com/problems/shortest-palindrome/        
+
+- [replace-the-substring-for-balanced-string](LeetCode/LeetCode1234replace-the-substring-for-balanced-string.py)
+    
+    - 最优子串，双指针
+    
+    - source from:https://leetcode-cn.com/problems/replace-the-substring-for-balanced-string/        
+
 ***
 
 # 字符串
