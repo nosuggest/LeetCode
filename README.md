@@ -323,6 +323,11 @@
 
     - source from:https://leetcode-cn.com/problems/decode-ways/
 
+- [distinct-subsequences](LeetCode/LeetCode115distinct-subsequences.py)
+    
+    - 和文本编辑距离的思路很像
+    - source from:https://leetcode-cn.com/problems/distinct-subsequences/
+
 - [triangle](LeetCode/LeetCode120triangle.py)
 
     - source from:https://leetcode-cn.com/problems/triangle/
