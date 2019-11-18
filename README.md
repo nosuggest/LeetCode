@@ -1574,6 +1574,9 @@
     
     - source from:https://leetcode-cn.com/problems/longest-harmonious-subsequence/
 
+- [number-of-matching-subsequences](LeetCode/LeetCode792number-of-matching-subsequences.py)
+    
+    - source from:https://leetcode-cn.com/problems/number-of-matching-subsequences/
 ***
 
 # 贪心算法
