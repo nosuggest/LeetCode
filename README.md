@@ -514,6 +514,12 @@
 
     - source from:https://leetcode-cn.com/problems/longest-common-subsequence/
 
+- [longest-arithmetic-subsequence-of-given-difference](LeetCode/LeetCode1218longest-arithmetic-subsequence-of-given-difference.py)
+
+    - 子序列双循环dp
+
+    - source from:https://leetcode-cn.com/problems/longest-arithmetic-subsequence-of-given-difference/
+
 *** 
 
 # 二叉树
