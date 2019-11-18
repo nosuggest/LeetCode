@@ -516,7 +516,7 @@
 
 - [longest-arithmetic-subsequence-of-given-difference](LeetCode/LeetCode1218longest-arithmetic-subsequence-of-given-difference.py)
 
-    - 子序列双循环dp
+    - 记录状态，和跳跃游戏1一样
 
     - source from:https://leetcode-cn.com/problems/longest-arithmetic-subsequence-of-given-difference/
 
