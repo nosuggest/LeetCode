@@ -1564,6 +1564,9 @@
     - hash对比
     - source from:https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/
 
+- [longest-harmonious-subsequence](LeetCode/LeetCode594longest-harmonious-subsequence.py)
+    
+    - source from:https://leetcode-cn.com/problems/longest-harmonious-subsequence/
 
 ***
 

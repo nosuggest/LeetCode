@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="链表">
-      <change beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode1143longest-common-subsequence.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode594longest-harmonious-subsequence.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -81,8 +81,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="455">
-                <caret line="512" column="14" lean-forward="false" selection-start-line="512" selection-start-column="14" selection-end-line="512" selection-end-column="14" />
+              <first_editor relative-caret-position="478">
+                <caret line="1567" column="4" lean-forward="false" selection-start-line="1567" selection-start-column="4" selection-end-line="1567" selection-end-column="4" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -90,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LeetCode1143longest-common-subsequence.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode1143longest-common-subsequence.py">
+      <file leaf-file-name="LeetCode594longest-harmonious-subsequence.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode594longest-harmonious-subsequence.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+            <state relative-caret-position="604">
+              <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -115,6 +115,7 @@
       <find>math</find>
       <find>hash</find>
       <find>动态规划</find>
+      <find>哈希表</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -133,7 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LeetCode/LeetCode817linked-list-components.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode876middle-of-the-linked-list.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode1019next-greater-node-in-linked-list.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode1171remove-zero-sum-consecutive-nodes-from-linked-list.py" />
@@ -182,8 +182,9 @@
         <option value="$PROJECT_DIR$/LeetCode/LeetCode30substring-with-concatenation-of-all-words.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode1234replace-the-substring-for-balanced-string.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode115distinct-subsequences.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode1143longest-common-subsequence.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/LeetCode/LeetCode594longest-harmonious-subsequence.py" />
       </list>
     </option>
   </component>
@@ -1190,13 +1191,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode357count-numbers-with-unique-digits.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode309best-time-to-buy-and-sell-stock-with-cooldown.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1523,21 +1517,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode1143longest-common-subsequence.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="455">
-            <caret line="512" column="14" lean-forward="false" selection-start-line="512" selection-start-column="14" selection-end-line="512" selection-end-column="14" />
+          <first_editor relative-caret-position="478">
+            <caret line="1567" column="4" lean-forward="false" selection-start-line="1567" selection-start-column="4" selection-end-line="1567" selection-end-column="4" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode1143longest-common-subsequence.py">
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode594longest-harmonious-subsequence.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        <state relative-caret-position="604">
+          <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
           <folding />
         </state>
       </provider>
