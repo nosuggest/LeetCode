@@ -508,6 +508,11 @@
 
     - source from:https://leetcode-cn.com/problems/n-th-tribonacci-number/
 
+- [longest-common-subsequence](LeetCode/LeetCode1143longest-common-subsequence.py)
+
+    - 子序列双循环dp
+
+    - source from:https://leetcode-cn.com/problems/longest-common-subsequence/
 
 *** 
 
