@@ -5,7 +5,9 @@
 
 2.java解题**src/Solution? + details**
 
-3.特别部分**random**
+2.C++解题**CPP/Solution? + details**
+
+4.特别部分**random**
 ****
 
 # 面试过 
@@ -1403,6 +1405,14 @@
 - [ReverseOnlyLetters](LeetCode/LeetCode917ReverseOnlyLetters.py)
 
     - source from:https://leetcode-cn.com/problems/reverse-only-letters/
+
+- [longest-uncommon-subsequence-i](CPP/Solution521.cpp)
+
+    - source from:https://leetcode-cn.com/problems/longest-uncommon-subsequence-i/
+
+- [longest-continuous-increasing-subsequence](CPP/Solution674.cpp)
+
+    - source from:https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/
 
 ***
 
