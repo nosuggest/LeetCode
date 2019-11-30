@@ -1589,6 +1589,13 @@
 - [number-of-matching-subsequences](LeetCode/LeetCode792number-of-matching-subsequences.py)
     
     - source from:https://leetcode-cn.com/problems/number-of-matching-subsequences/
+
+- [n-repeated-element-in-size-2n-array](LeetCode/LeetCode961n-repeated-element-in-size-2n-array.py)
+- [n-repeated-element-in-size-2n-array](src/Solution961.java)
+- [n-repeated-element-in-size-2n-array](CPP/Solution961.java)
+    
+    - source from:https://leetcode-cn.com/problems/n-repeated-element-in-size-2n-array/    
+    
 ***
 
 # 贪心算法
