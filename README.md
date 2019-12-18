@@ -253,6 +253,12 @@
 
     - source from:https://leetcode-cn.com/problems/sort-array-by-parity-ii/
 
+- [subarray-sums-divisible-by-k](LeetCode/LeetCode974subarray-sums-divisible-by-k.py)
+- [subarray-sums-divisible-by-k](src/Solution974.java)
+    
+    - 前缀和技巧题，主要是要知道a-b能被k整除，那么有a%k==b%k
+    - source from:https://leetcode-cn.com/problems/subarray-sums-divisible-by-k/
+
 - [squares-of-a-sorted-array](src/Solution977.java)
 
     - source from:https://leetcode-cn.com/problems/squares-of-a-sorted-array/
