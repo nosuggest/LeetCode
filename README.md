@@ -512,6 +512,12 @@
 
     - source from:https://leetcode-cn.com/problems/video-stitching/
 
+- [longest-string-chain](LeetCode/LeetCode1048longest-string-chain.py)
+
+    - hashmap+简单dp
+
+    - source from:https://leetcode-cn.com/problems/longest-string-chain/
+
 - [n-th-tribonacci-number](src/Solution1137.java)
 
     - 最简单的dp
