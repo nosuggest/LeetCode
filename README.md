@@ -530,6 +530,16 @@
 
     - source from:https://leetcode-cn.com/problems/longest-arithmetic-subsequence-of-given-difference/
 
+***
+
+# 贪心算法
+- [maximum-length-of-pair-chain](LeetCode/LeetCode646maximum-length-of-pair-chain.py)
+- [maximum-length-of-pair-chain](src/Solution646.java)
+
+    - source from:https://leetcode-cn.com/problems/maximum-length-of-pair-chain/
+
+
+
 *** 
 
 # 二叉树
