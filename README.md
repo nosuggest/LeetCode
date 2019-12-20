@@ -1545,6 +1545,12 @@
     - 2N-2>N
     - source from:https://leetcode-cn.com/problems/repeated-substring-pattern/
 
+- [sum-of-square-numbers](LeetCode/LeetCode633sum-of-square-numbers.py)
+- [sum-of-square-numbers](src/Solution663.java)
+    - 平方数之和
+    - 二分查找
+    - source from:https://leetcode-cn.com/problems/sum-of-square-numbers/
+
 ***
 
 # 位运算
