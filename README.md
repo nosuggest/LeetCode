@@ -236,6 +236,10 @@
 
     - source from:https://leetcode-cn.com/problems/maximum-average-subarray-i/
 
+- [maximum-swap](LeetCode/LeetCode670maximum-swap.java)
+
+    - source from:https://leetcode-cn.com/problems/maximum-swap/
+
 - [largest-number-at-least-twice-of-others](src/Solution747.java)
 
     - source from:https://leetcode-cn.com/problems/largest-number-at-least-twice-of-others/
