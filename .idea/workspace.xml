@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89bb1844-8c00-4541-a04c-310d009e11a6" name="Default Changelist" comment="链表">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode1239maximum-length-of-a-concatenated-string-with-unique-characters.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Solution1239.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/LeetCode541reverse-string-ii.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Solution541.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -39,6 +39,7 @@
     <SUITE FILE_PATH="coverage/LeetCode$LeetCode33search_in_rotated_sorted_array.coverage" NAME="LeetCode33search-in-rotated-sorted-array Coverage Results" MODIFIED="1572157593813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCode$LeetCode347top_k_frequent_elements.coverage" NAME="LeetCode347top-k-frequent-elements Coverage Results" MODIFIED="1571813042483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCode$LeetCode543diameter_of_binary_tree.coverage" NAME="LeetCode543diameter-of-binary-tree Coverage Results" MODIFIED="1570803663913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
+    <SUITE FILE_PATH="coverage/LeetCode$LeetCode541reverse_string_ii.coverage" NAME="LeetCode541reverse-string-ii Coverage Results" MODIFIED="1577350369915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCode$LeetCode1028recover_a_tree_from_preorder_traversal.coverage" NAME="LeetCode1028recover-a-tree-from-preorder-traversal Coverage Results" MODIFIED="1571707997006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCode$LeetCode_829_consecutive_numbers_sum.coverage" NAME="LeetCode 829 consecutive-numbers-sum Coverage Results" MODIFIED="1566215887665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCode$.coverage" NAME="堆排序 Coverage Results" MODIFIED="1571803485139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random" />
@@ -86,8 +87,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="328">
-                <caret line="1066" column="83" selection-start-line="1066" selection-start-column="83" selection-end-line="1066" selection-end-column="83" />
+              <first_editor relative-caret-position="193">
+                <caret line="1456" column="26" selection-start-line="1456" selection-start-column="26" selection-end-line="1456" selection-end-column="37" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -106,21 +107,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LeetCode1239maximum-length-of-a-concatenated-string-with-unique-characters.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode1239maximum-length-of-a-concatenated-string-with-unique-characters.py">
+      <file leaf-file-name="LeetCode541reverse-string-ii.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode541reverse-string-ii.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+            <state relative-caret-position="150">
+              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Solution1239.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Solution1239.java">
+      <file leaf-file-name="Solution541.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Solution541.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+            <state relative-caret-position="465">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -161,8 +162,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LeetCode/LeetCode99recover-binary-search-tree.py" />
-        <option value="$PROJECT_DIR$/LeetCode/LeetCode979distribute-coins-in-binary-tree.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode416partition-equal-subset-sum.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode209minimum-size-subarray-sum.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode90subsets-ii.py" />
@@ -211,7 +210,9 @@
         <option value="$PROJECT_DIR$/LeetCode/LeetCode136maximum-length-of-a-concatenated-string-with-unique-characters.py" />
         <option value="$PROJECT_DIR$/LeetCode/LeetCode1236maximum-length-of-a-concatenated-string-with-unique-characters.py" />
         <option value="$PROJECT_DIR$/src/Solution1239.java" />
+        <option value="$PROJECT_DIR$/LeetCode/LeetCode541reverse-string-ii.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/Solution541.java" />
       </list>
     </option>
   </component>
@@ -334,25 +335,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.LeetCode136maximum-length-of-a-concatenated-string-with-unique-characters">
-    <configuration default="false" name="LeetCode1234replace-the-substring-for-balanced-string" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="D:\conda\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="javaSolution" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/LeetCode1234replace-the-substring-for-balanced-string.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.LeetCode541reverse-string-ii">
     <configuration default="false" name="LeetCode115distinct-subsequences" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -421,6 +404,24 @@
       <module name="javaSolution" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/LeetCode1239maximum-length-of-a-concatenated-string-with-unique-characters.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="LeetCode541reverse-string-ii" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="javaSolution" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/LeetCode541reverse-string-ii.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -677,19 +678,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.LeetCode1234replace-the-substring-for-balanced-string" />
-      <item index="1" class="java.lang.String" itemvalue="Python.LeetCode115distinct-subsequences" />
-      <item index="2" class="java.lang.String" itemvalue="Python.LeetCode1218longest-arithmetic-subsequence-of-given-difference" />
-      <item index="3" class="java.lang.String" itemvalue="Python.LeetCode646maximum-length-of-pair-chain" />
-      <item index="4" class="java.lang.String" itemvalue="Python.LeetCode136maximum-length-of-a-concatenated-string-with-unique-characters" />
+      <item index="0" class="java.lang.String" itemvalue="Python.LeetCode115distinct-subsequences" />
+      <item index="1" class="java.lang.String" itemvalue="Python.LeetCode1218longest-arithmetic-subsequence-of-given-difference" />
+      <item index="2" class="java.lang.String" itemvalue="Python.LeetCode646maximum-length-of-pair-chain" />
+      <item index="3" class="java.lang.String" itemvalue="Python.LeetCode136maximum-length-of-a-concatenated-string-with-unique-characters" />
+      <item index="4" class="java.lang.String" itemvalue="Python.LeetCode541reverse-string-ii" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.LeetCode136maximum-length-of-a-concatenated-string-with-unique-characters" />
-        <item index="1" class="java.lang.String" itemvalue="Python.LeetCode646maximum-length-of-pair-chain" />
-        <item index="2" class="java.lang.String" itemvalue="Python.LeetCode1218longest-arithmetic-subsequence-of-given-difference" />
-        <item index="3" class="java.lang.String" itemvalue="Python.LeetCode115distinct-subsequences" />
-        <item index="4" class="java.lang.String" itemvalue="Python.LeetCode1234replace-the-substring-for-balanced-string" />
+        <item index="0" class="java.lang.String" itemvalue="Python.LeetCode541reverse-string-ii" />
+        <item index="1" class="java.lang.String" itemvalue="Python.LeetCode136maximum-length-of-a-concatenated-string-with-unique-characters" />
+        <item index="2" class="java.lang.String" itemvalue="Python.LeetCode646maximum-length-of-pair-chain" />
+        <item index="3" class="java.lang.String" itemvalue="Python.LeetCode1218longest-arithmetic-subsequence-of-given-difference" />
+        <item index="4" class="java.lang.String" itemvalue="Python.LeetCode115distinct-subsequences" />
       </list>
     </recent_temporary>
   </component>
@@ -1096,14 +1097,14 @@
     <frame x="0" y="23" width="1440" height="823" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3311874" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23175965" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="15" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25815603" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25815603" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -1235,20 +1236,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode1071greatest-common-divisor-of-strings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode45jump-game-ii.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/functools.py" />
     <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode336palindrome-pairs.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1549,16 +1536,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode1239maximum-length-of-a-concatenated-string-with-unique-characters.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+        <state relative-caret-position="165">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Solution1239.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
+        <state relative-caret-position="603">
           <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Solution541.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode541reverse-string-ii.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -1566,8 +1569,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="328">
-            <caret line="1066" column="83" selection-start-line="1066" selection-start-column="83" selection-end-line="1066" selection-end-column="83" />
+          <first_editor relative-caret-position="193">
+            <caret line="1456" column="26" selection-start-line="1456" selection-start-column="26" selection-end-line="1456" selection-end-column="37" />
             <folding />
           </first_editor>
           <second_editor>
