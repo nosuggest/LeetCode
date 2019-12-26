@@ -205,6 +205,10 @@
 
     - source from:https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/
 
+- [max-consecutive-ones](LeetCode/LeetCode485max-consecutive-ones.py)
+
+    - source from:https://leetcode-cn.com/problems/max-consecutive-ones/
+
 - [teemo-attacking](src/Solution495.java)
 
     - source from:https://leetcode-cn.com/problems/teemo-attacking/
