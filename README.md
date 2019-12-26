@@ -237,6 +237,7 @@
     - source from:https://leetcode-cn.com/problems/maximum-average-subarray-i/
 
 - [maximum-swap](LeetCode/LeetCode670maximum-swap.java)
+- [maximum-swap](src/Solution670.java)
 
     - source from:https://leetcode-cn.com/problems/maximum-swap/
 
