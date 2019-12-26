@@ -1061,7 +1061,13 @@
 - [coin-change-2](LeetCode/LeetCode518coin-change-2.py)
    
     - dfs
-    - source from:https://leetcode-cn.com/problems/coin-change-2/    
+    - source from:https://leetcode-cn.com/problems/coin-change-2/
+        
+- [maximum-length-of-a-concatenated-string-with-unique-characters](LeetCode/LeetCode1239maximum-length-of-a-concatenated-string-with-unique-characters.py)
+- [maximum-length-of-a-concatenated-string-with-unique-characters](src/Solution1239.java)
+   
+    - dfs
+    - source from:https://leetcode-cn.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/
 ***
 
 # 栈
