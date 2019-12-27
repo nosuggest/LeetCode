@@ -1405,6 +1405,13 @@
     
     - source from:https://leetcode-cn.com/problems/shortest-palindrome/        
 
+- [subarray-product-less-than-k](LeetCode/LeetCode713subarray-product-less-than-k.py)
+- [subarray-product-less-than-k](src/Solution713.java)
+    
+    - 区间边界解决重复，双指针
+    
+    - source from:https://leetcode-cn.com/problems/subarray-product-less-than-k/
+
 - [replace-the-substring-for-balanced-string](LeetCode/LeetCode1234replace-the-substring-for-balanced-string.py)
     
     - 最优子串，双指针
