@@ -1148,6 +1148,11 @@
 
     - source from:https://leetcode-cn.com/problems/binary-search/
 
+- [koko-eating-bananas](LeetCode/LeetCode875koko-eating-bananas.py)
+- [koko-eating-bananas](src/Solution875.java)
+    
+    - source from:https://leetcode-cn.com/problems/koko-eating-bananas/
+
 *** 
 
 # 回溯
