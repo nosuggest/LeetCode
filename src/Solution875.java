@@ -25,7 +25,7 @@ public class Solution875 {
         return start;
     }
 
-    public Boolean isMatch(int[] piles, int H, int key) {
+    public boolean isMatch(int[] piles, int H, int key) {
         int tmp = 0;
         for (int i = 0; i < piles.length; i++) {
             tmp += (piles[i] - 1) / key + 1;

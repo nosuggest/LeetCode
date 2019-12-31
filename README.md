@@ -1127,6 +1127,11 @@
 
     - source from:https://leetcode-cn.com/problems/powx-n/
 
+- [find-minimum-in-rotated-sorted-array](LeetCode/LeetCode153find-minimum-in-rotated-sorted-array.py)
+- [find-minimum-in-rotated-sorted-array](src/Solution153.java)
+
+    - source from:https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/
+
 - [Searcha2DMatrixII](LeetCode/Leetcode240Searcha2DMatrixII.py)
 
     - 这题其实可以从右上角开始查找，会更快
