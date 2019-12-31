@@ -1,3 +1,8 @@
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+
 class Solution {
     public int subarraysDivByK(int[] A, int K) {
         int[] tmp = new int[A.length + 1];

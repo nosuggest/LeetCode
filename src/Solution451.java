@@ -1,4 +1,7 @@
-class Solution {
+import java.util.HashMap;
+import java.util.Map;
+
+class Solution451 {
     public String frequencySort(String s) {
         Map<Character, Integer> hashMap = new HashMap<>();
         for (int i = 0; i < s.length(); i++) {
