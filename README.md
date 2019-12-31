@@ -1132,6 +1132,11 @@
 
     - source from:https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/
 
+- [find-minimum-in-rotated-sorted-array-ii](LeetCode/LeetCode154find-minimum-in-rotated-sorted-array-ii.py)
+- [find-minimum-in-rotated-sorted-array-ii](src/Solution154.java)
+
+    - source from:https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/
+
 - [Searcha2DMatrixII](LeetCode/Leetcode240Searcha2DMatrixII.py)
 
     - 这题其实可以从右上角开始查找，会更快
