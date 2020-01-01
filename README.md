@@ -284,7 +284,11 @@
 
     - source from:https://leetcode-cn.com/problems/height-checker/
     
+- [find-n-unique-integers-sum-up-to-zero](LeetCode/LeetCode1304find-n-unique-integers-sum-up-to-zero.py)
+- [find-n-unique-integers-sum-up-to-zero](src/Solution1304.java)
 
+    - source from:https://leetcode-cn.com/problems/find-n-unique-integers-sum-up-to-zero/
+    
 ***
 
 # 动态规划
