@@ -240,10 +240,15 @@
 
     - source from:https://leetcode-cn.com/problems/maximum-average-subarray-i/
 
-- [maximum-swap](LeetCode/LeetCode670maximum-swap.java)
+- [maximum-swap](LeetCode/LeetCode670maximum-swap.py)
 - [maximum-swap](src/Solution670.java)
 
     - source from:https://leetcode-cn.com/problems/maximum-swap/
+    
+- [find-pivot-index](LeetCode/LeetCode724find-pivot-index.py)
+- [find-pivot-index](src/Solution724.java)
+
+    - source from:https://leetcode-cn.com/problems/find-pivot-index/    
 
 - [largest-number-at-least-twice-of-others](src/Solution747.java)
 
