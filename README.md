@@ -1387,6 +1387,13 @@
 
     - source from:https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/
 
+- [summary-ranges](LeetCode/LeetCode228summary-ranges.py)
+- [summary-ranges](src/Solution228.java)
+
+    - 数组当做双指针的一种方式
+
+    - source from:https://leetcode-cn.com/problems/summary-ranges/
+
 - [boats-to-save-people](src/Solution881.java)
 
     - 双指针
