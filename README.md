@@ -1691,6 +1691,7 @@
 
 # 贪心算法
 - [gas-station](LeetCode/LeetCode134gas-station.py)
+- [gas-station](src/Solution134.java)
 
     - source from:https://leetcode-cn.com/problems/gas-station/
     
