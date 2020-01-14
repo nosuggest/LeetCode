@@ -1443,6 +1443,12 @@
     
     - source from:https://leetcode-cn.com/problems/subarray-product-less-than-k/
 
+- [max-consecutive-ones-iii](LeetCode/LeetCode1004max-consecutive-ones-iii.py)
+- [max-consecutive-ones-iii](src/Solution1004.java)
+    
+    - source from:https://leetcode-cn.com/problems/max-consecutive-ones-iii/
+
+
 - [replace-the-substring-for-balanced-string](LeetCode/LeetCode1234replace-the-substring-for-balanced-string.py)
     
     - 最优子串，双指针
