@@ -518,6 +518,11 @@
     - 字典进行递归，以后\[i,j]作为递归条件判断
     - source from:https://leetcode-cn.com/problems/length-of-longest-fibonacci-subsequence/
 
+- [minimum-cost-for-tickets](LeetCode/LeetCode983minimum-cost-for-tickets.py)
+- [minimum-cost-for-tickets](src/Solution983.java)
+    
+    - source from:https://leetcode-cn.com/problems/minimum-cost-for-tickets/
+
 - [valid-permutations-for-di-sequence](LeetCode/LeetCode903valid-permutations-for-di-sequence.py)
 
     - 爱奇艺2020届校招
